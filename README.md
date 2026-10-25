@@ -1,19 +1,19 @@
 # Graphics Programmer Roadmap
 
-Готовая статическая страница, не требует сборки и backend.
+A ready-to-use static page that requires no build step or backend.
 
 ## GitHub Pages
 
-1. Создайте публичный репозиторий, например `graphics-roadmap`.
-2. Загрузите в корень репозитория `index.html` и `.nojekyll`.
-3. Откройте Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: main, /(root) → Save.
-4. Адрес: `https://USERNAME.github.io/graphics-roadmap/` (замените USERNAME).
+1. Create a public repository (e.g., `graphics-roadmap`).
+2. Push `index.html` and `.nojekyll` to the repository root.
+3. Go to **Settings** → **Pages** → **Build and deployment** → **Source**: *Deploy from a branch* → **Branch**: *main*, */(root)* → **Save**.
+4. URL: `[https://USERNAME.github.io/graphics-roadmap/](https://USERNAME.github.io/graphics-roadmap/)` (replace `USERNAME` with your account handle).
 
 ## Nginx
 
-Скопируйте `index.html` в директорию статических файлов, указанную директивой `root` вашего сайта.
-Например, `/var/www/graphics-roadmap/index.html`.
+Copy `index.html` to the static files directory defined by the `root` directive of your website block.
+For example: `/var/www/graphics-roadmap/index.html`.
 
-## Важно о прогрессе
+## Important Note on Progress
 
-Прогресс сохраняется в localStorage браузера (домен + браузер). Между устройствами не синхронизируется. Перед сменой адреса или версии экспортируйте прогресс в JSON и импортируйте на новом адресе.
+Progress is saved in the browser's `localStorage` (scoped to domain + browser). It does not sync across devices. Before changing domains or updating versions, export your progress as a JSON file and import it at the new URL.
