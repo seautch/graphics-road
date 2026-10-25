@@ -1,36 +1,42 @@
-# Graphics Programmer Roadmap — v4
+# Graphics Programmer Roadmap v6 — Program and Tree
 
-Open `index.html` in your browser. The page is standalone: no build, no dependencies, no account, and no backend. External books open via links; their texts are not included in the archive.
+**Open `index.html**` or publish it via GitHub Pages / static server. No build process or server database is required. External sources open via links.
 
-## Sections
+## What's New
 
-* Today — one active stage, upcoming reading, return point.
-* Program — 19 stages, 54 reading items, practice, and criteria; 6 specializations.
-* Tree — 57 saved nodes and dependencies from the previous version.
-* Chapters — plans for 28 sources specifying the edition.
-* 5–20 minutes — 21 cards for short reading, review, and breaks.
-* Shelf — all 174 original resources; key books have a "Which chapters to read" button.
+* The previous **19 massive stages** have been replaced by **21 thematic blocks and 116 specific lessons**. Two new blocks focus on LUX//PRISM (first playable prototype and vertical slice).
+* Every lesson outlines **exactly what to understand, scoped reading, a practical task, a verifiable result**, and two independent checkboxes (understood / implemented).
+* The flawed logic of "read RTR and automatically complete Viewer + pipeline + RenderDoc" is gone. RenderDoc is a standalone lesson requiring you to capture and analyze a frame.
+* The tree remains intact (57 nodes). A node is completed **only after finishing all small lessons assigned to it**. General nodes might require lessons from multiple blocks.
+* If you manually check a tree node, the program displays the associated lessons. If you can genuinely reproduce their results, confirm each lesson explicitly—there is no automatic completion of all lessons from a single node click.
+* The "Today" tab shows the **next uncompleted lesson** instead of an abstract requirement to finish a massive stage. The "Chapters" tab organizes reading **by lessons**.
+* The visual tree, 174 materials on the "Shelf", 21 "5–20 minutes" cards, specializations, personal notes, and export/import functionality are all preserved.
 
-`ROADMAP.md` contains the program text for reading, searching, and printing.
+## How to Use
 
-## Updating an already hosted page
+1. Open "Today". Read the short section specified in **What to read**. If you already know it, jump straight to practice.
+2. Write the code yourself and verify it using the specific test in **How to verify**.
+3. Check **"I can explain without hints"** and **"Implemented and verified via test"**. Just reading does not credit the skill.
+4. The program will select the next uncompleted lesson. A single lesson might take two or more days—this is normal.
+5. Check the "Tree" whenever you like: nodes turn green once all lessons required for a specific skill are finished.
 
-1. Before replacing, export the progress of the old page to JSON.
-2. Replace `index.html` with the new one, keep `.nojekyll`. The rest of the files are optional for the page to function.
-3. Open the page and import the JSON if necessary. The import merges records; matching tree and note records are updated from the file, while new learning marks are merged.
+The detailed text for all 116 lessons, complete with sections and criteria, is available in [`ROADMAP.md`](https://www.google.com/search?q=ROADMAP.md).
 
-The old localStorage keys have been preserved. On the same address and in the same browser, previous marks should be picked up automatically. The full v4 JSON includes both the old tree and the new reading/practice data. JSON v1/v2 are supported.
+## Updating from v4/v5 Without Losing Data
 
-## Where progress is stored
+1. **First, click "Export" on the old site** and save the JSON file.
+2. Replace `index.html` on your server or GitHub Pages; optionally, replace `README.md` and `ROADMAP.md`.
+3. On the **same URL, protocol, and browser**, your old progress will load automatically. If the URL is different, import the JSON file.
+4. **Important:** Your old tree checkboxes, read chapters, notes, and major stages are retained. However, a previously completed major stage from v5 **does not count** as proof for all the new v6 lessons. You must confirm the new lessons manually to avoid logging false skills.
+5. After updating, export your progress: the file will be named `graphics-roadmap-progress-v6.json`.
 
-Only in the browser's localStorage. There is no synchronization between devices and domains. In `file://` mode and private mode, saving depends on the browser. JSON export is a reliable way to transfer data. Resetting deletes all marks and notes after confirmation.
+Saves are local (`localStorage`), not cloud-based. It is highly recommended to export a backup JSON before switching domains/browsers and to do so regularly while learning. In incognito mode or via `file://`, storage reliability depends on the browser.
 
-## Hosting
+## Contents
 
-This is a regular static site, compatible with GitHub Pages and Nginx. For an existing site, simply replace the file in its previous location. When setting up new hosting, use the provider's current documentation.
+* `index.html` — a complete single-page application (all data and styles included).
+* `ROADMAP.md` — all lessons in Markdown.
+* `README.md` — instructions for updating and usage.
+* `.nojekyll` — a utility file for GitHub Pages.
 
-## Content and editions
-
-Main tables of contents were verified on October 25, 2026. Numbering: FCG 5, RTR 4, PBRT 4, GEA 3, CS:APP 3, PMPP 4, Math Primer 2, FGED according to the specified volumes. For sources without a confirmed edition, topics are used without fabricated numbers. Old search links on the shelf have been preserved and are not presented as verified tables of contents.
-
-The order, exercises, and criteria constitute an individual program. The number of minutes refers to a single study session; a large chapter will take multiple sessions. The program is not an official studio curriculum or a guarantee of professional proficiency.
+Is there a specific lesson or section of the roadmap you want to dive into first?
