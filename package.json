@@ -1,0 +1,13 @@
+{
+  "name": "graphics-programmer-roadmap",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/curriculum.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "docs": "node scripts/export-roadmap.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}
