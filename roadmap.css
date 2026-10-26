@@ -1,4 +1,5 @@
 /* Warm paper, forest ink and a visible learning path. No external fonts/assets. */
+.site-menu-panel>a{display:block;padding:11px 12px;color:var(--ink);font-size:13px;border-radius:3px;text-align:left}.site-menu-panel>a:hover{background:#e7ebdf;text-decoration:none}
 :root{color-scheme:light;--paper:#f5f4ef;--surface:#fffefa;--ink:#27362f;--muted:#626e65;--line:#d8ddd3;--green:#23583f;--lime:#d8ee9b;--orange:#b75531}
 body{background:var(--paper);color:var(--ink);font-family:Inter,"Segoe UI",Arial,sans-serif}
 button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.45}
