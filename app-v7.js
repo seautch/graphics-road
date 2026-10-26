@@ -8,11 +8,12 @@ const safeText=v=>typeof v==='string'?v.slice(0,50000):'';
 const projectKeys=p=>[...p.minimum.map((_,i)=>'minimum-'+i),...p.strong.map((_,i)=>'strong-'+i),...PROJECT_COMMON.map((_,i)=>'common-'+i)];
 cleanStudy=function(raw){
  const base=cleanLegacyStudy(raw),v=raw&&typeof raw==='object'?raw:{};
- base.current=Object.hasOwn(MOD,v.current)?v.current:'cpp-runtime';
+ base.current=Object.hasOwn(MOD,v.current)?v.current:'cpp-start';
+ base.curriculumRevision=CURRICULUM_REVISION;
  base.track=v.track==='vulkan'?'vulkan':'d3d12';
  base.placement={};base.projects={};
  for(const t of PLACEMENT_TESTS){const a=v.placement?.[t.id];if(!a||typeof a!=='object')continue;
-  const checks=t.tasks.map((_,i)=>a.checks?.[i]===true);
+  const checks=t.tasks.map((_,i)=>v.curriculumRevision===CURRICULUM_REVISION&&a.checks?.[i]===true);
   const evidence=safeText(a.evidence);
   base.placement[t.id]={checks,evidence,passed:a.passed===true&&checks.every(Boolean)&&evidence.trim().length>=20};
  }
@@ -21,7 +22,7 @@ cleanStudy=function(raw){
  }
  return base;
 };
-try{const raw=JSON.parse(localStorage.getItem(STUDY_KEY)||'{}');STUDY=cleanStudy(raw);if(!raw.current)STUDY.current='cpp-runtime';}catch{STUDY=cleanStudy({});STUDY.current='cpp-runtime';}
+try{const raw=JSON.parse(localStorage.getItem(STUDY_KEY)||'{}');STUDY=cleanStudy(raw);}catch{STUDY=cleanStudy({});}
 studyFilter.track='active';
 const lessonCompletedModule=completed;
 completed=m=>!!STUDY.placement[m.id]?.passed||lessonCompletedModule(m);
