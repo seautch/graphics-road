@@ -3,9 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/curriculum.test.mjs",
+    "test": "node --test tests/curriculum.test.mjs tests/knowledge.test.mjs",
     "test:browser": "node tests/browser.mjs",
-    "docs": "node scripts/export-roadmap.mjs"
+    "docs": "node scripts/export-roadmap.mjs",
+    "sources": "node scripts/import-sources.mjs"
   },
   "devDependencies": {
     "playwright": "^1.64.1"

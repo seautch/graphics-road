@@ -1,135 +1,89 @@
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {pathToFileURL} from 'node:url';
-import {resolve} from 'node:path';
-import {mkdir} from 'node:fs/promises';
+import {resolve,extname,sep} from 'node:path';
+import {mkdir,readFile} from 'node:fs/promises';
+import {createServer} from 'node:http';
 const browser=await chromium.launch({channel:process.env.BROWSER_CHANNEL||'chrome',headless:true});
 const context=await browser.newContext({acceptDownloads:true,viewport:{width:1440,height:1000}});
-const page=await context.newPage(),errors=[];
-page.on('pageerror',e=>errors.push(e.message));
+const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
 const url=pathToFileURL(resolve('index.html')).href;
-const tab=label=>label==='Полка'?page.locator('#libraryTab'):page.locator('.topbar').getByRole('button',{name:label,exact:true});
-async function menu(){if(!await page.locator('#site-menu').evaluate(e=>e.open))await page.locator('#site-menu > summary').click();}
-async function go(label){if(['Проекты','Готовность','Главы','5–20 минут'].includes(label))await menu();await tab(label).click();await page.waitForTimeout(50)}
+const nav=async view=>{await page.locator(`.main-tabs [data-knowledge-view="${view}"]`).click();};
+const topic=async id=>{await page.evaluate(id=>kOpenTopic(id),id);};
+const menu=async()=>{if(!await page.locator('#site-menu').evaluate(e=>e.open))await page.locator('#site-menu > summary').click();};
+const importJSON=async payload=>{await page.locator('#fileInput').setInputFiles({name:'progress.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(payload))});await page.waitForTimeout(50);};
+let server;
 try{
- await page.goto(url);await page.waitForSelector('.focus-card');
- assert.equal(await page.locator('.focus-card [data-activate]').getAttribute('data-activate'),'cpp-start');
- assert.equal(await page.locator('#apiTrack').isVisible(),false);
- assert.equal(await page.locator('#challenge-math').isVisible(),false);
- await page.locator('.focus-card [data-activate]').click();
- assert.equal(await page.evaluate(()=>STUDY.current),'cpp-start');
- await page.locator('[data-lesson-read="cpp-start-01"]').check();
- assert.equal(await page.evaluate(()=>lessonDone(L_BY_ID['cpp-start-01'])),false);
- await page.locator('[data-lesson-understand="cpp-start-01"]').check();
- await page.locator('[data-study-note="cpp-start-01"]').fill('CMake build; input validation checked.');
- // Completing the lesson replaces its checkbox with the next lesson immediately.
- await page.locator('[data-lesson-build="cpp-start-01"]').click();
- assert.equal(await page.evaluate(()=>lessonDone(L_BY_ID['cpp-start-01'])),true);
- assert.equal(await page.locator('.s-lesson-head h3').textContent(),'Значения, ссылки и время жизни');
- await go('Старт');
- assert.deepEqual(errors,[]);
- assert.equal(await page.locator('.v7-challenge').count(),7);
- await go('Программа');
- assert.equal(await page.locator('#module-dx12-core').count(),1);
- assert.equal(await page.locator('#module-vk-core').count(),0);
- await go('Старт');
- await page.locator('#route-settings > summary').click();
- await page.locator('#apiTrack').selectOption('vulkan');
+ await page.goto(url);await page.waitForSelector('.k-direction');
+ assert.equal(await page.locator('.k-direction').count(),15);assert.equal(await page.locator('.k-direction[open]').count(),0);
+ assert.equal(await page.evaluate(()=>STUDY.track),'vulkan');assert.equal(await page.evaluate(()=>kNext()),'vk-instance');
+ // Topic navigation exposes actual acceptance criteria and independent paths.
+ await page.locator('#direction-geometry > summary').click();await page.locator('.k-node[data-topic="bvh"]').click();
+ assert.equal(await page.locator('.k-heading h2').textContent(),'Bounding Volume Hierarchy (BVH)');
+ assert.match(await page.locator('#studyContent').innerText(),/median-split/);
+ assert.match(await page.locator('#studyContent').innerText(),/Ограничения/);
+ await page.locator('[data-path-topic="bvh"]').click();
+ assert.ok(await page.locator('.k-route').getByText('Axis-aligned bounding box (AABB)',{exact:false}).count());
+ assert.equal(await page.locator('.k-route').getByText('Skeletal animation',{exact:true}).count(),0);
+ const initialLength=await page.locator('.k-route li').count();
+ await topic('vectors');await page.locator('[data-topic-status]').selectOption('familiar');
+ assert.equal(await page.evaluate(()=>kState('vectors').verified),false);
+ await nav('path');assert.equal(await page.locator('.k-route li').count(),initialLength-1);
+ // Evidence and notes remain distinct from status and survive reload.
+ await topic('bvh');await page.locator('[data-topic-status]').selectOption('learning');
+ assert.equal(await page.locator('[data-topic-verified]').isDisabled(),true);
+ await page.locator('[data-topic-evidence]').fill('commit abc123; triangles and parent bounds validated');
+ await page.locator('[data-topic-verified]').check();
+ await page.locator('[data-topic-note]').fill('<img src=x onerror="window.injected=true"> next: compare SAH');
+ await page.reload();await page.waitForSelector('.k-heading');await topic('bvh');
+ assert.equal(await page.locator('[data-topic-verified]').isChecked(),true);assert.match(await page.locator('[data-topic-note]').inputValue(),/compare SAH/);assert.equal(await page.evaluate(()=>window.injected),undefined);
+ // Search includes source titles; filters and map navigation retain usable controls.
+ await nav('tree');await page.locator('#knowledgeSearch').fill('GGX');await page.waitForTimeout(240);
+ assert.ok(await page.locator('.k-node[data-topic="ggx"]').isVisible());
+ await page.locator('#knowledgeSearch').fill('The Book of Shaders');await page.waitForTimeout(240);
+ assert.ok(await page.locator('.k-node[data-topic="noise"]').isVisible());
+ await page.locator('[data-overview]').click();await page.locator('#knowledge-filters > summary').click();await page.locator('[data-k-filter="direction"]').selectOption('geometry');
+ assert.equal(await page.locator('.k-direction').count(),1);assert.ok(await page.locator('.k-node').count()>10);
+ await page.locator('[data-k-zoom="-1"]').click();assert.equal(await page.locator('.k-map-controls output').textContent(),'90%');
+ await topic('bvh');await page.locator('[data-highlight-topic]').click();assert.ok(await page.locator('#direction-math.highlight').count());assert.ok(await page.locator('#direction-geometry.highlight').count());
+ await page.locator('[data-overview]').click();
+ const viewport=page.locator('.k-map-viewport');await viewport.scrollIntoViewIfNeeded();const box=await viewport.boundingBox();await page.mouse.move(box.x+8,box.y+30);await page.mouse.down();await page.mouse.move(box.x+8,box.y-140,{steps:8});await page.mouse.up();assert.ok(await viewport.evaluate(e=>e.scrollTop>0));
+ // Direct topic links and source-to-topics navigation share the same knowledge data.
+ await page.goto(url+'#topic=ggx');await page.waitForSelector('[data-topic-status="ggx"]');assert.equal(await page.locator('.k-heading h2').textContent(),'GGX / Trowbridge–Reitz NDF');
+ await page.locator('[data-reference="pbrt"]').first().click();assert.ok(await page.locator('[data-topic="bvh"]').count());
+ await nav('library');await page.locator('#sourceSearch').fill('Real-Time Rendering');await page.waitForTimeout(240);assert.ok(await page.locator('.k-source').count());
+ await page.locator('#sourceSearch').fill('');await page.waitForTimeout(240);await page.locator('#sourceScope').selectOption('service');assert.equal(await page.locator('.k-source a').count(),0);
+ await page.locator('#sourceScope').selectOption('archive');assert.ok(await page.locator('.k-source').count());
+ // Today advances a small checkpoint without inventing topic mastery.
+ await nav('today');const current=await page.locator('[data-today-step]').getAttribute('data-today-step');await page.locator('[data-today-step]').click();assert.equal(await page.evaluate(id=>kState(id).steps.read,current),true);assert.equal(await page.evaluate(id=>kState(id).status,current),'learning');
+ await nav('projects');assert.equal(await page.locator('.k-milestones>details').count(),12);await page.locator('#milestone-vk-start > summary').click();await page.locator('[data-milestone="vk-start"]').fill('commit init; resize and minimize checked');
+ // Export v9 includes all older fields; older imports cannot delete new knowledge.
+ await menu();const downloaded=page.waitForEvent('download');await page.locator('#exportBtn').click();const download=await downloaded;assert.equal(download.suggestedFilename(),'graphics-roadmap-progress-v9.json');const saved=JSON.parse(await readFile(await download.path(),'utf8'));
+ assert.equal(saved.version,9);assert.equal(saved.learning.knowledge.topics.bvh.verified,true);assert.match(saved.learning.knowledge.milestones['vk-start'],/resize/);
+ const v6={app:'graphics-roadmap',version:6,statuses:{coords:'done'},resourceStates:{fcg:true},learning:{current:'audit',lessons:{'audit-01-understand':true,'audit-01-build':true},notes:{return:'old progress'}}};
+ await importJSON(v6);assert.equal(await page.evaluate(()=>STUDY.lessons['audit-01-build']),true);assert.equal(await page.evaluate(()=>kState('bvh').verified),true);assert.match(await page.evaluate(()=>ks().milestones['vk-start']),/resize/);
+ const v7={app:'graphics-roadmap',version:7,statuses:{},learning:{lessons:{'pbr-03-understand':true,'pbr-03-build':true},notes:{'pbr-03':'inverse-transpose CPU test'},placement:{math:{checks:[true,true,true],passed:true,evidence:'old module certificate'}}}};
+ await importJSON(v7);assert.equal(await page.evaluate(()=>kState('normal-matrix').status),'mastered');assert.equal(await page.evaluate(()=>kState('ggx').status),'unseen');assert.equal(await page.evaluate(()=>STUDY.placement.math.passed),false);
+ await importJSON(saved);assert.equal(await page.evaluate(()=>kState('bvh').verified),true);
+ // Archive remains executable, including old lessons, project evidence and the shelf.
+ await menu();await page.getByRole('button',{name:'Архив прежней программы',exact:true}).click();assert.equal(await page.locator('.s-route').count(),52);
+ await page.locator('#module-cpp-start > summary').click();await page.locator('[data-lesson-read="cpp-start-01"]').check();assert.equal(await page.evaluate(()=>lessonDone(L_BY_ID['cpp-start-01'])),false);
+ await nav('projects');await page.locator('[data-legacy-projects]').evaluate(e=>e.closest('details').open=true);await page.locator('[data-legacy-projects]').click();assert.equal(await page.locator('[data-project]').count(),8);await page.locator('[data-project="renderer"]').click();await page.waitForSelector('#projectEvidence');
+ await page.locator('#projectEvidence').fill('repo/commit abc; capture, benchmark and commands');assert.match(await page.evaluate(()=>STUDY.projects.renderer.evidence),/benchmark/);
+ const keys=await page.locator('[data-project-check="renderer"]').evaluateAll(es=>es.map(e=>e.dataset.key));for(const key of keys)await page.locator(`[data-project-check="renderer"][data-key="${key}"]`).check();assert.equal(await page.evaluate(()=>projectProgress(PROJECT_BY_ID.renderer).done),true);
+ await nav('library');await page.locator('[data-old-shelf]').click();assert.ok(await page.locator('.lib-card').count()>170);await page.locator('[data-lib-node="coords"]').first().click();await page.waitForSelector('#module-math[open]');
+ // The new route is not controlled by old API selection.
  assert.equal(await page.evaluate(()=>STUDY.track),'vulkan');
- // Placement certifies only its block and keeps individual lesson flags intact.
- await page.locator('#known-basics > summary').click();
- await page.locator('#challenge-math > summary').click();
- assert.equal(await page.locator('[data-placement-pass="math"]').isDisabled(),true);
- for(let i=0;i<3;i++)await page.locator(`[data-placement="math"][data-check="${i}"]`).check();
- await page.locator('[data-placement-note="math"]').fill('commit abc123; tests/math.cpp; projection/picking и edge cases проверены');
- await page.locator('[data-placement-pass="math"]').click();
- assert.equal(await page.evaluate(()=>completed(MOD.math)),true);
- assert.equal(await page.evaluate(()=>Object.keys(STUDY.lessons).filter(k=>k.startsWith('math-')).length),0);
- await page.reload();await page.waitForSelector('.focus-card');
- assert.equal(await page.evaluate(()=>completed(MOD.math)),true);
- assert.equal(await page.evaluate(()=>STUDY.track),'vulkan');
- // Both path filters work; unrelated API and legacy lessons remain navigable.
- await go('Программа');
- assert.equal(await page.locator('#module-vk-core').count(),1);
- assert.equal(await page.locator('#module-dx12-core').count(),0);
- await page.locator('#routeSearch').fill('compaction');
- assert.ok(await page.locator('.s-route').count()>0);
- await page.locator('#routeSearch').fill('');
- await page.locator('#routeTrack').selectOption('optional');
- assert.equal(await page.locator('#module-gameplay').count(),1);
- await go('Дерево');
- assert.equal(await page.locator('.tree-stage').count(),11);
- assert.ok(await page.locator('.tree-connectors .tree-branch').count()>30);
- await page.locator('[data-tree-zoom="-1"]').click();
- assert.equal(await page.locator('.tree-toolbar output').textContent(),'90%');
- await page.locator('[data-tree-focus]').click();
- await page.locator('.tree-leaf[data-open-module="vk-core"]').click();
- await page.waitForSelector('#module-vk-core[open]');
- // Project completion includes baseline, strong rubric, common quality and evidence.
- await go('Проекты');
- assert.equal(await page.locator('[data-project]').count(),8);
- await page.locator('[data-project="renderer"]').click();
- await page.waitForSelector('#projectEvidence');
- await page.locator('[data-project-select="renderer"]').click();
- const keys=await page.locator('[data-project-check="renderer"]').evaluateAll(es=>es.map(e=>e.dataset.key));
- for(const key of keys)await page.locator(`[data-project-check="renderer"][data-key="${key}"]`).check();
- assert.equal(await page.evaluate(()=>projectProgress(PROJECT_BY_ID.renderer).done),false);
- await page.locator('#projectEvidence').fill('repo/commit abc123; demo.mp4; captures/frame.rdc; results/benchmark.csv; README reproduction');
- assert.equal(await page.evaluate(()=>projectProgress(PROJECT_BY_ID.renderer).done),true);
- await page.reload();await page.waitForSelector('.focus-card');
- assert.equal(await page.evaluate(()=>projectProgress(PROJECT_BY_ID.renderer).done),true);
- await go('Готовность');
- assert.ok((await page.locator('#studyContent').innerText()).includes('1 проектов'));
- // New state round-trips and older v6 progress merges without losing projects.
- await menu();const downloadPromise=page.waitForEvent('download');await page.locator('#exportBtn').click();const download=await downloadPromise;
- assert.equal(download.suggestedFilename(),'graphics-roadmap-progress-v8.json');
- const downloadPath=await download.path();
- const {readFile}=await import('node:fs/promises');const saved=JSON.parse(await readFile(downloadPath,'utf8'));
- assert.equal(saved.version,8);assert.equal(saved.learning.curriculumRevision,8);assert.equal(saved.learning.placement.math.passed,true);assert.equal(saved.learning.projects.renderer.selected,true);
- const old={app:'graphics-roadmap',version:6,statuses:{coords:'done'},resourceStates:{fcg:true},learning:{current:'audit',lessons:{'audit-01-understand':true,'audit-01-build':true},notes:{return:'старый прогресс'}}};
- await page.locator('#fileInput').setInputFiles({name:'v6.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(old))});
- await page.waitForTimeout(100);
- assert.equal(await page.evaluate(()=>STUDY.lessons['audit-01-build']),true);
- assert.equal(await page.evaluate(()=>STUDY.projects.renderer.selected),true);
- assert.equal(await page.evaluate(()=>STUDY.track),'vulkan');
- await page.locator('#fileInput').setInputFiles({name:'v7.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(saved))});
- await page.waitForTimeout(100);
- assert.equal(await page.evaluate(()=>STUDY.placement.math.passed),true);
- // Notes are escaped, not interpreted as markup after import.
- await page.evaluate(()=>{STUDY.notes.return='<img src=x onerror="window.injected=true">';saveStudy()});
- await go('Сегодня');assert.equal(await page.evaluate(()=>window.injected),undefined);
- await go('Главы');assert.ok(await page.locator('.s-book').count()>20);
- await go('5–20 минут');assert.ok(await page.locator('.s-break').count()>0);
- await go('Полка');assert.ok(await page.locator('.lib-card').count()>170);
- await page.locator('[data-lib-node="coords"]').first().click();
- await page.waitForSelector('#module-math[open]');
- assert.equal(await page.locator('.shell').evaluate(e=>e.classList.contains('study-mode')),true);
- await go('Дерево');await page.locator('.advanced-entry > summary').click();await page.locator('[data-legacy-map]').click();assert.equal(await page.locator('.node').count(),57);
- await go('Старт');
- await mkdir('test-results',{recursive:true});await page.screenshot({path:'test-results/start-desktop.png',fullPage:true});
- // Small screens retain reachable navigation and no document-level overflow.
+ await mkdir('test-results',{recursive:true});await nav('tree');await page.screenshot({path:'test-results/knowledge-desktop.png',fullPage:true});await topic('bvh');await page.screenshot({path:'test-results/topic-desktop.png',fullPage:true});
  await page.setViewportSize({width:390,height:844});
- for(const name of ['Старт','Сегодня','Программа','Дерево','Проекты','Готовность','Главы']){await go(name);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),`${name}: horizontal overflow`)}
- await go('Проекты');await page.locator('[data-project="renderer"]').first().click();await page.waitForSelector('#projectEvidence');
- await page.screenshot({path:'test-results/project-mobile.png',fullPage:true});
- // Cancelling reset preserves records; accepting clears v6 and v7 state together.
- await menu();page.once('dialog',d=>d.dismiss());await page.locator('#resetBtn').click();
- assert.equal(await page.evaluate(()=>STUDY.projects.renderer.selected),true);
- page.once('dialog',d=>d.accept());await page.locator('#resetBtn').click();
- assert.equal(await page.evaluate(()=>Object.keys(STUDY.projects).length),0);
- assert.equal(await page.evaluate(()=>Object.keys(STUDY.placement).length),0);
- assert.equal(await page.evaluate(()=>Object.keys(statuses).length),0);
- assert.equal(await page.evaluate(()=>STUDY.current),'cpp-start');
- // v7 module-level certificates are not applied to regrouped topics, but
- // lesson evidence, bookmarks and notes still use their original IDs.
- const previous={app:'graphics-roadmap',version:7,statuses:{},learning:{current:'pbr',lessons:{'pbr-03-read':true,'pbr-03-understand':true,'pbr-03-build':true},notes:{'pbr-03':'inverse transpose CPU tests'},placement:{math:{checks:[true,true,true],passed:true,evidence:'old math certificate; test commands and results'}}}};
- await page.locator('#fileInput').setInputFiles({name:'v7.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(previous))});
- await page.waitForTimeout(100);
- assert.equal(await page.evaluate(()=>L_BY_ID['pbr-03'].module),'math-rotation');
- assert.equal(await page.evaluate(()=>lessonDone(L_BY_ID['pbr-03'])),true);
- assert.equal(await page.evaluate(()=>STUDY.notes['pbr-03']),'inverse transpose CPU tests');
- assert.equal(await page.evaluate(()=>STUDY.placement.math.passed),false);
- assert.ok((await page.evaluate(()=>STUDY.placement.math.evidence)).startsWith('old math'));
- assert.deepEqual(errors,[]);
- console.log('Browser checks passed: file://, lesson flow, both API paths, SVG tree, projects, persistence, v6/v7 migration, v8 export/import, escaped notes, mobile and legacy graph.');
-}finally{await browser.close()}
+ for(const view of ['tree','path','today','library','projects']){await nav(view);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),view+': horizontal overflow');}
+ await topic('ggx');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await page.screenshot({path:'test-results/topic-mobile.png',fullPage:true});
+ // Reset cancellation is harmless; an accepted reset clears both generations.
+ await menu();page.once('dialog',d=>d.dismiss());await page.locator('#resetBtn').click();assert.equal(await page.evaluate(()=>kState('bvh').verified),true);
+ page.once('dialog',d=>d.accept());await page.locator('#resetBtn').click();assert.equal(await page.evaluate(()=>Object.keys(ks().topics).length),0);assert.equal(await page.evaluate(()=>Object.keys(STUDY.lessons).length),0);
+ // Static hosting works below the actual GitHub Pages prefix.
+ const mime={'.html':'text/html','.js':'text/javascript','.css':'text/css'};
+ server=createServer(async(req,res)=>{try{const path=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(!path.startsWith('/graphics-road/')){res.writeHead(404).end();return;}const relative=path.slice('/graphics-road/'.length)||'index.html',absolute=resolve(relative);if(!absolute.startsWith(resolve('.')+sep)){res.writeHead(403).end();return;}res.setHeader('Content-Type',mime[extname(absolute)]||'text/plain');res.end(await readFile(absolute));}catch{res.writeHead(404).end();}});
+ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const hosted=await context.newPage();hosted.on('pageerror',e=>errors.push(e.message));await hosted.goto(`http://127.0.0.1:${server.address().port}/graphics-road/index.html#topic=bvh`);await hosted.waitForSelector('[data-topic-status]');assert.match(await hosted.locator('.k-heading h2').textContent(),/BVH/);await hosted.goto(`http://127.0.0.1:${server.address().port}/graphics-road/topics.html`);assert.equal(await hosted.locator('#topic-list a').count(),207);
+ assert.deepEqual(errors,[]);console.log('Browser checks passed: adaptive DAG route, map search/filter/zoom/drag, cards, sources, evidence, v6/v7/v9 migration, archive, projects, mobile, file:// and /graphics-road/.');
+}finally{await browser.close();if(server){server.closeAllConnections();await new Promise(resolve=>server.close(resolve));}}

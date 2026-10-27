@@ -84,6 +84,7 @@
 </style>
 <link rel="stylesheet" href="roadmap-v7.css">
 <link rel="stylesheet" href="roadmap.css">
+<link rel="stylesheet" href="knowledge.css">
 </head>
 <body>
 <header class="topbar">
@@ -418,8 +419,13 @@ const legacyExportAll=exportAll;
 </script>
 <script src="app-v7.js"></script>
 <script src="app-roadmap.js"></script>
+<script src="data/references.js"></script>
+<script src="data/knowledge.js"></script>
+<script src="data/source-catalogue.js"></script>
+<script src="knowledge-core.js"></script>
+<script src="app-knowledge.js"></script>
 <script>
-renderLibrary();setStudyView('start');repaint();
+renderLibrary();kInitialView();repaint();
 
 </script>
 </body>

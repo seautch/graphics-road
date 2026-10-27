@@ -1,46 +1,22 @@
 import {readFileSync,writeFileSync} from 'node:fs';
 import vm from 'node:vm';
+import './export-legacy-roadmap.mjs';
 const context=vm.createContext({});
-for(const file of ['data/legacy-curriculum.js','data/curriculum.js','data/roadmap.js','data/projects.js'])vm.runInContext(readFileSync(file,'utf8'),context);
-const {learning,lessons,phases,tests,projects,common,jobs,gates}=JSON.parse(vm.runInContext('JSON.stringify({learning:LEARNING_DATA,lessons:LESSON_DATA,phases:ROADMAP_PHASES,tests:PLACEMENT_TESTS,projects:PORTFOLIO_PROJECTS,common:PROJECT_COMMON,jobs:JOB_SOURCES,gates:READINESS_GATES})',context));
-const byId=Object.fromEntries(learning.modules.map(m=>[m.id,m]));
+for(const f of ['data/references.js','data/knowledge.js','data/source-catalogue.js','knowledge-core.js'])vm.runInContext(readFileSync(f,'utf8'),context);
+const {topics,directions,references,goals,milestones,stats}=JSON.parse(vm.runInContext('JSON.stringify({topics:KNOWLEDGE_TOPICS,directions:KNOWLEDGE_DIRECTIONS,references:KNOWLEDGE_REFERENCES,goals:KNOWLEDGE_GOALS,milestones:RENDERER_MILESTONES,stats:SOURCE_IMPORT_STATS})',context));
+const byId=Object.fromEntries(topics.map(t=>[t.id,t])),refs=Object.fromEntries(references.map(r=>[r.id,r]));
 const link=id=>`[${byId[id].title}](#${id})`;
-const out=[
- '# Graphics Programmer Roadmap v8 — графика по порядку',
- `\n${learning.modules.length} блока · ${lessons.length} уроков · ${tests.length} входных испытаний · ${projects.length} проектов.\n`,
- 'Цель: подготовиться к самостоятельной работе с realtime renderer на C++ и к подходящим по опыту graphics / rendering вакансиям Saber Interactive и других студий. Маршрут не обещает оффер или senior-грейд.\n',
- '## Как идти\n',
- '1. Открой `index.html` → «Старт» → «Начать учиться». Первый блок — язык C++, сборка и отладчик. При возвращении сайт предлагает продолжить текущий доступный блок.',
- '2. Иди по 11 предметным этапам сверху вниз. Математика, цвет, освещение, GPU и инженерия изучаются цельными блоками. Знакомую тему можно подтвердить практикой; входные испытания находятся в раскрывающемся разделе старта.',
- '3. До графического API делай CPU эксперименты и шейдеры в редакторе The Book of Shaders. Затем развивай один C++ renderer. По умолчанию выбран D3D12; переключить на Vulkan можно в настройке маршрута. Прежние WebGPU и игровые задания — дополнительная практика.',
- '4. Читай назначенный фрагмент, реализуй эксперимент, проверь edge cases и сохрани commit / capture / результат. Чтение не подтверждает практику.',
- '5. Заверши основной renderer и один проект в глубину. Специализации выбирай под интерес и вакансию; не нужно выполнять все проекты.',
- '6. Каждые 4–6 недель показывай законченную подсистему. Планируй 2–3 сессии кода в неделю, чтение под задачу и отдельную проверку. Оценки времени приблизительны.\n',
- '## Источники требований\n',
- ...jobs.map(s=>`- [${s.title}](${s.url}) — ${s.kind}. ${s.note}`),
- '\nСверено 25.10.2026. Saber — вторичный senior-ориентир, не подтверждение актуального junior найма. Console/shipped-game опыт не заменяется учебными проектами.\n',
- '## Входные испытания\n',
- 'Работай на собственном коде без пошагового туториала. Нужны все условия и содержательное evidence: commit/путь, команда или шаги воспроизведения, результат. Приложение хранит самооценку и не проверяет код автоматически.\n'
-];
-for(const t of tests)out.push(`### ${t.title} · ${t.time}\n`,...t.tasks.map(x=>`- [ ] ${x}`),`\nПробелы → ${link(t.fail)}.\n`);
-out.push('## Основной маршрут: D3D12 ИЛИ Vulkan\n');
-for(const [i,[title,desc]] of phases.slice(0,11).entries())out.push(`${i+1}. **${title}.** ${desc}\n\n   ${learning.modules.filter(m=>m.phase===i&&m.track!=='optional'&&m.track!=='specialization').map(m=>link(m.id)+(m.track==='core'?'':` (${m.track})`)).join(' → ')}\n`);
-out.push('Соблюдай порядок блоков внутри каждого этапа. В этапе API проходи только D3D12 **или** Vulkan. На сайте центральный ствол дерева показывает этапы, боковые ветви — их блоки; технические предпосылки перечислены внутри блока.\n');
-for(const [heading,filter] of [['Ядро и backend',m=>m.track!=='optional'&&m.track!=='specialization'],['Специализации — выбери одну',m=>m.track==='specialization'],['Дополнительные и прежние уроки',m=>m.track==='optional']]){
- out.push(`## ${heading}\n`);
- for(const m of learning.modules.filter(filter)){
-  out.push(`<a id="${m.id}"></a>\n\n### ${String(m.num).padStart(2,'0')}. ${m.title}\n`,`**Ветка:** ${m.track} · **Этап:** ${m.phase+1} · **Объём:** ${m.hours}\n`,m.goal,`\n**Предпосылки:** ${m.deps.length?m.deps.map(link).join(', '):'можно начать сразу'}${m.apiGate?'; выбранный D3D12 / Vulkan backend':''}.\n`);
-  for(const l of lessons.filter(l=>l.module===m.id)){
-   const b=l.book?learning.books[l.book]:null;
-   out.push(`#### ${l.position}. ${l.title} · ${l.hours}\n`,`- **Понять:** ${l.why}`,`- **Читать:** ${l.where}${b?` — [${b.title}](${l.url||b.url})`:l.url?` — [Источник](${l.url})`:''}.`,`- **Реализовать:** ${l.build}`,`- **Проверить:** ${l.prove}`,'- [ ] Могу объяснить без подсказки.','- [ ] Реализовал и проверил; evidence сохранено.\n');
-  }
-  out.push(`**Итог блока:** ${m.project}\n`);
- }
-}
-out.push('## Проекты для портфолио\n','Рекомендуемый набор: Rendering Lab + visibility, temporal, lighting, performance либо UE под соответствующую вакансию. Все восемь делать не требуется. Время проекта пересекается со временем уроков: не складывай часы механически.\n');
-for(const p of projects)out.push(`### ${p.title}\n`,`${p.tag} · ${p.hours}\n`,p.pitch,`\n**Предпосылки:** ${p.modules.map(link).join(', ')}.\n`,'**Минимум:**\n',...p.minimum.map(x=>`- [ ] ${x}`),'\n**Сильная версия:**\n',...p.strong.map(x=>`- [ ] ${x}`),'\n**Общее качество — обязательно:**\n',...common.map(x=>`- [ ] ${x}`),'\n**Необязательное развитие:**\n',...p.stretch.map(x=>`- ${x}`),`\n**Чего недостаточно:** ${p.reject}`,`\n**Демонстрация:** ${p.demo}`,`\n**Источники:** ${p.sources.map(id=>`[${learning.books[id].title}](${learning.books[id].url})`).join(', ')}.\n`);
-out.push('## Готовность к откликам\n');
-for(const g of gates)out.push(`### ${g.title}\n`,g.note,`\nПодтвердить: ${g.modules.map(link).join(', ')}.\n`);
-out.push('## Источники и чтение\n','Книги из прежней версии сохранены: FCG / 3D Math Primer — база; RTR — карта realtime rendering; Game Engine Architecture / CSAPP / Effective Modern C++ — инженерия; PBRT — теория и reference. Документацию выбранного API читай под задачу. Номера глав прежних уроков сверяй со своим изданием.\n','Видео: [Advances — доклады, слайды и записи](https://advances.realtimerendering.com/), [официальный канал](https://www.youtube.com/channel/UC9V4KS8ggGQe_Hfeg1OQrWw), [CMU 15-462/662](https://www.cs.cmu.edu/~15462/). Выпиши задачу, baseline, допущения и воспроизведи ограниченный эксперимент. Просмотр не подтверждает навык.\n','## Сохранение\n','Прогресс, notes, испытания, выбранный API и проекты сохраняются в localStorage. Экспорт v8 включает всё; импорт v6/v7/v8 сохраняет исходные lesson IDs и заметки. Подтверждения старых испытаний требуют повторной проверки по новой рубрике. Перед обновлением экспортируй резервную копию. На другом URL или в другом браузере импортируй JSON.\n','---\n','Файл генерируется из `data/*.js`: `npm run docs`. Приложение работает без Node.js и без сборки.');
-writeFileSync('ROADMAP.md',out.join('\n')+'\n','utf8');
-console.log(`ROADMAP.md: ${learning.modules.length} modules, ${lessons.length} lessons, ${projects.length} projects`);
+const out=['# Graphics Programmer Roadmap v9 — карта знаний',`${topics.length} самостоятельных тем · ${directions.length} направлений · Vulkan / C++20.\n`,
+ 'Открой `index.html`. Главный экран — Дерево. «Мой путь» вычисляется из целей и обязательных prerequisites; «Сегодня» предлагает один конкретный шаг. Порядок направлений не является зависимостью.\n',
+ 'Статусы: не изучал, знаком / нужна практика, изучаю, освоил, повторить позже. Знакомые и освоенные темы снимаются с обязательного пути; практическое подтверждение хранится отдельно от самооценки. База доступна как справочник.\n',
+ 'Все прежние 245 уроков, ID, заметки, проекты и источники сохранены. Они доступны через «Ещё → Архив прежней программы», прежнюю полку и [архив Markdown](LEGACY-ROADMAP.md). Только точные соответствия конкретных уроков переносят completion в новую карту.\n',
+ '## Цели и проекты\n',...goals.map(g=>`- **${g.title}:** ${g.targets.map(link).join(', ')}.`),
+ '\n### Основной Vulkan Renderer / 3D Viewer\n',...milestones.map(m=>`- **${m.title}:** ${m.topics.map(link).join(', ')}. ${m.result}`),
+ '\n## Источники\n',`${stats.inputCount} записей обработано из docs/likns.md. После объединения повторов и сохранения прежних книг: ${stats.total}. Графика: ${stats.byScope.graphics}; инженерная база: ${stats.byScope.support}; дополнительный архив: ${stats.byScope.archive}; служебные: ${stats.byScope.service}. ${stats.linked} источников имеют конкретные связи с темами; остальные сохраняются с пометкой об отсутствии точной привязки.\n`,
+ 'Проверены отдельные оглавления и entry points, а не весь каталог. Если номер главы не подтверждён, назначается поиск по теме с явной пометкой. Источники без URL и отсутствующие локальные материалы сохраняются. Автоматическое сопоставление по названию алгоритма нужно проверять при чтении.\n',
+ '## Карта знаний\n'];
+for(const d of directions){out.push(`## ${d.title}\n`,d.description+'\n');for(const group of [...new Set(topics.filter(t=>t.direction===d.id).map(t=>t.group))]){out.push(`### ${group}\n`);for(const t of topics.filter(t=>t.direction===d.id&&t.group===group)){
+ out.push(`<a id="${t.id}"></a>\n\n#### ${t.title}\n`,`${t.level} · ${t.activity}\n`,t.summary,`\n**Применение:** ${t.application}.`,...(t.advantage?[`**Преимущества:** ${t.advantage}.`,`**Ограничения:** ${t.limitation}`]:[]),`**Обязательные предпосылки:** ${t.prerequisites.length?t.prerequisites.map(link).join(', '):'независимая точка входа'}.`,...(t.recommended.length?[`**Рекомендуется:** ${t.recommended.map(link).join(', ')}.`]:[]),...t.readings.map(r=>`- **${r.role}:** [${refs[r.source].title}](${refs[r.source].url}) — ${r.where}. ${r.verified?'Название раздела сверено.':'Точная привязка требует проверки.'}`),`\n**Практика:** ${t.practice}`,`**Завершение:** ${t.criterion}`,`**Самопроверка:** ${t.questions.join(' ')}`,`**Углубление:** ${t.stretch}`,`**Подсказка:** ${t.hint}\n`);
+}}}
+out.push('## Сохранения и воспроизводимость\n','Хранилище localStorage и старые keys сохранены. Экспорт v9 включает прежний прогресс и knowledge. Импорт v6–v9 объединяет данные; прежний JSON не стирает новые статусы, заметки и этапы renderer. Поле с практическим подтверждением требует описанного результата. Это самооценка, код автоматически не проверяется.\n','GitHub Pages: относительные пути поддерживают `/graphics-road/`. Приложение работает и через file://; сборка для запуска не нужна.\n','Генерация: `npm run sources`, затем `npm run docs`. Проверки: `npm test`, `npm run test:browser`.');
+writeFileSync('ROADMAP.md',out.join('\n')+'\n','utf8');console.log(`ROADMAP.md: ${topics.length} topics, ${directions.length} directions`);

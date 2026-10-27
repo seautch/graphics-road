@@ -1,0 +1,5203 @@
+---
+tags: [resources, sources, каталог]
+created: 2026-10-27
+---
+# Все источники из заметок
+
+Общий каталог материалов, упомянутых в хранилище: книги, курсы, статьи, документация, видео, репозитории и инструменты. Собран 27 октября 2026 года.
+
+Просмотрены **615 Markdown-файлов** во всех папках, включая архив, дневники, проекты, шаблоны и Excalidraw. Найдено **1486 различных веб-адресов**, **150 названий книг и книжных серий / печатных и текстовых работ**, а также **60 именных курсов, каналов и других материалов**. Это разные способы представления источников: книга может также иметь ссылку в тематическом разделе.
+
+У каждого пункта указано, в каких заметках он встречается. Названия и авторы взяты из заметок; ошибки атрибуции в самих заметках отдельно не проверялись. Если источник упомянут без URL, сохранено его название. Новые рекомендации из интернета не добавлялись; доступность сайтов не проверялась.
+
+Одинаковые URL объединены; различия в `www`, завершающем `/` и рекламных параметрах не создают повторов. Ссылки на отдельные главы, якоря и временные отметки сохранены. Для адресов без протокола добавлен `https://` и соответствующая пометка. Варианты адреса, объединённые с основным, доступны под пунктом.
+
+Кроме Markdown проверены текстовые поля и ссылки внутри сжатых рисунков Excalidraw, сохранённая HTML-страница, текст и внешние гиперссылки DOCX/XLSX, извлекаемые URI-аннотации PDF. Локальные учебные материалы перечислены отдельно. Текст на изображениях, сканах и слайдах PDF не распознавался; настройки и код плагинов `.obsidian` не относятся к заметкам и в каталог не включены.
+
+## Содержание
+
+- [[#Книги и текстовые работы]]
+- [[#Курсы, каналы и материалы, упомянутые по названию]]
+- [[#Веб-источники по темам]]
+- [[#Локальные учебные материалы]]
+- [[#Охват хранилища]]
+
+| Тема | Различных адресов |
+| --- | ---: |
+| [[#Графика: теория, рендеринг и разборы]] | 207 |
+| [[#Шейдеры, освещение, PBR и трассировка лучей]] | 61 |
+| [[#WebGPU, Dawn, wgpu и WGSL]] | 164 |
+| [[#Vulkan]] | 76 |
+| [[#OpenGL, WebGL, DirectX и Metal]] | 85 |
+| [[#Архитектура GPU, CUDA, HIP и параллельные вычисления]] | 67 |
+| [[#Математика, физика и алгоритмы]] | 61 |
+| [[#C++: язык, стандарты и обучение]] | 82 |
+| [[#Архитектура программ, память и оптимизация]] | 54 |
+| [[#ОС, Linux, железо, ассемблер и сети]] | 42 |
+| [[#Сборка, тестирование, Git и инструменты разработки]] | 118 |
+| [[#GUI, ImGui, Qt, SDL, шрифты и интерфейсы]] | 69 |
+| [[#Аудио, DSP и музыкальный плеер]] | 31 |
+| [[#Разработка игр и Unreal Engine]] | 92 |
+| [[#Blender, 3D-моделирование и ассеты]] | 23 |
+| [[#Другие языки и веб-разработка]] | 31 |
+| [[#ИИ, агенты и автоматизация программирования]] | 132 |
+| [[#Английский язык]] | 12 |
+| [[#Прочие ссылки, сервисы и личные материалы]] | 24 |
+| [[#Изображения, иллюстрации и медиафайлы]] | 46 |
+| [[#Локальные адреса, служебные URI и примеры]] | 9 |
+
+## Книги и текстовые работы
+
+Включены также книги, записанные только названием или внутренней ссылкой без созданной карточки. Сведения об изданиях сохранены там, где они явно указаны в каталоге. Ссылки на сайты и отдельные главы находятся ниже в тематических разделах.
+
+### C++ и проектирование
+
+- **100 ошибок C++ и как их избежать** — Рич Йонтс.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **A Tour of C++ (3rd Edition)** — Bjarne Stroustrup.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[90_Archive/Resources/Books|Books]].
+- **Algorithmic Trading with Interactive Brokers: Python and C++** — Matthew Scarpino.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **C++ Best Practices** — Jason Turner.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GPU/План чтения|План чтения]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **C++ Concurrency in Action** — Anthony Williams.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[03_Projects/c2-core-lib/План разработки фреймворка|План разработки фреймворка]], [[03_Projects/c2-core-lib/Пул потоков и Job System|Пул потоков и Job System]], [[04_Knowledge/C++/Concurrency/Разбор лабораторной по многопоточности|Разбор лабораторной по многопоточности]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **C++ Game Development Cookbook** — Druhin Mukherjee.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **C++ Software Design** — Klaus Iglberger.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Advanced/Архитектура|Архитектура]], [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **C++ STL. Стандартная библиотека шаблонов** — Яцек Галовиц.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **C++ Testing with Catch2**.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **C++ в задачах и примерах** — Никита Культин.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **C++17: The Complete Guide** — Nicolai M. Josuttis.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]], [[90_Archive/Resources/Books|Books]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **C++20 для программистов** — Пол Дейтел.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **C++20: Get the Details** — Rainer Grimm.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **C++20: The Complete Guide** — Nicolai M. Josuttis.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[90_Archive/Resources/Books|Books]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Clean Code** — Роберт Мартин.
+  - В заметках: [[02_Resources/C++/Advanced/Архитектура|Архитектура]], [[04_Knowledge/Unreal Engine 5/ProjectMomentum/9 Tags|9 Tags]], [[05_Learning/00_Index|00_Index]], [[05_Learning/Guides/Чистый код и организация C++ проекта|Чистый код и организация C++ проекта]], [[05_Learning/TinyRenderer/Refactoring|Refactoring]].
+- **Crafting Interpreters** — Robert Nystrom.
+  - В заметках: [[02_Resources/C++/Computer Science & Code Optimization|Computer Science & Code Optimization]], [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **Data-Oriented Design** — Richard Fabian.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]], [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]], [[02_Resources/C++/Низкоуровневый C++ — источники|Низкоуровневый C++ — источники]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[04_Knowledge/Formats/Форматы файлов в графическом движке|Форматы файлов в графическом движке]], [[04_Knowledge/Optimization/SIMD|SIMD]], [[04_Knowledge/WebGPU/Attached/Advanced/Main|Main]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Как изучать архитектуру C++|Как изучать архитектуру C++]], [[05_Learning/Guides/Чистый код и организация C++ проекта|Чистый код и организация C++ проекта]], [[05_Learning/Roadmaps/Calculus|Calculus]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **Effective Modern C++** — Скотт Мейерс.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Advanced/Архитектура|Архитектура]], [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[02_Resources/C++/Низкоуровневый C++ — источники|Низкоуровневый C++ — источники]], [[04_Knowledge/C++/inline static cost|inline static cost]], [[04_Knowledge/CMake/Main|Main]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Как изучать архитектуру C++|Как изучать архитектуру C++]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Functional Programming in C++** — Ivan Cukic.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Inside the C++ Object Model** — Stanley B. Lippman.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Learn C++ by Example**.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]].
+- **Modern C++ Programming Cookbook** — Marius Bancila.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Modern C++ Tutorial: C++11/14/17/20 on the fly** — Cangkun Ou.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **Professional C++ (5th Edition)** — Marc Gregoire.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Professional CMake: A Practical Guide** — Craig Scott.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Programming: Principles and Practice Using C++ (3rd Edition)** — Bjarne Stroustrup.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **Qt 6 C++ GUI Programming Cookbook (3rd Edition)** — Lee Zhi Eng.
+  - В заметках: [[02_Resources/C++/Qt6/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **STL Tutorial and Reference Guide** — Brian W..
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **The Art of Writing Efficient Programs** — Fedor G. Pikus.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **Безопасный C++** — Сергей Талантов.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[04_Knowledge/WebGPU/TypicalErrors/ShaderParse|ShaderParse]], [[90_Archive/Resources/Books|Books]].
+- **Грокаем алгоритмы** — Адитья Бхаргава.
+  - В заметках: [[02_Resources/C++/Basic/Programming Paradigms|Programming Paradigms]], [[04_Knowledge/Math/Веса и линейные комбинации|Веса и линейные комбинации]].
+- **Красивый C++** — Kate Gregory.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[04_Knowledge/Unreal Engine 5/ProjectMomentum/6 WallRun|6 WallRun]], [[90_Archive/Resources/Books|Books]].
+- **Осваиваем C++17 STL** — Артур О'Двайр.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Программирование встроенных систем на C++17** — Майя Пош (Maya Posch).
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Программирование на C++** — С.В. Игонин.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Qt6/Resources|Resources]].
+- **Совершенный код** — Стив Макконнелл.
+  - В заметках: [[02_Resources/C++/Basic/Programming Paradigms|Programming Paradigms]].
+- **Стандартная библиотека C++. Справочное руководство** — Николаи М. Джосаттис.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **Чистая архитектура** — Роберт Мартин.
+  - В заметках: [[02_Resources/C++/Basic/Programming Paradigms|Programming Paradigms]].
+- **Шаблоны C++: Справочник разработчика** — Дэвид Вандевурд.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Эксперт C++: Курс профессионального программирования** — Антонио Гуэрра Ханн.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Язык программирования C++. Базовый курс** — Стенли Б. Липпман.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+
+### Графика и рендеринг
+
+- **A Biography of the Pixel** — Alvy Ray Smith.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Anton's OpenGL 4 Tutorials** — Anton Gerdelan.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[90_Archive/Resources/Books|Books]].
+- **C++ High Performance** — Viktor Sehr Bjorn Andrist.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Memory management|Memory management]], [[02_Resources/C++/Низкоуровневый C++ — источники|Низкоуровневый C++ — источники]].
+- **Computer Graphics from Scratch** — Gabriel Gambetta.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[90_Archive/Resources/Books|Books]].
+- **Computer Graphics Principles and Practice** — John F. Hughes.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Foundations of 3D Computer Graphics** — Steven J. Gortler.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Foundations of Game Engine Development (Vol 2: Rendering)** — Eric Lengyel.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Fundamentals of Computer Graphics** — Peter Shirley.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/Подборка учебных сайтов|Подборка учебных сайтов]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]], [[05_Learning/Guides/Как читать технические книги|Как читать технические книги]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Game Engine Architecture** — Jason Gregory.
+  - В заметках: [[02_Resources/00_Index|00_Index]], [[02_Resources/All Sources|All Sources]], [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]], [[02_Resources/C++/Memory management|Memory management]], [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[03_Projects/c2-core-lib/Пул потоков и Job System|Пул потоков и Job System]], [[04_Knowledge/Optimization/SIMD|SIMD]], [[04_Knowledge/WebGPU/Attached/Advanced/Main|Main]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Как читать технические книги|Как читать технические книги]], [[05_Learning/Guides/Чистый код и организация C++ проекта|Чистый код и организация C++ проекта]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[07_Personal/English/System|System]], [[90_Archive/Resources/Books|Books]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Game Engine Black Book** — Fabien Sanglard.
+  - В заметках: [[02_Resources/GraphicsProgramming/Исходники id Software|Исходники id Software]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **Game Engine Gems 1-3** — (Разные).
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Geometric Tools for Computer Graphics** — Philip J. Schneider.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **GPU Gems (1–3)**.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **GPU Pro**.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **GPU Zen**.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Image Objects: An Archaeology of Computer Graphics** — Jacob Gaboury.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Intro to 3D Game Programming with DX12** — Frank D. Luna.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **Learn OpenGL** — Joey de Vries.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/GraphicsProgramming/Рендеринг шрифтов — источники|Рендеринг шрифтов — источники]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[04_Knowledge/Learn/Render/Basics/Render Theory/ЗАметка|ЗАметка]], [[04_Knowledge/Learn/Render/Basics/Render Theory/Описание|Описание]], [[04_Knowledge/Math/Linear algebra/Quat|Quat]], [[04_Knowledge/Vulkan/Shader links|Shader links]], [[04_Knowledge/WebGPU/Links&Videos/Camera|Camera]], [[04_Knowledge/WebGPU/Main/Graphics|Graphics]], [[04_Knowledge/WebGPU/NeedToParse/New shaders|New shaders]], [[04_Knowledge/WebGPU/Sources/PBR|PBR]], [[04_Knowledge/WebGPU/Описание что изучать дальше и может пригодится|Описание что изучать дальше и может пригодится]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Как читать технические книги|Как читать технические книги]], [[05_Learning/Guides/Чтение по рендерингу в дороге|Чтение по рендерингу в дороге]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[05_Learning/TinyRenderer/Afterwords|Afterwords]], [[90_Archive/Resources/Books|Books]].
+- **Mastering Graphics Programming with Vulkan** — (Разные авторы).
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **OpenGL SuperBible**.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Physically Based Rendering (PBRT)** — Matt Pharr.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **Ray Tracing Gems I**.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Ray Tracing Gems II**.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Ray Tracing in One Weekend (Серия)** — Peter Shirley.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[00_Daily/Targets|Targets]], [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[02_Resources/Start in tools|Start in tools]], [[02_Resources/Подборка учебных сайтов|Подборка учебных сайтов]], [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[03_Projects/Sylvune/Update|Update]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Чтение по рендерингу в дороге|Чтение по рендерингу в дороге]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[05_Learning/TinyRenderer/Afterwords|Afterwords]], [[90_Archive/Resources/Books|Books]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **Ray Tracing: The Next Week** — Peter Shirley.
+  - В заметках: [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Ray Tracing: The Rest of Your Life** — Peter Shirley.
+  - В заметках: [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Real-Time 3D Graphics with WebGL 2** — Farhad Ghayour.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Real-Time Rendering (4th Edition)** — T. Akenine-Möller.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[01_InBox/shader academy|shader academy]], [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter6-triangle-rasterization|chapter6-triangle-rasterization]], [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter7-zstencil-processing|chapter7-zstencil-processing]], [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GPU/Spec|Spec]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[02_Resources/Подборка учебных сайтов|Подборка учебных сайтов]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[03_Projects/Sylvune/Update|Update]], [[03_Projects/Sylvune/Идеи|Идеи]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[04_Knowledge/WebGPU/Attached/Advanced/Main|Main]], [[04_Knowledge/WebGPU/Main/Graphics|Graphics]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **The Book of Shaders**.
+  - В заметках: [[00_Daily/Diary/2026-08-18|2026-08-18]], [[00_Daily/Diary/2026-08-27|2026-08-27]], [[00_Daily/Diary/2026-08-28|2026-08-28]], [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[02_Resources/Supp/Resources|Resources]], [[02_Resources/Подборка учебных сайтов|Подборка учебных сайтов]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[03_Projects/Sylvune/Идеи|Идеи]], [[03_Projects/c2-core-lib/План разработки фреймворка|План разработки фреймворка]], [[04_Knowledge/Vulkan/Shader links|Shader links]], [[04_Knowledge/WebGPU/Attached/Advanced/Shadertoy|Shadertoy]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Дополнительные языки для графики|Дополнительные языки для графики]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]], [[90_Archive/Templates/Daily_Template_4|Daily_Template_4]].
+- **The Modern Vulkan Cookbook** — (Разные).
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **The Ray Tracer Challenge** — Jamis Buck.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **WebGL Insights** — Patrick Cozzi.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Компьютерная графика: модели и алгоритмы** — Е. А. Никулин.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+
+### GPU и параллелизм
+
+- **Accelerated Computing with HIP**.
+  - В заметках: [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **CUDA by Example** — Jason Sanders.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GPU/План чтения|План чтения]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **CUDA C Best Practices Guide** — NVIDIA.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GPU/План чтения|План чтения]].
+- **Deep belief nets in C++ and CUDA C** — Timothy Masters.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **General-Purpose Graphics Processor Architectures** — Tor M. Aamodt.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Multicore and GPU programming** — Gerassimos Barlas.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GPU/План чтения|План чтения]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **Programming Massively Parallel Processors** — David B. Kirk.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GPU/План чтения|План чтения]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **SYCL: Data Parallel C++** — James Reinders.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **The art of multiprocessor programming** — Maurice Herlihy.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GPU/План чтения|План чтения]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+
+### Математика и физика
+
+- **3D Math Primer for Graphics and Game Development** — Fletcher Dunn.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]], [[04_Knowledge/Math/Linear algebra/Quat|Quat]], [[04_Knowledge/Math/Веса и линейные комбинации|Веса и линейные комбинации]], [[04_Knowledge/WebGPU/Main/Graphics|Graphics]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Coding the Matrix** — Philip N. Klein.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Discrete Mathematics** — Susanna S. Epp.
+  - В заметках: [[90_Archive/Resources/Books|Books]].
+- **Essential Mathematics for Games and Interactive App** — James M. Van Verth.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Foundations of Game Engine Development (Vol 1: Math)** — Eric Lengyel.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]], [[04_Knowledge/Math/Linear algebra/Quat|Quat]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Mathematics for 3D Game Programming and Computer Graphics** — Eric Lengyel.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **Mathematics for Computer Graphics** — John Vince.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Mathematics for Game Programming and Computer Graphics** — Penny de Byl.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Projective Geometric Algebra Illuminated** — Eric Lengyel.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Дискретная математика** — Федор Новиков.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Задачники Иродова** — Иродов.
+  - В заметках: [[02_Resources/Math/Физика для графики — книги|Физика для графики — книги]].
+- **Курс общей физики** — Савельев.
+  - В заметках: [[02_Resources/Math/Физика для графики — книги|Физика для графики — книги]].
+- **Математические алгоритмы для программистов** — Пол Орланд.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Удовольствие от X** — Стивен Строгац.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Фейнмановские лекции**.
+  - В заметках: [[02_Resources/Math/Физика для графики — книги|Физика для графики — книги]].
+- **Физика. Полный курс** — Джей Орир.
+  - В заметках: [[02_Resources/Math/Физика для графики — книги|Физика для графики — книги]].
+- **Элементарный учебник физики** — Ландсберг.
+  - В заметках: [[02_Resources/Math/Физика для графики — книги|Физика для графики — книги]].
+
+### Системы и устройство компьютера
+
+- **6 книг Райнера Гримма** — Райнер Гримм.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **But How Do It Know** — J. Clark Scott.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Computer Architecture: A Quantitative Approach** — John Hennessy.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[04_Knowledge/Computer architecture/Branch prediction|Branch prediction]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Computer Systems: A Programmer’s Perspective (CS:APP)** — Р. Брайант.
+  - В заметках: [[00_Daily/Diary/2026-08-18|2026-08-18]], [[00_Daily/Diary/2026-08-27|2026-08-27]], [[00_Daily/Diary/2026-08-28|2026-08-28]], [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Memory management|Memory management]], [[03_Projects/c2-core-lib/План разработки фреймворка|План разработки фреймворка]], [[04_Knowledge/CMake/Генераторы сборки|Генераторы сборки]], [[04_Knowledge/Computer architecture/Branch prediction|Branch prediction]], [[04_Knowledge/Tools/Дизассемблирование и реверс-инжиниринг|Дизассемблирование и реверс-инжиниринг]], [[04_Knowledge/WebGPU/Attached/Advanced/Main|Main]], [[04_Knowledge/assembly/Links|Links]], [[05_Learning/00_Index|00_Index]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]], [[05_Learning/Guides/Как читать технические книги|Как читать технические книги]], [[05_Learning/Guides/Портфолио графического программиста|Портфолио графического программиста]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Templates/Daily_Template_4|Daily_Template_4]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Deep Learning on Windows** — Thimira Amaratunga.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Getting Started with FPGAs**.
+  - В заметках: [[04_Knowledge/Hardware/Verilog — заметки|Verilog — заметки]].
+- **Inside the Machine** — Jon Stokes.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Linux graphics drivers: an introducion version 3** — Stephane Marchesin.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **Linux. Системное программирование** — Роберт Лав.
+  - В заметках: [[02_Resources/Supp/Linux & Network Programming|Linux & Network Programming]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Operating Systems: Three Easy Pieces (OSTEP)** — Р. Арпачи-Дюссо.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/00_Index|00_Index]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **PCI Express System Architecture** — MindShare.
+  - В заметках: [[04_Knowledge/Hardware/PCI Express|PCI Express]].
+- **Performance Analysis and Tuning on Modern CPUs** — Denis Bakhvalov.
+  - В заметках: [[02_Resources/PC/Main|Main]].
+- **The Algorithm Design Manual** — Стивен Скиена.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[04_Knowledge/Math/Веса и линейные комбинации|Веса и линейные комбинации]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **The Linux Programming Interface** — Michael Kerrisk.
+  - В заметках: [[02_Resources/Supp/Linux & Network Programming|Linux & Network Programming]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **The Little Book of Semaphores** — Allen B. Downey.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **The Wayland Protocol** — Drew DeVault.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **Windows Internals (Part 1 & 2)** — P. Yosifovich.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **Windows System Programming** — Pavel Yosifovich.
+  - В заметках: [[02_Resources/GraphicsProgramming/OS Graphics Architecture|OS Graphics Architecture]].
+- **Windows для профессионалов** — Джеффри Рихтер.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Алгоритмические трюки для программистов** — Генри Уоррен.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Алгоритмы: Построение и анализ** — Томас Кормен.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **Искусство программирования (4 тома)** — Дональд Кнут.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Как на самом деле работают компьютеры** — Мэтью Джастис.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Код: Тайный язык информатики** — Чарльз Петцольд.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **Компьютерные науки. Базовый курс** — Дж. Гленн Брукшир.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **Модернизация и ремонт ПК** — Скотт Мюллер.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Совершенный алгоритм (Жадные алгоритмы и ДП)** — Тим Рафгарден.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **Современная архитектура и устройство компьютеров** — Джим Ледин.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+
+### Разработка игр и искусство
+
+- **Anatomy for 3D Artists** — 3dtotal Publishing.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **Artificial Intelligence for Games** — Ian Millington.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Game Feel** — Steve Swink.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[04_Knowledge/WebGPU/Links&Videos/Camera|Camera]].
+- **Game Physics Cookbook** — Gabor Szauer.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Game Physics in One Weekend** — Peter Shirley.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Game Programming Patterns** — Robert Nystrom.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]], [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[03_Projects/LuxPrism/Ближайшие задачи|Ближайшие задачи]], [[03_Projects/ModelViewer/P|P]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Портфолио графического программиста|Портфолио графического программиста]], [[05_Learning/Guides/Чтение по рендерингу в дороге|Чтение по рендерингу в дороге]], [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Books|Books]].
+- **Real-Time Collision Detection** — Christer Ericson.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **The Animator's Survival Kit** — Richard Williams.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **The Art of Game Design** — Джесси Шелл.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **The Pragmatic Programmer** — Дэвид Томас, Эндрю Хант.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[90_Archive/Resources/Books|Books]].
+- **Кровь, пот и пиксели** — Джейсон Шрейер.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[05_Learning/Guides/Чтение по рендерингу в дороге|Чтение по рендерингу в дороге]], [[07_Personal/English/System|System]], [[90_Archive/Resources/Books|Books]].
+- **Погружение в паттерны проектирования** — Александр Швец.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[90_Archive/Resources/Books|Books]].
+- **Свет и цвет** — Джеймс Гарни.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+
+### Статьи и текстовые серии
+
+- **A pixel is not a little square** — Alvy Ray Smith.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+- **A trip through the graphics pipeline 2011 или более современный от alaingalvan** — alaingalvan или Fabian Giesen.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]].
+
+### Аудио и DSP
+
+- **The Scientist and Engineer's Guide to Digital Signal Processing** — Steven W. Smith.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[03_Projects/Sylvune/Документация|Документация]], [[03_Projects/Sylvune/теория/т|т]].
+
+### Английский и другие книги
+
+- **English Grammar in Use** — Raymond Murphy.
+  - В заметках: [[04_Knowledge/WebGPU/Линковка|Линковка]], [[05_Learning/University/Тетрис — HTML CSS JavaScript|Тетрис — HTML CSS JavaScript]], [[07_Personal/English/System|System]].
+- **Марсианин** — Энди Вейр.
+  - В заметках: [[07_Personal/English/System|System]].
+- **Не уходи безропотно во тьму** — Дилан Томас.
+  - В заметках: [[07_Personal/Reverse1999/Произведения|Произведения]].
+- **Пикник на обочине**.
+  - В заметках: [[07_Personal/English/System|System]].
+- **Пятнадцать жизней Гарри Огаста**.
+  - В заметках: [[07_Personal/00_Index|00_Index]], [[07_Personal/Library/Main|Main]], [[07_Personal/Library/Кэтрин Уэбб — Пятнадцать жизней Гарри Огаста|Кэтрин Уэбб — Пятнадцать жизней Гарри Огаста]].
+- **Тысяча девятьсот девятнадцатый год** — Уильям Батлер Йейтс.
+  - В заметках: [[07_Personal/00_Index|00_Index]], [[07_Personal/Reverse1999/Уильяма Батлера Йейтса «Тысяча девятьсот девятнадцатый год»|Уильяма Батлера Йейтса «Тысяча девятьсот девятнадцатый год»]].
+
+## Курсы, каналы и материалы, упомянутые по названию
+
+Этот раздел сохраняет названия, по которым можно найти материал, даже если в заметке нет прямой ссылки на конкретный выпуск или курс. URL, присутствующие в хранилище, также собраны ниже.
+
+### Курсы и видеосерии
+
+- **Pikuma — Computer Graphics / Software Rendering**.
+  - В заметках: [[00_Daily/Diary/2026-07-31|2026-07-31]], [[00_Daily/Diary/2026-08-01|2026-08-01]], [[00_Daily/Diary/2026-08-02|2026-08-02]], [[00_Daily/Diary/2026-08-03|2026-08-03]], [[00_Daily/Diary/2026-08-04|2026-08-04]], [[00_Daily/Diary/2026-08-05|2026-08-05]], [[00_Daily/Diary/2026-08-06|2026-08-06]], [[00_Daily/Diary/2026-08-07|2026-08-07]], [[00_Daily/Diary/2026-08-08|2026-08-08]], [[00_Daily/Diary/2026-08-09|2026-08-09]], [[00_Daily/Diary/2026-08-10|2026-08-10]], [[00_Daily/Diary/2026-08-11|2026-08-11]], [[00_Daily/Diary/2026-08-12|2026-08-12]], [[00_Daily/Diary/2026-08-13|2026-08-13]], [[00_Daily/Diary/2026-08-15|2026-08-15]], [[00_Daily/Diary/2026-08-16|2026-08-16]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/Start in tools|Start in tools]], [[04_Knowledge/Math/Linear algebra/Attached/Matrix rotation Y|Matrix rotation Y]], [[04_Knowledge/Tools/Renderdoc|Renderdoc]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[90_Archive/Obsidian/Прежний гайд по трекеру активности|Прежний гайд по трекеру активности]], [[90_Archive/Obsidian/Прежняя настройка учебных плагинов|Прежняя настройка учебных плагинов]], [[90_Archive/Templates/Daily_Template_1|Daily_Template_1]].
+- **Stanford CS149 — Parallel Computing**.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/Подборка учебных сайтов|Подборка учебных сайтов]], [[03_Projects/Sylvune/Parallel|Parallel]], [[04_Knowledge/GPU/01_|01_]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[06_Lectures/00_Index|00_Index]], [[06_Lectures/CS149/01_Базовые термины|01_Базовые термины]], [[06_Lectures/CS149/02_Формы параллельного выполнения|02_Формы параллельного выполнения]], [[06_Lectures/CS149/03_ Ключевые метрики производительности памяти (и сетей)|03_ Ключевые метрики производительности памяти (и сетей)]].
+- **CMU 15-418 — Parallel Computer Architecture and Programming**.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[04_Knowledge/WebGPU/Attached/Advanced/Main|Main]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **Cem Yuksel — Introduction to Computer Graphics**.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[05_Learning/Guides/Как читать технические книги|Как читать технические книги]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[06_Lectures/00_Index|00_Index]], [[06_Lectures/Cem Yuksel/04_Raster Images Part2|04_Raster Images Part2]].
+- **The Cherno — C++, Game Engine Series, OpenGL**.
+  - В заметках: [[00_Daily/Diary/2026-08-18|2026-08-18]], [[00_Daily/Diary/2026-08-27|2026-08-27]], [[00_Daily/Diary/2026-08-28|2026-08-28]], [[02_Resources/00_Index|00_Index]], [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]], [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[02_Resources/C++/The Cherno — серии для изучения|The Cherno — серии для изучения]], [[02_Resources/C++/Низкоуровневый C++ — источники|Низкоуровневый C++ — источники]], [[03_Projects/c2-core-lib/План разработки фреймворка|План разработки фреймворка]], [[03_Projects/c2-core-lib/Система ввода и окон|Система ввода и окон]], [[04_Knowledge/CMake/Генераторы сборки|Генераторы сборки]], [[04_Knowledge/WebGPU/Attached/Advanced/Main|Main]], [[04_Knowledge/WebGPU/ImGUI/Tutorial|Tutorial]], [[04_Knowledge/WebGPU/Links&Videos/Camera|Camera]], [[04_Knowledge/WebGPU/Main/Graphics|Graphics]], [[05_Learning/Guides/Дополнительные языки для графики|Дополнительные языки для графики]], [[05_Learning/Guides/Как изучать архитектуру C++|Как изучать архитектуру C++]], [[05_Learning/Guides/Как читать технические книги|Как читать технические книги]], [[07_Personal/English/System|System]], [[90_Archive/Obsidian/Прежний гайд по трекеру активности|Прежний гайд по трекеру активности]], [[90_Archive/Templates/Daily_Template_3|Daily_Template_3]], [[90_Archive/Templates/Daily_Template_4|Daily_Template_4]], [[90_Archive/Templates/Untitled|Untitled]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Handmade Hero — Casey Muratori**.
+  - В заметках: [[00_Daily/Diary/2026-08-18|2026-08-18]], [[00_Daily/Diary/2026-08-27|2026-08-27]], [[00_Daily/Diary/2026-08-28|2026-08-28]], [[03_Projects/c2-core-lib/План разработки фреймворка|План разработки фреймворка]], [[04_Knowledge/C++/Обработка ошибок|Обработка ошибок]], [[04_Knowledge/Formats/Форматы файлов в графическом движке|Форматы файлов в графическом движке]], [[04_Knowledge/Optimization/SIMD|SIMD]], [[90_Archive/Templates/Daily_Template_4|Daily_Template_4]].
+- **CppCon — Back to Basics**.
+  - В заметках: [[00_Daily/Diary/2026-08-18|2026-08-18]], [[00_Daily/Diary/2026-08-27|2026-08-27]], [[00_Daily/Diary/2026-08-28|2026-08-28]], [[02_Resources/C++/Advanced/Архитектура|Архитектура]], [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]], [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[02_Resources/C++/Memory management|Memory management]], [[02_Resources/C++/Низкоуровневый C++ — источники|Низкоуровневый C++ — источники]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[03_Projects/Sylvune/Guides/CUSTOM_UI_GUIDE_RU|CUSTOM_UI_GUIDE_RU]], [[03_Projects/c2-core-lib/Guides/LEARNING_GUIDE.ru|LEARNING_GUIDE.ru]], [[03_Projects/c2-core-lib/Guides/LIBRARY_CHANGES_631d143_TO_cd6d88f.ru|LIBRARY_CHANGES_631d143_TO_cd6d88f.ru]], [[03_Projects/c2-core-lib/План разработки фреймворка|План разработки фреймворка]], [[03_Projects/c2-core-lib/Пул потоков и Job System|Пул потоков и Job System]], [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]], [[04_Knowledge/C++/Что стоит изучит/Макроссы|Макроссы]], [[04_Knowledge/WebGPU/Main/Workgroups и DispatchWorkgroups|Workgroups и DispatchWorkgroups]], [[04_Knowledge/assembly/Links|Links]], [[05_Learning/Guides/Как изучать архитектуру C++|Как изучать архитектуру C++]], [[05_Learning/Guides/Чистый код и организация C++ проекта|Чистый код и организация C++ проекта]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]], [[90_Archive/Templates/Daily_Template_3|Daily_Template_3]], [[90_Archive/Templates/Daily_Template_4|Daily_Template_4]], [[90_Archive/Templates/Untitled|Untitled]].
+- **GameDev.tv — Complete Blender Creator**.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **Grant Abbitt — Low Poly / Blender**.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **Pierrick Picaut / p2design — анимация в Blender**.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **Денис Кожар — Blender**.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **Khan Academy — Multivariable Calculus**.
+  - В заметках: [[05_Learning/Roadmaps/Calculus|Calculus]].
+- **CMU 15-462/662 — Computer Graphics**.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **Learn WebGPU for C++**.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[03_Projects/С2Lux/modernization|modernization]], [[04_Knowledge/WebGPU/NeedToParse/Specification|Specification]], [[04_Knowledge/WebGPU/NeedToParse/Wayland and X11|Wayland and X11]], [[04_Knowledge/WebGPU/WebGPU|WebGPU]], [[04_Knowledge/WebGPU/Заметки|Заметки]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **WebGPU Fundamentals**.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[03_Projects/LuxPrism/Ближайшие задачи|Ближайшие задачи]], [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[04_Knowledge/WebGPU/Attached/Advanced/WGSL|WGSL]], [[04_Knowledge/WebGPU/NeedToParse/Specification|Specification]], [[04_Knowledge/WebGPU/WebGPU|WebGPU]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **Ben Eater — Building an 8-bit Breadboard Computer**.
+  - В заметках: [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]], [[04_Knowledge/Hardware/Как компьютер работает на физическом уровне|Как компьютер работает на физическом уровне]].
+
+### Авторы, каналы и конференции
+
+- **Creel**.
+  - В заметках: [[02_Resources/PC/Main|Main]], [[04_Knowledge/assembly/Links|Links]].
+- **Computerphile**.
+  - В заметках: [[02_Resources/PC/Main|Main]], [[07_Personal/English/System|System]].
+- **Andreas Kling — SerenityOS / Ladybird**.
+  - В заметках: [[02_Resources/C++/Advanced/Архитектура|Архитектура]], [[02_Resources/C++/Низкоуровневый C++ — источники|Низкоуровневый C++ — источники]].
+- **Chandler Carruth — доклады о производительности**.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]], [[02_Resources/C++/Низкоуровневый C++ — источники|Низкоуровневый C++ — источники]], [[03_Projects/c2-core-lib/План разработки фреймворка|План разработки фреймворка]], [[05_Learning/Guides/Как изучать архитектуру C++|Как изучать архитектуру C++]].
+- **Klaus Iglberger — Software Design**.
+  - В заметках: [[02_Resources/Books/Каталог технических книг|Каталог технических книг]], [[02_Resources/C++/Advanced/Архитектура|Архитектура]], [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[90_Archive/Resources/Books|Books]].
+- **NVIDIA GTC**.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **Meeting C++**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **C++Now**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]], [[Excalidraw/Drawing 2026-09-27 16.47.30.excalidraw|Drawing 2026-09-27 16.47.30.excalidraw]], [[Excalidraw/Drawing 2026-10-11 20.40.51.excalidraw|Drawing 2026-10-11 20.40.51.excalidraw]].
+- **Inbal Levi / Bryce Adelstein Lelbach — обзоры стандартов C++**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Eric Niebler / Sy Brand — Ranges**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **SimonDev**.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[04_Knowledge/WebGPU/Описание что изучать дальше и может пригодится|Описание что изучать дальше и может пригодится]], [[90_Archive/Obsidian/Прежний гайд по трекеру активности|Прежний гайд по трекеру активности]].
+- **Kayvon Fatahalian — лекции по GPU и параллельным вычислениям**.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GPU/План чтения|План чтения]], [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+
+### Доклады и материалы без точной ссылки
+
+- **Mike Acton — Data-Oriented Design and C++**.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]], [[04_Knowledge/WebGPU/Attached/Advanced/Main|Main]], [[05_Learning/Guides/Как изучать архитектуру C++|Как изучать архитектуру C++]], [[05_Learning/Guides/Чистый код и организация C++ проекта|Чистый код и организация C++ проекта]].
+- **Chandler Carruth — Efficiency with Algorithms, Performance with Data Structures**.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]], [[02_Resources/C++/Низкоуровневый C++ — источники|Низкоуровневый C++ — источники]], [[05_Learning/Guides/Как изучать архитектуру C++|Как изучать архитектуру C++]].
+- **Nicolas Guillemot — Memory is Everything**.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]].
+- **Andreas Weis — How to Write a Custom Allocator**.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]].
+- **John Lakos — Local Arenas and Memory Allocation**.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]].
+- **Matt Godbolt — What Has My Compiler Done for Me Lately?**.
+  - В заметках: [[04_Knowledge/Optimization/SIMD|SIMD]], [[04_Knowledge/assembly/Links|Links]].
+- **Nicolai Josuttis — The Nightmare of Initialization in C++**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Jason Turner — C++17 in 10 Minutes**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Nicolai Josuttis — C++17: The Best Features**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Jason Turner — Practical C++17**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Marc Gregoire — C++20: An (Almost) Complete Overview**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Timur Doumler — How C++20 Changes the Way We Write Code**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Nicolai Josuttis — C++20: My Favourite Code Examples**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Marc Gregoire — C++23: An Overview of Almost All New and Updated Features**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Sy Brand — What's New in C++23**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Timur Doumler — How C++23 Changes the Way We Write Code**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Sy Brand — Functional Exceptionless Error Handling with C++23**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Jeffrey Garland — C++26 Preview**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Marc Gregoire — C++26: What's In It For You?**.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **Math for Game Developers — Quaternions**.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[04_Knowledge/Math/Linear algebra/Quat|Quat]].
+- **GameDev.net — Understanding Quaternions**.
+  - В заметках: [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]], [[04_Knowledge/Math/Linear algebra/Quat|Quat]].
+- **OSDev Wiki — Memory Management**.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]].
+- **EASTL — документация**.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]].
+- **Хабр — Кастомные аллокаторы для игровых движков: arena, pool и slab на C++**.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]].
+- **Scratchapixel — The Rasterization Stage**.
+  - В заметках: [[04_Knowledge/Graphics/Алгоритм Пинеды|Алгоритм Пинеды]].
+- **Scratchapixel — Rasterization: a Practical Implementation**.
+  - В заметках: [[04_Knowledge/Graphics/Растеризация и Overlap|Растеризация и Overlap]].
+- **The Cherno — ImGui in C++ / Docking in ImGui**.
+  - В заметках: [[04_Knowledge/WebGPU/ImGUI/Tutorial|Tutorial]].
+- **W3C WGSL Specification**.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[04_Knowledge/WebGPU/Attached/Advanced/WGSL|WGSL]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **Хабр — статьи о CI/CD**.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]], [[99_System/Отчёт об уборке 2026-10-22|Отчёт об уборке 2026-10-22]].
+- **Render Hell — Books I / II**.
+  - В заметках: [[00_Daily/Diary/2026-08-18|2026-08-18]], [[00_Daily/Diary/2026-08-27|2026-08-27]], [[00_Daily/Diary/2026-08-28|2026-08-28]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GPU/Spec|Spec]], [[02_Resources/GPU/План чтения|План чтения]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[03_Projects/c2-core-lib/План разработки фреймворка|План разработки фреймворка]], [[04_Knowledge/Graphics/Алгоритм Пинеды|Алгоритм Пинеды]], [[04_Knowledge/WebGPU/Attached/Advanced/How queue and commandbuffers work|How queue and commandbuffers work]], [[04_Knowledge/WebGPU/NeedToParse/Graphics|Graphics]], [[05_Learning/Guides/Чтение по рендерингу в дороге|Чтение по рендерингу в дороге]], [[06_Lectures/00_Index|00_Index]], [[06_Lectures/RenderHell/01_Первая книга|01_Первая книга]], [[06_Lectures/RenderHell/021_Дополнение|021_Дополнение]], [[06_Lectures/RenderHell/02_Вторая книга|02_Вторая книга]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]], [[90_Archive/Templates/Daily_Template_4|Daily_Template_4]].
+- **Ginger Bill — Memory Allocation Strategies**.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/C++/Advanced/Resources|Resources]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/Подборка учебных сайтов|Подборка учебных сайтов]], [[03_Projects/Sylvune/c2core/1|1]], [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **Freya Holmér — Color Spaces**.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[04_Knowledge/WebGPU/Sources/PBR|PBR]].
+
+## Веб-источники по темам
+
+Один адрес находится в одном тематическом разделе; все заметки, в которых он встречается, объединены под ним. В конце вынесены прочие сервисы, внешние изображения и технические адреса из примеров.
+
+### Графика: теория, рендеринг и разборы
+
+- **[CMU 15-462/662: Computer Graphics](<http://15462.courses.cs.cmu.edu/fall2020/>)**
+  - Адрес: <http://15462.courses.cs.cmu.edu/fall2020/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[15462.courses.cs.cmu.edu](<https://15462.courses.cs.cmu.edu/spring2024/lectures?utm_source=chatgpt.com>)**
+  - Адрес: <https://15462.courses.cs.cmu.edu/spring2024/lectures?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Adrian Courrèges](<https://www.adriancourreges.com/blog/>)**
+  - Адрес: <https://www.adriancourreges.com/blog/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[SIGGRAPH — Advances in Real-Time Rendering](<https://advances.realtimerendering.com/>)**
+  - Адрес: <https://advances.realtimerendering.com/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+  - Варианты в заметках: <https://www.advances.realtimerendering.com/?utm_source=chatgpt.com>.
+- **[Alain Galvan](<https://alain.xyz/blog>)**
+  - Адрес: <https://alain.xyz/blog>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[статья про shader language](<https://alain.xyz/blog/a-review-of-shader-languages>)**
+  - Адрес: <https://alain.xyz/blog/a-review-of-shader-languages>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[статья объясняющая из чего состоят все современные graphics APIs](<https://alain.xyz/blog/comparison-of-modern-graphics-apis>)**
+  - Адрес: <https://alain.xyz/blog/comparison-of-modern-graphics-apis>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[A Trip Through The Graphics Pipeline (Remastered)](<https://alaingalvan.gitbook.io/a-trip-through-the-graphics-pipeline>)**
+  - Адрес: <https://alaingalvan.gitbook.io/a-trip-through-the-graphics-pipeline>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Introduction To Modern Rendering](<https://alelievr.github.io/Modern-Rendering-Introduction/>)**
+  - Адрес: <https://alelievr.github.io/Modern-Rendering-Introduction/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Applying for Entry Level Graphic Jobs in Games](<https://alextardif.com/GraphicsJobGuide.html>)**
+  - Адрес: <https://alextardif.com/GraphicsJobGuide.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Finding Your Home in Graphics Programming](<https://alextardif.com/LearningGraphics.html>)**
+  - Адрес: <https://alextardif.com/LearningGraphics.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Graphics Programmer](<https://am.linkedin.com/jobs/view/graphics-programmer-at-saber-interactive-4373566428>)**
+  - Адрес: <https://am.linkedin.com/jobs/view/graphics-programmer-at-saber-interactive-4373566428>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[this book](<http://www.amazon.com/Jim-Blinns-Corner-Graphics-Pipeline/dp/1558603875>)**
+  - Адрес: <http://www.amazon.com/Jim-Blinns-Corner-Graphics-Pipeline/dp/1558603875>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter5-primitive-assembly|chapter5-primitive-assembly]].
+- **[Aras Pranckevičius](<https://aras-p.info/blog/>)**
+  - Адрес: <https://aras-p.info/blog/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Interview Questions](<https://aras-p.info/blog/2016/11/05/Interview-questions/>)**
+  - Адрес: <https://aras-p.info/blog/2016/11/05/Interview-questions/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Build Your Own 3D Renderer](<https://avikdas.com/build-your-own-raytracer/>)**
+  - Адрес: <https://avikdas.com/build-your-own-raytracer/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Chinese Graphics Course (Bilibili)](<https://www.bilibili.com/video/BV1X7411F744?spm_id_from=333.788.videopod.episodes>)**
+  - Адрес: <https://www.bilibili.com/video/BV1X7411F744?spm_id_from=333.788.videopod.episodes>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Clean Rinse](<https://blog.mecheye.net/>)**
+  - Адрес: <https://blog.mecheye.net/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[How to write a renderer for modern graphics APIs](<https://blog.mecheye.net/2023/09/how-to-write-a-renderer-for-modern-apis/>)**
+  - Адрес: <https://blog.mecheye.net/2023/09/how-to-write-a-renderer-for-modern-apis/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[GFX Caffeinist Blog](<https://boksajak.github.io/>)**
+  - Адрес: <https://boksajak.github.io/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Branch Education](<https://branch.education/>)**
+  - Адрес: <https://branch.education/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[list](<https://buildin.ai/careerstation/share/1f71f42f-0f3b-4971-962d-327e799d3749>)**
+  - Адрес: <https://buildin.ai/careerstation/share/1f71f42f-0f3b-4971-962d-327e799d3749>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Рендеринг — дополнительные ссылки|Рендеринг — дополнительные ссылки]].
+- **[Cem Yuksel — courses](<https://www.cemyuksel.com/courses/?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.cemyuksel.com/courses/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[series on Perspective Texture Mapping](<http://chrishecker.com/Miscellaneous_Technical_Articles>)**
+  - Адрес: <http://chrishecker.com/Miscellaneous_Technical_Articles>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter6-triangle-rasterization|chapter6-triangle-rasterization]].
+- **[Bartosz Ciechanowski](<https://ciechanow.ski/archives/>)**
+  - Адрес: <https://ciechanow.ski/archives/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **["Hierarchical Polygon Tiling with Coverage Masks"](<http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.115.1646&rep=rep1&type=pdf>)**
+  - Адрес: <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.115.1646&rep=rep1&type=pdf>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter6-triangle-rasterization|chapter6-triangle-rasterization]].
+- **[paper](<http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.4621&rep=rep1&type=pdf>)**
+  - Адрес: <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.4621&rep=rep1&type=pdf>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter6-triangle-rasterization|chapter6-triangle-rasterization]].
+- **[Interviewing for Junior Programming Positions](<https://clementpirelli.wordpress.com/2023/05/31/interviewing-for-junior-programming-positions/>)**
+  - Адрес: <https://clementpirelli.wordpress.com/2023/05/31/interviewing-for-junior-programming-positions/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Resources & Links for Graphics](<https://cody-duncan.github.io/r-graphicsprogramming-wiki/start_here.html>)**
+  - Адрес: <https://cody-duncan.github.io/r-graphicsprogramming-wiki/start_here.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[крутой курс по графике, игра с истребителем, правда на языке C, но можно переписать по плюсы](<https://coursehunter.net/course/programmirovanie-trehmernoy-kompyuternoy-grafiki>)**
+  - Адрес: <https://coursehunter.net/course/programmirovanie-trehmernoy-kompyuternoy-grafiki>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[this great presentation by Kayvon Fatahalian](<https://courses.cs.washington.edu/courses/cse558/11wi/lectures/05_gpuArchShaderCores_BPS_2011.pdf>)**
+  - Адрес: <https://courses.cs.washington.edu/courses/cse558/11wi/lectures/05_gpuArchShaderCores_BPS_2011.pdf>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]].
+- **[cs.cmu.edu — ~418](<https://www.cs.cmu.edu/~418/>)**
+  - Адрес: <https://www.cs.cmu.edu/~418/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Keenan Crane](<https://www.cs.cmu.edu/~kmcrane/>)**
+  - Адрес: <https://www.cs.cmu.edu/~kmcrane/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[cs.cornell.edu](<https://www.cs.cornell.edu/~srm/fcg5/?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.cs.cornell.edu/~srm/fcg5/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[this one](<http://www.cs.unc.edu/~olano/papers/2dh-tri/>)**
+  - Адрес: <http://www.cs.unc.edu/~olano/papers/2dh-tri/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter5-primitive-assembly|chapter5-primitive-assembly]].
+- **[cs184.eecs.berkeley.edu](<https://cs184.eecs.berkeley.edu/?utm_source=chatgpt.com>)**
+  - Адрес: <https://cs184.eecs.berkeley.edu/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[cs184.eecs.berkeley.edu](<https://cs184.eecs.berkeley.edu/sp25/?utm_source=chatgpt.com>)**
+  - Адрес: <https://cs184.eecs.berkeley.edu/sp25/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Graphics Programming Discord](<https://discord.com/invite/m35J6Bk>)**
+  - Адрес: <https://discord.com/invite/m35J6Bk>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[3D Graphics Programming for Beginners](<https://docs.google.com/document/d/1JwwLYxFMDwuxX4Sc3znE-8jVIQMW1LWjuvYeLpiVf_8/edit?tab=t.0>)**
+  - Адрес: <https://docs.google.com/document/d/1JwwLYxFMDwuxX4Sc3znE-8jVIQMW1LWjuvYeLpiVf_8/edit?tab=t.0>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Rasterization on Larrabee](<http://drdobbs.com/architecture-and-design/217200602>)**
+  - Адрес: <http://drdobbs.com/architecture-and-design/217200602>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter6-triangle-rasterization|chapter6-triangle-rasterization]].
+- **[EA - Rendering and Lighting Research](<https://www.ea.com/technology/research/rendering-and-lighting>)**
+  - Адрес: <https://www.ea.com/technology/research/rendering-and-lighting>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[The Code Corsair](<https://www.elopezr.com>)**
+  - Адрес: <https://www.elopezr.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Amdahl's law](<http://en.wikipedia.org/wiki/Amdahl%27s_law>)**
+  - Адрес: <http://en.wikipedia.org/wiki/Amdahl%27s_law>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter3-pipeline-overview|chapter3-pipeline-overview]].
+- **[Bit blits](<http://en.wikipedia.org/wiki/Bit_blit>)**
+  - Адрес: <http://en.wikipedia.org/wiki/Bit_blit>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter9-pixel-processing-join|chapter9-pixel-processing-join]].
+- **[predication](<http://en.wikipedia.org/wiki/Branch_predication>)**
+  - Адрес: <http://en.wikipedia.org/wiki/Branch_predication>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]].
+- **[Carry-save adder](<http://en.wikipedia.org/wiki/Carry-save_adder>)**
+  - Адрес: <http://en.wikipedia.org/wiki/Carry-save_adder>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter6-triangle-rasterization|chapter6-triangle-rasterization]].
+- **[Cohen-Sutherland](<http://en.wikipedia.org/wiki/Cohen%E2%80%93Sutherland>)**
+  - Адрес: <http://en.wikipedia.org/wiki/Cohen%E2%80%93Sutherland>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter5-primitive-assembly|chapter5-primitive-assembly]].
+- **[Wikipedia is your friend](<http://en.wikipedia.org/wiki/DRAM#Operation_principle>)**
+  - Адрес: <http://en.wikipedia.org/wiki/DRAM#Operation_principle>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter2-gpu-architecture|chapter2-gpu-architecture]].
+- **[finite differencing](<http://en.wikipedia.org/wiki/Finite_difference>)**
+  - Адрес: <http://en.wikipedia.org/wiki/Finite_difference>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]].
+- **[MESI](<http://en.wikipedia.org/wiki/MESI_protocol>)**
+  - Адрес: <http://en.wikipedia.org/wiki/MESI_protocol>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter13-compute-shaders|chapter13-compute-shaders]].
+- **[barycentric coordinates](<https://en.wikipedia.org/wiki/Barycentric_coordinate_system>)**
+  - Адрес: <https://en.wikipedia.org/wiki/Barycentric_coordinate_system>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter7-zstencil-processing|chapter7-zstencil-processing]].
+- **[A trip through the Graphics Pipeline](<https://encelo.github.io/trip_through_graphics_pipeline_2011.html>)**
+  - Адрес: <https://encelo.github.io/trip_through_graphics_pipeline_2011.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Learn Game Engine Programming](<https://engine-programming.net/>)**
+  - Адрес: <https://engine-programming.net/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Eric Arnebäck](<https://erkaman.github.io/articles.html>)**
+  - Адрес: <https://erkaman.github.io/articles.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[How to Start Learning Computer Graphics Programming](<https://erkaman.github.io/posts/beginner_computer_graphics.html>)**
+  - Адрес: <https://erkaman.github.io/posts/beginner_computer_graphics.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Junior Graphics Programmer Interview Questions](<https://erkaman.github.io/posts/junior_graphics_programmer_interview.html>)**
+  - Адрес: <https://erkaman.github.io/posts/junior_graphics_programmer_interview.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[I am Graphics and So Can You](<https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-1>)**
+  - Адрес: <https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-1>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[before](<https://fgiesen.wordpress.com/2010/08/23/carry-save-adders-and-averaging-bit-packed-values/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2010/08/23/carry-save-adders-and-averaging-bit-packed-values/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter6-triangle-rasterization|chapter6-triangle-rasterization]].
+- **[part 2](<https://fgiesen.wordpress.com/2011/07/02/a-trip-through-the-graphics-pipeline-2011-part-2/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2011/07/02/a-trip-through-the-graphics-pipeline-2011-part-2/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter4-texture-samplers|chapter4-texture-samplers]], [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter9-pixel-processing-join|chapter9-pixel-processing-join]].
+- **[Vertex Shading](<https://fgiesen.wordpress.com/2011/07/03/a-trip-through-the-graphics-pipeline-2011-part-3/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2011/07/03/a-trip-through-the-graphics-pipeline-2011-part-3/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter10-geometry-shaders|chapter10-geometry-shaders]], [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter12-tessellation|chapter12-tessellation]], [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter13-compute-shaders|chapter13-compute-shaders]].
+- **[part 4](<https://fgiesen.wordpress.com/2011/07/04/a-trip-through-the-graphics-pipeline-2011-part-4/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2011/07/04/a-trip-through-the-graphics-pipeline-2011-part-4/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]].
+- **[previous part](<https://fgiesen.wordpress.com/2011/07/08/a-trip-through-the-graphics-pipeline-2011-part-7/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2011/07/08/a-trip-through-the-graphics-pipeline-2011-part-7/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]], [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter9-pixel-processing-join|chapter9-pixel-processing-join]].
+- **[Fabian Giesen — A Trip Through the Graphics Pipeline (2011)](<https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/README|README]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Pixel Shading](<https://fgiesen.wordpress.com/2011/07/10/a-trip-through-the-graphics-pipeline-2011-part-8/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2011/07/10/a-trip-through-the-graphics-pipeline-2011-part-8/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter13-compute-shaders|chapter13-compute-shaders]].
+- **[part 9 of this series](<https://fgiesen.wordpress.com/2011/07/12/a-trip-through-the-graphics-pipeline-2011-part-9/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2011/07/12/a-trip-through-the-graphics-pipeline-2011-part-9/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter13-compute-shaders|chapter13-compute-shaders]].
+- **[Geometry Shaders](<https://fgiesen.wordpress.com/2011/07/20/a-trip-through-the-graphics-pipeline-2011-part-10/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2011/07/20/a-trip-through-the-graphics-pipeline-2011-part-10/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter12-tessellation|chapter12-tessellation]].
+- **[What is smart](<https://fgiesen.wordpress.com/2016/02/05/smart/>)**
+  - Адрес: <https://fgiesen.wordpress.com/2016/02/05/smart/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Foundations of Game Engine Development Vol. 2](<https://foundationsofgameenginedev.com/>)**
+  - Адрес: <https://foundationsofgameenginedev.com/>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Computer Graphics from Scratch](<https://www.gabrielgambetta.com/computer-graphics-from-scratch/>)**
+  - Адрес: <https://www.gabrielgambetta.com/computer-graphics-from-scratch/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+  - Варианты в заметках: <https://gabrielgambetta.com/computer-graphics-from-scratch/>.
+- **[GGX Research](<https://ggx-research.github.io/publications.html>)**
+  - Адрес: <https://ggx-research.github.io/publications.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Minimal D3D11 sprite renderer](<https://gist.github.com/d7samurai/8f91f0343c411286373161202c199b5c>)**
+  - Адрес: <https://gist.github.com/d7samurai/8f91f0343c411286373161202c199b5c>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Minimal D3D11 sprite renderer NEO](<https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b>)**
+  - Адрес: <https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Examples of different graphics API](<https://github.com/arabasso/gamedev>)**
+  - Адрес: <https://github.com/arabasso/gamedev>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[github.com — bkaradzic/bgfx](<https://github.com/bkaradzic/bgfx>)**
+  - Адрес: <https://github.com/bkaradzic/bgfx>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[simple-renderer](<https://github.com/con2222/simple-renderer>)**
+  - Адрес: <https://github.com/con2222/simple-renderer>.
+  - В заметках: [[04_Knowledge/Graphics/Phong and Goraund Algorigthms to smooth|Phong and Goraund Algorigthms to smooth]].
+- **[github.com — con2222/simplerenderer](<https://github.com/con2222/simplerenderer>)**
+  - Адрес: <https://github.com/con2222/simplerenderer>.
+  - В заметках: [[05_Learning/TinyRenderer/TinyRenderer|TinyRenderer]].
+- **[github.com — ConfettiFX/The-Forge](<https://github.com/ConfettiFX/The-Forge>)**
+  - Адрес: <https://github.com/ConfettiFX/The-Forge>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[github.com — DiligentGraphics/DiligentEngine](<https://github.com/DiligentGraphics/DiligentEngine>)**
+  - Адрес: <https://github.com/DiligentGraphics/DiligentEngine>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Drawing Graphics on Apple Vision with the Metal Rendering API](<https://github.com/gnikoloff/drawing-graphics-on-apple-vision-with-metal-rendering-api>)**
+  - Адрес: <https://github.com/gnikoloff/drawing-graphics-on-apple-vision-with-metal-rendering-api>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[github.com — godotengine/godot](<https://github.com/godotengine/godot>)**
+  - Адрес: <https://github.com/godotengine/godot>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[github.com — google/filament](<https://github.com/google/filament>)**
+  - Адрес: <https://github.com/google/filament>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[SPIRV-Cross](<https://github.com/KhronosGroup/SPIRV-Cross>)**
+  - Адрес: <https://github.com/KhronosGroup/SPIRV-Cross>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[NVIDIA PhysX](<https://github.com/NVIDIA-Omniverse/PhysX>)**
+  - Адрес: <https://github.com/NVIDIA-Omniverse/PhysX>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[github.com — NVIDIAGameWorks/Falcor](<https://github.com/NVIDIAGameWorks/Falcor>)**
+  - Адрес: <https://github.com/NVIDIAGameWorks/Falcor>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Graphics Developer Roadmap](<https://github.com/prographon/graphics-developer-roadmap>)**
+  - Адрес: <https://github.com/prographon/graphics-developer-roadmap>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Tiny RayCaster](<https://github.com/ssloy/tinyraycaster/wiki>)**
+  - Адрес: <https://github.com/ssloy/tinyraycaster/wiki>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Tinyraycaster](<https://github.com/ssloy/tinyraycaster/wiki/Part-0:-getting-started>)**
+  - Адрес: <https://github.com/ssloy/tinyraycaster/wiki/Part-0:-getting-started>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Tiny RayTracer](<https://github.com/ssloy/tinyraytracer/wiki>)**
+  - Адрес: <https://github.com/ssloy/tinyraytracer/wiki>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Tinyraytracer](<https://github.com/ssloy/tinyraytracer/wiki/Part-1:-understandable-raytracing>)**
+  - Адрес: <https://github.com/ssloy/tinyraytracer/wiki/Part-1:-understandable-raytracing>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[github.com — ssloy/tinyrenderer](<https://github.com/ssloy/tinyrenderer>)**
+  - Адрес: <https://github.com/ssloy/tinyrenderer>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Tiny Renderer](<https://github.com/ssloy/tinyrenderer/wiki>)**
+  - Адрес: <https://github.com/ssloy/tinyrenderer/wiki>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+  - Варианты в заметках: <https://github.com/ssloy/tinyrenderer/wiki?utm_source=chatgpt.com>.
+- **[github.com — turanszkij/WickedEngine](<https://github.com/turanszkij/WickedEngine>)**
+  - Адрес: <https://github.com/turanszkij/WickedEngine>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Filament](<https://google.github.io/filament/Filament.md.html>)**
+  - Адрес: <https://google.github.io/filament/Filament.md.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Physically Based Rendering in Filament](<https://google.github.io/filament/main/filament.html>)**
+  - Адрес: <https://google.github.io/filament/main/filament.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Filament — изучение освещения|Filament — изучение освещения]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[U.C. Berkeley Computer Graphics Papers](<http://graphics.berkeley.edu/papers/>)**
+  - Адрес: <http://graphics.berkeley.edu/papers/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Utah Graphics Lab](<https://graphics.cs.utah.edu/research/publications/>)**
+  - Адрес: <https://graphics.cs.utah.edu/research/publications/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[research attention](<http://graphics.stanford.edu/papers/fragmerging/shade_sig10.pdf>)**
+  - Адрес: <http://graphics.stanford.edu/papers/fragmerging/shade_sig10.pdf>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]].
+- **[GPU View](<https://graphics.stanford.edu/~mdfisher/GPUView.html>)**
+  - Адрес: <https://graphics.stanford.edu/~mdfisher/GPUView.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[GraphicsCodex (Algorithms)](<https://graphicscodex.com/>)**
+  - Адрес: <https://graphicscodex.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://graphicscodex.com>.
+- **[Guerilla Games - Publication](<https://www.guerrilla-games.com/tags/publication>)**
+  - Адрес: <https://www.guerrilla-games.com/tags/publication>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[habr.com — ru/articles/426123](<https://habr.com/ru/articles/426123/>)**
+  - Адрес: <https://habr.com/ru/articles/426123/>.
+  - В заметках: [[04_Knowledge/Learn/Render/Basics/Render Theory/LearnGL|LearnGL]].
+- **[Tiny Software Renderer](<https://haqr.eu/tinyrenderer/>)**
+  - Адрес: <https://haqr.eu/tinyrenderer/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/TinyRenderer/TinyRenderer|TinyRenderer]].
+- **[Interplay of Light](<https://interplayoflight.wordpress.com/>)**
+  - Адрес: <https://interplayoflight.wordpress.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Adventures in Neural Rendering](<https://interplayoflight.wordpress.com/2026/02/10/adventures-in-neural-rendering/>)**
+  - Адрес: <https://interplayoflight.wordpress.com/2026/02/10/adventures-in-neural-rendering/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Journal of Computer Graphics Techniques](<https://jcgt.org/>)**
+  - Адрес: <https://jcgt.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Graphics Programming Weekly](<https://www.jendrikillner.com/tags/weekly/>)**
+  - Адрес: <https://www.jendrikillner.com/tags/weekly/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+  - Варианты в заметках: <https://www.jendrikillner.com/tags/weekly/?utm_source=chatgpt.com>.
+- **[A Trip Through the Graphics Pipelines for Young Bloods](<https://www.jeremyong.com/cpp/2021/05/20/graphics-pipelines-for-young-bloods/>)**
+  - Адрес: <https://www.jeremyong.com/cpp/2021/05/20/graphics-pipelines-for-young-bloods/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Getting Started In Computer Graphics](<https://www.jeremyong.com/graphics/2024/05/19/getting-started-in-computer-graphics/>)**
+  - Адрес: <https://www.jeremyong.com/graphics/2024/05/19/getting-started-in-computer-graphics/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Interviewing Graphics Programmers](<https://www.jeremyong.com/graphics/interviewing/2023/08/05/graphics-programmer-interviewing/>)**
+  - Адрес: <https://www.jeremyong.com/graphics/interviewing/2023/08/05/graphics-programmer-interviewing/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Ke-Sen Huang's Home Page](<https://kesen.realtimerendering.com/>)**
+  - Адрес: <https://kesen.realtimerendering.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[kesen.realtimerendering.com](<https://kesen.realtimerendering.com/~realtin4/index.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://kesen.realtimerendering.com/~realtin4/index.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Computer Graphics Resources](<https://legends2k.github.io/note/cg_resources/>)**
+  - Адрес: <https://legends2k.github.io/note/cg_resources/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Computer's Graphics Resources](<https://legends2k.github.io/note/cg_resources/#math>)**
+  - Адрес: <https://legends2k.github.io/note/cg_resources/#math>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[The Algorithm Design Manual (3rd)](<https://link.springer.com/book/10.1007/978-3-030-54256-6>)**
+  - Адрес: <https://link.springer.com/book/10.1007/978-3-030-54256-6>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Implmenting A Tiny CPU Rasterizer](<https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer-part-1.html>)**
+  - Адрес: <https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer-part-1.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Implementing a Tiny CPU Rasterizer](<https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer.html>)**
+  - Адрес: <https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[m.youtube.com — playlist](<https://m.youtube.com/playlist?list=PLplnkTzzqsZS3R5DjmCQsqupu43oS9CFN>)**
+  - Адрес: <https://m.youtube.com/playlist?list=PLplnkTzzqsZS3R5DjmCQsqupu43oS9CFN>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Basic 2D Rasterization](<https://magcius.github.io/xplain/article/rast1.html>)**
+  - Адрес: <https://magcius.github.io/xplain/article/rast1.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Behind the Pretty Frames](<https://mamoniem.com/category/behind-the-pretty-frames/>)**
+  - Адрес: <https://mamoniem.com/category/behind-the-pretty-frames/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Drinking from the Firehose: Learning Computer Graphics Techniques and Programming](<https://miketuritzin.com/post/how-to-learn-computer-graphics-techniques-and-programming/>)**
+  - Адрес: <https://miketuritzin.com/post/how-to-learn-computer-graphics-techniques-and-programming/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[How to Present a Rendering Paper](<https://morgan3d.github.io/advanced-ray-tracing-course/present-research.pdf>)**
+  - Адрес: <https://morgan3d.github.io/advanced-ray-tracing-course/present-research.pdf>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[How to Read Rendering Research Papers](<https://morgan3d.github.io/advanced-ray-tracing-course/reading-research.pdf>)**
+  - Адрес: <https://morgan3d.github.io/advanced-ray-tracing-course/reading-research.pdf>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[public white papers](<http://www.nvidia.com/content/PDF/fermi_white_papers/NVIDIA_Fermi_Compute_Architecture_Whitepaper.pdf>)**
+  - Адрес: <http://www.nvidia.com/content/PDF/fermi_white_papers/NVIDIA_Fermi_Compute_Architecture_Whitepaper.pdf>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]].
+- **[If You're Serious About Pursuing a Career in Computer Graphics](<https://old.reddit.com/r/gameenginedevs/comments/17nsp1m/how_to_get_into_game_engine_programming/k7v4l91/?context=3>)**
+  - Адрес: <https://old.reddit.com/r/gameenginedevs/comments/17nsp1m/how_to_get_into_game_engine_programming/k7v4l91/?context=3>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[r/GraphicsProgramming](<https://old.reddit.com/r/GraphicsProgramming/>)**
+  - Адрес: <https://old.reddit.com/r/GraphicsProgramming/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Advice on Looking for Work from a AAA Game Dev](<https://old.reddit.com/r/GraphicsProgramming/comments/1fu8qi4/cant_get_a_job_feeling_very_desperate_and/lpyjmmj/>)**
+  - Адрес: <https://old.reddit.com/r/GraphicsProgramming/comments/1fu8qi4/cant_get_a_job_feeling_very_desperate_and/lpyjmmj/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[oreilly.com — library/view/effective-modern-c/9781491908419](<https://www.oreilly.com/library/view/effective-modern-c/9781491908419/>)**
+  - Адрес: <https://www.oreilly.com/library/view/effective-modern-c/9781491908419/>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Fundamentals of Computer Graphics (5th)](<https://www.oreilly.com/library/view/fundamentals-of-computer/9781000426359/xhtml/C02a_toc.xhtml>)**
+  - Адрес: <https://www.oreilly.com/library/view/fundamentals-of-computer/9781000426359/xhtml/C02a_toc.xhtml>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Real-Time Rendering (4th)](<https://www.oreilly.com/library/view/real-time-rendering-fourth/9781351816144/xhtml/content.xhtml>)**
+  - Адрес: <https://www.oreilly.com/library/view/real-time-rendering-fourth/9781351816144/xhtml/content.xhtml>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[This](<http://people.csail.mit.edu/ericchan/bib/pdf/p15-mccormack.pdf>)**
+  - Адрес: <http://people.csail.mit.edu/ericchan/bib/pdf/p15-mccormack.pdf>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter6-triangle-rasterization|chapter6-triangle-rasterization]].
+- **[Real-time Rendering](<http://realtimerendering.com/book.html>)**
+  - Адрес: <http://realtimerendering.com/book.html>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter6-triangle-rasterization|chapter6-triangle-rasterization]].
+- **[Real-Time Rendering — официальный сайт и ресурсы](<https://realtimerendering.com/>)**
+  - Адрес: <https://realtimerendering.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+  - Варианты в заметках: <https://www.realtimerendering.com/>, <https://www.realtimerendering.com/?utm_source=chatgpt.com>.
+- **[Real Time Rendering](<https://www.realtimerendering.com/blog/>)**
+  - Адрес: <https://www.realtimerendering.com/blog/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[realtimerendering.com — portal.html](<https://www.realtimerendering.com/portal.html>)**
+  - Адрес: <https://www.realtimerendering.com/portal.html>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[realtimerendering.com — raytracinggems](<https://www.realtimerendering.com/raytracinggems/>)**
+  - Адрес: <https://www.realtimerendering.com/raytracinggems/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[realtimerendering.com — raytracinggems/rtg2/index.html](<https://www.realtimerendering.com/raytracinggems/rtg2/index.html>)**
+  - Адрес: <https://www.realtimerendering.com/raytracinggems/rtg2/index.html>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Real Time Rendering: Linear Algebra and Trigonometry](<https://www.realtimerendering.com/Real-Time_Rendering_4th-Appendices.pdf>)**
+  - Адрес: <https://www.realtimerendering.com/Real-Time_Rendering_4th-Appendices.pdf>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Graphics Interview at Meta Reality Labs](<https://www.reddit.com/r/GraphicsProgramming/comments/1arygtk/graphics_interview_at_meta_reality_labs/>)**
+  - Адрес: <https://www.reddit.com/r/GraphicsProgramming/comments/1arygtk/graphics_interview_at_meta_reality_labs/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[реддит где люди пишут про книги](<https://www.reddit.com/r/GraphicsProgramming/comments/1ggudl2/what_graphics_book_to_get/?tl=ru>)**
+  - Адрес: <https://www.reddit.com/r/GraphicsProgramming/comments/1ggudl2/what_graphics_book_to_get/?tl=ru>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Leetcode for Graphics Interviews?](<https://www.reddit.com/r/GraphicsProgramming/comments/ymt0qq/leetcode_for_graphics_interviews/iv60as6/?context=3>)**
+  - Адрес: <https://www.reddit.com/r/GraphicsProgramming/comments/ymt0qq/leetcode_for_graphics_interviews/iv60as6/?context=3>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[r/MetalProgramming](<https://www.reddit.com/r/MetalProgramming/>)**
+  - Адрес: <https://www.reddit.com/r/MetalProgramming/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[u/Better_Pirate_7823](<https://www.reddit.com/user/Better_Pirate_7823/>)**
+  - Адрес: <https://www.reddit.com/user/Better_Pirate_7823/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[u/CorySama](<https://www.reddit.com/user/CorySama/>)**
+  - Адрес: <https://www.reddit.com/user/CorySama/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Activision Research](<https://research.activision.com/>)**
+  - Адрес: <https://research.activision.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Nvidia Publications](<https://research.nvidia.com/publications>)**
+  - Адрес: <https://research.nvidia.com/publications>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Realistic Graphics Lab Publications](<https://rgl.epfl.ch/publications>)**
+  - Адрес: <https://rgl.epfl.ch/publications>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[routledge.com — Fundamentals-of-Computer-Graphics/Marschner-Shirley/p/book/9780367505035](<https://www.routledge.com/Fundamentals-of-Computer-Graphics/Marschner-Shirley/p/book/9780367505035>)**
+  - Адрес: <https://www.routledge.com/Fundamentals-of-Computer-Graphics/Marschner-Shirley/p/book/9780367505035>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Bindless Rendering in DirectX12 and SM6.6](<https://rtarun9.github.io/blogs/bindless_rendering/>)**
+  - Адрес: <https://rtarun9.github.io/blogs/bindless_rendering/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[saberhr.global.huntflow.io — vacancy/c-gameplay-programmer](<https://saberhr.global.huntflow.io/vacancy/c-gameplay-programmer>)**
+  - Адрес: <https://saberhr.global.huntflow.io/vacancy/c-gameplay-programmer>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Scratchapixel — Reflection, Refraction and Fresnel](<https://scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/reflection-refraction-fresnel.html>)**
+  - Адрес: <https://scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/reflection-refraction-fresnel.html>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+  - Варианты в заметках: <https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/reflection-refraction-fresnel.html?utm_source=chatgpt.com>.
+- **[Scratchapixel — Ray Tracing / Acceleration Structures](<https://www.scratchapixel.com/>)**
+  - Адрес: <https://www.scratchapixel.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://www.scratchapixel.com/?utm_source=chatgpt.com>, <https://www.scratchapixel.com>.
+- **[BRDFs and Radiometry](<https://www.scratchapixel.com/lessons/3d-basic-rendering/brdf-linear-exposure/intro-brdf.html>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/brdf-linear-exposure/intro-brdf.html>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[Introduction to Acceleration Structures](<https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-acceleration-structure/introduction.html>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-acceleration-structure/introduction.html>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[A Minimal Ray-Tracer](<https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/parametric-and-implicit-surfaces.html>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/parametric-and-implicit-surfaces.html>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[Ray–Plane Intersection](<https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-plane-and-ray-disk-intersection.html>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-plane-and-ray-disk-intersection.html>.
+  - В заметках: [[03_Projects/LuxPrism/Ближайшие задачи|Ближайшие задачи]].
+- **[Scratchapixel — Generating Camera Rays](<https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-generating-camera-rays/generating-camera-rays.html>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-generating-camera-rays/generating-camera-rays.html>.
+  - В заметках: [[03_Projects/LuxPrism/Ближайшие задачи|Ближайшие задачи]], [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+  - Варианты в заметках: <https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-generating-camera-rays/generating-camera-rays.html?utm_source=chatgpt.com>.
+- **[Ray-Tracing: Rendering a Triangle](<https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-rendering-a-triangle/why-are-triangles-useful.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-rendering-a-triangle/why-are-triangles-useful.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[Volume Rendering](<https://www.scratchapixel.com/lessons/3d-basic-rendering/volume-rendering-for-developers/intro-volume-rendering.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/volume-rendering-for-developers/intro-volume-rendering.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[The Mathematics of Shading](<https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/mathematics-of-shading/mathematics-of-shading.html>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/mathematics-of-shading/mathematics-of-shading.html>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[Monte Carlo Methods in Practice](<https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-in-practice/monte-carlo-methods.html>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-in-practice/monte-carlo-methods.html>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[Mathematical Foundations of Monte Carlo](<https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-mathematical-foundations/quick-introduction-to-monte-carlo-methods.html>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-mathematical-foundations/quick-introduction-to-monte-carlo-methods.html>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[seautch.github.io — graphics-road](<https://seautch.github.io/graphics-road/>)**
+  - Адрес: <https://seautch.github.io/graphics-road/>.
+  - В заметках: [[00_Home|00_Home]].
+- **[Sebastian Aaltonen](<https://www.sebastianaaltonen.com/>)**
+  - Адрес: <https://www.sebastianaaltonen.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[No Graphics API](<https://www.sebastianaaltonen.com/blog/no-graphics-api>)**
+  - Адрес: <https://www.sebastianaaltonen.com/blog/no-graphics-api>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Simon Coenen](<https://simoncoenen.com/blog>)**
+  - Адрес: <https://simoncoenen.com/blog>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Game Art Tricks](<https://simonschreibt.de/game-art-tricks/>)**
+  - Адрес: <https://simonschreibt.de/game-art-tricks/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Render Hell](<https://simonschreibt.de/gat/renderhell/>)**
+  - Адрес: <https://simonschreibt.de/gat/renderhell/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Graphics Programming – Where To Start?](<https://www.stefanpijnacker.nl/article/graphics-programming-where-to-start/>)**
+  - Адрес: <https://www.stefanpijnacker.nl/article/graphics-programming-where-to-start/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[русский сайт от Борескова](<https://steps3d.narod.ru/articles.html>)**
+  - Адрес: <https://steps3d.narod.ru/articles.html>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Rasterization in One Weekend](<https://tayfunkayhan.wordpress.com/2018/11/24/rasterization-in-one-weekend/>)**
+  - Адрес: <https://tayfunkayhan.wordpress.com/2018/11/24/rasterization-in-one-weekend/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Creative Coding for Beginners](<https://thecodingtrain.com/tracks/learning-processing/processing>)**
+  - Адрес: <https://thecodingtrain.com/tracks/learning-processing/processing>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Maister's Graphics Adventures](<https://themaister.net/blog/>)**
+  - Адрес: <https://themaister.net/blog/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[The Real MJP](<https://therealmjp.github.io/posts/>)**
+  - Адрес: <https://therealmjp.github.io/posts/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Breaking Down Barriers](<https://therealmjp.github.io/posts/breaking-down-barriers-part-1-whats-a-barrier/>)**
+  - Адрес: <https://therealmjp.github.io/posts/breaking-down-barriers-part-1-whats-a-barrier/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Marco Salvi](<https://twitter.com/marcosalvi>)**
+  - Адрес: <https://twitter.com/marcosalvi>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]].
+- **[Unity Publications](<https://unity.com/publications>)**
+  - Адрес: <https://unity.com/publications>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Valve Corporation Publications](<https://www.valvesoftware.com/en/publications>)**
+  - Адрес: <https://www.valvesoftware.com/en/publications>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Wicked Engine](<https://wickedengine.net/category/devblog/>)**
+  - Адрес: <https://wickedengine.net/category/devblog/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Acegikmo (YouTube)](<https://www.youtube.com/@acegikmo>)**
+  - Адрес: <https://www.youtube.com/@acegikmo>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Acerola](<https://www.youtube.com/@Acerola_t>)**
+  - Адрес: <https://www.youtube.com/@Acerola_t>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Brendan Galea](<https://www.youtube.com/@BrendanGalea>)**
+  - Адрес: <https://www.youtube.com/@BrendanGalea>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[Computer Graphics at TU Wien](<https://www.youtube.com/@cgtuwien>)**
+  - Адрес: <https://www.youtube.com/@cgtuwien>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Digital Dragons](<https://www.youtube.com/@DigitalDragonsForGamedev/>)**
+  - Адрес: <https://www.youtube.com/@DigitalDragonsForGamedev/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Digital Foundry](<https://www.youtube.com/@DigitalFoundry>)**
+  - Адрес: <https://www.youtube.com/@DigitalFoundry>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[The graphics guy, канал с хорошими гайдами](<https://www.youtube.com/@GetIntoGameDev/videos>)**
+  - Адрес: <https://www.youtube.com/@GetIntoGameDev/videos>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Pikuma](<https://www.youtube.com/@pikuma>)**
+  - Адрес: <https://www.youtube.com/@pikuma>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[Rendering Engine Architecture](<https://www.youtube.com/@renderingenginearchitectur3543>)**
+  - Адрес: <https://www.youtube.com/@renderingenginearchitectur3543>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Retro Game Mechanics Explained](<https://www.youtube.com/@RetroGameMechanicsExplained>)**
+  - Адрес: <https://www.youtube.com/@RetroGameMechanicsExplained>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[youtube.com — @SebastianLague](<https://www.youtube.com/@SebastianLague>)**
+  - Адрес: <https://www.youtube.com/@SebastianLague>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[SimonDev](<https://www.youtube.com/@SimonDevYT>)**
+  - Адрес: <https://www.youtube.com/@SimonDevYT>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[SIGGRAPH Advances in Real-Time Rendering](<https://www.youtube.com/channel/UC9V4KS8ggGQe_Hfeg1OQrWw>)**
+  - Адрес: <https://www.youtube.com/channel/UC9V4KS8ggGQe_Hfeg1OQrWw>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Calculus GREEN Vol 1: Asymptotics](<https://www.youtube.com/playlist?list=PL8erL0pXF3JaFSMdokheNMvTa96jdc4GU>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PL8erL0pXF3JaFSMdokheNMvTa96jdc4GU>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Calculus BLUE Vol 1 : Vectors & Matrices](<https://www.youtube.com/playlist?list=PL8erL0pXF3JYm7VaTdKDaWc8Q3FuP8Sa7>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PL8erL0pXF3JYm7VaTdKDaWc8Q3FuP8Sa7>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Geometric Algebra](<https://www.youtube.com/playlist?list=PLffJUy1BnWj3deu0cqpk5CiePiwORDiCe>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLffJUy1BnWj3deu0cqpk5CiePiwORDiCe>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Interactive Computer Graphics](<https://www.youtube.com/playlist?list=PLplnkTzzqsZS3R5DjmCQsqupu43oS9CFN>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLplnkTzzqsZS3R5DjmCQsqupu43oS9CFN>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Лекции на ютубе по компьютерной графике](<https://www.youtube.com/playlist?list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[6.837: Introduction to Computer Graphics](<https://www.youtube.com/playlist?list=PLQ3UicqQtfNuBjzJ-KEWmG1yjiRMXYKhh>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLQ3UicqQtfNuBjzJ-KEWmG1yjiRMXYKhh>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[TU Wien Rendering / Ray Tracing Course](<https://www.youtube.com/playlist?list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Introduction to Computer Graphics (Lecture 1)](<https://www.youtube.com/watch?v=-LqUu61oRdk&list=PLQ3UicqQtfNuBjzJ-KEWmG1yjiRMXYKhh>)**
+  - Адрес: <https://www.youtube.com/watch?v=-LqUu61oRdk&list=PLQ3UicqQtfNuBjzJ-KEWmG1yjiRMXYKhh>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[How to Start a Career in Computer Graphics Programming](<https://www.youtube.com/watch?v=AoTxTz31nXY>)**
+  - Адрес: <https://www.youtube.com/watch?v=AoTxTz31nXY>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Self-Starting As A 3D Graphics Programmer](<https://www.youtube.com/watch?v=b4iIg32g65s>)**
+  - Адрес: <https://www.youtube.com/watch?v=b4iIg32g65s>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[How do Video Game Graphics Work?](<https://www.youtube.com/watch?v=C8YtdC8mxTU>)**
+  - Адрес: <https://www.youtube.com/watch?v=C8YtdC8mxTU>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[How to Get into the Game Industry](<https://www.youtube.com/watch?v=evhBepR92yw>)**
+  - Адрес: <https://www.youtube.com/watch?v=evhBepR92yw>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Getting the Best Graphics Programming Job in UK](<https://www.youtube.com/watch?v=KEDNXFSIE5s>)**
+  - Адрес: <https://www.youtube.com/watch?v=KEDNXFSIE5s>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[A Brief History of Graphics](<https://www.youtube.com/watch?v=QyjyWUrHsFc>)**
+  - Адрес: <https://www.youtube.com/watch?v=QyjyWUrHsFc>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Computer Graphics (CMU 15-462/662) Keenan Crane](<https://www.youtube.com/watch?v=W6yEALqsD7k&list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E>)**
+  - Адрес: <https://www.youtube.com/watch?v=W6yEALqsD7k&list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[Graphics Programming Conference](<https://youtube.com/@graphicsprogrammingconference>)**
+  - Адрес: <https://youtube.com/@graphicsprogrammingconference>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+
+### Шейдеры, освещение, PBR и трассировка лучей
+
+- **[Introduction to Compute Shaders](<https://anteru.net/blog/2018/intro-to-compute-shaders/>)**
+  - Адрес: <https://anteru.net/blog/2018/intro-to-compute-shaders/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Self Shadow](<https://blog.selfshadow.com/>)**
+  - Адрес: <https://blog.selfshadow.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Self Shadow](<https://blog.selfshadow.com/2026/07/26/siggraph-2026-links/?utm_source=chatgpt.com>)**
+  - Адрес: <https://blog.selfshadow.com/2026/07/26/siggraph-2026-links/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Self Shadow publications](<https://blog.selfshadow.com/publications/?utm_source=chatgpt.com>)**
+  - Адрес: <https://blog.selfshadow.com/publications/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[SIGGRAPH 2013 PBR course](<https://blog.selfshadow.com/publications/s2013-shading-course/>)**
+  - Адрес: <https://blog.selfshadow.com/publications/s2013-shading-course/>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[A Beginner's Guide to Coding Graphic Shaders](<https://code.tutsplus.com/series/a-beginners-guide-to-coding-graphics-shaders--cms-834>)**
+  - Адрес: <https://code.tutsplus.com/series/a-beginners-guide-to-coding-graphics-shaders--cms-834>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Ray Tracing Gems (I и II)](<https://developer.nvidia.com/ray-tracing-gems-ii>)**
+  - Адрес: <https://developer.nvidia.com/ray-tracing-gems-ii>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[NVIDIA Vulkan Ray Tracing Tutorial](<https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR/>)**
+  - Адрес: <https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[github.com — RayTracing/raytracing.github.io](<https://github.com/RayTracing/raytracing.github.io?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/RayTracing/raytracing.github.io?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[LTC reference implementation](<https://github.com/selfshadow/ltc_code>)**
+  - Адрес: <https://github.com/selfshadow/ltc_code>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Shader School](<https://github.com/stackgl/shader-school>)**
+  - Адрес: <https://github.com/stackgl/shader-school>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[" id="ref-for-shader-output-mask">shader-output mask .](<https://gpuweb.github.io/gpuweb/#shader-output-mask>)**
+  - Адрес: <https://gpuweb.github.io/gpuweb/#shader-output-mask>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[Shadertoy Tutorial Part 1](<https://inspirnathan.com/posts/47-shadertoy-tutorial-part-1/>)**
+  - Адрес: <https://inspirnathan.com/posts/47-shadertoy-tutorial-part-1/>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Inigo Quilez Blog (iquilezles.org)](<https://iquilezles.org/>)**
+  - Адрес: <https://iquilezles.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[03_Projects/Sylvune/Идеи|Идеи]], [[05_Learning/Roadmaps/Calculus|Calculus]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://iquilezles.org>.
+- **[Inigo Quilez — статьи по SDF и процедурной графике](<https://iquilezles.org/articles/?utm_source=chatgpt.com>)**
+  - Адрес: <https://iquilezles.org/articles/?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+  - Варианты в заметках: <https://iquilezles.org/articles/>.
+- **[Inigo Quilez: Distance Functions](<https://iquilezles.org/articles/distfunctions/>)**
+  - Адрес: <https://iquilezles.org/articles/distfunctions/>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[iquilezles.org](<https://iquilezles.org/articles/nvscene2008/rwwtt.pdf?utm_source=chatgpt.com>)**
+  - Адрес: <https://iquilezles.org/articles/nvscene2008/rwwtt.pdf?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[3D Game Shaders For Beginners](<https://lettier.github.io/3d-game-shaders-for-beginners/index.html>)**
+  - Адрес: <https://lettier.github.io/3d-game-shaders-for-beginners/index.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Ray Tracing Gems I](<https://link.springer.com/book/10.1007/978-1-4842-4427-2>)**
+  - Адрес: <https://link.springer.com/book/10.1007/978-1-4842-4427-2>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Ray Tracing Gems II](<https://link.springer.com/book/10.1007/978-1-4842-7185-8>)**
+  - Адрес: <https://link.springer.com/book/10.1007/978-1-4842-7185-8>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[great care in the Domain Shader code](<http://www.ludicon.com/castano/blog/2010/09/precise/>)**
+  - Адрес: <http://www.ludicon.com/castano/blog/2010/09/precise/>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter12-tessellation|chapter12-tessellation]].
+- **[Physically Based Rendering (PBRT)](<https://pbr-book.org/>)**
+  - Адрес: <https://pbr-book.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[PBRT 4th Edition](<https://pbr-book.org/4ed/?utm_source=chatgpt.com>)**
+  - Адрес: <https://pbr-book.org/4ed/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Physically Based Rendering, 4th Edition](<https://pbr-book.org/4ed/contents>)**
+  - Адрес: <https://pbr-book.org/4ed/contents>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[03_Projects/С2Lux/modernization|modernization]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+  - Варианты в заметках: <https://www.pbr-book.org/4ed/contents>.
+- **[полная бесплатная онлайн-версия](<https://pbr-book.org/4ed/Contents>)**
+  - Адрес: <https://pbr-book.org/4ed/Contents>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[pbr-book.org](<https://pbr-book.org/4ed/Introduction?utm_source=chatgpt.com>)**
+  - Адрес: <https://pbr-book.org/4ed/Introduction?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[PBRT: Light Sources](<https://pbr-book.org/4ed/Light_Sources>)**
+  - Адрес: <https://pbr-book.org/4ed/Light_Sources>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[PBRT: Microfacet Theory](<https://www.pbr-book.org/4ed/Reflection_Models/Roughness_Using_Microfacet_Theory>)**
+  - Адрес: <https://www.pbr-book.org/4ed/Reflection_Models/Roughness_Using_Microfacet_Theory>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[PBRT, Sampling Theory](<https://www.pbr-book.org/4ed/Sampling_and_Reconstruction/Sampling_Theory>)**
+  - Адрес: <https://www.pbr-book.org/4ed/Sampling_and_Reconstruction/Sampling_Theory>.
+  - В заметках: [[04_Knowledge/Graphics/Пиксели_сэмплы_и_MSAA|Пиксели_сэмплы_и_MSAA]].
+- **[Tray Tracey's Blog](<https://raytracey.blogspot.com/>)**
+  - Адрес: <https://raytracey.blogspot.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Ray Tracing in One Weekend series](<https://raytracing.github.io/>)**
+  - Адрес: <https://raytracing.github.io/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://raytracing.github.io/?utm_source=chatgpt.com>.
+- **[Ray Tracing in One Weekend](<https://raytracing.github.io/books/RayTracingInOneWeekend.html>)**
+  - Адрес: <https://raytracing.github.io/books/RayTracingInOneWeekend.html>.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/Подборка учебных сайтов|Подборка учебных сайтов]].
+- **[Ronja's Shader Tutorials](<https://www.ronja-tutorials.com/?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.ronja-tutorials.com/?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]].
+- **[Shader Learning](<https://shader-learning.com/?utm_source=chatgpt.com>)**
+  - Адрес: <https://shader-learning.com/?utm_source=chatgpt.com>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[Shader learning](<https://shader-learning.com/explore>)**
+  - Адрес: <https://shader-learning.com/explore>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[Slang](<https://shader-slang.org/>)**
+  - Адрес: <https://shader-slang.org/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Shader Academy](<https://shaderacademy.com/?utm_source=chatgpt.com>)**
+  - Адрес: <https://shaderacademy.com/?utm_source=chatgpt.com>.
+  - В заметках: [[01_InBox/shader academy|shader academy]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+  - Варианты в заметках: <https://shaderacademy.com>, <https://shaderacademy.com/>.
+- **[Shader Academy](<https://shaderacademy.com/challenge/intro_0>)**
+  - Адрес: <https://shaderacademy.com/challenge/intro_0>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Shader academy](<https://shaderacademy.com/explore>)**
+  - Адрес: <https://shaderacademy.com/explore>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[shadered.org](<https://shadered.org/>)**
+  - Адрес: <https://shadered.org/>.
+  - В заметках: [[04_Knowledge/Vulkan/Shader links|Shader links]].
+- **[Shadertoy](<https://www.shadertoy.com/>)**
+  - Адрес: <https://www.shadertoy.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[02_Resources/Supp/Resources|Resources]], [[03_Projects/Sylvune/Идеи|Идеи]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://www.shadertoy.com/?utm_source=chatgpt.com>, <https://Shadertoy.com>.
+- **[GLSL 2D Tutorials](<https://www.shadertoy.com/view/Md23DV>)**
+  - Адрес: <https://www.shadertoy.com/view/Md23DV>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[slang-lang.org](<https://slang-lang.org/>)**
+  - Адрес: <https://slang-lang.org/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[The Book of Shaders](<https://thebookofshaders.com/>)**
+  - Адрес: <https://thebookofshaders.com/>.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[02_Resources/Supp/Resources|Resources]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[03_Projects/Sylvune/Идеи|Идеи]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Дополнительные языки для графики|Дополнительные языки для графики]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://thebookofshaders.com/?utm_source=chatgpt.com>, <https://thebookofshaders.com>.
+- **[The Book of Shaders](<https://thebookofshaders.com/00/?lan=ru&utm_source=chatgpt.com>)**
+  - Адрес: <https://thebookofshaders.com/00/?lan=ru&utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[The Book of Shaders — Shaping Functions](<https://thebookofshaders.com/05/>)**
+  - Адрес: <https://thebookofshaders.com/05/>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[The Book of Shaders — Colors (русский)](<https://thebookofshaders.com/06/?lan=ru>)**
+  - Адрес: <https://thebookofshaders.com/06/?lan=ru>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[The Book of Shaders — Shapes](<https://thebookofshaders.com/07/>)**
+  - Адрес: <https://thebookofshaders.com/07/>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[Matrices](<https://thebookofshaders.com/08/>)**
+  - Адрес: <https://thebookofshaders.com/08/>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[Patterns](<https://thebookofshaders.com/09/>)**
+  - Адрес: <https://thebookofshaders.com/09/>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[Random](<https://thebookofshaders.com/10/>)**
+  - Адрес: <https://thebookofshaders.com/10/>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[Noise](<https://thebookofshaders.com/11/>)**
+  - Адрес: <https://thebookofshaders.com/11/>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[Cellular Noise](<https://thebookofshaders.com/12/>)**
+  - Адрес: <https://thebookofshaders.com/12/>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[fBM](<https://thebookofshaders.com/13/>)**
+  - Адрес: <https://thebookofshaders.com/13/>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[thebookofshaders.com](<https://thebookofshaders.com/?lan=ru>)**
+  - Адрес: <https://thebookofshaders.com/?lan=ru>.
+  - В заметках: [[04_Knowledge/Vulkan/Shader links|Shader links]].
+- **[Gallery по главе Colors](<https://thebookofshaders.com/examples/?chapter=06>)**
+  - Адрес: <https://thebookofshaders.com/examples/?chapter=06>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[Materials/Shaders Channel](<https://www.youtube.com/channel/UCoG9TB1eL6dm9eNbLFueHBQ>)**
+  - Адрес: <https://www.youtube.com/channel/UCoG9TB1eL6dm9eNbLFueHBQ>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Shaders Monthly](<https://www.youtube.com/playlist?list=PL8vNj3osX2PzZ-cNSqhA8G6C1-Li5-Ck8>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PL8vNj3osX2PzZ-cNSqhA8G6C1-Li5-Ck8>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Introduction to Shader Art Coding](<https://www.youtube.com/watch?v=f4s1h2YETNY>)**
+  - Адрес: <https://www.youtube.com/watch?v=f4s1h2YETNY>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[How does Ray Tracing Work in Video Games and Movies](<https://www.youtube.com/watch?v=iOlehM5kNSk>)**
+  - Адрес: <https://www.youtube.com/watch?v=iOlehM5kNSk>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[youtube.com — v=kfM-yu0iQBk](<https://www.youtube.com/watch?v=kfM-yu0iQBk>)**
+  - Адрес: <https://www.youtube.com/watch?v=kfM-yu0iQBk>.
+  - В заметках: [[03_Projects/Shaders/links|links]].
+
+### WebGPU, Dawn, wgpu и WGSL
+
+- **[Raw WebGPU](<https://alain.xyz/blog/raw-webgpu>)**
+  - Адрес: <https://alain.xyz/blog/raw-webgpu>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[chrome-internal.googlesource.com](<https://chrome-internal.googlesource.com>)**
+  - Адрес: <https://chrome-internal.googlesource.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[04_Knowledge/WebGPU/NeedToParse/Specification|Specification]].
+  - Варианты в заметках: <https://chrome-internal.googlesource.com>.
+- **[Your First WebGPU App](<https://codelabs.developers.google.com/your-first-webgpu-app>)**
+  - Адрес: <https://codelabs.developers.google.com/your-first-webgpu-app>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[dawn.googlesource.com](<https://dawn.googlesource.com>)**
+  - Адрес: <https://dawn.googlesource.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+  - Варианты в заметках: <https://dawn.googlesource.com>.
+- **[Dawn — основной репозиторий](<https://dawn.googlesource.com/dawn>)**
+  - Адрес: <https://dawn.googlesource.com/dawn>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]], [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/WebGPU/00_Webgpu Install|00_Webgpu Install]], [[04_Knowledge/WebGPU/NeedToParse/Specification|Specification]], [[04_Knowledge/WebGPU/NeedToParse/WebGPU|WebGPU]], [[04_Knowledge/WebGPU/WebGPU|WebGPU]], [[04_Knowledge/WebGPU/Заметки|Заметки]], [[04_Knowledge/WebGPU/Сборка Dawn и кэш CMake|Сборка Dawn и кэш CMake]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+  - Варианты в заметках: <https://dawn.googlesource.com/dawn>, <https://dawn.googlesource.com/dawn?utm_source=chatgpt.com>, <https://dawn.googlesource.com/dawn/>.
+- **[Dawn C++ Samples](<https://dawn.googlesource.com/dawn/+/refs/heads/main>)**
+  - Адрес: <https://dawn.googlesource.com/dawn/+/refs/heads/main>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]].
+- **[официальный CMake quickstart Dawn](<https://dawn.googlesource.com/dawn/+/refs/heads/main/docs/quickstart-cmake.md>)**
+  - Адрес: <https://dawn.googlesource.com/dawn/+/refs/heads/main/docs/quickstart-cmake.md>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[dawn documentation in chrome git](<https://dawn.googlesource.com/dawn/+/refs/heads/main/src/dawn/native/Toggles.cpp#33>)**
+  - Адрес: <https://dawn.googlesource.com/dawn/+/refs/heads/main/src/dawn/native/Toggles.cpp#33>.
+  - В заметках: [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[Android WebGPU getting started](<https://developer.android.com/develop/ui/views/graphics/webgpu/getting-started>)**
+  - Адрес: <https://developer.android.com/develop/ui/views/graphics/webgpu/getting-started>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]].
+- **[developer.chrome.com](<https://developer.chrome.com/blog>)**
+  - Адрес: <https://developer.chrome.com/blog>.
+  - В заметках: [[04_Knowledge/WebGPU/NeedToParse/WebGPU|WebGPU]].
+- **[Небольшой гайд по растеризации треугольника](<https://developer.chrome.com/docs/web-platform/webgpu/build-app?hl=ru>)**
+  - Адрес: <https://developer.chrome.com/docs/web-platform/webgpu/build-app?hl=ru>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[GPU Gems (NVIDIA)](<https://developer.nvidia.com/gpugems/gpugems/contributors>)**
+  - Адрес: <https://developer.nvidia.com/gpugems/gpugems/contributors>.
+  - В заметках: [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[">comments powered by Disqus.](<http://disqus.com/?ref_noscript>)**
+  - Адрес: <http://disqus.com/?ref_noscript>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[eliemichel.github.io/LearnWebGPU/](<https://eliemichel.github.io/LearnWebGPU/>)**
+  - Адрес: <https://eliemichel.github.io/LearnWebGPU/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[03_Projects/С2Lux/modernization|modernization]], [[04_Knowledge/WebGPU/NeedToParse/Specification|Specification]], [[04_Knowledge/WebGPU/NeedToParse/Wayland and X11|Wayland and X11]], [[04_Knowledge/WebGPU/WebGPU|WebGPU]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://eliemichel.github.io/LearnWebGPU>, <https://eliemichel.github.io/LearnWebGPU>.
+- **[eliemichel.github.io — LearnWebGPU/getting-started/adapter-and-device/the-adapter.html](<https://eliemichel.github.io/LearnWebGPU/getting-started/adapter-and-device/the-adapter.html>)**
+  - Адрес: <https://eliemichel.github.io/LearnWebGPU/getting-started/adapter-and-device/the-adapter.html>.
+  - В заметках: [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[конвертер структур из языка WGSL на C++ с использованием GLM](<https://eliemichel.github.io/WebGPU-AutoLayout/>)**
+  - Адрес: <https://eliemichel.github.io/WebGPU-AutoLayout/>.
+  - В заметках: [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[{owner}/${repo}/commits?author=${login}\">${contributions} contributions ",](<https://github.com/$>)**
+  - Адрес: <https://github.com/$>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[eliemichel/dawn-prebuilt](<https://github.com/eliemichel/dawn-prebuilt>)**
+  - Адрес: <https://github.com/eliemichel/dawn-prebuilt>.
+  - В заметках: [[04_Knowledge/WebGPU/Интеграция Dawn через CMake|Интеграция Dawn через CMake]].
+- **[extension to connect surface webgpu to glfw](<https://github.com/eliemichel/glfw3webgpu>)**
+  - Адрес: <https://github.com/eliemichel/glfw3webgpu>.
+  - В заметках: [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[CPP version](<https://github.com/eliemichel/WebGPU-Cpp>)**
+  - Адрес: <https://github.com/eliemichel/WebGPU-Cpp>.
+  - В заметках: [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[WebGPU-distribution](<https://github.com/eliemichel/WebGPU-distribution>)**
+  - Адрес: <https://github.com/eliemichel/WebGPU-distribution>.
+  - В заметках: [[04_Knowledge/WebGPU/WebGPU|WebGPU]], [[04_Knowledge/WebGPU/Интеграция Dawn через CMake|Интеграция Dawn через CMake]].
+- **[github.com — emscripten-core/emsdk.git](<https://github.com/emscripten-core/emsdk.git>)**
+  - Адрес: <https://github.com/emscripten-core/emsdk.git>.
+  - В заметках: [[04_Knowledge/WebGPU/NeedToParse/WebGPU|WebGPU]].
+- **[">4 contributions](<https://github.com/gfxfundamentals/webgpufundamentals/commits?author=SeiyaCooper>)**
+  - Адрес: <https://github.com/gfxfundamentals/webgpufundamentals/commits?author=SeiyaCooper>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[Dawn — официальное зеркало GitHub](<https://github.com/google/dawn>)**
+  - Адрес: <https://github.com/google/dawn>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/CMake/advanced example|advanced example]], [[04_Knowledge/WebGPU/WebGPU|WebGPU]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[github.com — google/dawn/archive/2193f6584b6d08018cfd01fb8b7a893532003559.tar.gz](<https://github.com/google/dawn/archive/2193f6584b6d08018cfd01fb8b7a893532003559.tar.gz>)**
+  - Адрес: <https://github.com/google/dawn/archive/2193f6584b6d08018cfd01fb8b7a893532003559.tar.gz>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/CMake/advanced example|advanced example]], [[04_Knowledge/WebGPU/Сборка Dawn и кэш CMake|Сборка Dawn и кэш CMake]].
+- **[Dawn repository overview](<https://github.com/google/dawn/blob/main/docs/dawn/overview.md>)**
+  - Адрес: <https://github.com/google/dawn/blob/main/docs/dawn/overview.md>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Выбранный релиз Dawn](<https://github.com/google/dawn/releases/tag/v20261016.190333>)**
+  - Адрес: <https://github.com/google/dawn/releases/tag/v20261016.190333>.
+  - В заметках: [[03_Projects/С2Lux/modernization|modernization]].
+- **[github.com — Neargye/magic_enum](<https://github.com/Neargye/magic_enum>)**
+  - Адрес: <https://github.com/Neargye/magic_enum>.
+  - В заметках: [[04_Knowledge/WebGPU/Sources/Magic_Enum|Magic_Enum]].
+- **[imgui_impl_wgpu.cpp](<https://github.com/ocornut/imgui/blob/master/backends/imgui_impl_wgpu.cpp>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/master/backends/imgui_impl_wgpu.cpp>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[Backend WebGPU ImGui v1.93.0](<https://github.com/ocornut/imgui/blob/v1.93.0/backends/imgui_impl_wgpu.h>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/v1.93.0/backends/imgui_impl_wgpu.h>.
+  - В заметках: [[03_Projects/С2Lux/modernization|modernization]].
+- **["> SeiyaCooper for 4 contributions](<https://github.com/SeiyaCooper>)**
+  - Адрес: <https://github.com/SeiyaCooper>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[github.com/webgpu-native/webgpu-headers](<https://github.com/webgpu-native/webgpu-headers>)**
+  - Адрес: <https://github.com/webgpu-native/webgpu-headers>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[04_Knowledge/WebGPU/NeedToParse/WebGPU|WebGPU]], [[04_Knowledge/WebGPU/WebGPU|WebGPU]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[headers](<https://github.com/webgpu-native/webgpu-headers/tree/main>)**
+  - Адрес: <https://github.com/webgpu-native/webgpu-headers/tree/main>.
+  - В заметках: [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[">github](<https://github.com/webgpu/webgpufundamentals>)**
+  - Адрес: <https://github.com/webgpu/webgpufundamentals>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[github.com — webgpu/webgpufundamentals/issues/new](<https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=&template=request.md&title=>)**
+  - Адрес: <https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=&template=request.md&title=>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[github.com — webgpu/webgpufundamentals/issues/new](<https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=bug+%2F+issue&template=bug-issue-report.md&title=>)**
+  - Адрес: <https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=bug+%2F+issue&template=bug-issue-report.md&title=>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[github.com — webgpu/webgpufundamentals/issues/new](<https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=suggested+topic&template=suggest-topic.md&title=%5BSUGGESTION%5D>)**
+  - Адрес: <https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=suggested+topic&template=suggest-topic.md&title=%5BSUGGESTION%5D>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[google.com — q=https://dawn.googlesource.com/dawn/%2B/refs/heads/main/samples/](<https://www.google.com/search?q=https://dawn.googlesource.com/dawn/%2B/refs/heads/main/samples/>)**
+  - Адрес: <https://www.google.com/search?q=https://dawn.googlesource.com/dawn/%2B/refs/heads/main/samples/>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Firefox Nightly](<https://www.google.com/search?q=https://www.mozilla.org/ru/firefox/channel/desktop/%23nightly>)**
+  - Адрес: <https://www.google.com/search?q=https://www.mozilla.org/ru/firefox/channel/desktop/%23nightly>.
+  - В заметках: [[04_Knowledge/WebGPU/NeedToParse/GoogleFixWGPU|GoogleFixWGPU]].
+- **[GetIntoGameDev У этого автора есть отдельные, очень подробные плейлисты конкретно по реализации WebGPU на C++ с использованием движка Dawn.](<https://www.google.com/search?q=https://www.youtube.com/%40GetIntoGameDev/playlists>)**
+  - Адрес: <https://www.google.com/search?q=https://www.youtube.com/%40GetIntoGameDev/playlists>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Tour of WGSL](<https://google.github.io/tour-of-wgsl/>)**
+  - Адрес: <https://google.github.io/tour-of-wgsl/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[05_Learning/Guides/Дополнительные языки для графики|Дополнительные языки для графики]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[" id="ref-for-framebuffer">framebuffer space.](<https://gpuweb.github.io/gpuweb/#framebuffer>)**
+  - Адрес: <https://gpuweb.github.io/gpuweb/#framebuffer>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" id="ref-for-front-facing">front-facing primitive.](<https://gpuweb.github.io/gpuweb/#front-facing>)**
+  - Адрес: <https://gpuweb.github.io/gpuweb/#front-facing>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[(Здесь описан сам язык шейдеров: синтаксис, типы данных, встроенные функции).](<https://gpuweb.github.io/gpuweb/wgsl/>)**
+  - Адрес: <https://gpuweb.github.io/gpuweb/wgsl/>.
+  - В заметках: [[04_Knowledge/WebGPU/NeedToParse/Specification|Specification]].
+- **[WGSL Built-in Values](<https://gpuweb.github.io/gpuweb/wgsl/#builtin-values>)**
+  - Адрес: <https://gpuweb.github.io/gpuweb/wgsl/#builtin-values>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[04_Knowledge/WebGPU/WGSL Documentation|WGSL Documentation]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[">WebGPU API Reference](<https://gpuweb.github.io/types/>)**
+  - Адрес: <https://gpuweb.github.io/types/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[Khronos EGL API Tutorial](<https://www.khronos.org/egl>)**
+  - Адрес: <https://www.khronos.org/egl>.
+  - В заметках: [[04_Knowledge/WebGPU/Attached/Wayland X11 surface|Wayland X11 surface]].
+- **[m.youtube.com](<https://m.youtube.com>)**
+  - Адрес: <https://m.youtube.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[r/WebGPU](<https://www.reddit.com/r/webgpu/>)**
+  - Адрес: <https://www.reddit.com/r/webgpu/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"](<http://www.serif.com/>)**
+  - Адрес: <http://www.serif.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WebGPU Unleashed](<https://shi-yan.github.io/webgpuunleashed/>)**
+  - Адрес: <https://shi-yan.github.io/webgpuunleashed/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Learn WebGPU](<https://sotrh.github.io/learn-wgpu/>)**
+  - Адрес: <https://sotrh.github.io/learn-wgpu/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Learn wgpu (Rust)](<https://sotrh.github.io/learn-wgpu/#what-is-wgpu>)**
+  - Адрес: <https://sotrh.github.io/learn-wgpu/#what-is-wgpu>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[">Ask on stackoverflow .](<http://stackoverflow.com/questions/tagged/webgpu>)**
+  - Адрес: <http://stackoverflow.com/questions/tagged/webgpu>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[w3.org — 1999/xlink](<http://www.w3.org/1999/xlink>)**
+  - Адрес: <http://www.w3.org/1999/xlink>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[Consortium/Legal/ipr-noticeCopyright">Copyright © 2023 World Wide Web Consortium . W3C ® liability , trademark and permissive document license rules apply.](<https://www.w3.org/>)**
+  - Адрес: <https://www.w3.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" rel="license">permissive document license rules apply.](<https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document>)**
+  - Адрес: <https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Copyright © 2023 World Wide Web Consortium . W3C ® liability , trademark and permissive document license rules apply.](<https://www.w3.org/Consortium/Legal/ipr-notice#Copyright>)**
+  - Адрес: <https://www.w3.org/Consortium/Legal/ipr-notice#Copyright>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">liability , trademark and permissive document license rules apply.](<https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer>)**
+  - Адрес: <https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">trademark and permissive document license rules apply.](<https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks>)**
+  - Адрес: <https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[W3C WebGPU specification](<https://www.w3.org/TR/webgpu/>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[03_Projects/С2Lux/modernization|modernization]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[">dispatched by the API.](<https://www.w3.org/TR/webgpu/#compute-pass-encoder-dispatch>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#compute-pass-encoder-dispatch>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[спецификация WebGPU — coordinate systems](<https://www.w3.org/TR/webgpu/#coordinate-systems>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#coordinate-systems>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]], [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[спецификация WebGPU — setBindGroup](<https://www.w3.org/TR/webgpu/#dom-gpubindingcommandsmixin-setbindgroup>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#dom-gpubindingcommandsmixin-setbindgroup>.
+  - В заметках: [[04_Knowledge/WebGPU/Main/Dynamic offsets|Dynamic offsets]].
+- **[" id="ref-for-dom-gpumultisamplestate-count">count specified for the GPU render pipeline. See WebGPU § 10.3 GPURenderPipeline .](<https://www.w3.org/TR/webgpu/#dom-gpumultisamplestate-count>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#dom-gpumultisamplestate-count>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **["> WebGPU § 10.3 GPURenderPipeline .](<https://www.w3.org/TR/webgpu/#gpurenderpipeline>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#gpurenderpipeline>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[W3C Main Documentation: GPUTextureDescriptor](<https://www.w3.org/TR/webgpu/#gputexturedescriptor>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#gputexturedescriptor>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[default capabilities](<https://www.w3.org/TR/webgpu/#limit-default>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#limit-default>.
+  - В заметках: [[04_Knowledge/WebGPU/Attached/Default Capabilities(U32orU64)|Default Capabilities(U32orU64)]].
+- **[main documentation](<https://www.w3.org/TR/webgpu/#limits>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#limits>.
+  - В заметках: [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[спецификация WebGPU — resource binding](<https://www.w3.org/TR/webgpu/#resource-binding>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#resource-binding>.
+  - В заметках: [[04_Knowledge/WebGPU/Main/Group и binding|Group и binding]].
+- **["> WebGPU § 23.3.11 Sample Masking .](<https://www.w3.org/TR/webgpu/#sample-masking>)**
+  - Адрес: <https://www.w3.org/TR/webgpu/#sample-masking>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WGSL — спецификация, включая размещение данных в памяти](<https://www.w3.org/TR/WGSL/>)**
+  - Адрес: <https://www.w3.org/TR/WGSL/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[03_Projects/Sylvune/Music_Player_Next_Steps|Music_Player_Next_Steps]], [[03_Projects/С2Lux/modernization|modernization]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[address space layout constraints](<https://www.w3.org/TR/WGSL/#address-space-layout-constraints>)**
+  - Адрес: <https://www.w3.org/TR/WGSL/#address-space-layout-constraints>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[WGSL: alignment and size](<https://www.w3.org/TR/WGSL/#alignment-and-size>)**
+  - Адрес: <https://www.w3.org/TR/WGSL/#alignment-and-size>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[WGSL: производные](<https://www.w3.org/TR/WGSL/#derivative-builtin-functions>)**
+  - Адрес: <https://www.w3.org/TR/WGSL/#derivative-builtin-functions>.
+  - В заметках: [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]].
+- **[WGSL — Interpolation](<https://www.w3.org/TR/WGSL/#interpolation>)**
+  - Адрес: <https://www.w3.org/TR/WGSL/#interpolation>.
+  - В заметках: [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]].
+- **[числовые функции](<https://www.w3.org/TR/WGSL/#numeric-builtin-functions>)**
+  - Адрес: <https://www.w3.org/TR/WGSL/#numeric-builtin-functions>.
+  - В заметках: [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]].
+- **[спецификацию WGSL, uniformity analysis](<https://www.w3.org/TR/WGSL/#uniformity-analysis>)**
+  - Адрес: <https://www.w3.org/TR/WGSL/#uniformity-analysis>.
+  - В заметках: [[04_Knowledge/WebGPU/Main/Workgroups и DispatchWorkgroups|Workgroups и DispatchWorkgroups]].
+- **[WGSL, workgroup_size](<https://www.w3.org/TR/WGSL/#workgroup-size>)**
+  - Адрес: <https://www.w3.org/TR/WGSL/#workgroup-size>.
+  - В заметках: [[04_Knowledge/WebGPU/Main/Workgroups и DispatchWorkgroups|Workgroups и DispatchWorkgroups]].
+- **[Web3DSurvey.com](<https://Web3DSurvey.com>)**
+  - Адрес: <https://Web3DSurvey.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+  - Варианты в заметках: <https://Web3DSurvey.com>.
+- **[">Web3DSurvey.com](<https://web3dsurvey.com/webgpu>)**
+  - Адрес: <https://web3dsurvey.com/webgpu>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[webgpu-native.github.io — webgpu-headers/Asynchronous-Operations.html](<https://webgpu-native.github.io/webgpu-headers/Asynchronous-Operations.html>)**
+  - Адрес: <https://webgpu-native.github.io/webgpu-headers/Asynchronous-Operations.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Асинхронные операции — спецификация|Асинхронные операции — спецификация]].
+- **[WebGPU Samples](<https://webgpu.github.io/webgpu-samples/>)**
+  - Адрес: <https://webgpu.github.io/webgpu-samples/>.
+  - В заметках: [[05_Learning/Guides/Дополнительные языки для графики|Дополнительные языки для графики]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[webgpufundamentals-org.disqus.com — embed.js](<https://webgpufundamentals-org.disqus.com/embed.js>)**
+  - Адрес: <https://webgpufundamentals-org.disqus.com/embed.js>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WebGPU Fundamentals — Compute](<https://webgpufundamentals.org/>)**
+  - Адрес: <https://webgpufundamentals.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[04_Knowledge/WebGPU/NeedToParse/Specification|Specification]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://webgpufundamentals.org>.
+- **[webgpufundamentals.org](<https://webgpufundamentals.org/#website>)**
+  - Адрес: <https://webgpufundamentals.org/#website>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">WGSL Offset Computer](<https://webgpufundamentals.org/webgpu/lessons/resources/wgsl-offset-computer.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/resources/wgsl-offset-computer.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WebGPU Fundamentals (RU)](<https://webgpufundamentals.org/webgpu/lessons/ru/>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/ru/>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[">1D Lookup Table (LUT](<https://webgpufundamentals.org/webgpu/lessons/webgpu-1dlut.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-1dlut.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">3D Lookup Table (LUT](<https://webgpufundamentals.org/webgpu/lessons/webgpu-3dlut.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-3dlut.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Bind Group Layouts](<https://webgpufundamentals.org/webgpu/lessons/webgpu-bind-group-layouts.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-bind-group-layouts.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Camera Controls](<https://webgpufundamentals.org/webgpu/lessons/webgpu-camera-controls.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-camera-controls.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WebGPU Fundamentals — Cameras](<https://webgpufundamentals.org/webgpu/lessons/webgpu-cameras.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-cameras.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]].
+- **[">Compatibility Mode](<https://webgpufundamentals.org/webgpu/lessons/webgpu-compatibility-mode.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-compatibility-mode.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Image Histogram Part 2](<https://webgpufundamentals.org/webgpu/lessons/webgpu-compute-shaders-histogram-part-2.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-compute-shaders-histogram-part-2.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WebGPU Fundamentals — Histogram](<https://webgpufundamentals.org/webgpu/lessons/webgpu-compute-shaders-histogram.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-compute-shaders-histogram.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[WebGPU Fundamentals — Compute Shaders](<https://webgpufundamentals.org/webgpu/lessons/webgpu-compute-shaders.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-compute-shaders.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[">Constants](<https://webgpufundamentals.org/webgpu/lessons/webgpu-constants.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-constants.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Copying Data](<https://webgpufundamentals.org/webgpu/lessons/webgpu-copying-data.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-copying-data.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Cube Maps](<https://webgpufundamentals.org/webgpu/lessons/webgpu-cube-maps.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-cube-maps.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Debugging and Errors](<https://webgpufundamentals.org/webgpu/lessons/webgpu-debugging.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-debugging.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Environment maps](<https://webgpufundamentals.org/webgpu/lessons/webgpu-environment-maps.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-environment-maps.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">WebGPU from WebGL](<https://webgpufundamentals.org/webgpu/lessons/webgpu-from-webgl.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-from-webgl.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Fundamentals](<https://webgpufundamentals.org/webgpu/lessons/webgpu-fundamentals.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-fundamentals.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Highlighting](<https://webgpufundamentals.org/webgpu/lessons/webgpu-highlighting.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-highlighting.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">How It Works](<https://webgpufundamentals.org/webgpu/lessons/webgpu-how-it-works.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-how-it-works.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Image Adjustments](<https://webgpufundamentals.org/webgpu/lessons/webgpu-image-adjustments.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-image-adjustments.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Immediates](<https://webgpufundamentals.org/webgpu/lessons/webgpu-immediates.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-immediates.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Loading Images](<https://webgpufundamentals.org/webgpu/lessons/webgpu-importing-textures.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-importing-textures.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Inter-stage Variables](<https://webgpufundamentals.org/webgpu/lessons/webgpu-inter-stage-variables.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-inter-stage-variables.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Large Clip Space Triangle](<https://webgpufundamentals.org/webgpu/lessons/webgpu-large-triangle-to-cover-clip-space.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-large-triangle-to-cover-clip-space.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Directional Lighting](<https://webgpufundamentals.org/webgpu/lessons/webgpu-lighting-directional.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-lighting-directional.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Point Lighting](<https://webgpufundamentals.org/webgpu/lessons/webgpu-lighting-point.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-lighting-point.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Spot Lighting](<https://webgpufundamentals.org/webgpu/lessons/webgpu-lighting-spot.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-lighting-spot.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Optional Features and Limits](<https://webgpufundamentals.org/webgpu/lessons/webgpu-limits-and-features.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-limits-and-features.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WebGPU Fundamentals — Matrix Math](<https://webgpufundamentals.org/webgpu/lessons/webgpu-matrix-math.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-matrix-math.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]].
+- **[">Matrix Stacks](<https://webgpufundamentals.org/webgpu/lessons/webgpu-matrix-stacks.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-matrix-stacks.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Data Memory Layout](<https://webgpufundamentals.org/webgpu/lessons/webgpu-memory-layout.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-memory-layout.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Miscellaneous Shader Input](<https://webgpufundamentals.org/webgpu/lessons/webgpu-miscellaneous-input.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-miscellaneous-input.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Multiple Canvases](<https://webgpufundamentals.org/webgpu/lessons/webgpu-multiple-canvases.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-multiple-canvases.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Multisampling / MSAA](<https://webgpufundamentals.org/webgpu/lessons/webgpu-multisampling.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-multisampling.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Speed and Optimization](<https://webgpufundamentals.org/webgpu/lessons/webgpu-optimization.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-optimization.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Orthographic Projection](<https://webgpufundamentals.org/webgpu/lessons/webgpu-orthographic-projection.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-orthographic-projection.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WebGPU Fundamentals — Perspective Projection](<https://webgpufundamentals.org/webgpu/lessons/webgpu-perspective-projection.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-perspective-projection.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]].
+- **[">Picking](<https://webgpufundamentals.org/webgpu/lessons/webgpu-picking.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-picking.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Points](<https://webgpufundamentals.org/webgpu/lessons/webgpu-points.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-points.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[Post-processing](<https://webgpufundamentals.org/webgpu/lessons/webgpu-post-processing.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-post-processing.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[">Resizing the Canvas](<https://webgpufundamentals.org/webgpu/lessons/webgpu-resizing-the-canvas.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-resizing-the-canvas.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Resources / References](<https://webgpufundamentals.org/webgpu/lessons/webgpu-resources.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-resources.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Rotation](<https://webgpufundamentals.org/webgpu/lessons/webgpu-rotation.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-rotation.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Scale](<https://webgpufundamentals.org/webgpu/lessons/webgpu-scale.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-scale.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Scene Graphs](<https://webgpufundamentals.org/webgpu/lessons/webgpu-scene-graphs.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-scene-graphs.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Skyboxes](<https://webgpufundamentals.org/webgpu/lessons/webgpu-skybox.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-skybox.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Storage Buffers](<https://webgpufundamentals.org/webgpu/lessons/webgpu-storage-buffers.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-storage-buffers.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Storage Textures](<https://webgpufundamentals.org/webgpu/lessons/webgpu-storage-textures.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-storage-textures.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Using Video](<https://webgpufundamentals.org/webgpu/lessons/webgpu-textures-external-video.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-textures-external-video.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WebGPU Fundamentals: Textures](<https://webgpufundamentals.org/webgpu/lessons/webgpu-textures.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-textures.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[">Timing Performance](<https://webgpufundamentals.org/webgpu/lessons/webgpu-timing.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-timing.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Translation](<https://webgpufundamentals.org/webgpu/lessons/webgpu-translation.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-translation.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Transparency and Blending](<https://webgpufundamentals.org/webgpu/lessons/webgpu-transparency.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-transparency.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Uniforms](<https://webgpufundamentals.org/webgpu/lessons/webgpu-uniforms.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-uniforms.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[WebGPU Fundamentals — Vertex Buffers](<https://webgpufundamentals.org/webgpu/lessons/webgpu-vertex-buffers.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-vertex-buffers.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[03_Projects/LuxPrism/Ближайшие задачи|Ближайшие задачи]].
+- **[">WGSL Function Reference](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl-function-reference.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl-function-reference.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[webgpufundamentals.org — webgpu/lessons/webgpu-wgsl.html](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]], [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[" id="ref-for-compute-shader-grid">compute shader grid .](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#compute-shader-grid>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#compute-shader-grid>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" id="ref-for-dispatch-size">dispatch size , vec (group_count_x, group_count_y, group_count_z) , of the compute shader dispatched by the API.](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#dispatch-size>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#dispatch-size>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" id="fnref1">\[1\] with block scope.](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#fn1>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#fn1>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" class="footnote-backref">↩︎](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#fnref1>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#fnref1>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" id="ref-for-global-invocation-id">global invocation ID ,](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#global-invocation-id>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#global-invocation-id>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" id="ref-for-local-invocation-id①">local invocation ID ,](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#local-invocation-id>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#local-invocation-id>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" id="ref-for-local-invocation-index">local invocation index , a linearized index of](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#local-invocation-index>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#local-invocation-index>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[webgpufundamentals.org — webgpu/lessons/webgpu-wgsl.html](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#primaryimage>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#primaryimage>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">Table of Contents](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#toc>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#toc>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[webgpufundamentals.org — webgpu/lessons/webgpu-wgsl.html](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#webpage>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#webpage>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" id="ref-for-workgroup-grid①">workgroup grid .](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#workgroup-grid>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#workgroup-grid>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[" id="ref-for-workgroup-id">workgroup ID ,](<https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#workgroup-id>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/webgpu-wgsl.html#workgroup-id>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[">WebGPUReport.org](<https://webgpureport.org/>)**
+  - Адрес: <https://webgpureport.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+  - Варианты в заметках: <https://WebGPUReport.org>.
+- **[wgsl.run](<https://wgsl.run/>)**
+  - Адрес: <https://wgsl.run/>.
+  - В заметках: [[03_Projects/Shaders/links|links]].
+- **[wgslstudio.com](<https://wgslstudio.com/>)**
+  - Адрес: <https://wgslstudio.com/>.
+  - В заметках: [[03_Projects/Shaders/links|links]].
+- **[youtu.be](<https://youtu.be>)**
+  - Адрес: <https://youtu.be>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[youtube-nocookie.com](<https://www.youtube-nocookie.com>)**
+  - Адрес: <https://www.youtube-nocookie.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[youtube.com](<https://www.youtube.com>)**
+  - Адрес: <https://www.youtube.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+  - Варианты в заметках: <https://youtube.com>.
+- **[what is webGPU](<https://www.youtube.com/watch?v=DdMl4E7xQEY>)**
+  - Адрес: <https://www.youtube.com/watch?v=DdMl4E7xQEY>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[webgpu review](<https://www.youtube.com/watch?v=Kjpi9x2ayTs&t=152s>)**
+  - Адрес: <https://www.youtube.com/watch?v=Kjpi9x2ayTs&t=152s>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+
+### Vulkan
+
+- **[Tips and Tricks: Vulkan Dos and Don’ts](<https://developer.nvidia.com/blog/vulkan-dos-donts/>)**
+  - Адрес: <https://developer.nvidia.com/blog/vulkan-dos-donts/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+  - Варианты в заметках: <https://developer.nvidia.com/blog/vulkan-dos-donts/?utm_source=chatgpt.com>.
+- **[How to make OpenGL usage Vulkan like](<https://developer.nvidia.com/opengl-vulkan>)**
+  - Адрес: <https://developer.nvidia.com/opengl-vulkan>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Transitioning from OpenGL to Vulkan](<https://developer.nvidia.com/transitioning-opengl-vulkan>)**
+  - Адрес: <https://developer.nvidia.com/transitioning-opengl-vulkan>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[NVIDIA Developer](<https://developer.nvidia.com/Vulkan?utm_source=chatgpt.com>)**
+  - Адрес: <https://developer.nvidia.com/Vulkan?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Olsson, Billeter, Assarsson — Clustered Deferred and Forward Shading](<https://diglib.eg.org/items/6342d4d6-5220-4376-a5c6-a153058f4a3c>)**
+  - Адрес: <https://diglib.eg.org/items/6342d4d6-5220-4376-a5c6-a153058f4a3c>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Vulkan Discord](<https://discord.gg/vulkan>)**
+  - Адрес: <https://discord.gg/vulkan>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Vulkan Documentation](<https://docs.vulkan.org>)**
+  - Адрес: <https://docs.vulkan.org>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]], [[04_Knowledge/Vulkan/Links|Links]], [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+  - Варианты в заметках: <https://docs.vulkan.org>, <https://docs.vulkan.org/?utm_source=chatgpt.com>.
+- **[Khronos GLSL](<https://docs.vulkan.org/glsl/latest/>)**
+  - Адрес: <https://docs.vulkan.org/glsl/latest/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Khronos Vulkan Guide](<https://docs.vulkan.org/guide/latest/>)**
+  - Адрес: <https://docs.vulkan.org/guide/latest/>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+  - Варианты в заметках: <https://docs.vulkan.org/guide/latest/?utm_source=chatgpt.com>.
+- **[HLSL in Vulkan](<https://docs.vulkan.org/guide/latest/hlsl.html>)**
+  - Адрес: <https://docs.vulkan.org/guide/latest/hlsl.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Querying capabilities](<https://docs.vulkan.org/guide/latest/querying_extensions_features.html>)**
+  - Адрес: <https://docs.vulkan.org/guide/latest/querying_extensions_features.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Shader Memory Layout](<https://docs.vulkan.org/guide/latest/shader_memory_layout.html>)**
+  - Адрес: <https://docs.vulkan.org/guide/latest/shader_memory_layout.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Swapchain Semaphore Reuse](<https://docs.vulkan.org/guide/latest/swapchain_semaphore_reuse.html>)**
+  - Адрес: <https://docs.vulkan.org/guide/latest/swapchain_semaphore_reuse.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Synchronization](<https://docs.vulkan.org/guide/latest/synchronization.html>)**
+  - Адрес: <https://docs.vulkan.org/guide/latest/synchronization.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Synchronization Examples](<https://docs.vulkan.org/guide/latest/synchronization_examples.html>)**
+  - Адрес: <https://docs.vulkan.org/guide/latest/synchronization_examples.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Khronos Vulkan Validation](<https://docs.vulkan.org/guide/latest/validation_overview.html>)**
+  - Адрес: <https://docs.vulkan.org/guide/latest/validation_overview.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Vulkan Samples](<https://docs.vulkan.org/samples/latest/README.html>)**
+  - Адрес: <https://docs.vulkan.org/samples/latest/README.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Vulkan Specification](<https://docs.vulkan.org/spec/latest/>)**
+  - Адрес: <https://docs.vulkan.org/spec/latest/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Vulkan synchronization specification](<https://docs.vulkan.org/spec/latest/chapters/synchronization.html>)**
+  - Адрес: <https://docs.vulkan.org/spec/latest/chapters/synchronization.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Khronos Vulkan Tutorial](<https://docs.vulkan.org/tutorial/latest/>)**
+  - Адрес: <https://docs.vulkan.org/tutorial/latest/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+  - Варианты в заметках: <https://docs.vulkan.org/tutorial/latest/?utm_source=chatgpt.com>.
+- **[Khronos Vulkan Tutorial](<https://docs.vulkan.org/tutorial/latest/00_Introduction.html>)**
+  - Адрес: <https://docs.vulkan.org/tutorial/latest/00_Introduction.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[страница авторов статьи](<https://eheitzresearch.wordpress.com/415-2/>)**
+  - Адрес: <https://eheitzresearch.wordpress.com/415-2/>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[github.com — blurrypiano/little](<https://github.com/blurrypiano/little>)**
+  - Адрес: <https://github.com/blurrypiano/little>.
+  - В заметках: [[04_Knowledge/Vulkan/0 Start Point|0 Start Point]].
+- **[github.com — blurrypiano/littleVulkanEngine/blob/master/littleVulkanEngine/tutorial10/README.md](<https://github.com/blurrypiano/littleVulkanEngine/blob/master/littleVulkanEngine/tutorial10/README.md>)**
+  - Адрес: <https://github.com/blurrypiano/littleVulkanEngine/blob/master/littleVulkanEngine/tutorial10/README.md>.
+  - В заметках: [[04_Knowledge/Vulkan/10. 2D Transformations|10. 2D Transformations]].
+- **[vk-bootstrap](<https://github.com/charles-lunarg/vk-bootstrap>)**
+  - Адрес: <https://github.com/charles-lunarg/vk-bootstrap>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[github.com — GPUOpen-LibrariesAndSDKs/Vulkan-Samples](<https://github.com/GPUOpen-LibrariesAndSDKs/Vulkan-Samples?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/GPUOpen-LibrariesAndSDKs/Vulkan-Samples?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[VMA](<https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator>)**
+  - Адрес: <https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Keen Games' Vulkan Backend Snapshot](<https://github.com/keengames/vulkan_backend>)**
+  - Адрес: <https://github.com/keengames/vulkan_backend>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[SPIRV-Tools](<https://github.com/KhronosGroup/SPIRV-Tools>)**
+  - Адрес: <https://github.com/KhronosGroup/SPIRV-Tools>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[github.com — KhronosGroup/Vulka](<https://github.com/KhronosGroup/Vulka>)**
+  - Адрес: <https://github.com/KhronosGroup/Vulka>.
+  - В заметках: [[04_Knowledge/Vulkan/0 Start Point|0 Start Point]].
+- **[github.com — KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples](<https://github.com/KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples>)**
+  - Адрес: <https://github.com/KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[KhronosGroup Vulkan-Samples](<https://github.com/KhronosGroup/Vulkan-Samples>)**
+  - Адрес: <https://github.com/KhronosGroup/Vulkan-Samples>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[github.com — KhronosGroup/Vulkan-Tutorial](<https://github.com/KhronosGroup/Vulkan-Tutorial?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/KhronosGroup/Vulkan-Tutorial?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[MikkTSpace](<https://github.com/mmikk/MikkTSpace>)**
+  - Адрес: <https://github.com/mmikk/MikkTSpace>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[ImGui Vulkan backend](<https://github.com/ocornut/imgui/blob/master/backends/imgui_impl_vulkan.h>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/master/backends/imgui_impl_vulkan.h>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[github.com — PacktPublishing/Mastering-Graphics-Programming-With-Vulkan-2nd-Edition](<https://github.com/PacktPublishing/Mastering-Graphics-Programming-With-Vulkan-2nd-Edition?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/PacktPublishing/Mastering-Graphics-Programming-With-Vulkan-2nd-Edition?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[github.com — PacktPublishing/The-Modern-Vulkan-Cookbook](<https://github.com/PacktPublishing/The-Modern-Vulkan-Cookbook?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/PacktPublishing/The-Modern-Vulkan-Cookbook?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Sascha Willems Vulkan Examples](<https://github.com/SaschaWillems/HowToVulkan?tab=readme-ov-file>)**
+  - Адрес: <https://github.com/SaschaWillems/HowToVulkan?tab=readme-ov-file>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Sascha Willems Vulkan Examples](<https://github.com/SaschaWillems/Vulkan>)**
+  - Адрес: <https://github.com/SaschaWillems/Vulkan>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+  - Варианты в заметках: <https://github.com/SaschaWillems/Vulkan?utm_source=chatgpt.com>.
+- **[github.com — SaschaWillems/vulkan](<https://github.com/SaschaWillems/vulkan?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/SaschaWillems/vulkan?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[volk](<https://github.com/zeux/volk>)**
+  - Адрес: <https://github.com/zeux/volk>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[lighthouse3d.com](<https://www.google.com/search?q=http://www.lighthouse3d.com/tutorials/glsl-core-tutorial/>)**
+  - Адрес: <https://www.google.com/search?q=http://www.lighthouse3d.com/tutorials/glsl-core-tutorial/>.
+  - В заметках: [[04_Knowledge/Vulkan/Shader links|Shader links]].
+- **[How to Vulkan in 2026](<https://www.howtovulkan.com/>)**
+  - Адрес: <https://www.howtovulkan.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Roadmaps/Vulkan|Vulkan]].
+- **[API Without Secrets](<https://www.intel.com/content/www/us/en/developer/articles/training/api-without-secrets-introduction-to-vulkan-part-1.html>)**
+  - Адрес: <https://www.intel.com/content/www/us/en/developer/articles/training/api-without-secrets-introduction-to-vulkan-part-1.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Vulkan Synchronization Primer - Part I](<https://www.jeremyong.com/vulkan/graphics/rendering/2018/11/22/vulkan-synchronization-primer/>)**
+  - Адрес: <https://www.jeremyong.com/vulkan/graphics/rendering/2018/11/22/vulkan-synchronization-primer/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Vulkan Synchronization Primer - Part II](<https://www.jeremyong.com/vulkan/graphics/rendering/2018/11/23/vulkan-synchonization-primer-part-ii/>)**
+  - Адрес: <https://www.jeremyong.com/vulkan/graphics/rendering/2018/11/23/vulkan-synchonization-primer-part-ii/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Khronos — Building a Simple Game Engine](<https://www.khronos.org/blog/new-vulkan-game-engine-tutorial-build-your-own-production-ready-rendering-engine>)**
+  - Адрес: <https://www.khronos.org/blog/new-vulkan-game-engine-tutorial-build-your-own-production-ready-rendering-engine>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Custom Allocators in Vulkan](<https://kylehalladay.com/blog/tutorial/2017/12/13/Custom-Allocators-Vulkan.html>)**
+  - Адрес: <https://kylehalladay.com/blog/tutorial/2017/12/13/Custom-Allocators-Vulkan.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Microsoft: Cascaded Shadow Maps](<https://learn.microsoft.com/en-us/windows/win32/dxtecharts/cascaded-shadow-maps>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/dxtecharts/cascaded-shadow-maps>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Common Techniques to Improve Shadow Depth Maps](<https://learn.microsoft.com/en-us/windows/win32/dxtecharts/common-techniques-to-improve-shadow-depth-maps>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/dxtecharts/common-techniques-to-improve-shadow-depth-maps>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Learn Vulkan from code samples](<https://paminerva.github.io/docs/LearnVulkan/LearnVulkan>)**
+  - Адрес: <https://paminerva.github.io/docs/LearnVulkan/LearnVulkan>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[r/Vulkan](<https://www.reddit.com/r/vulkan/>)**
+  - Адрес: <https://www.reddit.com/r/vulkan/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Vulkan Spec](<https://registry.khronos.org/vulkan/specs/1.1/html/vkspec.html>)**
+  - Адрес: <https://registry.khronos.org/vulkan/specs/1.1/html/vkspec.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Vulkan In 30 Minutes](<https://renderdoc.org/vulkan-in-30-minutes.html>)**
+  - Адрес: <https://renderdoc.org/vulkan-in-30-minutes.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[странице вакансий Saber](<https://saberhr.global.huntflow.io/>)**
+  - Адрес: <https://saberhr.global.huntflow.io/>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[saschawillems.de](<https://www.saschawillems.de/>)**
+  - Адрес: <https://www.saschawillems.de/>.
+  - В заметках: [[05_Learning/Roadmaps/Vulkan|Vulkan]].
+- **[saschawillems.de — creations/vulkan-examples](<https://www.saschawillems.de/creations/vulkan-examples/>)**
+  - Адрес: <https://www.saschawillems.de/creations/vulkan-examples/>.
+  - В заметках: [[05_Learning/Roadmaps/Vulkan|Vulkan]].
+- **[saschawillems.de — creations/vulkan-gltf-pbr](<https://www.saschawillems.de/creations/vulkan-gltf-pbr/>)**
+  - Адрес: <https://www.saschawillems.de/creations/vulkan-gltf-pbr/>.
+  - В заметках: [[05_Learning/Roadmaps/Vulkan|Vulkan]].
+- **[Vulkan Hub](<https://vkdoc.net/>)**
+  - Адрес: <https://vkdoc.net/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Vulkan Guide](<https://vkguide.dev/>)**
+  - Адрес: <https://vkguide.dev/>.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[02_Resources/Подборка учебных сайтов|Подборка учебных сайтов]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[04_Knowledge/Vulkan/Links|Links]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/TinyRenderer/Afterwords|Afterwords]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://VkGuide.dev>, <https://vkguide.dev/?utm_source=chatgpt.com>, <https://vkguide.dev>.
+- **[C++ wrap Vk Tutorial](<https://vulkan-cpp-tutorial.mvd-hq.de/>)**
+  - Адрес: <https://vulkan-cpp-tutorial.mvd-hq.de/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Vulkan Tutorial](<https://vulkan-tutorial.com/>)**
+  - Адрес: <https://vulkan-tutorial.com/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[04_Knowledge/Vulkan/Links|Links]], [[05_Learning/TinyRenderer/Afterwords|Afterwords]].
+  - Варианты в заметках: <https://Vulkan-Tutorial.com>, <https://vulkan-tutorial.com>.
+- **[Vulkan Tutorial - Presentation Chapter](<https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Window_surface>)**
+  - Адрес: <https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Window_surface>.
+  - В заметках: [[04_Knowledge/WebGPU/Attached/Wayland X11 surface|Wayland X11 surface]].
+- **[vulkan-tutorial.com — Introduction](<https://vulkan-tutorial.com/Introduction>)**
+  - Адрес: <https://vulkan-tutorial.com/Introduction>.
+  - В заметках: [[04_Knowledge/Vulkan/0 Start Point|0 Start Point]].
+- **[Vulkan Hardware Database](<https://vulkan.gpuinfo.org/>)**
+  - Адрес: <https://vulkan.gpuinfo.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[LunarG Old Vk Tutorial](<https://vulkan.lunarg.com/doc/view/1.4.309.0/windows/antora/tutorial/latest/00_Introduction.html>)**
+  - Адрес: <https://vulkan.lunarg.com/doc/view/1.4.309.0/windows/antora/tutorial/latest/00_Introduction.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[vulkan.lunarg.com/sdk/home](<https://vulkan.lunarg.com/sdk/home>)**
+  - Адрес: <https://vulkan.lunarg.com/sdk/home>.
+  - В заметках: [[04_Knowledge/Vulkan/Download|Download]].
+- **[How to Vulkan in 2026](<https://www.vulkan.org/learn>)**
+  - Адрес: <https://www.vulkan.org/learn>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[SDL3 Vulkan](<https://wiki.libsdl.org/SDL3/CategoryVulkan>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/CategoryVulkan>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Vulkan's YouTube Channel](<https://www.youtube.com/@Vulkan>)**
+  - Адрес: <https://www.youtube.com/@Vulkan>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Vulkan Lecture Series](<https://www.youtube.com/playlist?list=PLmIqTlJ6KsE1Jx5HV4sd2jOe3V1KMHHgn>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLmIqTlJ6KsE1Jx5HV4sd2jOe3V1KMHHgn>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[youtube.com — redirect](<https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3E5VThEVm5OVDFpUlpoVWlvYmYtUVRHakRwUXxBQ3Jtc0tuSk9NRzdsdE1NTmNBNUcyT1dla1JPcTZTcXVCdnhVYkxyYnotVEgtV251c3hmRllEZEEzWWhhU1VuU0ZpczhlLUZXT3c2SEZaR3h3RXpzZ1hIMVgwbFBQd3FPMUpvclNsV25vZHE5NnVwZGlVUEl1bw&q=https%3A%2F%2Fgithub.com%2Fblurrypiano%2FlittleVulkanEngine&v=Y9U9IE0gVHA>)**
+  - Адрес: <https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3E5VThEVm5OVDFpUlpoVWlvYmYtUVRHakRwUXxBQ3Jtc0tuSk9NRzdsdE1NTmNBNUcyT1dla1JPcTZTcXVCdnhVYkxyYnotVEgtV251c3hmRllEZEEzWWhhU1VuU0ZpczhlLUZXT3c2SEZaR3h3RXpzZ1hIMVgwbFBQd3FPMUpvclNsV25vZHE5NnVwZGlVUEl1bw&q=https%3A%2F%2Fgithub.com%2Fblurrypiano%2FlittleVulkanEngine&v=Y9U9IE0gVHA>.
+  - В заметках: [[04_Knowledge/Vulkan/0 Start Point|0 Start Point]].
+- **[youtube.com — redirect](<https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblRXbTlEYU1EQVVuRXJudGJ2aVh4eTBIUU92UXxBQ3Jtc0tudkFwV04yZkR5cTU1Wjl3RFQ1VmNCQ1NacEJxa0Vpb3FNNFMwclh4ODdoOGlhZnpSZWNNc0Y0WDFxc0JqdVBURGM3dmRNMXM4dnlMdHpMQzZVd1dTdUFyM2hZbmtEcVlmbW1VUV8zcHdhUWR6OU41TQ&q=https%3A%2F%2Fgithub.com%2FKhronosGroup%2FVulkan-Samples&v=Y9U9IE0gVHA>)**
+  - Адрес: <https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblRXbTlEYU1EQVVuRXJudGJ2aVh4eTBIUU92UXxBQ3Jtc0tudkFwV04yZkR5cTU1Wjl3RFQ1VmNCQ1NacEJxa0Vpb3FNNFMwclh4ODdoOGlhZnpSZWNNc0Y0WDFxc0JqdVBURGM3dmRNMXM4dnlMdHpMQzZVd1dTdUFyM2hZbmtEcVlmbW1VUV8zcHdhUWR6OU41TQ&q=https%3A%2F%2Fgithub.com%2FKhronosGroup%2FVulkan-Samples&v=Y9U9IE0gVHA>.
+  - В заметках: [[04_Knowledge/Vulkan/0 Start Point|0 Start Point]].
+- **[youtube.com — redirect](<https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXRqcTZRM3dNS3hrcm1MX2JOY2dLWUxrZS1Vd3xBQ3Jtc0tuUjBRVVl2eThZZ2RzRnE1TUpMN2twLVBYNldiTlFFZUNDbjFqRnZJR2MyQ3AwaUFSa1lQUEVvVGlFc29IQy16LUNSalkxX2NpcjFXa0hRQk1YcG9PV2RSSFFBNVB0OGhtV3ZVOWNqMzhyRTZMWkRnMA&q=https%3A%2F%2Fvulkan-tutorial.com%2FIntroduction&v=Y9U9IE0gVHA>)**
+  - Адрес: <https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXRqcTZRM3dNS3hrcm1MX2JOY2dLWUxrZS1Vd3xBQ3Jtc0tuUjBRVVl2eThZZ2RzRnE1TUpMN2twLVBYNldiTlFFZUNDbjFqRnZJR2MyQ3AwaUFSa1lQUEVvVGlFc29IQy16LUNSalkxX2NpcjFXa0hRQk1YcG9PV2RSSFFBNVB0OGhtV3ZVOWNqMzhyRTZMWkRnMA&q=https%3A%2F%2Fvulkan-tutorial.com%2FIntroduction&v=Y9U9IE0gVHA>.
+  - В заметках: [[04_Knowledge/Vulkan/0 Start Point|0 Start Point]].
+- **[Vulkan Course (YouTube)](<https://www.youtube.com/watch?v=Y9U9IE0gVHA&list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR>)**
+  - Адрес: <https://www.youtube.com/watch?v=Y9U9IE0gVHA&list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Writing an Efficient Vulkan Renderer](<https://zeux.io/2020/02/27/writing-an-efficient-vulkan-renderer/>)**
+  - Адрес: <https://zeux.io/2020/02/27/writing-an-efficient-vulkan-renderer/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+
+### OpenGL, WebGL, DirectX и Metal
+
+- **[Learning DirectX 12](<https://www.3dgep.com/learning-directx-12-1/>)**
+  - Адрес: <https://www.3dgep.com/learning-directx-12-1/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[A Gentle Introduction to DirectX 12](<https://alextardif.com/DX12Tutorial.html>)**
+  - Адрес: <https://alextardif.com/DX12Tutorial.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Anton's OpenGL 4 Tutorials](<https://antongerdelan.net/opengl/>)**
+  - Адрес: <https://antongerdelan.net/opengl/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[OpenGL 4 Shaders](<https://antongerdelan.net/opengl/shaders.html>)**
+  - Адрес: <https://antongerdelan.net/opengl/shaders.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[3D Math Cheat Sheet](<https://antongerdelan.net/teaching/3dprog1/maths_cheat_sheet.pdf>)**
+  - Адрес: <https://antongerdelan.net/teaching/3dprog1/maths_cheat_sheet.pdf>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[DirectX 11 - Braynzar Soft Tutorials](<https://www.braynzarsoft.net/viewtutorial/q16390-braynzar-soft-directx-11-tutorials>)**
+  - Адрес: <https://www.braynzarsoft.net/viewtutorial/q16390-braynzar-soft-directx-11-tutorials>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Metal Debugger](<https://developer.apple.com/documentation/xcode/metal-debugger>)**
+  - Адрес: <https://developer.apple.com/documentation/xcode/metal-debugger>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Metal developer resources](<https://developer.apple.com/metal/>)**
+  - Адрес: <https://developer.apple.com/metal/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Getting Started with Metal-cpp](<https://developer.apple.com/metal/cpp/>)**
+  - Адрес: <https://developer.apple.com/metal/cpp/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Docs GL - OpenGL Documentation](<https://docs.gl/>)**
+  - Адрес: <https://docs.gl/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[An Intro to Modern OpenGL](<https://duriansoftware.com/joe/an-intro-to-modern-opengl.-table-of-contents>)**
+  - Адрес: <https://duriansoftware.com/joe/an-intro-to-modern-opengl.-table-of-contents>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[OpenGL Is Not Right-Handed](<https://www.gingerbill.org/article/2024/11/10/opengl-is-not-right-handed/>)**
+  - Адрес: <https://www.gingerbill.org/article/2024/11/10/opengl-is-not-right-handed/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Minimal D3D11 bonus material: extra minimal triangle](<https://gist.github.com/d7samurai/1e9a1f1a366740f7d8a3a20397fcfa6b>)**
+  - Адрес: <https://gist.github.com/d7samurai/1e9a1f1a366740f7d8a3a20397fcfa6b>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Minimal D3D11, Part I](<https://gist.github.com/d7samurai/261c69490cce0620d0bfc93003cd1052>)**
+  - Адрес: <https://gist.github.com/d7samurai/261c69490cce0620d0bfc93003cd1052>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Minimal D3D11 bonus material: pixel art antialiasing](<https://gist.github.com/d7samurai/9f17966ba6130a75d1bfb0f1894ed377>)**
+  - Адрес: <https://gist.github.com/d7samurai/9f17966ba6130a75d1bfb0f1894ed377>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Minimal D3D11, Part III](<https://gist.github.com/d7samurai/abab8a580d0298cb2f34a44eec41d39d>)**
+  - Адрес: <https://gist.github.com/d7samurai/abab8a580d0298cb2f34a44eec41d39d>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Minimal D3D11, Part II](<https://gist.github.com/d7samurai/aee35fd5d132c51e8b0a78699cbaa1e4>)**
+  - Адрес: <https://gist.github.com/d7samurai/aee35fd5d132c51e8b0a78699cbaa1e4>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[30 Days of Metal](<https://gist.github.com/ole/a1c95cf6a4ebbef2a7827a911301d503>)**
+  - Адрес: <https://gist.github.com/ole/a1c95cf6a4ebbef2a7827a911301d503>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[A Hitchhiker's Guide to OpenGL](<https://github.com/bartvbl/A-Hitchhikers-Guide-to-OpenGL>)**
+  - Адрес: <https://github.com/bartvbl/A-Hitchhikers-Guide-to-OpenGL>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[A Guide to Modern OpenGL Functions](<https://github.com/fendevel/Guide-to-Modern-OpenGL-Functions>)**
+  - Адрес: <https://github.com/fendevel/Guide-to-Modern-OpenGL-Functions>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[github.com — GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator](<https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator>)**
+  - Адрес: <https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Learning Metal with metal-cpp](<https://github.com/LeeTeng2001/metal-cpp-cmake>)**
+  - Адрес: <https://github.com/LeeTeng2001/metal-cpp-cmake>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Metal C++ Examples](<https://github.com/MattGuerrette/Metal>)**
+  - Адрес: <https://github.com/MattGuerrette/Metal>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Metal By Example](<https://github.com/metal-by-example>)**
+  - Адрес: <https://github.com/metal-by-example>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Microsoft DirectX Graphics Samples](<https://github.com/microsoft/DirectX-Graphics-Samples>)**
+  - Адрес: <https://github.com/microsoft/DirectX-Graphics-Samples>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[github.com — microsoft/DirectX-Specs](<https://github.com/microsoft/DirectX-Specs>)**
+  - Адрес: <https://github.com/microsoft/DirectX-Specs>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[DirectX Shader Compiler — официальный репозиторий](<https://github.com/microsoft/DirectXShaderCompiler>)**
+  - Адрес: <https://github.com/microsoft/DirectXShaderCompiler>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[04_Knowledge/CMake/CMake|CMake]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[DirectX Shader Compiler — Releases](<https://github.com/microsoft/DirectXShaderCompiler/releases>)**
+  - Адрес: <https://github.com/microsoft/DirectXShaderCompiler/releases>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[github.com — microsoft/DirectXShaderCompiler/releases/download/v1.9.2609/dxc_2026_09_29.zip](<https://github.com/microsoft/DirectXShaderCompiler/releases/download/v1.9.2609/dxc_2026_09_29.zip>)**
+  - Адрес: <https://github.com/microsoft/DirectXShaderCompiler/releases/download/v1.9.2609/dxc_2026_09_29.zip>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/CMake/advanced example|advanced example]].
+- **[Learn DirectX 12 Samples](<https://github.com/PAMinerva/LearnDirectX-samples>)**
+  - Адрес: <https://github.com/PAMinerva/LearnDirectX-samples>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Compute with DirectX 12](<https://github.com/stefanpgd/Compute-DirectX12-Tutorial>)**
+  - Адрес: <https://github.com/stefanpgd/Compute-DirectX12-Tutorial>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Learn DirectX 11](<https://graphicsprogramming.github.io/learnd3d11/>)**
+  - Адрес: <https://graphicsprogramming.github.io/learnd3d11/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Hello.cpp Projects](<https://www.hellocpp.dev/projects/opengl-blackhole-2d-v2>)**
+  - Адрес: <https://www.hellocpp.dev/projects/opengl-blackhole-2d-v2>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Best Practices for Modern OpenGL](<https://juandiegomontoya.github.io/modern_opengl.html>)**
+  - Адрес: <https://juandiegomontoya.github.io/modern_opengl.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[OpenGL Wiki](<https://www.khronos.org/opengl/wiki/>)**
+  - Адрес: <https://www.khronos.org/opengl/wiki/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[DirectX 11 Documentation](<https://learn.microsoft.com/en-us/windows/win32/direct3d11/atoc-dx-graphics-direct3d-11>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/direct3d11/atoc-dx-graphics-direct3d-11>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Microsoft: Multisample Anti-Aliasing Rasterization Rules](<https://learn.microsoft.com/en-us/windows/win32/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-rules#multisample-anti-aliasing-rasterization-rules>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-rules#multisample-anti-aliasing-rasterization-rules>.
+  - В заметках: [[04_Knowledge/Graphics/Пиксели_сэмплы_и_MSAA|Пиксели_сэмплы_и_MSAA]].
+- **[Microsoft: Triangle Rasterization Rules](<https://learn.microsoft.com/en-us/windows/win32/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-rules#triangle-rasterization-rules-without-multisampling>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-rules#triangle-rasterization-rules-without-multisampling>.
+  - В заметках: [[04_Knowledge/Graphics/Пиксели_сэмплы_и_MSAA|Пиксели_сэмплы_и_MSAA]].
+- **[Direct3D 12 documentation](<https://learn.microsoft.com/en-us/windows/win32/direct3d12/direct3d-12-graphics>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/direct3d12/direct3d-12-graphics>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[HLSL docs](<https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Learn OpenGL](<https://learnopengl.com/>)**
+  - Адрес: <https://learnopengl.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[04_Knowledge/Math/Linear algebra/Quat|Quat]], [[04_Knowledge/WebGPU/Links&Videos/Camera|Camera]], [[04_Knowledge/WebGPU/Main/Graphics|Graphics]], [[04_Knowledge/WebGPU/NeedToParse/New shaders|New shaders]], [[04_Knowledge/WebGPU/Sources/PBR|PBR]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Как читать технические книги|Как читать технические книги]], [[05_Learning/Guides/Чтение по рендерингу в дороге|Чтение по рендерингу в дороге]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+  - Варианты в заметках: <https://LearnOpenGL.com>, <https://learnopengl.com>.
+- **[learnopengl.com](<https://learnopengl.com/%26?utm_source=chatgpt.com>)**
+  - Адрес: <https://learnopengl.com/%26?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[LearnOpenGL — Advanced Lighting](<https://learnopengl.com/Advanced-Lighting/Advanced-Lighting>)**
+  - Адрес: <https://learnopengl.com/Advanced-Lighting/Advanced-Lighting>.
+  - В заметках: [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[LearnOpenGL — Bloom](<https://learnopengl.com/Advanced-Lighting/Bloom>)**
+  - Адрес: <https://learnopengl.com/Advanced-Lighting/Bloom>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[LearnOpenGL — Deferred Shading](<https://learnopengl.com/Advanced-Lighting/Deferred-Shading>)**
+  - Адрес: <https://learnopengl.com/Advanced-Lighting/Deferred-Shading>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[LearnOpenGL — Gamma Correction](<https://learnopengl.com/Advanced-Lighting/Gamma-Correction>)**
+  - Адрес: <https://learnopengl.com/Advanced-Lighting/Gamma-Correction>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[LearnOpenGL — HDR](<https://learnopengl.com/Advanced-Lighting/HDR>)**
+  - Адрес: <https://learnopengl.com/Advanced-Lighting/HDR>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[LearnOpenGL — Shadow Mapping](<https://learnopengl.com/Advanced-Lighting/Shadow-Mapping>)**
+  - Адрес: <https://learnopengl.com/Advanced-Lighting/Shadow-Mapping>.
+  - В заметках: [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[LearnOpenGL — Shadow Mapping](<https://learnopengl.com/Advanced-Lighting/Shadows/Shadow-Mapping>)**
+  - Адрес: <https://learnopengl.com/Advanced-Lighting/Shadows/Shadow-Mapping>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[LearnOpenGL — SSAO](<https://learnopengl.com/Advanced-Lighting/SSAO>)**
+  - Адрес: <https://learnopengl.com/Advanced-Lighting/SSAO>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[Blending](<https://learnopengl.com/Advanced-OpenGL/Blending>)**
+  - Адрес: <https://learnopengl.com/Advanced-OpenGL/Blending>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[LearnOpenGL — Depth testing](<https://learnopengl.com/Advanced-OpenGL/Depth-testing>)**
+  - Адрес: <https://learnopengl.com/Advanced-OpenGL/Depth-testing>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[LearnOpenGL — Instancing](<https://learnopengl.com/Advanced-OpenGL/Instancing>)**
+  - Адрес: <https://learnopengl.com/Advanced-OpenGL/Instancing>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[LearnOpenGL — Camera](<https://learnopengl.com/Getting-started/Camera>)**
+  - Адрес: <https://learnopengl.com/Getting-started/Camera>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[LearnOpenGL — Coordinate Systems](<https://learnopengl.com/Getting-started/Coordinate-Systems>)**
+  - Адрес: <https://learnopengl.com/Getting-started/Coordinate-Systems>.
+  - В заметках: [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]].
+- **[learnopengl.com](<https://learnopengl.com/Getting-started/Shaders>)**
+  - Адрес: <https://learnopengl.com/Getting-started/Shaders>.
+  - В заметках: [[04_Knowledge/Vulkan/Shader links|Shader links]].
+- **[LearnOpenGL — Textures](<https://learnopengl.com/Getting-started/Textures>)**
+  - Адрес: <https://learnopengl.com/Getting-started/Textures>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[LearnOpenGL — Getting started / Transformations](<https://learnopengl.com/Getting-started/Transformations>)**
+  - Адрес: <https://learnopengl.com/Getting-started/Transformations>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[LearnOpenGL — Frustum Culling](<https://learnopengl.com/Guest-Articles/2021/Scene/Frustum-Culling>)**
+  - Адрес: <https://learnopengl.com/Guest-Articles/2021/Scene/Frustum-Culling>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[LearnOpenGL — Basic Lighting](<https://learnopengl.com/Lighting/Basic-Lighting>)**
+  - Адрес: <https://learnopengl.com/Lighting/Basic-Lighting>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[LearnOpenGL — Diffuse IBL](<https://learnopengl.com/PBR/IBL/Diffuse-irradiance>)**
+  - Адрес: <https://learnopengl.com/PBR/IBL/Diffuse-irradiance>.
+  - В заметках: [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[LearnOpenGL — Specular IBL](<https://learnopengl.com/PBR/IBL/Specular-IBL>)**
+  - Адрес: <https://learnopengl.com/PBR/IBL/Specular-IBL>.
+  - В заметках: [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[LearnOpenGL — PBR Lighting](<https://learnopengl.com/PBR/Lighting>)**
+  - Адрес: <https://learnopengl.com/PBR/Lighting>.
+  - В заметках: [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[LearnOpenGL — PBR Theory](<https://learnopengl.com/PBR/Theory?utm_source=chatgpt.com>)**
+  - Адрес: <https://learnopengl.com/PBR/Theory?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[04_Knowledge/WebGPU/Описание что изучать дальше и может пригодится|Описание что изучать дальше и может пригодится]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+  - Варианты в заметках: <https://learnopengl.com/PBR/Theory>, <https://learnopengl.com/PBR/Theory>.
+- **[LearnOpenGL PBR](<https://learnopengl.com/PBR?utm_source=chatgpt.com>)**
+  - Адрес: <https://learnopengl.com/PBR?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[learnopengl.e-yes.ru](<https://learnopengl.e-yes.ru>)**
+  - Адрес: <https://learnopengl.e-yes.ru>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[04_Knowledge/Learn/Render/Basics/Render Theory/ЗАметка|ЗАметка]], [[04_Knowledge/WebGPU/Links&Videos/Camera|Camera]], [[04_Knowledge/WebGPU/Sources/PBR|PBR]], [[04_Knowledge/WebGPU/Описание что изучать дальше и может пригодится|Описание что изучать дальше и может пригодится]].
+  - Варианты в заметках: <https://learnopengl.e-yes.ru>.
+- **[Learn WebGL](<https://learnwebgl.brown37.net/>)**
+  - Адрес: <https://learnwebgl.brown37.net/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[MBSoftworks OpenGL Tutorials](<https://www.mbsoftworks.sk/tutorials/>)**
+  - Адрес: <https://www.mbsoftworks.sk/tutorials/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Metal Tutorial](<https://metaltutorial.com/>)**
+  - Адрес: <https://metaltutorial.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[DirectX 12 Spec](<https://microsoft.github.io/DirectX-Specs/>)**
+  - Адрес: <https://microsoft.github.io/DirectX-Specs/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[OpenGL Step By Step](<https://ogldev.org/>)**
+  - Адрес: <https://ogldev.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[OpenGL Introduction](<https://open.gl/introduction>)**
+  - Адрес: <https://open.gl/introduction>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[OpenGL Tutorials](<https://www.opengl-tutorial.org/>)**
+  - Адрес: <https://www.opengl-tutorial.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[OpenGL Hardware Database](<https://opengl.gpuinfo.org/>)**
+  - Адрес: <https://opengl.gpuinfo.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Learn DirectX from code samples](<https://paminerva.github.io/docs/LearnDirectX/LearnDirectX>)**
+  - Адрес: <https://paminerva.github.io/docs/LearnDirectX/LearnDirectX>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Learn DirectX 12](<https://paminerva.github.io/LearnDirectX/presentation.html#>)**
+  - Адрес: <https://paminerva.github.io/LearnDirectX/presentation.html#>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[DirectX 11 on Windows 10 Tutorial](<https://www.rastertek.com/tutdx11win10.html>)**
+  - Адрес: <https://www.rastertek.com/tutdx11win10.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Roadmaps/D3D11|D3D11]].
+- **[r/OpenGL](<https://www.reddit.com/r/opengl/>)**
+  - Адрес: <https://www.reddit.com/r/opengl/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[r/WebGL](<https://www.reddit.com/r/webgl/>)**
+  - Адрес: <https://www.reddit.com/r/webgl/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[крутой сайт про каждый APi](<https://www.songho.ca/webgl/index.html>)**
+  - Адрес: <https://www.songho.ca/webgl/index.html>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[GPU Memory Pools in D3D12](<https://therealmjp.github.io/posts/gpu-memory-pool/>)**
+  - Адрес: <https://therealmjp.github.io/posts/gpu-memory-pool/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[WebGL2 Fundamentals](<https://webgl2fundamentals.org/>)**
+  - Адрес: <https://webgl2fundamentals.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[WebGL Academy](<http://www.webglacademy.com/>)**
+  - Адрес: <http://www.webglacademy.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[WebGL Fundamentals](<https://webglfundamentals.org/>)**
+  - Адрес: <https://webglfundamentals.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[OpenGl Tutorials](<https://www.youtube.com/playlist?list=PLPaoO-vpZnumdcb4tZc4x5Q-v7CkrQ6M->)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLPaoO-vpZnumdcb4tZc4x5Q-v7CkrQ6M->.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+
+### Архитектура GPU, CUDA, HIP и параллельные вычисления
+
+- **[AMD ROCm Training Videos](<https://www.amd.com/en/developer/resources/rocm-hub/training-videos.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.amd.com/en/developer/resources/rocm-hub/training-videos.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **[Chips and Cheese](<https://chipsandcheese.com/>)**
+  - Адрес: <https://chipsandcheese.com/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[Compute Toys](<https://compute.toys/>)**
+  - Адрес: <https://compute.toys/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[GPU Architecture (Cornell)](<https://cvw.cac.cornell.edu/gpu-architecture>)**
+  - Адрес: <https://cvw.cac.cornell.edu/gpu-architecture>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Vulkan/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[NVIDIA Technical Blog](<https://developer.nvidia.com/blog/>)**
+  - Адрес: <https://developer.nvidia.com/blog/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[quick start with CUDA/hip](<https://developer.nvidia.com/blog/even-easier-introduction-cuda/>)**
+  - Адрес: <https://developer.nvidia.com/blog/even-easier-introduction-cuda/>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[GPU Gems 3 — Parallel Prefix Sum (Scan)](<https://developer.nvidia.com/gpugems/gpugems3/part-vi-gpu-computing/chapter-39-parallel-prefix-sum-scan-cuda>)**
+  - Адрес: <https://developer.nvidia.com/gpugems/gpugems3/part-vi-gpu-computing/chapter-39-parallel-prefix-sum-scan-cuda>.
+  - В заметках: [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[CUDA C++ Programming Guide](<https://docs.nvidia.com/cuda/cuda-c-programming-guide/>)**
+  - Адрес: <https://docs.nvidia.com/cuda/cuda-c-programming-guide/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[CUDA documentation](<https://docs.nvidia.com/cuda/cuda-c-programming-guide/#compute-capabilities>)**
+  - Адрес: <https://docs.nvidia.com/cuda/cuda-c-programming-guide/#compute-capabilities>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[NVIDIA Docs](<https://docs.nvidia.com/cuda/cuda-programming-guide/?utm_source=chatgpt.com>)**
+  - Адрес: <https://docs.nvidia.com/cuda/cuda-programming-guide/?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/C++/Concurrency/Разбор лабораторной по многопоточности|Разбор лабораторной по многопоточности]].
+- **[CUDA C/C++ Programming Guide (NVIDIA)](<https://docs.nvidia.com/cuda/cuda-programming-guide/part2.html>)**
+  - Адрес: <https://docs.nvidia.com/cuda/cuda-programming-guide/part2.html>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[GPU Architectures](<https://drive.google.com/file/d/12ahbqGXNfY3V-1Gj5cvne2AH4BFWZHGD/view>)**
+  - Адрес: <https://drive.google.com/file/d/12ahbqGXNfY3V-1Gj5cvne2AH4BFWZHGD/view>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[GPU Architectures](<https://drive.google.com/file/d/12ahbqGXNfY3V-1Gj5cvne2AH4BFWZHGD/view?pli=1>)**
+  - Адрес: <https://drive.google.com/file/d/12ahbqGXNfY3V-1Gj5cvne2AH4BFWZHGD/view?pli=1>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Stanford CS149 — Parallel Computing](<https://gfxcourses.stanford.edu/cs149/>)**
+  - Адрес: <https://gfxcourses.stanford.edu/cs149/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[gfxcourses.stanford.edu](<https://gfxcourses.stanford.edu/cs149/fall23?utm_source=chatgpt.com>)**
+  - Адрес: <https://gfxcourses.stanford.edu/cs149/fall23?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Parallel|Parallel]].
+- **[gfxcourses.stanford.edu](<https://gfxcourses.stanford.edu/cs149/fall23content/media/dataparallel/08_dataparallel.pdf?utm_source=chatgpt.com>)**
+  - Адрес: <https://gfxcourses.stanford.edu/cs149/fall23content/media/dataparallel/08_dataparallel.pdf?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Parallel|Parallel]].
+- **[Stanford CS149](<https://gfxcourses.stanford.edu/cs149/fall25/?utm_source=chatgpt.com>)**
+  - Адрес: <https://gfxcourses.stanford.edu/cs149/fall25/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[gfxcourses.stanford.edu](<https://gfxcourses.stanford.edu/cs149/fall25/courseinfo?utm_source=chatgpt.com>)**
+  - Адрес: <https://gfxcourses.stanford.edu/cs149/fall25/courseinfo?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[gfxcourses.stanford.edu](<https://gfxcourses.stanford.edu/cs149/fall25/lecture/?utm_source=chatgpt.com>)**
+  - Адрес: <https://gfxcourses.stanford.edu/cs149/fall25/lecture/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Resources Github](<https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9#gpu-architecture>)**
+  - Адрес: <https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9#gpu-architecture>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[GPU Optimization for GameDev](<https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d>)**
+  - Адрес: <https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[GPU Reshape](<https://github.com/GPUOpen-Tools/GPU-Reshape>)**
+  - Адрес: <https://github.com/GPUOpen-Tools/GPU-Reshape>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[NVIDIA CUDA Samples (GitHub)](<https://github.com/NVIDIA/cuda-samples>)**
+  - Адрес: <https://github.com/NVIDIA/cuda-samples>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[AMD HIP-Examples (GitHub)](<https://github.com/ROCm/HIP-Examples>)**
+  - Адрес: <https://github.com/ROCm/HIP-Examples>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[GPUOpen (AMD)](<https://gpuopen.com/>)**
+  - Адрес: <https://gpuopen.com/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]].
+- **[gpuopen.com — fidelityfx-sdk](<https://gpuopen.com/fidelityfx-sdk/>)**
+  - Адрес: <https://gpuopen.com/fidelityfx-sdk/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[AMD GPUOpen Learn](<https://gpuopen.com/learn/>)**
+  - Адрес: <https://gpuopen.com/learn/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[AMD GPUOpen](<https://gpuopen.com/learn/getting-started-development-performance/?utm_source=chatgpt.com>)**
+  - Адрес: <https://gpuopen.com/learn/getting-started-development-performance/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[AMD GPUOpen](<https://gpuopen.com/learn/getting-started-software/?utm_source=chatgpt.com>)**
+  - Адрес: <https://gpuopen.com/learn/getting-started-software/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[How Do I Become a Graphics Programmer?](<https://gpuopen.com/learn/how_do_you_become_a_graphics_programmer/>)**
+  - Адрес: <https://gpuopen.com/learn/how_do_you_become_a_graphics_programmer/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[AMD Publications](<https://gpuopen.com/learn/publications/>)**
+  - Адрес: <https://gpuopen.com/learn/publications/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[AMD RDNA Performance Guide](<https://gpuopen.com/learn/rdna-performance-guide/>)**
+  - Адрес: <https://gpuopen.com/learn/rdna-performance-guide/>.
+  - В заметках: [[02_Resources/Links|Links]], [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+  - Варианты в заметках: <https://gpuopen.com/learn/rdna-performance-guide/?utm_source=chatgpt.com>.
+- **[AMD GPUOpen](<https://gpuopen.com/learn/unreal-engine-performance-guide/?utm_source=chatgpt.com>)**
+  - Адрес: <https://gpuopen.com/learn/unreal-engine-performance-guide/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Radeon GPU Profiler — официальный мануал](<https://gpuopen.com/manuals/rgp_manual/>)**
+  - Адрес: <https://gpuopen.com/manuals/rgp_manual/>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+  - Варианты в заметках: <https://gpuopen.com/manuals/rgp_manual/?utm_source=chatgpt.com>.
+- **[RGP Quick Start](<https://gpuopen.com/manuals/rgp_manual/quickstart/>)**
+  - Адрес: <https://gpuopen.com/manuals/rgp_manual/quickstart/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[gpuopen.com — rga](<https://gpuopen.com/rga/>)**
+  - Адрес: <https://gpuopen.com/rga/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[gpuopen.com — rgp](<https://gpuopen.com/rgp/>)**
+  - Адрес: <https://gpuopen.com/rgp/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[AMD Developer Tools Suite](<https://gpuopen.com/tools/>)**
+  - Адрес: <https://gpuopen.com/tools/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[gpuweb.github.io — gpuweb](<https://gpuweb.github.io/gpuweb/>)**
+  - Адрес: <https://gpuweb.github.io/gpuweb/>.
+  - В заметках: [[02_Resources/GPU/Spec|Spec]], [[04_Knowledge/WebGPU/NeedToParse/Specification|Specification]].
+  - Варианты в заметках: <https://gpuweb.github.io/gpuweb/>.
+- **[SYCL на Хабре (Intel)](<https://habr.com/ru/companies/intel/articles/533126/>)**
+  - Адрес: <https://habr.com/ru/companies/intel/articles/533126/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[AMD uses two](<http://www.highperformancegraphics.org/previous/www_2010/media/Hot3D/HPG2010_Hot3D_AMD.pdf>)**
+  - Адрес: <http://www.highperformancegraphics.org/previous/www_2010/media/Hot3D/HPG2010_Hot3D_AMD.pdf>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]].
+- **[NVidia employs four rasterizers](<http://www.highperformancegraphics.org/previous/www_2010/media/Hot3D/HPG2010_Hot3D_NVIDIA.pdf>)**
+  - Адрес: <http://www.highperformancegraphics.org/previous/www_2010/media/Hot3D/HPG2010_Hot3D_NVIDIA.pdf>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter8-pixel-processing-fork|chapter8-pixel-processing-fork]].
+- **[High Performance Graphics](<https://www.highperformancegraphics.org/2024/index.html>)**
+  - Адрес: <https://www.highperformancegraphics.org/2024/index.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[SYCL Official Site (Khronos)](<https://www.khronos.org/sycl/>)**
+  - Адрес: <https://www.khronos.org/sycl/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Multicore and GPU Programming](<https://www.oreilly.com/library/view/multicore-and-gpu/9780124171374/>)**
+  - Адрес: <https://www.oreilly.com/library/view/multicore-and-gpu/9780124171374/>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Programming Massively Parallel Processors (4th)](<https://www.oreilly.com/library/view/programming-massively-parallel/9780323984638/>)**
+  - Адрес: <https://www.oreilly.com/library/view/programming-massively-parallel/9780323984638/>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[The Art of Multiprocessor Programming](<https://www.oreilly.com/library/view/the-art-of/9780123973375/>)**
+  - Адрес: <https://www.oreilly.com/library/view/the-art-of/9780123973375/>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Programming Parallel Computers](<https://ppc.cs.aalto.fi/links/>)**
+  - Адрес: <https://ppc.cs.aalto.fi/links/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[AMD ROCm Programming Guide](<https://rocm-handbook.amd.com/projects/amd-rocm-programming-guide/en/latest/?utm_source=chatgpt.com>)**
+  - Адрес: <https://rocm-handbook.amd.com/projects/amd-rocm-programming-guide/en/latest/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **[(для compute research, не обязательна для renderer).](<https://rocm.docs.amd.com/>)**
+  - Адрес: <https://rocm.docs.amd.com/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[AMD ROCm](<https://rocm.docs.amd.com/_/downloads/HIP/en/docs-6.1.2/pdf/?utm_source=chatgpt.com>)**
+  - Адрес: <https://rocm.docs.amd.com/_/downloads/HIP/en/docs-6.1.2/pdf/?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/GPU/HIP на Windows и VS Code|HIP на Windows и VS Code]], [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **[AMD ROCm](<https://rocm.docs.amd.com/_/downloads/install-on-windows/en/develop/pdf/?utm_source=chatgpt.com>)**
+  - Адрес: <https://rocm.docs.amd.com/_/downloads/install-on-windows/en/develop/pdf/?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/GPU/HIP на Windows и VS Code|HIP на Windows и VS Code]].
+- **[AMD HIP Programming guide](<https://rocm.docs.amd.com/en/latest/how-to/programming_guide.html>)**
+  - Адрес: <https://rocm.docs.amd.com/en/latest/how-to/programming_guide.html>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[AMD ROCm](<https://rocm.docs.amd.com/projects/HIP/en/develop/how-to/kernel_language_cpp_support.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://rocm.docs.amd.com/projects/HIP/en/develop/how-to/kernel_language_cpp_support.html?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/GPU/HIP на Windows и VS Code|HIP на Windows и VS Code]].
+- **[HIP documentation](<https://rocm.docs.amd.com/projects/HIP/en/develop/index.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://rocm.docs.amd.com/projects/HIP/en/develop/index.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **[AMD ROCm](<https://rocm.docs.amd.com/projects/HIP/en/develop/tutorial/programming-patterns/matrix_multiplication.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://rocm.docs.amd.com/projects/HIP/en/develop/tutorial/programming-patterns/matrix_multiplication.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **[AMD HIP documentation](<https://rocm.docs.amd.com/projects/HIP/en/latest/>)**
+  - Адрес: <https://rocm.docs.amd.com/projects/HIP/en/latest/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[AMD ROCm](<https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_porting_guide.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_porting_guide.html?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/GPU/HIP на Windows и VS Code|HIP на Windows и VS Code]].
+- **[Лекции по архитектуре GPU (Panopto)](<https://scs.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=11e89f91-6ae0-44bc-bfc7-cea41b1af542>)**
+  - Адрес: <https://scs.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=11e89f91-6ae0-44bc-bfc7-cea41b1af542>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Elsevier Shop](<https://shop.elsevier.com/books/programming-massively-parallel-processors/hwu/978-0-443-43900-1?utm_source=chatgpt.com>)**
+  - Адрес: <https://shop.elsevier.com/books/programming-massively-parallel-processors/hwu/978-0-443-43900-1?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **[Branch Education (YouTube)](<https://www.youtube.com/@BranchEducation>)**
+  - Адрес: <https://www.youtube.com/@BranchEducation>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[High-Performance Graphics](<https://www.youtube.com/@HighPerformanceGraphics>)**
+  - Адрес: <https://www.youtube.com/@HighPerformanceGraphics>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[High Yield (YouTube)](<https://www.youtube.com/@HighYield>)**
+  - Адрес: <https://www.youtube.com/@HighYield>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[CMU 15-418 / 15-618: Parallel Computer Architecture and Programming](<https://www.youtube.com/results?search_query=CMU+15-418+Kayvon+Fatahalian>)**
+  - Адрес: <https://www.youtube.com/results?search_query=CMU+15-418+Kayvon+Fatahalian>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[CS344: Intro to Parallel Programming (NVIDIA/Udacity)](<https://www.youtube.com/results?search_query=Udacity+CS344>)**
+  - Адрес: <https://www.youtube.com/results?search_query=Udacity+CS344>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[MythBusters: CPU vs GPU](<https://www.youtube.com/watch?v=-P28LKWTzrI>)**
+  - Адрес: <https://www.youtube.com/watch?v=-P28LKWTzrI>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[How do Graphics Cards Work? Exploring GPU Architecture](<https://www.youtube.com/watch?v=h9Z4oGN89MU>)**
+  - Адрес: <https://www.youtube.com/watch?v=h9Z4oGN89MU>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+
+### Математика, физика и алгоритмы
+
+- **[3Blue1Brown — Attention in transformers, step-by-step](<https://www.3blue1brown.com/lessons/attention/>)**
+  - Адрес: <https://www.3blue1brown.com/lessons/attention/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[3Blue1Brown — Transformers, the tech behind LLMs](<https://www.3blue1brown.com/lessons/gpt/>)**
+  - Адрес: <https://www.3blue1brown.com/lessons/gpt/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[3Blue1Brown — Linear transformations and matrices](<https://www.3blue1brown.com/lessons/linear-transformations/>)**
+  - Адрес: <https://www.3blue1brown.com/lessons/linear-transformations/>.
+  - В заметках: [[03_Projects/LuxPrism/CAMERA_AND_RENDERING|CAMERA_AND_RENDERING]], [[03_Projects/LuxPrism/Ближайшие задачи|Ближайшие задачи]].
+- **[3Blue1Brown — But what is a Neural Network?](<https://www.3blue1brown.com/lessons/neural-networks/>)**
+  - Адрес: <https://www.3blue1brown.com/lessons/neural-networks/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[3Blue1Brown — Essence of Linear Algebra](<https://www.3blue1brown.com/topics/linear-algebra>)**
+  - Адрес: <https://www.3blue1brown.com/topics/linear-algebra>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Understanding Quaternions (3D Game Engine Programming)](<https://www.3dgep.com/understanding-quaternions/>)**
+  - Адрес: <https://www.3dgep.com/understanding-quaternions/>.
+  - В заметках: [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]].
+- **[app.getsupers.com — sites/gpu-boids-spatial-hashing-30](<https://app.getsupers.com/sites/gpu-boids-spatial-hashing-30/>)**
+  - Адрес: <https://app.getsupers.com/sites/gpu-boids-spatial-hashing-30/>.
+  - В заметках: [[03_Projects/Boids/Демонстрация spatial hashing|Демонстрация spatial hashing]].
+- **[Vector Math for 3D Computer Graphics](<https://chortle.ccsu.edu/VectorLessons/index.html>)**
+  - Адрес: <https://chortle.ccsu.edu/VectorLessons/index.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[CP-Algorithms — Basic Geometry](<https://cp-algorithms.com/geometry/basic-geometry.html>)**
+  - Адрес: <https://cp-algorithms.com/geometry/basic-geometry.html>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[CP-Algorithms — Intersection of Segments](<https://cp-algorithms.com/geometry/segments-intersection.html>)**
+  - Адрес: <https://cp-algorithms.com/geometry/segments-intersection.html>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Desmos](<https://www.desmos.com/>)**
+  - Адрес: <https://www.desmos.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Desmos](<https://www.desmos.com/calculator>)**
+  - Адрес: <https://www.desmos.com/calculator>.
+  - В заметках: [[05_Learning/Roadmaps/Shader_Roadmap_WGSL_Obsidian|Shader_Roadmap_WGSL_Obsidian]].
+- **[Mathematics Discord](<https://discord.gg/maths>)**
+  - Адрес: <https://discord.gg/maths>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[EuclideanSpace: Quaternions](<https://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/>)**
+  - Адрес: <https://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/>.
+  - В заметках: [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]].
+- **["Understanding Quaternions"](<https://Gamedev.net>)**
+  - Адрес: <https://Gamedev.net>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[04_Knowledge/Math/Linear algebra/Quat|Quat]].
+  - Варианты в заметках: <https://Gamedev.net>.
+- **[3D Math Primer for Graphics and Game Development](<https://gamemath.com/>)**
+  - Адрес: <https://gamemath.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+  - Варианты в заметках: <https://gamemath.com/?utm_source=chatgpt.com>.
+- **[gamemath.com — book](<https://gamemath.com/book/>)**
+  - Адрес: <https://gamemath.com/book/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[книга Флетчера Данна](<https://gamemath.com/book/cartesianspace.html>)**
+  - Адрес: <https://gamemath.com/book/cartesianspace.html>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Доступна бесплатно онлайн от автора (Глава 8)](<https://gamemath.com/book/orient.html>)**
+  - Адрес: <https://gamemath.com/book/orient.html>.
+  - В заметках: [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]].
+- **[сайт с тяжелыми задачками, но их больше по разнообразию](<https://getcracked.io/>)**
+  - Адрес: <https://getcracked.io/>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[легендарный текстовый курс, который вообще популяризовал подход изучения через паттерны.](<https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions?tab=readme-ov-file>)**
+  - Адрес: <https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions?tab=readme-ov-file>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[HandmadeMath](<https://github.com/HandmadeMath/HandmadeMath>)**
+  - Адрес: <https://github.com/HandmadeMath/HandmadeMath>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[Bit Twiddling Hacks](<https://graphics.stanford.edu/~seander/bithacks.html>)**
+  - Адрес: <https://graphics.stanford.edu/~seander/bithacks.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Хабр: Кватернионы в 3D (перевод/адаптация)](<https://habr.com/ru/articles/183116/>)**
+  - Адрес: <https://habr.com/ru/articles/183116/>.
+  - В заметках: [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]].
+- **[математические алгоритма в виде рисунков и видео](<https://immersivemath.com/ila/>)**
+  - Адрес: <https://immersivemath.com/ila/>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Immersive Math](<https://immersivemath.com/ila/index.html>)**
+  - Адрес: <https://immersivemath.com/ila/index.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Pixar in a Box](<https://www.khanacademy.org/computing/pixar>)**
+  - Адрес: <https://www.khanacademy.org/computing/pixar>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[сайт с задачками самый известный](<https://leetcode.com/>)**
+  - Адрес: <https://leetcode.com/>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Linear Algebra Done Right](<https://linear.axler.net/>)**
+  - Адрес: <https://linear.axler.net/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[marctenbosch.com — quaternions](<https://marctenbosch.com/quaternions/>)**
+  - Адрес: <https://marctenbosch.com/quaternions/>.
+  - В заметках: [[02_Resources/Math/Кватернионы — Marc ten Bosch|Кватернионы — Marc ten Bosch]].
+- **[Trigonometry](<https://www.mecmath.net/trig/>)**
+  - Адрес: <https://www.mecmath.net/trig/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Nature of Code](<https://natureofcode.com/>)**
+  - Адрес: <https://natureofcode.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[neetcode.io](<https://neetcode.io/>)**
+  - Адрес: <https://neetcode.io/>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[MIT 18.06 Linear Algebra](<https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/>)**
+  - Адрес: <https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[3D Math Primer (2nd)](<https://www.oreilly.com/library/view/3d-math-primer/9781439869819/>)**
+  - Адрес: <https://www.oreilly.com/library/view/3d-math-primer/9781439869819/>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Real-Time Collision Detection](<https://www.oreilly.com/library/view/real-time-collision-detection/9781558607323/>)**
+  - Адрес: <https://www.oreilly.com/library/view/real-time-collision-detection/9781558607323/>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Fundamental Math for Game Developers](<https://pikuma.com/blog/math-for-game-developers>)**
+  - Адрес: <https://pikuma.com/blog/math-for-game-developers>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[A Primer on Bézier Curves](<https://pomax.github.io/bezierinfo/>)**
+  - Адрес: <https://pomax.github.io/bezierinfo/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Project Euler](<https://projecteuler.net/about>)**
+  - Адрес: <https://projecteuler.net/about>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Game Math 101, Writing your Own 2D Math in C++](<https://randygaul.github.io/math/2022/09/18/Game-Math-101-Writing-your-Own-2D-Math-in-CPP.html>)**
+  - Адрес: <https://randygaul.github.io/math/2022/09/18/Game-Math-101-Writing-your-Own-2D-Math-in-CPP.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[realtimecollisiondetection.net](<https://realtimecollisiondetection.net/>)**
+  - Адрес: <https://realtimecollisiondetection.net/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Red Blob Games](<https://www.redblobgames.com/>)**
+  - Адрес: <https://www.redblobgames.com/>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[04_Knowledge/Unreal Engine 5/Links|Links]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Red Blob Games — 2D Visibility](<https://www.redblobgames.com/articles/visibility/>)**
+  - Адрес: <https://www.redblobgames.com/articles/visibility/>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Linear Algebra Done Wrong](<https://sites.google.com/a/brown.edu/sergei-treil-homepage/linear-algebra-done-wrong>)**
+  - Адрес: <https://sites.google.com/a/brown.edu/sergei-treil-homepage/linear-algebra-done-wrong>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[wiki.rakovets.by — v0/hashing/fnv](<https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-0-1>)**
+  - Адрес: <https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-0-1>.
+  - В заметках: [[04_Knowledge/Algorithms/FNV-1 и FNV-1a|FNV-1 и FNV-1a]].
+- **[wiki.rakovets.by — v0/hashing/fnv](<https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-0-2>)**
+  - Адрес: <https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-0-2>.
+  - В заметках: [[04_Knowledge/Algorithms/FNV-1 и FNV-1a|FNV-1 и FNV-1a]].
+- **[wiki.rakovets.by — v0/hashing/fnv](<https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-0-3>)**
+  - Адрес: <https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-0-3>.
+  - В заметках: [[04_Knowledge/Algorithms/FNV-1 и FNV-1a|FNV-1 и FNV-1a]].
+- **[hash = hash ^ byte_of_data](<https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-0-4>)**
+  - Адрес: <https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-0-4>.
+  - В заметках: [[04_Knowledge/Algorithms/FNV-1 и FNV-1a|FNV-1 и FNV-1a]].
+- **[wiki.rakovets.by — v0/hashing/fnv](<https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-1-1>)**
+  - Адрес: <https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-1-1>.
+  - В заметках: [[04_Knowledge/Algorithms/FNV-1 и FNV-1a|FNV-1 и FNV-1a]].
+- **[wiki.rakovets.by — v0/hashing/fnv](<https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-1-2>)**
+  - Адрес: <https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-1-2>.
+  - В заметках: [[04_Knowledge/Algorithms/FNV-1 и FNV-1a|FNV-1 и FNV-1a]].
+- **[wiki.rakovets.by — v0/hashing/fnv](<https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-1-3>)**
+  - Адрес: <https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-1-3>.
+  - В заметках: [[04_Knowledge/Algorithms/FNV-1 и FNV-1a|FNV-1 и FNV-1a]].
+- **[hash = hash FNV_prime](<https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-1-4>)**
+  - Адрес: <https://wiki.rakovets.by/v0/hashing/fnv/#__codelineno-1-4>.
+  - В заметках: [[04_Knowledge/Algorithms/FNV-1 и FNV-1a|FNV-1 и FNV-1a]].
+- **[Freya Holmér: Math for Game Devs](<https://www.youtube.com/@Acegikmo>)**
+  - Адрес: <https://www.youtube.com/@Acegikmo>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[Mathew Wadstein](<https://www.youtube.com/@MathewWadsteinTutorials>)**
+  - Адрес: <https://www.youtube.com/@MathewWadsteinTutorials>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Physics For Game Dev](<https://www.youtube.com/playlist?list=PLA0dXqQjCx0QDKPHhvSXxhV6B-igBNEmx>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLA0dXqQjCx0QDKPHhvSXxhV6B-igBNEmx>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Math for Game Devs](<https://www.youtube.com/playlist?list=PLImQaTpSAdsArRFFj8bIfqMk2X7Vlf3XF>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLImQaTpSAdsArRFFj8bIfqMk2X7Vlf3XF>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Coding Math](<https://www.youtube.com/playlist?list=PLSjXzDREmGkqJA7rpGxV8xaQ589kHU4rX>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLSjXzDREmGkqJA7rpGxV8xaQ589kHU4rX>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Math for Game Developers](<https://www.youtube.com/playlist?list=PLW3Zl3wyJwWOpdhYedlD-yCB7WQoHf-My>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLW3Zl3wyJwWOpdhYedlD-yCB7WQoHf-My>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[3Blue1Brown: Visualizing quaternions (4d numbers with stereographic projection)](<https://www.youtube.com/watch?v=d4EgbgTm0Bg>)**
+  - Адрес: <https://www.youtube.com/watch?v=d4EgbgTm0Bg>.
+  - В заметках: [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]].
+- **[Essential Mathematics for Aspiring Game Developers](<https://www.youtube.com/watch?v=DPfxjQ6sqrc>)**
+  - Адрес: <https://www.youtube.com/watch?v=DPfxjQ6sqrc>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[3Blue1Brown: Linear Algebra](<https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=1>)**
+  - Адрес: <https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=1>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+
+### C++: язык, стандарты и обучение
+
+- **[Sander Mertens: Entity Component System FAQ](<https://ajmmertens.medium.com/>)**
+  - Адрес: <https://ajmmertens.medium.com/>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[Bartek's coding blog](<https://www.bfilipek.com/>)**
+  - Адрес: <https://www.bfilipek.com/>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]].
+- **[Codemia.io](<https://codemia.io/>)**
+  - Адрес: <https://codemia.io/>.
+  - В заметках: [[02_Resources/C++/Basic/OOP & Design Patterns|OOP & Design Patterns]].
+- **[OTUS: C++ Developer Professional](<https://coursehunter.net/course/c-developer-professional?lesson=6>)**
+  - Адрес: <https://coursehunter.net/course/c-developer-professional?lesson=6>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Cpp Quiz](<https://cppquiz.org/>)**
+  - Адрес: <https://cppquiz.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[это главная энциклопедия всех плюсовиков. И авторы официально разрешают скачать её целиком.](<https://cppreference.com>)**
+  - Адрес: <https://cppreference.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[02_Resources/GraphicsProgramming/Рендеринг шрифтов — источники|Рендеринг шрифтов — источники]], [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+  - Варианты в заметках: <https://cppreference.com>.
+- **[C++26 Compiler Support](<https://cppreference.com/w/cpp/compiler_support/26.html>)**
+  - Адрес: <https://cppreference.com/w/cpp/compiler_support/26.html>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[cppstories.com](<https://www.cppstories.com/>)**
+  - Адрес: <https://www.cppstories.com/>.
+  - В заметках: [[02_Resources/C++/Advanced/Resources|Resources]].
+- **[Together C & C++ Discord](<https://discord.gg/tccpp>)**
+  - Адрес: <https://discord.gg/tccpp>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Dyzzet: Краткий обзор книг по C++](<https://dyzzet.ru/a/cpp-books-summary/>)**
+  - Адрес: <https://dyzzet.ru/a/cpp-books-summary/>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[list of UB](<https://eel.is/c++draft/ub#general>)**
+  - Адрес: <https://eel.is/c++draft/ub#general>.
+  - В заметках: [[02_Resources/C++/Advanced/Resources|Resources]].
+- **[C++ Reference](<https://en.cppreference.com/>)**
+  - Адрес: <https://en.cppreference.com/>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[en.cppreference.com](<https://en.cppreference.com/cpp/thread/future?utm_source=chatgpt.com>)**
+  - Адрес: <https://en.cppreference.com/cpp/thread/future?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/C++/Concurrency/Разбор лабораторной по многопоточности|Разбор лабораторной по многопоточности]].
+- **[C++ Reference](<https://en.cppreference.com/w/>)**
+  - Адрес: <https://en.cppreference.com/w/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[cppreference — C++](<https://en.cppreference.com/w/cpp>)**
+  - Адрес: <https://en.cppreference.com/w/cpp>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[cppreference — std::memory_order](<https://en.cppreference.com/w/cpp/atomic/memory_order>)**
+  - Адрес: <https://en.cppreference.com/w/cpp/atomic/memory_order>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[std::string::find](<https://en.cppreference.com/w/cpp/string/basic_string/find>)**
+  - Адрес: <https://en.cppreference.com/w/cpp/string/basic_string/find>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[substr](<https://en.cppreference.com/w/cpp/string/basic_string/substr>)**
+  - Адрес: <https://en.cppreference.com/w/cpp/string/basic_string/substr>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[cppreference — Thread support](<https://en.cppreference.com/w/cpp/thread>)**
+  - Адрес: <https://en.cppreference.com/w/cpp/thread>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[std::from_chars](<https://en.cppreference.com/w/cpp/utility/from_chars>)**
+  - Адрес: <https://en.cppreference.com/w/cpp/utility/from_chars>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[en.cppreference.com — w/Cppreference:Archives](<https://en.cppreference.com/w/Cppreference:Archives>)**
+  - Адрес: <https://en.cppreference.com/w/Cppreference:Archives>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[02_Resources/GraphicsProgramming/Рендеринг шрифтов — источники|Рендеринг шрифтов — источники]].
+  - Варианты в заметках: <https://en.cppreference.com/w/Cppreference:Archives>.
+- **[More C++ Idioms (Wikibooks)](<https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms>)**
+  - Адрес: <https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]].
+- **[Erarnitox C++ Tutorial](<https://www.erarnitox.de/pub/cpp_tut/>)**
+  - Адрес: <https://www.erarnitox.de/pub/cpp_tut/>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Exercism — C++ Track](<https://exercism.org/tracks/cpp>)**
+  - Адрес: <https://exercism.org/tracks/cpp>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[Материалы различных CS-курсов, проводящихся в \[Tinkoff Generation](<https://fintech.tinkoff.ru/study/generation/>)**
+  - Адрес: <https://fintech.tinkoff.ru/study/generation/>.
+  - В заметках: [[02_Resources/C++/Advanced/Resources|Resources]].
+- **[Modern C++ Features (GitHub)](<https://github.com/AnthonyCalandra/modern-cpp-features>)**
+  - Адрес: <https://github.com/AnthonyCalandra/modern-cpp-features>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Modern C++ Features (Cheatsheet)](<https://github.com/anthonycalandra/modern-cpp-features?tab=readme-ov-file>)**
+  - Адрес: <https://github.com/anthonycalandra/modern-cpp-features?tab=readme-ov-file>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Modern CPP Programming (Federico Busato)](<https://github.com/federico-busato/Modern-CPP-Programming>)**
+  - Адрес: <https://github.com/federico-busato/Modern-CPP-Programming>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[github.com — isocpp/CppCoreGuidelines](<https://github.com/isocpp/CppCoreGuidelines?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/isocpp/CppCoreGuidelines?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[tinyxml2.cpp](<https://github.com/leethomason/tinyxml2/blob/master/tinyxml2.cpp>)**
+  - Адрес: <https://github.com/leethomason/tinyxml2/blob/master/tinyxml2.cpp>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[EnTT (GitHub)](<https://github.com/skypjack/entt>)**
+  - Адрес: <https://github.com/skypjack/entt>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[How to Start C++ Development?](<https://github.com/W4RH4WK/cpp-init>)**
+  - Адрес: <https://github.com/W4RH4WK/cpp-init>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Канал Jason Turner (C++ Weekly) — это вообще мастхэв для C++ разработчика. В этом коротком видео он показывает, как прикрутить CI к C++ проекту с нуля.](<https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DRZO_kYf-1oI>)**
+  - Адрес: <https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DRZO_kYf-1oI>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[DOD на практике (Хабр)](<https://habr.com/ru/articles/321106/>)**
+  - Адрес: <https://habr.com/ru/articles/321106/>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[ThreadPool (Хабр)](<https://habr.com/ru/articles/656515/>)**
+  - Адрес: <https://habr.com/ru/articles/656515/>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[std::chrono (Хабр)](<https://habr.com/ru/companies/otus/articles/864900/>)**
+  - Адрес: <https://habr.com/ru/companies/otus/articles/864900/>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Hacking C++](<https://hackingcpp.com/index.html>)**
+  - Адрес: <https://hackingcpp.com/index.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[C++ Core Guidelines](<https://isocpp.github.io/CppCoreGuidelines/?utm_source=chatgpt.com>)**
+  - Адрес: <https://isocpp.github.io/CppCoreGuidelines/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Core Guidelines: управление ресурсами](<https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines>)**
+  - Адрес: <https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Книги Nicolai Josuttis](<https://leanpub.com/u/josuttis>)**
+  - Адрес: <https://leanpub.com/u/josuttis>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Книги Rainer Grimm](<https://leanpub.com/u/RainerGrimm>)**
+  - Адрес: <https://leanpub.com/u/RainerGrimm>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Learn C++](<https://www.learncpp.com/>)**
+  - Адрес: <https://www.learncpp.com/>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[04_Knowledge/C++/Concurrency/Разбор лабораторной по многопоточности|Разбор лабораторной по многопоточности]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://www.learncpp.com>, <https://www.learncpp.com/?utm_source=chatgpt.com>.
+- **[Learn C++ by Example](<https://www.manning.com/books/learn-c-plus-plus-by-example>)**
+  - Адрес: <https://www.manning.com/books/learn-c-plus-plus-by-example>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Metanit: Паттерны проектирования](<https://metanit.com/sharp/patterns/>)**
+  - Адрес: <https://metanit.com/sharp/patterns/>.
+  - В заметках: [[02_Resources/C++/Basic/OOP & Design Patterns|OOP & Design Patterns]].
+- **[Beautiful C++](<https://www.oreilly.com/library/view/beautiful-c-30/9780137647767/>)**
+  - Адрес: <https://www.oreilly.com/library/view/beautiful-c-30/9780137647767/>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[C++ Concurrency in Action (2nd)](<https://www.oreilly.com/library/view/c-concurrency-in/9781617294693/>)**
+  - Адрес: <https://www.oreilly.com/library/view/c-concurrency-in/9781617294693/>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Patterns.dev](<https://www.patterns.dev/>)**
+  - Адрес: <https://www.patterns.dev/>.
+  - В заметках: [[02_Resources/C++/Basic/OOP & Design Patterns|OOP & Design Patterns]].
+- **[Ravesli: Уроки C++](<https://ravesli.com/urok-174-ekzemplyary-shablonov-funktsij/>)**
+  - Адрес: <https://ravesli.com/urok-174-ekzemplyary-shablonov-funktsij/>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[ru.algorithmica.org](<https://ru.algorithmica.org/>)**
+  - Адрес: <https://ru.algorithmica.org/>.
+  - В заметках: [[02_Resources/C++/Advanced/Resources|Resources]].
+- **[StackOverflow: The Definitive C++ Book Guide](<https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list>)**
+  - Адрес: <https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[CppCon (YouTube)](<https://www.youtube.com/@CppCon>)**
+  - Адрес: <https://www.youtube.com/@CppCon>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]].
+- **[Hexlet (YouTube)](<https://www.youtube.com/@HexletOrg>)**
+  - Адрес: <https://www.youtube.com/@HexletOrg>.
+  - В заметках: [[02_Resources/C++/Basic/Programming Paradigms|Programming Paradigms]].
+- **[Jonathan Blow](<https://www.youtube.com/@JBH-p5b/videos>)**
+  - Адрес: <https://www.youtube.com/@JBH-p5b/videos>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[MetalSiliconYT](<https://www.youtube.com/@MetalSiliconYT>)**
+  - Адрес: <https://www.youtube.com/@MetalSiliconYT>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[The Builder (YouTube)](<https://www.youtube.com/@TheBuilder>)**
+  - Адрес: <https://www.youtube.com/@TheBuilder>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[The Cherno (YouTube)](<https://www.youtube.com/@TheCherno>)**
+  - Адрес: <https://www.youtube.com/@TheCherno>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]], [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]].
+- **[3D Game Engine with C++ and Metal](<https://www.youtube.com/playlist?list=PLjgVkKlBynWwRbyQASXbpB1fo8GuWNjYl>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLjgVkKlBynWwRbyQASXbpB1fo8GuWNjYl>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[MacOS Metal with C++](<https://www.youtube.com/playlist?list=PLn3eTxaOtL2N8v1zUWS1fxaQVI3L3wG0w>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLn3eTxaOtL2N8v1zUWS1fxaQVI3L3wG0w>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Bo Qian: C++ Threading (YouTube)](<https://www.youtube.com/results?search_query=Bo+Qian+C%2B%2B+Threading>)**
+  - Адрес: <https://www.youtube.com/results?search_query=Bo+Qian+C%2B%2B+Threading>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]].
+- **[Timothy Lottes (Epic Games / AMD)](<https://www.youtube.com/results?search_query=Timothy+Lottes+architecture>)**
+  - Адрес: <https://www.youtube.com/results?search_query=Timothy+Lottes+architecture>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[105 STL Algorithms](<https://www.youtube.com/watch?v=2olsGf6JIkU>)**
+  - Адрес: <https://www.youtube.com/watch?v=2olsGf6JIkU>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[The C++ Wretch Build (YouTube)](<https://www.youtube.com/watch?v=BvWfbVcRy0A>)**
+  - Адрес: <https://www.youtube.com/watch?v=BvWfbVcRy0A>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Fireship: Programming Paradigms in 100 Seconds](<https://www.youtube.com/watch?v=cgwgsuD3n3g>)**
+  - Адрес: <https://www.youtube.com/watch?v=cgwgsuD3n3g>.
+  - В заметках: [[02_Resources/C++/Basic/Programming Paradigms|Programming Paradigms]].
+- **[YouTube](<https://www.youtube.com/watch?v=Cttb8vMuq-Y>)**
+  - Адрес: <https://www.youtube.com/watch?v=Cttb8vMuq-Y>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[YouTube](<https://www.youtube.com/watch?v=CwYILWyTRMQ>)**
+  - Адрес: <https://www.youtube.com/watch?v=CwYILWyTRMQ>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[YouTube](<https://www.youtube.com/watch?v=e2ZQyYr0Oi0>)**
+  - Адрес: <https://www.youtube.com/watch?v=e2ZQyYr0Oi0>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[Fireship: Declarative vs Imperative in 100 Seconds](<https://www.youtube.com/watch?v=E7Fbf7R3x6I>)**
+  - Адрес: <https://www.youtube.com/watch?v=E7Fbf7R3x6I>.
+  - В заметках: [[02_Resources/C++/Basic/Programming Paradigms|Programming Paradigms]].
+- **[YouTube](<https://www.youtube.com/watch?v=FRkJCvHWdwQ>)**
+  - Адрес: <https://www.youtube.com/watch?v=FRkJCvHWdwQ>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[YouTube](<https://www.youtube.com/watch?v=ImLFlLjSveM>)**
+  - Адрес: <https://www.youtube.com/watch?v=ImLFlLjSveM>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[CppCon 2018: C++ Function Templates (Walter E. Brown)](<https://www.youtube.com/watch?v=NIDEjY5ywqU>)**
+  - Адрес: <https://www.youtube.com/watch?v=NIDEjY5ywqU>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[YouTube](<https://www.youtube.com/watch?v=nnY4e4faNp0>)**
+  - Адрес: <https://www.youtube.com/watch?v=nnY4e4faNp0>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[YouTube](<https://www.youtube.com/watch?v=PcidhLUYp-4>)**
+  - Адрес: <https://www.youtube.com/watch?v=PcidhLUYp-4>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[YouTube](<https://www.youtube.com/watch?v=QyFVoYcaORg>)**
+  - Адрес: <https://www.youtube.com/watch?v=QyFVoYcaORg>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[YouTube: Книги по C++](<https://www.youtube.com/watch?v=rVlDLXrK1-w>)**
+  - Адрес: <https://www.youtube.com/watch?v=rVlDLXrK1-w>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Mike Acton — Data-Oriented Design and C++ (CppCon 2014)](<https://www.youtube.com/watch?v=rX0ItVEVjHc>)**
+  - Адрес: <https://www.youtube.com/watch?v=rX0ItVEVjHc>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[C++ Weekly: CI for C++ (YouTube)](<https://www.youtube.com/watch?v=RZO_kYf-1oI>)**
+  - Адрес: <https://www.youtube.com/watch?v=RZO_kYf-1oI>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]].
+- **[C++ Weekly - Ep 342 - C++20's Ranges: A Quick Start](<https://www.youtube.com/watch?v=sZy9XcGHmI4>)**
+  - Адрес: <https://www.youtube.com/watch?v=sZy9XcGHmI4>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[YouTube](<https://www.youtube.com/watch?v=UCIKbUvEKfI>)**
+  - Адрес: <https://www.youtube.com/watch?v=UCIKbUvEKfI>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[Презентация CPP Russia про корутины (YouTube)](<https://www.youtube.com/watch?v=V6UAO6niuYM>)**
+  - Адрес: <https://www.youtube.com/watch?v=V6UAO6niuYM>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[YouTube](<https://www.youtube.com/watch?v=vbHWDvY59SQ>)**
+  - Адрес: <https://www.youtube.com/watch?v=vbHWDvY59SQ>.
+  - В заметках: [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]].
+- **[Scott Meyers — CPU Caches and Why You Care](<https://www.youtube.com/watch?v=WDIkqP4JbkE>)**
+  - Адрес: <https://www.youtube.com/watch?v=WDIkqP4JbkE>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[Многопоточность на C++ (YouTube)](<https://www.youtube.com/watch?v=zUy66Bats5c>)**
+  - Адрес: <https://www.youtube.com/watch?v=zUy66Bats5c>.
+  - В заметках: [[02_Resources/C++/Basic/C++ Core & Learning|C++ Core & Learning]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+
+### Архитектура программ, память и оптимизация
+
+- **[software optimization](<https://www.agner.org/>)**
+  - Адрес: <https://www.agner.org/>.
+  - В заметках: [[02_Resources/C++/Advanced/Resources|Resources]].
+- **[agner.org — optimize](<https://www.agner.org/optimize/>)**
+  - Адрес: <https://www.agner.org/optimize/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Software optimization resources](<https://www.agner.org/optimize/#testp>)**
+  - Адрес: <https://www.agner.org/optimize/#testp>.
+  - В заметках: [[02_Resources/PC/Main|Main]].
+- **[Coursera: Design Patterns](<https://www.coursera.org/learn/design-patterns>)**
+  - Адрес: <https://www.coursera.org/learn/design-patterns>.
+  - В заметках: [[02_Resources/C++/Basic/OOP & Design Patterns|OOP & Design Patterns]].
+- **[Richard Fabian: Data-Oriented Design (Book)](<https://www.dataorienteddesign.com/>)**
+  - Адрес: <https://www.dataorienteddesign.com/>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[dataorienteddesign.com — dodbook](<https://www.dataorienteddesign.com/dodbook/>)**
+  - Адрес: <https://www.dataorienteddesign.com/dodbook/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Nvidia's API Performance Blog](<https://developer.nvidia.com/blog/tag/advanced-api-performance>)**
+  - Адрес: <https://developer.nvidia.com/blog/tag/advanced-api-performance>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[enginearchitecture.org](<https://enginearchitecture.org/>)**
+  - Адрес: <https://enginearchitecture.org/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[enginearchitecture.org — 2025.htm](<https://enginearchitecture.org/2025.htm>)**
+  - Адрес: <https://enginearchitecture.org/2025.htm>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[enginearchitecture.org — downloads/REAC_2025_Saber.pdf](<https://enginearchitecture.org/downloads/REAC_2025_Saber.pdf>)**
+  - Адрес: <https://enginearchitecture.org/downloads/REAC_2025_Saber.pdf>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Rendering Engine Architecture](<https://enginearchitecture.org/index.htm>)**
+  - Адрес: <https://enginearchitecture.org/index.htm>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Сайт книги](<https://gameenginebook.com/?utm_source=chatgpt.com>)**
+  - Адрес: <https://gameenginebook.com/?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+  - Варианты в заметках: <https://www.gameenginebook.com/>.
+- **[gameenginebook.com](<https://www.gameenginebook.com/toc.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.gameenginebook.com/toc.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Бесплатная онлайн-версия](<https://gameprogrammingpatterns.com/?utm_source=chatgpt.com>)**
+  - Адрес: <https://gameprogrammingpatterns.com/?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+  - Варианты в заметках: <https://gameprogrammingpatterns.com/>.
+- **[Game Programming Patterns — Command](<https://gameprogrammingpatterns.com/command.html>)**
+  - Адрес: <https://gameprogrammingpatterns.com/command.html>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Game Programming Patterns](<https://gameprogrammingpatterns.com/contents.html>)**
+  - Адрес: <https://gameprogrammingpatterns.com/contents.html>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Game Programming Patterns — Data Locality](<https://gameprogrammingpatterns.com/data-locality.html>)**
+  - Адрес: <https://gameprogrammingpatterns.com/data-locality.html>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]], [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+  - Варианты в заметках: <https://gameprogrammingpatterns.com/data-locality.html?utm_source=chatgpt.com>.
+- **[gameprogrammingpatterns.com](<https://gameprogrammingpatterns.com/event-queue.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://gameprogrammingpatterns.com/event-queue.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[Game Programming Patterns — Game Loop](<https://gameprogrammingpatterns.com/game-loop.html>)**
+  - Адрес: <https://gameprogrammingpatterns.com/game-loop.html>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[03_Projects/LuxPrism/Ближайшие задачи|Ближайшие задачи]].
+- **[Game Programming Patterns — Object Pool](<https://gameprogrammingpatterns.com/object-pool.html>)**
+  - Адрес: <https://gameprogrammingpatterns.com/object-pool.html>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Game Programming Patterns — State](<https://gameprogrammingpatterns.com/state.html>)**
+  - Адрес: <https://gameprogrammingpatterns.com/state.html>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Game Programming Patterns — Update Method](<https://gameprogrammingpatterns.com/update-method.html>)**
+  - Адрес: <https://gameprogrammingpatterns.com/update-method.html>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[memory allocation](<https://www.gingerbill.org/article/2019/02/01/memory-allocation-strategies-001/>)**
+  - Адрес: <https://www.gingerbill.org/article/2019/02/01/memory-allocation-strategies-001/>.
+  - В заметках: [[02_Resources/C++/Advanced/Resources|Resources]].
+- **[Ginger Bill: Linear/Arena Allocators](<https://www.gingerbill.org/article/2019/02/08/memory-allocation-strategies-002/?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.gingerbill.org/article/2019/02/08/memory-allocation-strategies-002/?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/c2core/1|1]].
+- **[Memory Allocation Strategies — Ginger Bill](<https://www.gingerbill.org/series/memory-allocation-strategies/>)**
+  - Адрес: <https://www.gingerbill.org/series/memory-allocation-strategies/>.
+  - В заметках: [[00_Daily/Planning/2026-10-12 — учебная неделя|2026-10-12 — учебная неделя]], [[02_Resources/Подборка учебных сайтов|Подборка учебных сайтов]].
+- **[Memory Latency (GitHub Gist)](<https://gist.github.com/hellerbarde/2843375>)**
+  - Адрес: <https://gist.github.com/hellerbarde/2843375>.
+  - В заметках: [[02_Resources/C++/Computer Science & Code Optimization|Computer Science & Code Optimization]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Data Oriented Design Resources](<https://github.com/dbartolini/data-oriented-design>)**
+  - Адрес: <https://github.com/dbartolini/data-oriented-design>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[electronicarts/EASTL](<https://github.com/electronicarts/EASTL>)**
+  - Адрес: <https://github.com/electronicarts/EASTL>.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]], [[03_Projects/Sylvune/core|core]].
+  - Варианты в заметках: <https://github.com/electronicarts/EASTL?utm_source=chatgpt.com>.
+- **[Sokol](<https://github.com/floooh/sokol>)**
+  - Адрес: <https://github.com/floooh/sokol>.
+  - В заметках: [[02_Resources/Repos|Repos]], [[03_Projects/Sylvune/core|core]].
+  - Варианты в заметках: <https://github.com/floooh/sokol?utm_source=chatgpt.com>.
+- **[g-truc/glm: OpenGL Mathematics (GLM) · GitHub](<https://github.com/g-truc/glm>)**
+  - Адрес: <https://github.com/g-truc/glm>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[03_Projects/Sylvune/c2core/1|1]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://github.com/g-truc/glm?utm_source=chatgpt.com>.
+- **[github.com/g-truc/glm/releases](<https://github.com/g-truc/glm/releases>)**
+  - Адрес: <https://github.com/g-truc/glm/releases>.
+  - В заметках: [[04_Knowledge/Vulkan/Download|Download]].
+- **[microsoft/mimalloc](<https://github.com/microsoft/mimalloc>)**
+  - Адрес: <https://github.com/microsoft/mimalloc>.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]], [[03_Projects/Sylvune/core|core]].
+  - Варианты в заметках: <https://github.com/microsoft/mimalloc?utm_source=chatgpt.com>.
+- **[mtrebi/memory-allocators](<https://github.com/mtrebi/memory-allocators>)**
+  - Адрес: <https://github.com/mtrebi/memory-allocators>.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]].
+- **[stb_image](<https://github.com/nothings/stb>)**
+  - Адрес: <https://github.com/nothings/stb>.
+  - В заметках: [[02_Resources/Repos|Repos]], [[03_Projects/Sylvune/c2core/1|1]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+  - Варианты в заметках: <https://github.com/nothings/stb?utm_source=chatgpt.com>.
+- **[stb_c_lexer.h](<https://github.com/nothings/stb/blob/master/stb_c_lexer.h>)**
+  - Адрес: <https://github.com/nothings/stb/blob/master/stb_c_lexer.h>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[stb_ds.h](<https://github.com/nothings/stb/blob/master/stb_ds.h>)**
+  - Адрес: <https://github.com/nothings/stb/blob/master/stb_ds.h>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[stb_image.h](<https://github.com/nothings/stb/blob/master/stb_image.h>)**
+  - Адрес: <https://github.com/nothings/stb/blob/master/stb_image.h>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[stb_rect_pack.h](<https://github.com/nothings/stb/blob/master/stb_rect_pack.h>)**
+  - Адрес: <https://github.com/nothings/stb/blob/master/stb_rect_pack.h>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[tinyobjloader](<https://github.com/tinyobjloader/tinyobjloader>)**
+  - Адрес: <https://github.com/tinyobjloader/tinyobjloader>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[meshoptimizer](<https://github.com/zeux/meshoptimizer>)**
+  - Адрес: <https://github.com/zeux/meshoptimizer>.
+  - В заметках: [[02_Resources/Repos|Repos]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Compiler Explorer (Godbolt)](<https://godbolt.org>)**
+  - Адрес: <https://godbolt.org>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[03_Projects/c2-core-lib/План разработки фреймворка|План разработки фреймворка]], [[04_Knowledge/C++/Современные стандарты C++|Современные стандарты C++]], [[04_Knowledge/Tools/Дизассемблирование и реверс-инжиниринг|Дизассемблирование и реверс-инжиниринг]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/Как изучать архитектуру C++|Как изучать архитектуру C++]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://godbolt.org>, <https://godbolt.org/>.
+- **[Intel Graphics Performance Analyzers](<https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html>)**
+  - Адрес: <https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[The Missing Semester of Your CS Education (MIT)](<https://missing.csail.mit.edu/>)**
+  - Адрес: <https://missing.csail.mit.edu/>.
+  - В заметках: [[02_Resources/C++/Computer Science & Code Optimization|Computer Science & Code Optimization]], [[02_Resources/Supp/Linux & Network Programming|Linux & Network Programming]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[ocw.mit.edu — courses/6-172-performance-engineering-of-software-systems-fall-2018](<https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/>)**
+  - Адрес: <https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[whitepaper](<https://open-std.org/JTC1/SC22/WG21/docs/papers/2007/n2271.html>)**
+  - Адрес: <https://open-std.org/JTC1/SC22/WG21/docs/papers/2007/n2271.html>.
+  - В заметках: [[02_Resources/C++/Memory management|Memory management]].
+- **[Game Engine Architecture (3rd)](<https://www.oreilly.com/library/view/game-engine-architecture/9781351974271/contents.xhtml>)**
+  - Адрес: <https://www.oreilly.com/library/view/game-engine-architecture/9781351974271/contents.xhtml>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[The Art of Writing Efficient Programs (2021)](<https://www.oreilly.com/library/view/the-art-of/9781800208117/>)**
+  - Адрес: <https://www.oreilly.com/library/view/the-art-of/9781800208117/>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[pragmatic.org](<https://pragmatic.org>)**
+  - Адрес: <https://pragmatic.org>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+  - Варианты в заметках: <https://pragmatic.org>.
+- **[Patterns](<https://Refactoring.guru>)**
+  - Адрес: <https://Refactoring.guru>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Refactoring.Guru](<https://refactoring.guru/ru/design-patterns>)**
+  - Адрес: <https://refactoring.guru/ru/design-patterns>.
+  - В заметках: [[02_Resources/C++/Basic/OOP & Design Patterns|OOP & Design Patterns]].
+- **[roadmap.sh: Design Patterns](<https://roadmap.sh/design-patterns>)**
+  - Адрес: <https://roadmap.sh/design-patterns>.
+  - В заметках: [[02_Resources/C++/Basic/OOP & Design Patterns|OOP & Design Patterns]].
+- **[C++ Weekly With Jason Turner](<https://www.youtube.com/@cppweekly>)**
+  - Адрес: <https://www.youtube.com/@cppweekly>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]].
+- **[Курс ЭВМ (YouTube)](<https://www.youtube.com/watch?v=czl3NwGNuHg&list=PLcXpxQEvs8cPCuSy7hliyFXI1l829u7RZ>)**
+  - Адрес: <https://www.youtube.com/watch?v=czl3NwGNuHg&list=PLcXpxQEvs8cPCuSy7hliyFXI1l829u7RZ>.
+  - В заметках: [[02_Resources/C++/Computer Science & Code Optimization|Computer Science & Code Optimization]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Вся IT-База в одном видео](<https://www.youtube.com/watch?v=oOiyHq9MiAM>)**
+  - Адрес: <https://www.youtube.com/watch?v=oOiyHq9MiAM>.
+  - В заметках: [[02_Resources/C++/Computer Science & Code Optimization|Computer Science & Code Optimization]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+
+### ОС, Linux, железо, ассемблер и сети
+
+- **[memory latency as given by AnandTech](<http://www.anandtech.com/show/2542/5>)**
+  - Адрес: <http://www.anandtech.com/show/2542/5>.
+  - В заметках: [[02_Resources/Articles/A trip through the Graphics Pipeline/chapter2-gpu-architecture|chapter2-gpu-architecture]].
+- **[Beej's Guides](<https://beej.us/guide/>)**
+  - Адрес: <https://beej.us/guide/>.
+  - В заметках: [[02_Resources/Supp/Linux & Network Programming|Linux & Network Programming]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Beej's Guide to Network Programming](<https://beej.us/guide/bgnet/html/split/system-calls-or-bust.html#cb21-1>)**
+  - Адрес: <https://beej.us/guide/bgnet/html/split/system-calls-or-bust.html#cb21-1>.
+  - В заметках: [[02_Resources/Supp/Linux & Network Programming|Linux & Network Programming]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Blog At The Bottom of The Sea](<https://blog.demofox.org/>)**
+  - Адрес: <https://blog.demofox.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[">language lawyers 😂](<http://catb.org/jargon/html/L/language-lawyer.html>)**
+  - Адрес: <http://catb.org/jargon/html/L/language-lawyer.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[отличная, простая статья, где на пальцах объясняется концепция линий (lanes) и коммутатора.](<https://computer.howstuffworks.com/pci-express.htm>)**
+  - Адрес: <https://computer.howstuffworks.com/pci-express.htm>.
+  - В заметках: [[04_Knowledge/Hardware/PCI Express|PCI Express]].
+  - Варианты в заметках: <https://computer.howstuffworks.com/pci-express.htm?utm_source=gemini>.
+- **[Computer Systems: A Programmer's Perspective (CS:APP)](<https://csapp.cs.cmu.edu/>)**
+  - Адрес: <https://csapp.cs.cmu.edu/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[CS:APP](<https://csapp.cs.cmu.edu/2e/labs.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://csapp.cs.cmu.edu/2e/labs.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[CS:APP](<https://csapp.cs.cmu.edu/3e/labs.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://csapp.cs.cmu.edu/3e/labs.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[Android foreground service types](<https://developer.android.com/develop/background-work/services/fgs/service-types#media>)**
+  - Адрес: <https://developer.android.com/develop/background-work/services/fgs/service-types#media>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]].
+- **[Android ABIs](<https://developer.android.com/ndk/guides/abis>)**
+  - Адрес: <https://developer.android.com/ndk/guides/abis>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]].
+- **[Android JNI tips](<https://developer.android.com/ndk/guides/jni-tips>)**
+  - Адрес: <https://developer.android.com/ndk/guides/jni-tips>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]].
+- **[Android: доступ к документам](<https://developer.android.com/training/data-storage/shared/documents-files>)**
+  - Адрес: <https://developer.android.com/training/data-storage/shared/documents-files>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]].
+- **[EndeavourOS Wiki](<https://discovery.endeavouros.com/>)**
+  - Адрес: <https://discovery.endeavouros.com/>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[suckless.org](<https://dwm.suckless.org/>)**
+  - Адрес: <https://dwm.suckless.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/OS Graphics Architecture|OS Graphics Architecture]].
+- **[Интерактивный сайт: Quaternions and 3d rotation (Ben Eater & 3b1b)](<https://eater.net/quaternions>)**
+  - Адрес: <https://eater.net/quaternions>.
+  - В заметках: [[02_Resources/Math/Кватернионы — источники|Кватернионы — источники]], [[04_Knowledge/Math/Linear algebra/Quat|Quat]].
+  - Варианты в заметках: <https://eater.net/quaternions>.
+- **[Linux Book by strannick-ru](<https://github.com/strannick-ru/linux-book/releases>)**
+  - Адрес: <https://github.com/strannick-ru/linux-book/releases>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[GitLab Freedesktop kmscube](<https://gitlab.freedesktop.org/mesa/kmscube>)**
+  - Адрес: <https://gitlab.freedesktop.org/mesa/kmscube>.
+  - В заметках: [[02_Resources/GraphicsProgramming/OS Graphics Architecture|OS Graphics Architecture]].
+- **[gitlab.freedesktop.org — mesa/mesa](<https://gitlab.freedesktop.org/mesa/mesa>)**
+  - Адрес: <https://gitlab.freedesktop.org/mesa/mesa>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GPU/Spec|Spec]].
+  - Варианты в заметках: <https://gitlab.freedesktop.org/mesa/mesa>.
+- **[GitLab Freedesktop wlroots](<https://gitlab.freedesktop.org/wlroots/wlroots>)**
+  - Адрес: <https://gitlab.freedesktop.org/wlroots/wlroots>.
+  - В заметках: [[02_Resources/GraphicsProgramming/OS Graphics Architecture|OS Graphics Architecture]].
+- **[HDLBits — Verilog Practice](<https://hdlbits.01xz.net/wiki/Main_Page?utm_source=chatgpt.com>)**
+  - Адрес: <https://hdlbits.01xz.net/wiki/Main_Page?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/Hardware/Verilog — заметки|Verilog — заметки]].
+- **[KMS в документации ядра](<https://www.kernel.org/doc/html/latest/gpu/index.html>)**
+  - Адрес: <https://www.kernel.org/doc/html/latest/gpu/index.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/OS Graphics Architecture|OS Graphics Architecture]].
+- **[Linux Journey](<https://labex.io/linuxjourney>)**
+  - Адрес: <https://labex.io/linuxjourney>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[GetForWindow для Win32](<https://learn.microsoft.com/en-us/windows/win32/api/systemmediatransportcontrolsinterop/nf-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop-getforwindow>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/api/systemmediatransportcontrolsinterop/nf-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop-getforwindow>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Linux Journey](<https://linuxjourney.com/>)**
+  - Адрес: <https://linuxjourney.com/>.
+  - В заметках: [[02_Resources/Supp/Linux & Network Programming|Linux & Network Programming]].
+- **[The Linux Graphics Stack](<https://magcius.github.io/xplain/article/linux-graphics.html>)**
+  - Адрес: <https://magcius.github.io/xplain/article/linux-graphics.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/OS Graphics Architecture|OS Graphics Architecture]].
+- **[Nandland — Learn FPGA, Verilog and VHDL](<https://nandland.com/?utm_source=chatgpt.com>)**
+  - Адрес: <https://nandland.com/?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/Hardware/Verilog — заметки|Verilog — заметки]].
+- **[Nandland](<https://nandland.com/book-getting-started-with-fpga/?utm_source=chatgpt.com>)**
+  - Адрес: <https://nandland.com/book-getting-started-with-fpga/?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/Hardware/Verilog — заметки|Verilog — заметки]].
+- **[nouveau.freedesktop.org](<https://nouveau.freedesktop.org/>)**
+  - Адрес: <https://nouveau.freedesktop.org/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]].
+- **[pages.cs.wisc.edu](<https://pages.cs.wisc.edu>)**
+  - Адрес: <https://pages.cs.wisc.edu>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]].
+  - Варианты в заметках: <https://pages.cs.wisc.edu>.
+- **[Operating Systems: Three Easy Pieces (OSTEP)](<https://pages.cs.wisc.edu/~remzi/OSTEP/>)**
+  - Адрес: <https://pages.cs.wisc.edu/~remzi/OSTEP/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[pearson.com](<https://pearson.com>)**
+  - Адрес: <https://pearson.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]].
+  - Варианты в заметках: <https://pearson.com>.
+- **[Computer Systems: A Programmer's Perspective (3rd)](<https://www.pearson.com/en-us/subject-catalog/p/computer-systems-a-programmers-perspective/P200000003479/9780138105396>)**
+  - Адрес: <https://www.pearson.com/en-us/subject-catalog/p/computer-systems-a-programmers-perspective/P200000003479/9780138105396>.
+  - В заметках: [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Project F — FPGA Tutorials](<https://projectf.io/tutorials/?utm_source=chatgpt.com>)**
+  - Адрес: <https://projectf.io/tutorials/?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/Hardware/Verilog — заметки|Verilog — заметки]].
+- **[Работа с памятью (Rus-Linux)](<https://rus-linux.net/lib.php?name=/MyLDP/hard/memory/memory.html>)**
+  - Адрес: <https://rus-linux.net/lib.php?name=/MyLDP/hard/memory/memory.html>.
+  - В заметках: [[02_Resources/C++/Computer Science & Code Optimization|Computer Science & Code Optimization]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[MPRIS specification](<https://specifications.freedesktop.org/mpris-spec/latest/>)**
+  - Адрес: <https://specifications.freedesktop.org/mpris-spec/latest/>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Verilator Examples](<https://verilator.org/guide/latest/examples.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://verilator.org/guide/latest/examples.html?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/Hardware/Verilog — заметки|Verilog — заметки]].
+- **[The Wayland Book](<https://wayland-book.com/>)**
+  - Адрес: <https://wayland-book.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/OS Graphics Architecture|OS Graphics Architecture]], [[04_Knowledge/WebGPU/Attached/Wayland X11 surface|Wayland X11 surface]].
+- **[Wayland Architecture](<https://wayland.freedesktop.org/architecture.html>)**
+  - Адрес: <https://wayland.freedesktop.org/architecture.html>.
+  - В заметках: [[02_Resources/GraphicsProgramming/OS Graphics Architecture|OS Graphics Architecture]].
+- **[Официальная документация Wayland](<https://wayland.freedesktop.org/docs/html/>)**
+  - Адрес: <https://wayland.freedesktop.org/docs/html/>.
+  - В заметках: [[04_Knowledge/WebGPU/Attached/Wayland X11 surface|Wayland X11 surface]].
+- **[C Language X Interface](<https://www.x.org/releases/current/doc/libX11/libX11/libX11.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.x.org/releases/current/doc/libX11/libX11/libX11.html?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Ошибки/ресайз окна|ресайз окна]].
+- **[Taken Grace делал систему инвентаря как в таркове](<https://www.youtube.com/@takengrace/videos>)**
+  - Адрес: <https://www.youtube.com/@takengrace/videos>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Yt Channels|Yt Channels]].
+
+### Сборка, тестирование, Git и инструменты разработки
+
+- **[Catch2 CMake integration](<https://catch2-temp.readthedocs.io/en/latest/cmake-integration.html>)**
+  - Адрес: <https://catch2-temp.readthedocs.io/en/latest/cmake-integration.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[03_Projects/Sylvune/Tests|Tests]].
+  - Варианты в заметках: <https://catch2-temp.readthedocs.io/en/latest/cmake-integration.html?utm_source=chatgpt.com>.
+- **[Catch2 documentation](<https://catch2-temp.readthedocs.io/en/latest/tutorial.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://catch2-temp.readthedocs.io/en/latest/tutorial.html?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Tests|Tests]].
+- **[Clang AddressSanitizer](<https://clang.llvm.org/docs/AddressSanitizer.html>)**
+  - Адрес: <https://clang.llvm.org/docs/AddressSanitizer.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[03_Projects/Sylvune/Tests|Tests]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+  - Варианты в заметках: <https://clang.llvm.org/docs/AddressSanitizer.html?utm_source=chatgpt.com>.
+- **[ClangFormat](<https://clang.llvm.org/docs/ClangFormat.html>)**
+  - Адрес: <https://clang.llvm.org/docs/ClangFormat.html>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Clang sanitizers](<https://clang.llvm.org/docs/index.html>)**
+  - Адрес: <https://clang.llvm.org/docs/index.html>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[UndefinedBehaviorSanitizer](<https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html>)**
+  - Адрес: <https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[clang-tidy](<https://clang.llvm.org/extra/clang-tidy/>)**
+  - Адрес: <https://clang.llvm.org/extra/clang-tidy/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[An Introduction to Modern CMake (CLIUtils)](<https://cliutils.gitlab.io/modern-cmake/>)**
+  - Адрес: <https://cliutils.gitlab.io/modern-cmake/>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]], [[02_Resources/Supp/Resources|Resources]], [[05_Learning/Guides/Дополнительные языки для графики|Дополнительные языки для графики]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+  - Варианты в заметках: <https://cliutils.gitlab.io/modern-cmake>.
+- **[крутой гайд по Modern CMake](<https://cliutils.gitlab.io/modern-cmake/README.html>)**
+  - Адрес: <https://cliutils.gitlab.io/modern-cmake/README.html>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[документация add_test](<https://cmake.org/cmake/help/latest/command/add_test.html>)**
+  - Адрес: <https://cmake.org/cmake/help/latest/command/add_test.html>.
+  - В заметках: [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]].
+- **[CMake Tutorial](<https://cmake.org/cmake/help/latest/guide/tutorial/>)**
+  - Адрес: <https://cmake.org/cmake/help/latest/guide/tutorial/>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[CMake Official Tutorial](<https://cmake.org/cmake/help/latest/guide/tutorial/index.html>)**
+  - Адрес: <https://cmake.org/cmake/help/latest/guide/tutorial/index.html>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[CMake Presets](<https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html>)**
+  - Адрес: <https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html>.
+  - В заметках: [[03_Projects/Sylvune/Music_Player_Next_Steps|Music_Player_Next_Steps]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[CTest — запуск и параметры тестов](<https://cmake.org/cmake/help/latest/manual/ctest.1.html>)**
+  - Адрес: <https://cmake.org/cmake/help/latest/manual/ctest.1.html>.
+  - В заметках: [[03_Projects/Sylvune/Music_Player_Next_Steps|Music_Player_Next_Steps]], [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[CPack](<https://cmake.org/cmake/help/latest/module/CPack.html>)**
+  - Адрес: <https://cmake.org/cmake/help/latest/module/CPack.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[CMake FetchContent](<https://cmake.org/cmake/help/latest/module/FetchContent.html>)**
+  - Адрес: <https://cmake.org/cmake/help/latest/module/FetchContent.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[документация CMake](<https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html>)**
+  - Адрес: <https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html>.
+  - В заметках: [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]].
+- **[CMake: targets и build system](<https://cmake.org/cmake/help/v3.25/manual/cmake-buildsystem.7.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v3.25/manual/cmake-buildsystem.7.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[CMake Presets 3.25](<https://cmake.org/cmake/help/v3.25/manual/cmake-presets.7.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v3.25/manual/cmake-presets.7.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[add_library](<https://cmake.org/cmake/help/v4.4/command/add_library.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/command/add_library.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[find_package](<https://cmake.org/cmake/help/v4.4/command/find_package.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/command/find_package.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[option](<https://cmake.org/cmake/help/v4.4/command/option.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/command/option.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[set](<https://cmake.org/cmake/help/v4.4/command/set.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/command/set.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[target_include_directories](<https://cmake.org/cmake/help/v4.4/command/target_include_directories.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/command/target_include_directories.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[target_link_libraries](<https://cmake.org/cmake/help/v4.4/command/target_link_libraries.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/command/target_link_libraries.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[CMake Tutorial](<https://cmake.org/cmake/help/v4.4/guide/tutorial/index.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/guide/tutorial/index.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[Using Dependencies Guide](<https://cmake.org/cmake/help/v4.4/guide/using-dependencies/index.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/guide/using-dependencies/index.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[CMake Presets](<https://cmake.org/cmake/help/v4.4/manual/cmake-presets.7.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/manual/cmake-presets.7.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[CTest](<https://cmake.org/cmake/help/v4.4/module/CTest.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/module/CTest.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[ExternalProject](<https://cmake.org/cmake/help/v4.4/module/ExternalProject.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/module/ExternalProject.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[FetchContent (CMake 4.4)](<https://cmake.org/cmake/help/v4.4/module/FetchContent.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/module/FetchContent.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[CMP0135](<https://cmake.org/cmake/help/v4.4/policy/CMP0135.html>)**
+  - Адрес: <https://cmake.org/cmake/help/v4.4/policy/CMP0135.html>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[CMake](<https://cmake.org/download/>)**
+  - Адрес: <https://cmake.org/download/>.
+  - В заметках: [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]].
+- **[Crafting Interpreters (Build your own compiler)](<https://craftinginterpreters.com/>)**
+  - Адрес: <https://craftinginterpreters.com/>.
+  - В заметках: [[02_Resources/C++/Computer Science & Code Optimization|Computer Science & Code Optimization]], [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://craftinginterpreters.com/?utm_source=chatgpt.com>.
+- **[(платная книга, не обязательна).](<https://crascit.com/professional-cmake/>)**
+  - Адрес: <https://crascit.com/professional-cmake/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[quickstart with cmake](<https://dawn.googlesource.com/dawn/+/HEAD/docs/quickstart-cmake.md>)**
+  - Адрес: <https://dawn.googlesource.com/dawn/+/HEAD/docs/quickstart-cmake.md>.
+  - В заметках: [[04_Knowledge/WebGPU/WebGPU|WebGPU]].
+- **[devblogs.microsoft.com — pix](<https://devblogs.microsoft.com/pix/>)**
+  - Адрес: <https://devblogs.microsoft.com/pix/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[PIX](<https://devblogs.microsoft.com/pix/introduction/>)**
+  - Адрес: <https://devblogs.microsoft.com/pix/introduction/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[devdocs.io](<https://DevDocs.io>)**
+  - Адрес: <https://DevDocs.io>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Рендеринг шрифтов — источники|Рендеринг шрифтов — источники]].
+  - Варианты в заметках: <https://DevDocs.io>, <https://devdocs.io>.
+- **[официальной интеграции CMake](<https://developer.android.com/ndk/guides/cmake>)**
+  - Адрес: <https://developer.android.com/ndk/guides/cmake>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]].
+- **[NVIDIA Nsight Graphics](<https://developer.nvidia.com/nsight-graphics>)**
+  - Адрес: <https://developer.nvidia.com/nsight-graphics>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]].
+- **[Conan 2](<https://docs.conan.io/2/>)**
+  - Адрес: <https://docs.conan.io/2/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Docker Get Started](<https://docs.docker.com/get-started/>)**
+  - Адрес: <https://docs.docker.com/get-started/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Docker C++ Guide](<https://docs.docker.com/guides/cpp/>)**
+  - Адрес: <https://docs.docker.com/guides/cpp/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[GitHub Docs](<https://docs.github.com/>)**
+  - Адрес: <https://docs.github.com/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[GitHub Actions](<https://docs.github.com/en/actions>)**
+  - Адрес: <https://docs.github.com/en/actions>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[GitHub Actions: Building and testing C++](<https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-cpp>)**
+  - Адрес: <https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-cpp>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]].
+- **[GitHub Actions — Quickstart](<https://docs.github.com/en/actions/get-started/quickstart>)**
+  - Адрес: <https://docs.github.com/en/actions/get-started/quickstart>.
+  - В заметках: [[03_Projects/Sylvune/Music_Player_Next_Steps|Music_Player_Next_Steps]].
+- **[официальное руководство ручного запуска](<https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow>)**
+  - Адрес: <https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow>.
+  - В заметках: [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]].
+- **[матрицы заданий](<https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/run-job-variations>)**
+  - Адрес: <https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/run-job-variations>.
+  - В заметках: [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]].
+- **[справочнике GitHub Actions](<https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax>)**
+  - Адрес: <https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax>.
+  - В заметках: [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]].
+- **[настройках Actions для репозитория](<https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository>)**
+  - Адрес: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository>.
+  - В заметках: [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]].
+- **[Doxygen — Documenting the code](<https://www.doxygen.nl/manual/docblocks.html>)**
+  - Адрес: <https://www.doxygen.nl/manual/docblocks.html>.
+  - В заметках: [[03_Projects/Sylvune/Документация|Документация]], [[03_Projects/Sylvune/Комментарии/1|1]].
+  - Варианты в заметках: <https://www.doxygen.nl/manual/docblocks.html?utm_source=chatgpt.com>.
+- **[База IT-ресурсов для поиска работы](<https://events.hellonewjob.ru/content/all-job-resources-database>)**
+  - Адрес: <https://events.hellonewjob.ru/content/all-job-resources-database>.
+  - В заметках: [[02_Resources/Supp/Extension|Extension]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Еще теория](<https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1#file-effective_modern_cmake-md>)**
+  - Адрес: <https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1#file-effective_modern_cmake-md>.
+  - В заметках: [[04_Knowledge/CMake/Main|Main]].
+- **[Pro Git — бесплатно онлайн](<https://git-scm.com/book/en/v2>)**
+  - Адрес: <https://git-scm.com/book/en/v2>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Git reference](<https://git-scm.com/docs>)**
+  - Адрес: <https://git-scm.com/docs>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Git worktree — документация](<https://git-scm.com/docs/git-worktree>)**
+  - Адрес: <https://git-scm.com/docs/git-worktree>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Git submodules configuration](<https://git-scm.com/docs/gitmodules>)**
+  - Адрес: <https://git-scm.com/docs/gitmodules>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Git](<https://git-scm.com/downloads>)**
+  - Адрес: <https://git-scm.com/downloads>.
+  - В заметках: [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]].
+- **[вариант для нескольких платформ](<https://github.com/actions/starter-workflows/blob/main/ci/cmake-multi-platform.yml>)**
+  - Адрес: <https://github.com/actions/starter-workflows/blob/main/ci/cmake-multi-platform.yml>.
+  - В заметках: [[03_Projects/Sylvune/Music_Player_Next_Steps|Music_Player_Next_Steps]].
+- **[Официальный CMake workflow для одной платформы](<https://github.com/actions/starter-workflows/blob/main/ci/cmake-single-platform.yml>)**
+  - Адрес: <https://github.com/actions/starter-workflows/blob/main/ci/cmake-single-platform.yml>.
+  - В заметках: [[03_Projects/Sylvune/Music_Player_Next_Steps|Music_Player_Next_Steps]].
+- **[RenderDoc — официальный репозиторий и поддерживаемые API](<https://github.com/baldurk/renderdoc>)**
+  - Адрес: <https://github.com/baldurk/renderdoc>.
+  - В заметках: [[03_Projects/Sylvune/Music_Player_Next_Steps|Music_Player_Next_Steps]], [[03_Projects/Sylvune/Tests|Tests]].
+  - Варианты в заметках: <https://github.com/baldurk/renderdoc?utm_source=chatgpt.com>.
+- **[RenderDoc Quick Start](<https://github.com/baldurk/renderdoc/blob/v1.x/docs/getting_started/quick_start.rst?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/baldurk/renderdoc/blob/v1.x/docs/getting_started/quick_start.rst?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Tests|Tests]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+  - Варианты в заметках: <https://github.com/baldurk/renderdoc/blob/v1.x/docs/getting_started/quick_start.rst>.
+- **[Catch2 — репозиторий](<https://github.com/catchorg/Catch2>)**
+  - Адрес: <https://github.com/catchorg/Catch2>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[github.com — catchorg/Catch2.git](<https://github.com/catchorg/Catch2.git>)**
+  - Адрес: <https://github.com/catchorg/Catch2.git>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/CMake/Testing/3_Catch|3_Catch]], [[04_Knowledge/CMake/UsingOtherProjects/2_FetchContent|2_FetchContent]].
+- **[Catch2 — интеграция с CMake и регистрация тестов](<https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md>)**
+  - Адрес: <https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[03_Projects/Sylvune/Music_Player_Next_Steps|Music_Player_Next_Steps]], [[04_Knowledge/CMake/CMake|CMake]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Catch2 Official Tutorial](<https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md>)**
+  - Адрес: <https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[doctest](<https://github.com/doctest/doctest>)**
+  - Адрес: <https://github.com/doctest/doctest>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[github.com — fmtlib/fmt.git](<https://github.com/fmtlib/fmt.git>)**
+  - Адрес: <https://github.com/fmtlib/fmt.git>.
+  - В заметках: [[04_Knowledge/CMake/Basics/5_Структура проекта|5_Структура проекта]].
+- **[", "--branch=stable", lazypath,](<https://github.com/folke/lazy.nvim.git>)**
+  - Адрес: <https://github.com/folke/lazy.nvim.git>.
+  - В заметках: [[04_Knowledge/Tools/Neovim — конфигурация|Neovim — конфигурация]].
+- **[spdlog](<https://github.com/gabime/spdlog>)**
+  - Адрес: <https://github.com/gabime/spdlog>.
+  - В заметках: [[02_Resources/Repos|Repos]], [[03_Projects/Sylvune/c2core/1|1]].
+  - Варианты в заметках: <https://github.com/gabime/spdlog?utm_source=chatgpt.com>.
+- **[Google Benchmark: User Guide](<https://github.com/google/benchmark/blob/main/docs/user_guide.md?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/google/benchmark/blob/main/docs/user_guide.md?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/c2core/1|1]].
+- **[Dawn/CMakeLists.txt, фиксированный коммит 2193f658...](<https://github.com/google/dawn/blob/2193f6584b6d08018cfd01fb8b7a893532003559/CMakeLists.txt>)**
+  - Адрес: <https://github.com/google/dawn/blob/2193f6584b6d08018cfd01fb8b7a893532003559/CMakeLists.txt>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[Dawn — src/dawn/native/CMakeLists.txt (тот же коммит)](<https://github.com/google/dawn/blob/2193f6584b6d08018cfd01fb8b7a893532003559/src/dawn/native/CMakeLists.txt>)**
+  - Адрес: <https://github.com/google/dawn/blob/2193f6584b6d08018cfd01fb8b7a893532003559/src/dawn/native/CMakeLists.txt>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[Google Dawn — Quickstart CMake](<https://github.com/google/dawn/blob/main/docs/quickstart-cmake.md>)**
+  - Адрес: <https://github.com/google/dawn/blob/main/docs/quickstart-cmake.md>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[04_Knowledge/CMake/CMake|CMake]].
+- **[официальная сборка Dawn с CMake](<https://github.com/google/dawn/blob/v20261016.190333/docs/quickstart-cmake.md>)**
+  - Адрес: <https://github.com/google/dawn/blob/v20261016.190333/docs/quickstart-cmake.md>.
+  - В заметках: [[03_Projects/С2Lux/modernization|modernization]].
+- **[github.com — google/googletest](<https://github.com/google/googletest>)**
+  - Адрес: <https://github.com/google/googletest>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[github.com — google/googletest.git](<https://github.com/google/googletest.git>)**
+  - Адрес: <https://github.com/google/googletest.git>.
+  - В заметках: [[04_Knowledge/CMake/Testing/2_GoogleTest|2_GoogleTest]].
+- **[Google Sanitizers (GitHub)](<https://github.com/google/sanitizers>)**
+  - Адрес: <https://github.com/google/sanitizers>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Документация CMake SDL3](<https://github.com/libsdl-org/SDL/blob/main/docs/README-cmake.md>)**
+  - Адрес: <https://github.com/libsdl-org/SDL/blob/main/docs/README-cmake.md>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[SDL3/CMakeLists.txt, тег release-3.4.14](<https://github.com/libsdl-org/SDL/blob/release-3.4.14/CMakeLists.txt>)**
+  - Адрес: <https://github.com/libsdl-org/SDL/blob/release-3.4.14/CMakeLists.txt>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[официального GitHub LLVM](<https://github.com/llvm/llvm-project/releases>)**
+  - Адрес: <https://github.com/llvm/llvm-project/releases>.
+  - В заметках: [[04_Knowledge/C++/Настройка подсветки|Настройка подсветки]].
+- **[типичные шаблоны](<https://github.com/OWNER/REPO>)**
+  - Адрес: <https://github.com/OWNER/REPO>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[github.com — OWNER/REPO/archive/COMMIT_SHA.tar.gz](<https://github.com/OWNER/REPO/archive/COMMIT_SHA.tar.gz>)**
+  - Адрес: <https://github.com/OWNER/REPO/archive/COMMIT_SHA.tar.gz>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/CMake/advanced example|advanced example]].
+- **[github.com — OWNER/REPO/archive/refs/tags/TAG.tar.gz](<https://github.com/OWNER/REPO/archive/refs/tags/TAG.tar.gz>)**
+  - Адрес: <https://github.com/OWNER/REPO/archive/refs/tags/TAG.tar.gz>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/CMake/advanced example|advanced example]].
+- **[github.com — OWNER/REPO/releases/download/TAG/FILE.zip](<https://github.com/OWNER/REPO/releases/download/TAG/FILE.zip>)**
+  - Адрес: <https://github.com/OWNER/REPO/releases/download/TAG/FILE.zip>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/CMake/advanced example|advanced example]].
+- **[Premake Core (GitHub)](<https://github.com/premake/premake-core/>)**
+  - Адрес: <https://github.com/premake/premake-core/>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[CMake Examples (GitHub)](<https://github.com/ttroy50/cmake-examples>)**
+  - Адрес: <https://github.com/ttroy50/cmake-examples>.
+  - В заметках: [[02_Resources/C++/Basic/Modern C++ & Infrastructure|Modern C++ & Infrastructure]].
+- **[github.com — zsviczian/obsidian-excalidraw-plugin/releases/tag/2.25.3](<https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.25.3>)**
+  - Адрес: <https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.25.3>.
+  - В заметках: [[Excalidraw/Drawing 2026-07-19 14.24.39.excalidraw|Drawing 2026-07-19 14.24.39.excalidraw]], [[Excalidraw/Drawing 2026-09-27 16.47.30.excalidraw|Drawing 2026-09-27 16.47.30.excalidraw]], [[Excalidraw/Drawing 2026-09-28 00.19.14.excalidraw|Drawing 2026-09-28 00.19.14.excalidraw]], [[Excalidraw/WGPU Example 2026-08-30 11.29.10.excalidraw|WGPU Example 2026-08-30 11.29.10.excalidraw]].
+- **[github.com — zsviczian/obsidian-excalidraw-plugin/releases/tag/2.28.1](<https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.28.1>)**
+  - Адрес: <https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.28.1>.
+  - В заметках: [[Excalidraw/Drawing 2026-10-11 20.40.51.excalidraw|Drawing 2026-10-11 20.40.51.excalidraw]], [[Excalidraw/Drawing 2026-10-11 22.45.10.excalidraw|Drawing 2026-10-11 22.45.10.excalidraw]], [[Excalidraw/Drawing 2026-10-19 16.21.34.excalidraw|Drawing 2026-10-19 16.21.34.excalidraw]].
+- **[пример](<https://gitlab.com/CLIUtils/modern-cmake/tree/master/examples/extended-project>)**
+  - Адрес: <https://gitlab.com/CLIUtils/modern-cmake/tree/master/examples/extended-project>.
+  - В заметках: [[04_Knowledge/CMake/Basics/5_Структура проекта|5_Структура проекта]].
+- **[Базовый шаблон (workflow), который показывает, как заставить сервера GitHub собирать твой код утилитой CMake при каждом пуше.](<https://www.google.com/search?q=https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-cpp>)**
+  - Адрес: <https://www.google.com/search?q=https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-cpp>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[GoogleTest](<https://google.github.io/googletest/>)**
+  - Адрес: <https://google.github.io/googletest/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[GMock Cheat Sheet](<https://google.github.io/googletest/gmock_cheat_sheet.html>)**
+  - Адрес: <https://google.github.io/googletest/gmock_cheat_sheet.html>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[GoogleTest Primer](<https://google.github.io/googletest/primer.html>)**
+  - Адрес: <https://google.github.io/googletest/primer.html>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Pixar Research](<https://graphics.pixar.com/library/>)**
+  - Адрес: <https://graphics.pixar.com/library/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[HSF Training: CMake](<https://hsf-training.github.io/hsf-training-cmake-webpage/02-building/index.html>)**
+  - Адрес: <https://hsf-training.github.io/hsf-training-cmake-webpage/02-building/index.html>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[MSVC linker documentation](<https://learn.microsoft.com/en-us/cpp/build/reference/linker-options?view=msvc-170>)**
+  - Адрес: <https://learn.microsoft.com/en-us/cpp/build/reference/linker-options?view=msvc-170>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[vcpkg](<https://learn.microsoft.com/en-us/vcpkg/>)**
+  - Адрес: <https://learn.microsoft.com/en-us/vcpkg/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Visual Studio Profiler](<https://learn.microsoft.com/en-us/visualstudio/profiling/?view=vs-2022>)**
+  - Адрес: <https://learn.microsoft.com/en-us/visualstudio/profiling/?view=vs-2022>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[LLDB tutorial](<https://lldb.llvm.org/use/tutorial.html>)**
+  - Адрес: <https://lldb.llvm.org/use/tutorial.html>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[missing-semester-rus.github.io](<https://missing-semester-rus.github.io/>)**
+  - Адрес: <https://missing-semester-rus.github.io/>.
+  - В заметках: [[01_InBox/missing semester|missing semester]].
+- **[msys2.org](<https://www.msys2.org/>)**
+  - Адрес: <https://www.msys2.org/>.
+  - В заметках: [[04_Knowledge/Tools/VS Code — C++ и CMake|VS Code — C++ и CMake]].
+- **[Neovim Lua Guide](<https://neovim.io/doc/user/lua-guide.html>)**
+  - Адрес: <https://neovim.io/doc/user/lua-guide.html>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Ninja manual](<https://ninja-build.org/manual.html>)**
+  - Адрес: <https://ninja-build.org/manual.html>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[openmp.org](<http://www.openmp.org>)**
+  - Адрес: <http://www.openmp.org>.
+  - В заметках: [[04_Knowledge/CMake/ExtraFeatures/3_Полезные модули CMake|3_Полезные модули CMake]].
+- **[Paper2gal](<https://paper2gal.com/>)**
+  - Адрес: <https://paper2gal.com/>.
+  - В заметках: [[02_Resources/Supp/Extension|Extension]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Блог re-kovalev](<https://rekovalev.site/author/re-kovalev/>)**
+  - Адрес: <https://rekovalev.site/author/re-kovalev/>.
+  - В заметках: [[02_Resources/Supp/Extension|Extension]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Renderdoc Official](<https://renderdoc.org/>)**
+  - Адрес: <https://renderdoc.org/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/С чего начать графику|С чего начать графику]], [[02_Resources/Supp/Resources|Resources]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]], [[05_Learning/Roadmaps/WebGPU_3D_Viewer_Rendering_Roadmap|WebGPU_3D_Viewer_Rendering_Roadmap]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[GDB manual](<https://sourceware.org/gdb/current/onlinedocs/gdb.html>)**
+  - Адрес: <https://sourceware.org/gdb/current/onlinedocs/gdb.html>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[valgrind.org](<https://valgrind.org/>)**
+  - Адрес: <https://valgrind.org/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Visual Studio C++](<https://visualstudio.microsoft.com/vs/features/cplusplus/>)**
+  - Адрес: <https://visualstudio.microsoft.com/vs/features/cplusplus/>.
+  - В заметках: [[03_Projects/c2-core-lib/Guides/TESTING_AND_GITHUB_ACTIONS_GUIDE.ru|TESTING_AND_GITHUB_ACTIONS_GUIDE.ru]].
+- **[Kishimisu (YouTube)](<https://www.youtube.com/@kishimisu>)**
+  - Адрес: <https://www.youtube.com/@kishimisu>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[CMake Tutorial](<https://www.youtube.com/watch?v=nlKcXPUJGwA>)**
+  - Адрес: <https://www.youtube.com/watch?v=nlKcXPUJGwA>.
+  - В заметках: [[05_Learning/Guides/Дополнительные языки для графики|Дополнительные языки для графики]].
+- **[GLSL Course for Beginners (YouTube)](<https://www.youtube.com/watch?v=u5HAYVHsasc&list=PLGmrMu-IwbguU_nY2egTFmlg691DN7uE5&index=1>)**
+  - Адрес: <https://www.youtube.com/watch?v=u5HAYVHsasc&list=PLGmrMu-IwbguU_nY2egTFmlg691DN7uE5&index=1>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[zealdocs.org](<https://zealdocs.org>)**
+  - Адрес: <https://zealdocs.org>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[02_Resources/GraphicsProgramming/Рендеринг шрифтов — источники|Рендеринг шрифтов — источники]].
+  - Варианты в заметках: <https://zealdocs.org>.
+- **[Bits, pixels, cycles and more](<https://zeux.io/>)**
+  - Адрес: <https://zeux.io/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+
+### GUI, ImGui, Qt, SDL, шрифты и интерфейсы
+
+- **[Academy.io](<https://Academy.io>)**
+  - Адрес: <https://Academy.io>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[02_Resources/C++/Qt6/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+  - Варианты в заметках: <https://Academy.io>, <https://academy.io>.
+- **[Qt Academy Course](<https://academy.qt.io/enrollments/315341667/page/1180866549>)**
+  - Адрес: <https://academy.qt.io/enrollments/315341667/page/1180866549>.
+  - В заметках: [[02_Resources/C++/Qt6/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Insider Guide to Tech Interviews](<https://bartwronski.com/2022/01/04/insider-guide-to-tech-interviews/>)**
+  - Адрес: <https://bartwronski.com/2022/01/04/insider-guide-to-tech-interviews/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[UI, Part 2 — Every Single Frame](<https://www.dgtlgrove.com/p/ui-part-2-build-it-every-frame-immediate>)**
+  - Адрес: <https://www.dgtlgrove.com/p/ui-part-2-build-it-every-frame-immediate>.
+  - В заметках: [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[Другие статьи Ryan Fleury по UI](<https://www.dgtlgrove.com/t/ui>)**
+  - Адрес: <https://www.dgtlgrove.com/t/ui>.
+  - В заметках: [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[API lookup](<https://doc.qt.io>)**
+  - Адрес: <https://doc.qt.io>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[02_Resources/C++/Qt6/Table|Table]].
+  - Варианты в заметках: <https://doc.qt.io>.
+- **[Официальная документация Qt Graphics View](<https://doc.qt.io/qt-6/graphicsview.html>)**
+  - Адрес: <https://doc.qt.io/qt-6/graphicsview.html>.
+  - В заметках: [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[Qt Creator Configuring Projects](<https://doc.qt.io/qtcreator/creator-configuring-projects.html#activating-kits-for-a-project>)**
+  - Адрес: <https://doc.qt.io/qtcreator/creator-configuring-projects.html#activating-kits-for-a-project>.
+  - В заметках: [[02_Resources/C++/Qt6/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[SDL3 examples](<https://examples.libsdl.org/>)**
+  - Адрес: <https://examples.libsdl.org/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Официальная документация FLTK: Handling Events](<https://www.fltk.org/doc-1.4/events.html>)**
+  - Адрес: <https://www.fltk.org/doc-1.4/events.html>.
+  - В заметках: [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[Google Fonts repository](<https://github.com/google/fonts>)**
+  - Адрес: <https://github.com/google/fonts>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[SDL3 — GitHub](<https://github.com/libsdl-org/SDL>)**
+  - Адрес: <https://github.com/libsdl-org/SDL>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/CMake/advanced example|advanced example]].
+- **[github.com — libsdl-org/SDL.git](<https://github.com/libsdl-org/SDL.git>)**
+  - Адрес: <https://github.com/libsdl-org/SDL.git>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]], [[04_Knowledge/CMake/CMake|CMake]].
+- **[github.com — libsdl-org/SDL/archive/refs/tags/release-3.4.14.tar.gz](<https://github.com/libsdl-org/SDL/archive/refs/tags/release-3.4.14.tar.gz>)**
+  - Адрес: <https://github.com/libsdl-org/SDL/archive/refs/tags/release-3.4.14.tar.gz>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]], [[04_Knowledge/CMake/advanced example|advanced example]].
+- **[github.com — libsdl-org/SDL/archive/refs/tags/release-3.4.18.tar.gz](<https://github.com/libsdl-org/SDL/archive/refs/tags/release-3.4.18.tar.gz>)**
+  - Адрес: <https://github.com/libsdl-org/SDL/archive/refs/tags/release-3.4.18.tar.gz>.
+  - В заметках: [[04_Knowledge/CMake/advanced example|advanced example]].
+- **[Lucide](<https://github.com/lucide-icons/lucide>)**
+  - Адрес: <https://github.com/lucide-icons/lucide>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[GitHub — mikke89/RmlUi](<https://github.com/mikke89/RmlUi>)**
+  - Адрес: <https://github.com/mikke89/RmlUi>.
+  - В заметках: [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[Clay — nicbarker/clay](<https://github.com/nicbarker/clay>)**
+  - Адрес: <https://github.com/nicbarker/clay>.
+  - В заметках: [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[Dear ImGui repository](<https://github.com/ocornut/imgui>)**
+  - Адрес: <https://github.com/ocornut/imgui>.
+  - В заметках: [[02_Resources/Repos|Repos]], [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[imgui.h](<https://github.com/ocornut/imgui/blob/docking/imgui.h>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/docking/imgui.h>.
+  - В заметках: [[03_Projects/Sylvune/ImGui documentation|ImGui documentation]].
+- **[официальном описании ImGui backends](<https://github.com/ocornut/imgui/blob/master/docs/BACKENDS.md>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/master/docs/BACKENDS.md>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]].
+- **[Dear ImGui — FAQ](<https://github.com/ocornut/imgui/blob/master/docs/FAQ.md>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/master/docs/FAQ.md>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[03_Projects/Sylvune/Music_Player_Next_Steps|Music_Player_Next_Steps]].
+- **[ImGui FONTS.md](<https://github.com/ocornut/imgui/blob/master/docs/FONTS.md>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/master/docs/FONTS.md>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[github.com — ocornut/imgui/blob/master/examples/example_sdl3_sdlrenderer3/main.cpp](<https://github.com/ocornut/imgui/blob/master/examples/example_sdl3_sdlrenderer3/main.cpp>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/master/examples/example_sdl3_sdlrenderer3/main.cpp>.
+  - В заметках: [[05_Learning/Guides/SPECTRA_ImGui_Study_Guide|SPECTRA_ImGui_Study_Guide]].
+- **[github.com — ocornut/imgui/blob/master/imgui.h](<https://github.com/ocornut/imgui/blob/master/imgui.h>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/master/imgui.h>.
+  - В заметках: [[05_Learning/Guides/SPECTRA_ImGui_Study_Guide|SPECTRA_ImGui_Study_Guide]].
+- **[imgui_demo.cpp](<https://github.com/ocornut/imgui/blob/master/imgui_demo.cpp>)**
+  - Адрес: <https://github.com/ocornut/imgui/blob/master/imgui_demo.cpp>.
+  - В заметках: [[03_Projects/Sylvune/ImGui documentation|ImGui documentation]], [[05_Learning/Guides/SPECTRA_ImGui_Study_Guide|SPECTRA_ImGui_Study_Guide]].
+- **[Dear ImGui Wiki](<https://github.com/ocornut/imgui/wiki>)**
+  - Адрес: <https://github.com/ocornut/imgui/wiki>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[04_Knowledge/WebGPU/ImGUI/Tutorial|Tutorial]].
+- **[About the IMGUI paradigm](<https://github.com/ocornut/imgui/wiki/About-the-IMGUI-paradigm>)**
+  - Адрес: <https://github.com/ocornut/imgui/wiki/About-the-IMGUI-paradigm>.
+  - В заметках: [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[официальное руководство по Docking](<https://github.com/ocornut/imgui/wiki/Docking>)**
+  - Адрес: <https://github.com/ocornut/imgui/wiki/Docking>.
+  - В заметках: [[03_Projects/Sylvune/ImGui documentation|ImGui documentation]].
+- **[ImGui Getting Started](<https://github.com/ocornut/imgui/wiki/Getting-Started>)**
+  - Адрес: <https://github.com/ocornut/imgui/wiki/Getting-Started>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[ImGui Image Loading and Displaying Examples](<https://github.com/ocornut/imgui/wiki/Image-Loading-and-Displaying-Examples>)**
+  - Адрес: <https://github.com/ocornut/imgui/wiki/Image-Loading-and-Displaying-Examples>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Dear ImGui Test Engine / imgui_club](<https://github.com/ocornut/imgui_club>)**
+  - Адрес: <https://github.com/ocornut/imgui_club>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[GitHub — rxi/microui](<https://github.com/rxi/microui>)**
+  - Адрес: <https://github.com/rxi/microui>.
+  - В заметках: [[02_Resources/Repos|Repos]], [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[microui.c](<https://github.com/rxi/microui/blob/master/src/microui.c>)**
+  - Адрес: <https://github.com/rxi/microui/blob/master/src/microui.c>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[microui.h](<https://github.com/rxi/microui/blob/master/src/microui.h>)**
+  - Адрес: <https://github.com/rxi/microui/blob/master/src/microui.h>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[GitHub — wjakob/nanogui](<https://github.com/wjakob/nanogui>)**
+  - Адрес: <https://github.com/wjakob/nanogui>.
+  - В заметках: [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[dependencies that GLFW require](<https://www.glfw.org/docs/3.3/compile.html#compile_deps>)**
+  - Адрес: <https://www.glfw.org/docs/3.3/compile.html#compile_deps>.
+  - В заметках: [[04_Knowledge/WebGPU/GLFW/GLFW|GLFW]].
+- **[documentation](<https://www.glfw.org/docs/latest/>)**
+  - Адрес: <https://www.glfw.org/docs/latest/>.
+  - В заметках: [[04_Knowledge/WebGPU/GLFW/GLFW|GLFW]].
+- **[glfw.org/download.html](<https://www.glfw.org/download.html>)**
+  - Адрес: <https://www.glfw.org/download.html>.
+  - В заметках: [[04_Knowledge/Vulkan/Download|Download]].
+- **[Исходники GLFW](<https://www.google.com/search?q=https://github.com/glfw/glfw/tree/master/src>)**
+  - Адрес: <https://www.google.com/search?q=https://github.com/glfw/glfw/tree/master/src>.
+  - В заметках: [[04_Knowledge/WebGPU/Attached/Wayland X11 surface|Wayland X11 surface]].
+- **[Intel Intrinsics Guide](<https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html>)**
+  - Адрес: <https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html>.
+  - В заметках: [[04_Knowledge/Optimization/SIMD|SIMD]].
+- **[SystemMediaTransportControls](<https://learn.microsoft.com/en-us/uwp/api/windows.media.systemmediatransportcontrols>)**
+  - Адрес: <https://learn.microsoft.com/en-us/uwp/api/windows.media.systemmediatransportcontrols>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Material: Color roles](<https://m3.material.io/styles/color/roles>)**
+  - Адрес: <https://m3.material.io/styles/color/roles>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Material Typography](<https://m3.material.io/styles/typography/overview>)**
+  - Адрес: <https://m3.material.io/styles/typography/overview>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Metanit: Программирование на C++ и Qt](<https://metanit.com/cpp/qt/>)**
+  - Адрес: <https://metanit.com/cpp/qt/>.
+  - В заметках: [[02_Resources/C++/Qt6/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[pthom.github.io/imgui_manual_online/manual/imgui_manual.html](<https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html>)**
+  - Адрес: <https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html>.
+  - В заметках: [[04_Knowledge/WebGPU/ImGUI/Справочник|Справочник]].
+- **[Reddit: What is the best way to learn Qt?](<https://www.reddit.com/r/cpp_questions/comments/1nlqitg/what_is_the_best_way_to_learn_qt/?tl=ru>)**
+  - Адрес: <https://www.reddit.com/r/cpp_questions/comments/1nlqitg/what_is_the_best_way_to_learn_qt/?tl=ru>.
+  - В заметках: [[02_Resources/C++/Qt6/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Udemy: Qt 6 Core Beginners with C++](<https://www.udemy.com/course/qt-6-core-beginners-with-cpp/>)**
+  - Адрес: <https://www.udemy.com/course/qt-6-core-beginners-with-cpp/>.
+  - В заметках: [[02_Resources/C++/Qt6/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[ICU Case Mappings](<https://unicode-org.github.io/icu/userguide/transforms/casemappings.html>)**
+  - Адрес: <https://unicode-org.github.io/icu/userguide/transforms/casemappings.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[WCAG: Contrast Minimum](<https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html>)**
+  - Адрес: <https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[wiki.libsdl.org](<https://wiki.libsdl.org/SDL3/AppFreezeDuringDrag?utm_source=chatgpt.com>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/AppFreezeDuringDrag?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Ошибки/ресайз окна|ресайз окна]].
+- **[SDL3 Wiki](<https://wiki.libsdl.org/SDL3/FrontPage>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/FrontPage>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[SDL3 Wiki — Quick Reference](<https://wiki.libsdl.org/SDL3/QuickReference>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/QuickReference>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[SDL README Android](<https://wiki.libsdl.org/SDL3/README-android>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/README-android>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]].
+- **[SDL Wiki](<https://wiki.libsdl.org/SDL3/README-main-functions?utm_source=chatgpt.com>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/README-main-functions?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Ошибки/ресайз окна|ресайз окна]].
+- **[SDL Wiki](<https://wiki.libsdl.org/SDL3/SDL_AddEventWatch?utm_source=chatgpt.com>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_AddEventWatch?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Ошибки/ресайз окна|ресайз окна]].
+- **[SDL: drop event](<https://wiki.libsdl.org/SDL3/SDL_DropEvent>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_DropEvent>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[SDL: preference path](<https://wiki.libsdl.org/SDL3/SDL_GetPrefPath>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_GetPrefPath>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[SDL_GetWindowDisplayScale](<https://wiki.libsdl.org/SDL3/SDL_GetWindowDisplayScale>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_GetWindowDisplayScale>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[SDL_HitTestResult](<https://wiki.libsdl.org/SDL3/SDL_HitTestResult>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_HitTestResult>.
+  - В заметках: [[05_Learning/Guides/SPECTRA_ImGui_Study_Guide|SPECTRA_ImGui_Study_Guide]].
+- **[документации SDL_main](<https://wiki.libsdl.org/SDL3/SDL_main>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_main>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_CPP_PORT_GUIDE_RU|ANDROID_CPP_PORT_GUIDE_RU]].
+- **[SDL_SetWindowFullscreen](<https://wiki.libsdl.org/SDL3/SDL_SetWindowFullscreen>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_SetWindowFullscreen>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[SDL_SetWindowHitTest](<https://wiki.libsdl.org/SDL3/SDL_SetWindowHitTest>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_SetWindowHitTest>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[05_Learning/Guides/SPECTRA_ImGui_Study_Guide|SPECTRA_ImGui_Study_Guide]].
+- **[SDL_ShowOpenFolderDialog](<https://wiki.libsdl.org/SDL3/SDL_ShowOpenFolderDialog>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_ShowOpenFolderDialog>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[SDL3 Tray API](<https://wiki.libsdl.org/SDL3/SDL_Tray>)**
+  - Адрес: <https://wiki.libsdl.org/SDL3/SDL_Tray>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Qt for Beginners (Wiki)](<https://wiki.qt.io/Qt_for_Beginners>)**
+  - Адрес: <https://wiki.qt.io/Qt_for_Beginners>.
+  - В заметках: [[02_Resources/C++/Qt6/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[AI Guide (YouTube)](<https://www.youtube.com/watch?v=tW4gVbPqbxM>)**
+  - Адрес: <https://www.youtube.com/watch?v=tW4gVbPqbxM>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Видео — Immediate-Mode Graphical User Interfaces](<https://www.youtube.com/watch?v=Z1qyvQsjK5Y>)**
+  - Адрес: <https://www.youtube.com/watch?v=Z1qyvQsjK5Y>.
+  - В заметках: [[03_Projects/GUI/GUI_From_Scratch_Roadmap|GUI_From_Scratch_Roadmap]].
+- **[ZetCode Qt5 Tutorial](<https://zetcode.com/gui/qt5/>)**
+  - Адрес: <https://zetcode.com/gui/qt5/>.
+  - В заметках: [[02_Resources/C++/Qt6/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+
+### Аудио, DSP и музыкальный плеер
+
+- **[Think DSP](<https://allendowney.github.io/ThinkDSP/>)**
+  - Адрес: <https://allendowney.github.io/ThinkDSP/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[aubio](<https://aubio.org/>)**
+  - Адрес: <https://aubio.org/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[aubio documentation](<https://aubio.org/documentation>)**
+  - Адрес: <https://aubio.org/documentation>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[Fundamentals of Music Processing: FMP notebooks](<https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html>)**
+  - Адрес: <https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[The Scientist and Engineer's Guide to DSP](<https://www.dspguide.com/>)**
+  - Адрес: <https://www.dspguide.com/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[Steven W. Smith — The Scientist and Engineer’s Guide to DSP](<https://www.dspguide.com/pdfbook.htm>)**
+  - Адрес: <https://www.dspguide.com/pdfbook.htm>.
+  - В заметках: [[03_Projects/Sylvune/Документация|Документация]].
+- **[Julius O. Smith: Introduction to Digital Filters](<https://www.dsprelated.com/freebooks/filters/>)**
+  - Адрес: <https://www.dsprelated.com/freebooks/filters/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Julius O. Smith: Spectral Audio Signal Processing](<https://www.dsprelated.com/freebooks/sasp/>)**
+  - Адрес: <https://www.dsprelated.com/freebooks/sasp/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[easings.net — ru](<https://easings.net/ru>)**
+  - Адрес: <https://easings.net/ru>.
+  - В заметках: [[03_Projects/Sylvune/теория/т|т]].
+- **[Essentia](<https://essentia.upf.edu/>)**
+  - Адрес: <https://essentia.upf.edu/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[Essentia algorithms overview](<https://essentia.upf.edu/algorithms_overview.html>)**
+  - Адрес: <https://essentia.upf.edu/algorithms_overview.html>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[Essentia docs](<https://essentia.upf.edu/documentation.html>)**
+  - Адрес: <https://essentia.upf.edu/documentation.html>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[FFTW](<https://www.fftw.org/>)**
+  - Адрес: <https://www.fftw.org/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[FFTW manual](<https://www.fftw.org/fftw3_doc/>)**
+  - Адрес: <https://www.fftw.org/fftw3_doc/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[FMOD docs](<https://www.fmod.com/docs/2.02/api/>)**
+  - Адрес: <https://www.fmod.com/docs/2.02/api/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[libebur128](<https://github.com/jiixyj/libebur128>)**
+  - Адрес: <https://github.com/jiixyj/libebur128>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[librosa](<https://github.com/librosa/librosa>)**
+  - Адрес: <https://github.com/librosa/librosa>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[miniaudio](<https://github.com/mackron/miniaudio>)**
+  - Адрес: <https://github.com/mackron/miniaudio>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[pocketfft](<https://github.com/mreineck/pocketfft>)**
+  - Адрес: <https://github.com/mreineck/pocketfft>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[ITU-R BS.1770](<https://www.itu.int/rec/R-REC-BS.1770-5-202311-I/en>)**
+  - Адрес: <https://www.itu.int/rec/R-REC-BS.1770-5-202311-I/en>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[Circles, Sines and Signals](<https://jackschaedler.github.io/circles-sines-signals/>)**
+  - Адрес: <https://jackschaedler.github.io/circles-sines-signals/>.
+  - В заметках: [[03_Projects/Sylvune/Документация|Документация]], [[03_Projects/Sylvune/теория/т|т]].
+  - Варианты в заметках: <https://jackschaedler.github.io/circles-sines-signals/?utm_source=gemini>.
+- **[librosa](<https://librosa.org/>)**
+  - Адрес: <https://librosa.org/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[librosa feature extraction](<https://librosa.org/doc/0.10.2/feature.html>)**
+  - Адрес: <https://librosa.org/doc/0.10.2/feature.html>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[Обзор FMP notebooks](<https://www.mdpi.com/2624-6120/2/2/18>)**
+  - Адрес: <https://www.mdpi.com/2624-6120/2/2/18>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[miniaudio](<https://miniaud.io/>)**
+  - Адрес: <https://miniaud.io/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]].
+- **[miniaudio Documentation](<https://miniaud.io/docs/>)**
+  - Адрес: <https://miniaud.io/docs/>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Документация miniaudio — Programming Manual](<https://miniaud.io/docs/manual/index.html>)**
+  - Адрес: <https://miniaud.io/docs/manual/index.html>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[03_Projects/Sylvune/miniaudio/1_|1_]], [[03_Projects/Sylvune/Документация|Документация]], [[03_Projects/Sylvune/Ошибки/02_|02_]], [[03_Projects/Sylvune/теория/т|т]].
+  - Варианты в заметках: <https://miniaud.io/docs/manual/index.html?utm_source=chatgpt.com>, <https://miniaud.io/docs/manual/index.html?utm_source=gemini>.
+- **[TagLib API](<https://taglib.org/api/>)**
+  - Адрес: <https://taglib.org/api/>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[TagLib FileRef](<https://taglib.org/api/classTagLib_1_1FileRef.html>)**
+  - Адрес: <https://taglib.org/api/classTagLib_1_1FileRef.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[03_Projects/Sylvune/Ошибки/02_|02_]].
+  - Варианты в заметках: <https://taglib.org/api/classTagLib_1_1FileRef.html?utm_source=chatgpt.com>.
+- **[W3C Audio EQ Cookbook](<https://www.w3.org/TR/audio-eq-cookbook/>)**
+  - Адрес: <https://www.w3.org/TR/audio-eq-cookbook/>.
+  - В заметках: [[03_Projects/Sylvune/Audio_DSP_WebGPU_Roadmap_Obsidian|Audio_DSP_WebGPU_Roadmap_Obsidian]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[Xiph.Org - Digital Show & Tell](<https://xiph.org/video/vid2.shtml>)**
+  - Адрес: <https://xiph.org/video/vid2.shtml>.
+  - В заметках: [[03_Projects/Sylvune/Документация|Документация]], [[03_Projects/Sylvune/теория/т|т]].
+  - Варианты в заметках: <https://xiph.org/video/vid2.shtml?utm_source=gemini>.
+
+### Разработка игр и Unreal Engine
+
+- **[Box2D — Collision & Ray Cast](<https://box2d.org/documentation/md_collision.html>)**
+  - Адрес: <https://box2d.org/documentation/md_collision.html>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[cedric-neukirchen.net](<https://cedric-neukirchen.net/>)**
+  - Адрес: <https://cedric-neukirchen.net/>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[Multiplayer Compendium by Cedric Neukirchen](<https://cedric-neukirchen.net/docs/multiplayer-compendium/ownership/>)**
+  - Адрес: <https://cedric-neukirchen.net/docs/multiplayer-compendium/ownership/>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[04_Knowledge/Unreal Engine 5/Links|Links]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[dev.epicgames.com — documentation/en-us/unreal-engine](<https://dev.epicgames.com/documentation/en-us/unreal-engine>)**
+  - Адрес: <https://dev.epicgames.com/documentation/en-us/unreal-engine>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[dev.epicgames.com — documentation/en-us/unreal-engine/API](<https://dev.epicgames.com/documentation/en-us/unreal-engine/API>)**
+  - Адрес: <https://dev.epicgames.com/documentation/en-us/unreal-engine/API>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Epic C++ Coding Standard](<https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine>)**
+  - Адрес: <https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[04_Knowledge/Unreal Engine 5/Links|Links]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Epic Games Developers](<https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine?utm_source=chatgpt.com>)**
+  - Адрес: <https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Programming with C++ in Unreal Engine](<https://dev.epicgames.com/documentation/en-us/unreal-engine/programming-with-cplusplus-in-unreal-engine>)**
+  - Адрес: <https://dev.epicgames.com/documentation/en-us/unreal-engine/programming-with-cplusplus-in-unreal-engine>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Render Dependency Graph](<https://dev.epicgames.com/documentation/en-us/unreal-engine/render-dependency-graph-in-unreal-engine>)**
+  - Адрес: <https://dev.epicgames.com/documentation/en-us/unreal-engine/render-dependency-graph-in-unreal-engine>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Rendering and Graphics overview](<https://dev.epicgames.com/documentation/en-us/unreal-engine/rendering-and-graphics-in-unreal-engine>)**
+  - Адрес: <https://dev.epicgames.com/documentation/en-us/unreal-engine/rendering-and-graphics-in-unreal-engine>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[UE Graphics Programming Overview](<https://dev.epicgames.com/documentation/unreal-engine/graphics-programming-overview-for-unreal-engine?utm_source=chatgpt.com>)**
+  - Адрес: <https://dev.epicgames.com/documentation/unreal-engine/graphics-programming-overview-for-unreal-engine?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Epic Games Developers](<https://dev.epicgames.com/documentation/unreal-engine/render-dependency-graph-in-unreal-engine>)**
+  - Адрес: <https://dev.epicgames.com/documentation/unreal-engine/render-dependency-graph-in-unreal-engine>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+  - Варианты в заметках: <https://dev.epicgames.com/documentation/unreal-engine/render-dependency-graph-in-unreal-engine?utm_source=chatgpt.com>.
+- **[Digesting Duck](<https://digestingduck.blogspot.com/>)**
+  - Адрес: <https://digestingduck.blogspot.com/>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[04_Knowledge/Unreal Engine 5/Links|Links]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[AnimGraph в Unreal: шпаргалка по ключевым нодам ABP — Gamedev на DTF](<https://dtf.ru/gamedev/4907017-animgraph-v-unreal-shpargalka-po-klyuchevym-nodam-abp>)**
+  - Адрес: <https://dtf.ru/gamedev/4907017-animgraph-v-unreal-shpargalka-po-klyuchevym-nodam-abp>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[Machine Learning for Game Devs: Part 1](<https://www.ea.com/seed/news/machine-learning-game-devs-part-1>)**
+  - Адрес: <https://www.ea.com/seed/news/machine-learning-game-devs-part-1>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Machine Learning for Game Devs: Part 2](<https://www.ea.com/seed/news/machine-learning-game-devs-part-2>)**
+  - Адрес: <https://www.ea.com/seed/news/machine-learning-game-devs-part-2>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Machine Learning for Game Devs: Part 3](<https://www.ea.com/seed/news/machine-learning-game-devs-part-3>)**
+  - Адрес: <https://www.ea.com/seed/news/machine-learning-game-devs-part-3>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Fabien Sanglard](<https://fabiensanglard.net/>)**
+  - Адрес: <https://fabiensanglard.net/>.
+  - В заметках: [[02_Resources/GPU/GPU Architecture & Compute Programming Hub|GPU Architecture & Compute Programming Hub]], [[02_Resources/GraphicsProgramming/Исходники id Software|Исходники id Software]], [[05_Learning/Roadmaps/graphics_programmer_reading_roadmap|graphics_programmer_reading_roadmap]].
+- **[Flecs](<https://www.flecs.dev/flecs/>)**
+  - Адрес: <https://www.flecs.dev/flecs/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[gafferongames.com](<https://gafferongames.com/>)**
+  - Адрес: <https://gafferongames.com/>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Gaffer on Games — Fix Your Timestep!](<https://gafferongames.com/post/fix_your_timestep/>)**
+  - Адрес: <https://gafferongames.com/post/fix_your_timestep/>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]], [[03_Projects/Sylvune/c2core/1|1]].
+  - Варианты в заметках: <https://gafferongames.com/post/fix_your_timestep/?utm_source=chatgpt.com>.
+- **[Game AI Pro](<https://www.gameaipro.com/>)**
+  - Адрес: <https://www.gameaipro.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Game Physics in One Weekend Series](<https://gamephysicsweekend.github.io/>)**
+  - Адрес: <https://gamephysicsweekend.github.io/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[The RAD Debugger](<https://github.com/EpicGamesExt/raddebugger>)**
+  - Адрес: <https://github.com/EpicGamesExt/raddebugger>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[id Software на GitHub](<https://github.com/id-Software>)**
+  - Адрес: <https://github.com/id-Software>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Исходники id Software|Исходники id Software]], [[05_Learning/Roadmaps/DOom|DOom]].
+  - Варианты в заметках: <https://github.com/id-Software?utm_source=chatgpt.com>.
+- **[github.com — id-software/doom-3-bfg](<https://github.com/id-software/doom-3-bfg>)**
+  - Адрес: <https://github.com/id-software/doom-3-bfg>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+  - Варианты в заметках: <https://github.com/id-software/doom-3-bfg?utm_source=chatgpt.com>.
+- **[github.com — id-Software/DOOM-3-BFG/blob/master/neo/idlib/precompiled.h](<https://github.com/id-Software/DOOM-3-BFG/blob/master/neo/idlib/precompiled.h?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/DOOM-3-BFG/blob/master/neo/idlib/precompiled.h?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[DOOM 3 BFG — официальный репозиторий id Software](<https://github.com/id-Software/DOOM-3-BFG?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/DOOM-3-BFG?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[DOOM 3 — официальный репозиторий id Software](<https://github.com/id-Software/DOOM-3?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/DOOM-3?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[DOOM iOS](<https://github.com/id-Software/DOOM-iOS?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/DOOM-iOS?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[DOOM — официальный репозиторий id Software](<https://github.com/id-Software/DOOM?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/DOOM?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[idsetup](<https://github.com/id-Software/idsetup?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/idsetup?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[Quake 2 Tools](<https://github.com/id-Software/Quake-2-Tools?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/Quake-2-Tools?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[github.com — id-Software/Quake-2/blob/master/ref_gl/ref_gl.plg](<https://github.com/id-Software/Quake-2/blob/master/ref_gl/ref_gl.plg?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/Quake-2/blob/master/ref_gl/ref_gl.plg?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[Quake II — официальный репозиторий id Software](<https://github.com/id-Software/Quake-2?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/Quake-2?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[github.com — id-Software/Quake-III-Arena/blob/master/code/qcommon/files.c](<https://github.com/id-Software/Quake-III-Arena/blob/master/code/qcommon/files.c?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/Quake-III-Arena/blob/master/code/qcommon/files.c?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[github.com — id-Software/Quake-III-Arena/blob/master/code/qcommon/net_chan.c](<https://github.com/id-Software/Quake-III-Arena/blob/master/code/qcommon/net_chan.c?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/Quake-III-Arena/blob/master/code/qcommon/net_chan.c?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[Quake III Arena — официальный репозиторий id Software](<https://github.com/id-Software/Quake-III-Arena?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/Quake-III-Arena?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[github.com — id-software/quake](<https://github.com/id-software/quake?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-software/quake?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[Quake — официальный репозиторий id Software](<https://github.com/id-Software/Quake?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/id-Software/Quake?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/DOom|DOom]].
+- **[JoltPhysics](<https://github.com/jrouwe/JoltPhysics>)**
+  - Адрес: <https://github.com/jrouwe/JoltPhysics>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[github.com — LucianTranc/NiagaraTextToolkit/tree/main/Source/NiagaraTextToolkit/Private](<https://github.com/LucianTranc/NiagaraTextToolkit/tree/main/Source/NiagaraTextToolkit/Private>)**
+  - Адрес: <https://github.com/LucianTranc/NiagaraTextToolkit/tree/main/Source/NiagaraTextToolkit/Private>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[Guide-UnrealEngine (GitHub)](<https://github.com/MrRobinOfficial/Guide-UnrealEngine>)**
+  - Адрес: <https://github.com/MrRobinOfficial/Guide-UnrealEngine>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Recast & Detour (GitHub)](<https://github.com/recastnavigation/recastnavigation>)**
+  - Адрес: <https://github.com/recastnavigation/recastnavigation>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[04_Knowledge/Unreal Engine 5/Links|Links]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Flecs (GitHub)](<https://github.com/SanderMertens/flecs>)**
+  - Адрес: <https://github.com/SanderMertens/flecs>.
+  - В заметках: [[02_Resources/C++/Basic/C++ & Game Engine Architecture|C++ & Game Engine Architecture]].
+- **[Game Programmer Resume Tips](<https://github.com/unpacklo/game-programmer-resume-tips>)**
+  - Адрес: <https://github.com/unpacklo/game-programmer-resume-tips>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[О геймдеве в целом (Habr)](<https://habr.com/ru/publications/722486/>)**
+  - Адрес: <https://habr.com/ru/publications/722486/>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]].
+- **[jcenters??](<https://jcenters-courses.com/courses/>)**
+  - Адрес: <https://jcenters-courses.com/courses/>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[Jolt Physics](<https://jrouwe.github.io/JoltPhysics/>)**
+  - Адрес: <https://jrouwe.github.io/JoltPhysics/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Interviewing for Game Programming](<https://lazyfoo.net/articles/article12_interviewing-for-game-programming/index.php>)**
+  - Адрес: <https://lazyfoo.net/articles/article12_interviewing-for-game-programming/index.php>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[owl cat](<https://www.linkedin.com/company/owlcat-games/posts/?feedView=all>)**
+  - Адрес: <https://www.linkedin.com/company/owlcat-games/posts/?feedView=all>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[MIT OCW — Introduction to Game Design Methods](<https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/>)**
+  - Адрес: <https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[MIT OCW — Design assignments & playtest](<https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/resources/assignments/>)**
+  - Адрес: <https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/resources/assignments/>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Steamworks — Steam Direct fee](<https://partner.steamgames.com/doc/gettingstarted/appfee>)**
+  - Адрес: <https://partner.steamgames.com/doc/gettingstarted/appfee>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Steamworks — Onboarding](<https://partner.steamgames.com/doc/gettingstarted/onboarding>)**
+  - Адрес: <https://partner.steamgames.com/doc/gettingstarted/onboarding>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Steamworks — Uploading builds](<https://partner.steamgames.com/doc/sdk/uploading>)**
+  - Адрес: <https://partner.steamgames.com/doc/sdk/uploading>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Steamworks — Coming Soon](<https://partner.steamgames.com/doc/store/coming_soon>)**
+  - Адрес: <https://partner.steamgames.com/doc/store/coming_soon>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[18 Months of Game Programming Interviews](<https://www.reddit.com/r/gamedev/comments/9n847g/18_months_of_game_programming_interviews/>)**
+  - Адрес: <https://www.reddit.com/r/gamedev/comments/9n847g/18_months_of_game_programming_interviews/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Game Feel — Steve Swink (publisher)](<https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282>)**
+  - Адрес: <https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282>.
+  - В заметках: [[03_Projects/LuxPrism/LUXPRISM_Development_Roadmap|LUXPRISM_Development_Roadmap]].
+- **[Tom Looman: C++ Guide](<https://tomlooman.com/unreal-engine-cpp-guide/>)**
+  - Адрес: <https://tomlooman.com/unreal-engine-cpp-guide/>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[04_Knowledge/Unreal Engine 5/Links|Links]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Tom Looman: Gameplay Framework](<https://tomlooman.com/unreal-engine-gameplay-framework/>)**
+  - Адрес: <https://tomlooman.com/unreal-engine-gameplay-framework/>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[04_Knowledge/Unreal Engine 5/Links|Links]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Unreal Garden](<https://unreal-garden.com/>)**
+  - Адрес: <https://unreal-garden.com/>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[04_Knowledge/Unreal Engine 5/Links|Links]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[UnrealDoc: Navigation Mesh](<https://www.unrealdoc.com/p/navigation-mesh>)**
+  - Адрес: <https://www.unrealdoc.com/p/navigation-mesh>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[04_Knowledge/Unreal Engine 5/Links|Links]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[best courses for beginners](<https://www.unrealengine.com/en-US/blog/learn-unreal-engine-5-fast-with-these-new-courses>)**
+  - Адрес: <https://www.unrealengine.com/en-US/blog/learn-unreal-engine-5-fast-with-these-new-courses>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[Unreal Engine source (официальная инструкция доступа)](<https://www.unrealengine.com/en-US/ue-on-github>)**
+  - Адрес: <https://www.unrealengine.com/en-US/ue-on-github>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[CobraCode](<https://www.youtube.com/@CobraCode/videos>)**
+  - Адрес: <https://www.youtube.com/@CobraCode/videos>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Evans Bohl](<https://www.youtube.com/@evansbohl/videos>)**
+  - Адрес: <https://www.youtube.com/@evansbohl/videos>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[GDC (Game Developers Conference)](<https://www.youtube.com/@Gdconf>)**
+  - Адрес: <https://www.youtube.com/@Gdconf>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]], [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[GetIntoGameDev](<https://www.youtube.com/@GetIntoGameDev>)**
+  - Адрес: <https://www.youtube.com/@GetIntoGameDev>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Theory/Main|Main]].
+- **[Kekdot](<https://www.youtube.com/@Kekdot/videos>)**
+  - Адрес: <https://www.youtube.com/@Kekdot/videos>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[PrismaticaDev](<https://www.youtube.com/@PrismaticaDev>)**
+  - Адрес: <https://www.youtube.com/@PrismaticaDev>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Reid's Channel](<https://www.youtube.com/@ReidsChannel/videos>)**
+  - Адрес: <https://www.youtube.com/@ReidsChannel/videos>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Ryan Laley](<https://www.youtube.com/@RyanLaley/videos>)**
+  - Адрес: <https://www.youtube.com/@RyanLaley/videos>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[How to Get A Job in Game Design](<https://www.youtube.com/playlist?list=PLW3Zl3wyJwWPoqjWDgybGxOAZhdUBAhyR>)**
+  - Адрес: <https://www.youtube.com/playlist?list=PLW3Zl3wyJwWPoqjWDgybGxOAZhdUBAhyR>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[cascadeur](<https://www.youtube.com/watch?v=3uWlSZDGmL8>)**
+  - Адрес: <https://www.youtube.com/watch?v=3uWlSZDGmL8>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/usefull programs|usefull programs]].
+- **[UNREAL ENGINE ЗА 5 ЧАСОВ](<https://www.youtube.com/watch?v=bjclTcM8eoU>)**
+  - Адрес: <https://www.youtube.com/watch?v=bjclTcM8eoU>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[Parkour series](<https://www.youtube.com/watch?v=es6NA7I_TlQ&list=PLd6LaoDjaEtO4atciX9UVhHfWL6ww1BUq&index=2>)**
+  - Адрес: <https://www.youtube.com/watch?v=es6NA7I_TlQ&list=PLd6LaoDjaEtO4atciX9UVhHfWL6ww1BUq&index=2>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/ProjectMomentum/Core Links|Core Links]].
+- **[youtube.com — v=EWuHq7_scg4&t=334s](<https://www.youtube.com/watch?v=EWuHq7_scg4&t=334s>)**
+  - Адрес: <https://www.youtube.com/watch?v=EWuHq7_scg4&t=334s>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[BlendAnimations Between Linked Layers](<https://www.youtube.com/watch?v=kfHnQO7IV4c&t=1s>)**
+  - Адрес: <https://www.youtube.com/watch?v=kfHnQO7IV4c&t=1s>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/ProjectMomentum/Core Links|Core Links]].
+- **[Процедурная анимация](<https://www.youtube.com/watch?v=KPoeNZZ6H4s>)**
+  - Адрес: <https://www.youtube.com/watch?v=KPoeNZZ6H4s>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[retarget](<https://www.youtube.com/watch?v=N4T76dEDc7Q>)**
+  - Адрес: <https://www.youtube.com/watch?v=N4T76dEDc7Q>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/usefull programs|usefull programs]].
+- **[anim course](<https://www.youtube.com/watch?v=NpNOjek7W58>)**
+  - Адрес: <https://www.youtube.com/watch?v=NpNOjek7W58>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/usefull programs|usefull programs]].
+- **[youtube.com — v=ntfvgQAiPII](<https://www.youtube.com/watch?v=ntfvgQAiPII>)**
+  - Адрес: <https://www.youtube.com/watch?v=ntfvgQAiPII>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[youtube.com — v=pSi_-NwE6aU](<https://www.youtube.com/watch?v=pSi_-NwE6aU>)**
+  - Адрес: <https://www.youtube.com/watch?v=pSi_-NwE6aU>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/ProjectMomentum/Tasks|Tasks]].
+- **[9 tips](<https://www.youtube.com/watch?v=S7TwnS2wAZQ>)**
+  - Адрес: <https://www.youtube.com/watch?v=S7TwnS2wAZQ>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[Machine Learning for Game Developers](<https://www.youtube.com/watch?v=sTAqWRsEiy0>)**
+  - Адрес: <https://www.youtube.com/watch?v=sTAqWRsEiy0>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[очень крутые гайды по Ik rig на примере подбора предметов и тд](<https://www.youtube.com/watch?v=tkyqqbiY3iw&list=PLg8qOa5gnZ3AWlJ8wYpTKap-pjTV5xO4t>)**
+  - Адрес: <https://www.youtube.com/watch?v=tkyqqbiY3iw&list=PLg8qOa5gnZ3AWlJ8wYpTKap-pjTV5xO4t>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[Pause Menu](<https://www.youtube.com/watch?v=uiqJTzLMSKE>)**
+  - Адрес: <https://www.youtube.com/watch?v=uiqJTzLMSKE>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[parkour series](<https://www.youtube.com/watch?v=unOExKGUMTw&list=PLd6LaoDjaEtO4atciX9UVhHfWL6ww1BUq>)**
+  - Адрес: <https://www.youtube.com/watch?v=unOExKGUMTw&list=PLd6LaoDjaEtO4atciX9UVhHfWL6ww1BUq>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/Links|Links]].
+- **[sekiro combat system](<https://www.youtube.com/watch?v=vJ8AQklzezo&t=134s>)**
+  - Адрес: <https://www.youtube.com/watch?v=vJ8AQklzezo&t=134s>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/ProjectMomentum/Core Links|Core Links]].
+- **[wall run](<https://www.youtube.com/watch?v=YQqMawNWcVw>)**
+  - Адрес: <https://www.youtube.com/watch?v=YQqMawNWcVw>.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/ProjectMomentum/Core Links|Core Links]].
+- **[Ali ElZoheiry](<https://youtube.com/@alielzoheiry>)**
+  - Адрес: <https://youtube.com/@alielzoheiry>.
+  - В заметках: [[02_Resources/UnrealEngine5/Resources|Resources]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+
+### Blender, 3D-моделирование и ассеты
+
+- **[80 Level (80.lv)](<https://80.lv>)**
+  - Адрес: <https://80.lv>.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **[Blender Guru](<https://www.blenderguru.com>)**
+  - Адрес: <https://www.blenderguru.com>.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **[BlenderNation](<https://www.blendernation.com>)**
+  - Адрес: <https://www.blendernation.com>.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **[Официальный мануал Blender](<https://docs.blender.org/manual/en/latest/>)**
+  - Адрес: <https://docs.blender.org/manual/en/latest/>.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **[Freesound.org](<https://Freesound.org>)**
+  - Адрес: <https://Freesound.org>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/FreeSFX Sound|FreeSFX Sound]].
+  - Варианты в заметках: <https://Freesound.org>.
+- **[(Udemy) — Курс Complete Blender Creator. Структурированное обучение от А до Я. Учат моделировать с учетом последующего экспорта в Unreal Engine или Unity (покупать только на распродажах).](<https://GameDev.tv>)**
+  - Адрес: <https://GameDev.tv>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+  - Варианты в заметках: <https://GameDev.tv>.
+- **[Assimp](<https://github.com/assimp/assimp>)**
+  - Адрес: <https://github.com/assimp/assimp>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[github.com — KhronosGroup/glTF](<https://github.com/KhronosGroup/glTF>)**
+  - Адрес: <https://github.com/KhronosGroup/glTF>.
+  - В заметках: [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+- **[Khronos glTF Sample Assets](<https://github.com/KhronosGroup/glTF-Sample-Assets>)**
+  - Адрес: <https://github.com/KhronosGroup/glTF-Sample-Assets>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[Khronos glTF Sample Viewer](<https://github.com/KhronosGroup/glTF-Sample-Viewer>)**
+  - Адрес: <https://github.com/KhronosGroup/glTF-Sample-Viewer>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[KHR_lights_punctual](<https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_lights_punctual/README.md>)**
+  - Адрес: <https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_lights_punctual/README.md>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[fastgltf](<https://github.com/spnda/fastgltf?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/spnda/fastgltf?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/c2core/1|1]], [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+  - Варианты в заметках: <https://github.com/spnda/fastgltf>.
+- **[Khronos glTF Sample Assets](<https://github.khronos.org/glTF-Assets/>)**
+  - Адрес: <https://github.khronos.org/glTF-Assets/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Khronos glTF Tutorial](<https://github.khronos.org/glTF-Tutorials/gltfTutorial/>)**
+  - Адрес: <https://github.khronos.org/glTF-Tutorials/gltfTutorial/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[Анимации glTF](<https://github.khronos.org/glTF-Tutorials/gltfTutorial/gltfTutorial_007_Animations.html>)**
+  - Адрес: <https://github.khronos.org/glTF-Tutorials/gltfTutorial/gltfTutorial_007_Animations.html>.
+  - В заметках: [[05_Learning/Roadmaps/Filament — изучение освещения|Filament — изучение освещения]].
+- **[skinning](<https://github.khronos.org/glTF-Tutorials/gltfTutorial/gltfTutorial_020_Skins.html>)**
+  - Адрес: <https://github.khronos.org/glTF-Tutorials/gltfTutorial/gltfTutorial_020_Skins.html>.
+  - В заметках: [[05_Learning/Roadmaps/Filament — изучение освещения|Filament — изучение освещения]].
+- **[openusd.org](<https://openusd.org>)**
+  - Адрес: <https://openusd.org>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[04_Knowledge/Formats/Форматы 3D-моделей|Форматы 3D-моделей]].
+  - Варианты в заметках: <https://openusd.org>.
+- **[Poly Haven](<https://polyhaven.com/>)**
+  - Адрес: <https://polyhaven.com/>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[glTF 2.0 Specification](<https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html>)**
+  - Адрес: <https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html>.
+  - В заметках: [[03_Projects/VulkanRenderer/vulkan_renderer_portfolio_guide|vulkan_renderer_portfolio_guide]].
+- **[VideoSmile: Мини-курс Супер Blender](<https://www.youtube.com/watch?v=5eIxHQnLqr0&list=PLok698dKQ_Hj10eKx73qPJRktkB1r8SN5>)**
+  - Адрес: <https://www.youtube.com/watch?v=5eIxHQnLqr0&list=PLok698dKQ_Hj10eKx73qPJRktkB1r8SN5>.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **[Blender Beginner Complete Character Tutorial](<https://www.youtube.com/watch?v=5eIxHQnLqr0&list=PLok698dKQ_Hj10eKx73qPJRktkB1r8SN5&index=1>)**
+  - Адрес: <https://www.youtube.com/watch?v=5eIxHQnLqr0&list=PLok698dKQ_Hj10eKx73qPJRktkB1r8SN5&index=1>.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **[The 36 Best Blender Tutorials for Beginners](<https://www.youtube.com/watch?v=6RKL-j1k4Dc>)**
+  - Адрес: <https://www.youtube.com/watch?v=6RKL-j1k4Dc>.
+  - В заметках: [[02_Resources/Blender/Blender & 3D Modeling Hub|Blender & 3D Modeling Hub]].
+- **[Zapsplat.com](<https://Zapsplat.com>)**
+  - Адрес: <https://Zapsplat.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[04_Knowledge/Unreal Engine 5/FreeSFX Sound|FreeSFX Sound]].
+  - Варианты в заметках: <https://Zapsplat.com>.
+
+### Другие языки и веб-разработка
+
+- **[CodeCrafters](<https://codecrafters.io/challenges>)**
+  - Адрес: <https://codecrafters.io/challenges>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[Python Tutorial](<https://docs.python.org/3/tutorial/>)**
+  - Адрес: <https://docs.python.org/3/tutorial/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[создай большой блок](<https://Draw.io>)**
+  - Адрес: <https://Draw.io>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[03_Projects/ModelViewer/P|P]], [[05_Learning/University/Базы данных — реляционная схема|Базы данных — реляционная схема]].
+  - Варианты в заметках: <https://Draw.io>, <https://draw.io>.
+- **[Build Your Own X](<https://github.com/codecrafters-io/build-your-own-x>)**
+  - Адрес: <https://github.com/codecrafters-io/build-your-own-x>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[TinyXML2](<https://github.com/leethomason/tinyxml2>)**
+  - Адрес: <https://github.com/leethomason/tinyxml2>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[tinyxml2.h](<https://github.com/leethomason/tinyxml2/blob/master/tinyxml2.h>)**
+  - Адрес: <https://github.com/leethomason/tinyxml2/blob/master/tinyxml2.h>.
+  - В заметках: [[02_Resources/Repos|Repos]].
+- **[toml++](<https://github.com/marzer/tomlplusplus>)**
+  - Адрес: <https://github.com/marzer/tomlplusplus>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[nlohmann/json (GitHub)](<https://github.com/nlohmann/json>)**
+  - Адрес: <https://github.com/nlohmann/json>.
+  - В заметках: [[02_Resources/Supp/Resources|Resources]], [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]], [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[learnxinyminutes.com — ru/lua](<https://learnxinyminutes.com/ru/lua>)**
+  - Адрес: <https://learnxinyminutes.com/ru/lua>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[LÖVE Tutorials](<https://www.love2d.org/wiki/Category:Tutorials>)**
+  - Адрес: <https://www.love2d.org/wiki/Category:Tutorials>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[LÖVE Wiki](<https://www.love2d.org/wiki/Main_Page>)**
+  - Адрес: <https://www.love2d.org/wiki/Main_Page>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Lua 5.4 Reference Manual](<https://www.lua.org/manual/5.4/>)**
+  - Адрес: <https://www.lua.org/manual/5.4/>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Lua 5.4 Manual — API](<https://www.lua.org/manual/5.4/manual.html#4>)**
+  - Адрес: <https://www.lua.org/manual/5.4/manual.html#4>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Lua 5.5 Reference Manual](<https://www.lua.org/manual/5.5/>)**
+  - Адрес: <https://www.lua.org/manual/5.5/>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Programming in Lua](<https://www.lua.org/pil/>)**
+  - Адрес: <https://www.lua.org/pil/>.
+  - В заметках: [[05_Learning/Guides/Дополнительные языки для графики|Дополнительные языки для графики]].
+- **[Programming in Lua — Metatables and Metamethods](<https://www.lua.org/pil/13.html>)**
+  - Адрес: <https://www.lua.org/pil/13.html>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Programming in Lua — Modules](<https://www.lua.org/pil/15.html>)**
+  - Адрес: <https://www.lua.org/pil/15.html>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Programming in Lua — C API](<https://www.lua.org/pil/24.html>)**
+  - Адрес: <https://www.lua.org/pil/24.html>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Programming in Lua — More about Functions](<https://www.lua.org/pil/6.html>)**
+  - Адрес: <https://www.lua.org/pil/6.html>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Programming in Lua — Coroutines](<https://www.lua.org/pil/9.html>)**
+  - Адрес: <https://www.lua.org/pil/9.html>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Programming in Lua — Tables, Functions](<https://www.lua.org/pil/contents.html>)**
+  - Адрес: <https://www.lua.org/pil/contents.html>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[LuaJIT](<https://luajit.org/>)**
+  - Адрес: <https://luajit.org/>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Lua Language Server](<https://luals.github.io/>)**
+  - Адрес: <https://luals.github.io/>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Luau](<https://luau.org/>)**
+  - Адрес: <https://luau.org/>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[Python Packaging User Guide](<https://packaging.python.org/>)**
+  - Адрес: <https://packaging.python.org/>.
+  - В заметках: [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+- **[sol2 documentation](<https://sol2.readthedocs.io/en/latest/>)**
+  - Адрес: <https://sol2.readthedocs.io/en/latest/>.
+  - В заметках: [[05_Learning/Roadmaps/Lua_Roadmap_14_Days|Lua_Roadmap_14_Days]].
+- **[SQLite transactions](<https://www.sqlite.org/lang_transaction.html>)**
+  - Адрес: <https://www.sqlite.org/lang_transaction.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[SQLite quickstart](<https://www.sqlite.org/quickstart.html>)**
+  - Адрес: <https://www.sqlite.org/quickstart.html>.
+  - В заметках: [[03_Projects/Sylvune/Guides/PROJECT_REVIEW_AND_ROADMAP_RU|PROJECT_REVIEW_AND_ROADMAP_RU]].
+- **[telemost.360.yandex.ru — j/1383907541](<https://telemost.360.yandex.ru/j/1383907541>)**
+  - Адрес: <https://telemost.360.yandex.ru/j/1383907541>.
+  - В заметках: [[05_Learning/University/Тетрис — HTML CSS JavaScript|Тетрис — HTML CSS JavaScript]].
+- **[C++ Programming Exercises](<https://www.w3resource.com/cpp-exercises/>)**
+  - Адрес: <https://www.w3resource.com/cpp-exercises/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Data Structures and Algorithms Tutorial](<https://www.w3schools.com/dsa/index.php>)**
+  - Адрес: <https://www.w3schools.com/dsa/index.php>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+
+### ИИ, агенты и автоматизация программирования
+
+- **[LangChain Academy](<https://academy.langchain.com/>)**
+  - Адрес: <https://academy.langchain.com/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[AGENTS.md — открытое соглашение](<https://agents.md/>)**
+  - Адрес: <https://agents.md/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Agent Skills — введение](<https://agentskills.io/home>)**
+  - Адрес: <https://agentskills.io/home>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Agent Skills — спецификация](<https://agentskills.io/specification>)**
+  - Адрес: <https://agentskills.io/specification>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Anthropic — Building effective agents](<https://www.anthropic.com/engineering/building-effective-agents>)**
+  - Адрес: <https://www.anthropic.com/engineering/building-effective-agents>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Anthropic: Building effective agents](<https://www.anthropic.com/research/building-effective-agents>)**
+  - Адрес: <https://www.anthropic.com/research/building-effective-agents>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Anthropic: Effective context engineering for AI agents](<https://www.anthropic.com/research/effective-context-engineering-for-ai-agents>)**
+  - Адрес: <https://www.anthropic.com/research/effective-context-engineering-for-ai-agents>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Anthropic: Writing effective tools for agents](<https://www.anthropic.com/research/writing-tools-for-agents>)**
+  - Адрес: <https://www.anthropic.com/research/writing-tools-for-agents>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Anthropic Academy — Introduction to agent skills](<https://anthropic.skilljar.com/>)**
+  - Адрес: <https://anthropic.skilljar.com/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Attention Is All You Need (2017)](<https://arxiv.org/abs/1706.03762>)**
+  - Адрес: <https://arxiv.org/abs/1706.03762>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Austin Morlan](<https://austinmorlan.com/posts/chip8_emulator/?utm_source=chatgpt.com>)**
+  - Адрес: <https://austinmorlan.com/posts/chip8_emulator/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[Austin Morlan](<https://austinmorlan.com/posts/drawing_a_triangle/?utm_source=chatgpt.com>)**
+  - Адрес: <https://austinmorlan.com/posts/drawing_a_triangle/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[Austin Morlan](<https://austinmorlan.com/posts/entity_component_system/?utm_source=chatgpt.com>)**
+  - Адрес: <https://austinmorlan.com/posts/entity_component_system/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[Crash Course in Deep Learning](<https://boksajak.github.io/blog/DeepLearning>)**
+  - Адрес: <https://boksajak.github.io/blog/DeepLearning>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Google Книги](<https://books.google.com/books/about/Accelerated_Computing_with_HIP.html?id=p-OEzwEACAAJ&utm_source=chatgpt.com>)**
+  - Адрес: <https://books.google.com/books/about/Accelerated_Computing_with_HIP.html?id=p-OEzwEACAAJ&utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **[WebGPU Lab](<https://bradleymatera.github.io/TriangleDemo/?utm_source=chatgpt.com>)**
+  - Адрес: <https://bradleymatera.github.io/TriangleDemo/?utm_source=chatgpt.com>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[build-your-own.org](<https://build-your-own.org/?utm_source=chatgpt.com>)**
+  - Адрес: <https://build-your-own.org/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+  - Варианты в заметках: <https://build-your-own.org>.
+- **[build-your-own.org](<https://build-your-own.org/redis/?utm_source=chatgpt.com>)**
+  - Адрес: <https://build-your-own.org/redis/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[cg.tuwien.ac.at](<https://www.cg.tuwien.ac.at/node/10293?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.cg.tuwien.ac.at/node/10293?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Anthropic: Steering Claude Code](<https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more>)**
+  - Адрес: <https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code: Agent teams](<https://code.claude.com/docs/en/agent-teams>)**
+  - Адрес: <https://code.claude.com/docs/en/agent-teams>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code: Best practices (Anthropic)](<https://code.claude.com/docs/en/best-practices>)**
+  - Адрес: <https://code.claude.com/docs/en/best-practices>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code Prompt library](<https://code.claude.com/docs/en/common-workflows>)**
+  - Адрес: <https://code.claude.com/docs/en/common-workflows>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code — Context window](<https://code.claude.com/docs/en/context-window>)**
+  - Адрес: <https://code.claude.com/docs/en/context-window>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code: Manage costs effectively](<https://code.claude.com/docs/en/costs>)**
+  - Адрес: <https://code.claude.com/docs/en/costs>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code: Hooks guide](<https://code.claude.com/docs/en/hooks-guide>)**
+  - Адрес: <https://code.claude.com/docs/en/hooks-guide>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Anthropic: How Claude Code works](<https://code.claude.com/docs/en/how-claude-code-works>)**
+  - Адрес: <https://code.claude.com/docs/en/how-claude-code-works>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code: MCP](<https://code.claude.com/docs/en/mcp>)**
+  - Адрес: <https://code.claude.com/docs/en/mcp>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code: memory + CLAUDE.md + AGENTS.md](<https://code.claude.com/docs/en/memory>)**
+  - Адрес: <https://code.claude.com/docs/en/memory>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code: Permissions](<https://code.claude.com/docs/en/permissions>)**
+  - Адрес: <https://code.claude.com/docs/en/permissions>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code: Prompt caching](<https://code.claude.com/docs/en/prompt-caching>)**
+  - Адрес: <https://code.claude.com/docs/en/prompt-caching>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Anthropic: Claude Code skills](<https://code.claude.com/docs/en/skills>)**
+  - Адрес: <https://code.claude.com/docs/en/skills>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Claude Code: Subagents](<https://code.claude.com/docs/en/sub-agents>)**
+  - Адрес: <https://code.claude.com/docs/en/sub-agents>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[craftinginterpreters.com](<https://craftinginterpreters.com/contents.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://craftinginterpreters.com/contents.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[DeepLearning.AI](<https://DeepLearning.AI>)**
+  - Адрес: <https://DeepLearning.AI>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+  - Варианты в заметках: <https://DeepLearning.AI>.
+- **[DeepLearning.AI: Claude Code, A Highly Agentic Coding Assistant](<https://www.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant>)**
+  - Адрес: <https://www.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[NVIDIA Developer](<https://developer.nvidia.com/gpugems/gpugems3/foreword?utm_source=chatgpt.com>)**
+  - Адрес: <https://developer.nvidia.com/gpugems/gpugems3/foreword?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[NVIDIA Developer](<https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows?utm_source=chatgpt.com>)**
+  - Адрес: <https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]].
+- **[NVIDIA GPU Gems 3](<https://developer.nvidia.com/gpugems/gpugems3?utm_source=chatgpt.com>)**
+  - Адрес: <https://developer.nvidia.com/gpugems/gpugems3?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]].
+  - Варианты в заметках: <https://developer.nvidia.com/gpugems/gpugems3/>.
+- **[OpenAI — Key concepts](<https://developers.openai.com/api/docs/concepts>)**
+  - Адрес: <https://developers.openai.com/api/docs/concepts>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI: Agent SDK / orchestration](<https://developers.openai.com/api/docs/guides/agents>)**
+  - Адрес: <https://developers.openai.com/api/docs/guides/agents>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI — Function calling: цикл вызова инструментов](<https://developers.openai.com/api/docs/guides/function-calling>)**
+  - Адрес: <https://developers.openai.com/api/docs/guides/function-calling>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI API: Prompt caching](<https://developers.openai.com/api/docs/guides/prompt-caching>)**
+  - Адрес: <https://developers.openai.com/api/docs/guides/prompt-caching>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI API Pricing](<https://developers.openai.com/api/docs/pricing>)**
+  - Адрес: <https://developers.openai.com/api/docs/pricing>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI: Codex as a platform (19.08.2026)](<https://developers.openai.com/blog/codex-as-a-platform>)**
+  - Адрес: <https://developers.openai.com/blog/codex-as-a-platform>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI: Rethinking skills and prompts for GPT-6 Astra (11.09.2026)](<https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra>)**
+  - Адрес: <https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Iterating Development Workflows with Codex — OpenAI Cookbook](<https://developers.openai.com/cookbook/examples/codex/iterating-development-workflows-with-codex>)**
+  - Адрес: <https://developers.openai.com/cookbook/examples/codex/iterating-development-workflows-with-codex>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI: Cookbook — Agents](<https://developers.openai.com/cookbook/topic/agents>)**
+  - Адрес: <https://developers.openai.com/cookbook/topic/agents>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Codex Prompting Guide — через каталог Cookbook](<https://developers.openai.com/cookbook/topic/codex>)**
+  - Адрес: <https://developers.openai.com/cookbook/topic/codex>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Codex: официальный учебный раздел OpenAI](<https://developers.openai.com/learn/codex>)**
+  - Адрес: <https://developers.openai.com/learn/codex>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI Developer Videos](<https://developers.openai.com/learn/videos>)**
+  - Адрес: <https://developers.openai.com/learn/videos>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[developers.openai.com — mcp](<https://developers.openai.com/mcp>)**
+  - Адрес: <https://developers.openai.com/mcp>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI Docs MCP](<https://developers.openai.com/resources/docs-mcp>)**
+  - Адрес: <https://developers.openai.com/resources/docs-mcp>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Codex 101 — интерактивное введение](<https://developers.openai.com/showcase/codex-101>)**
+  - Адрес: <https://developers.openai.com/showcase/codex-101>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[gfxcourses.stanford.edu](<https://gfxcourses.stanford.edu/cs248a/winter26/courseinfo?utm_source=chatgpt.com>)**
+  - Адрес: <https://gfxcourses.stanford.edu/cs248a/winter26/courseinfo?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Stanford CS248A](<https://gfxcourses.stanford.edu/cs248a/winter26?utm_source=chatgpt.com>)**
+  - Адрес: <https://gfxcourses.stanford.edu/cs248a/winter26?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[github.com — abseil/abseil-cpp](<https://github.com/abseil/abseil-cpp?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/abseil/abseil-cpp?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/core|core]].
+- **[affaan-m/everything-claude-code](<https://github.com/affaan-m/everything-claude-code>)**
+  - Адрес: <https://github.com/affaan-m/everything-claude-code>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[amosblomqvist/learnharness](<https://github.com/amosblomqvist/learnharness>)**
+  - Адрес: <https://github.com/amosblomqvist/learnharness>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[anthropics/skills](<https://github.com/anthropics/skills>)**
+  - Адрес: <https://github.com/anthropics/skills>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[bx](<https://github.com/bkaradzic/bx?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/bkaradzic/bx?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/c2core/1|1]].
+- **[sokol_time.h](<https://github.com/floooh/sokol/blob/master/sokol_time.h?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/floooh/sokol/blob/master/sokol_time.h?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/c2core/1|1]].
+- **[{fmt}](<https://github.com/fmtlib/fmt?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/fmtlib/fmt?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/c2core/1|1]].
+- **[gsd-build/get-shit-done](<https://github.com/gsd-build/get-shit-done>)**
+  - Адрес: <https://github.com/gsd-build/get-shit-done>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[hesreallyhim/awesome-claude-code](<https://github.com/hesreallyhim/awesome-claude-code>)**
+  - Адрес: <https://github.com/hesreallyhim/awesome-claude-code>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[luongnv89/claude-howto](<https://github.com/luongnv89/claude-howto>)**
+  - Адрес: <https://github.com/luongnv89/claude-howto>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[modelcontextprotocol/servers](<https://github.com/modelcontextprotocol/servers>)**
+  - Адрес: <https://github.com/modelcontextprotocol/servers>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[obra/superpowers](<https://github.com/obra/superpowers>)**
+  - Адрес: <https://github.com/obra/superpowers>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI Codex — исходный код CLI/harness](<https://github.com/openai/codex>)**
+  - Адрес: <https://github.com/openai/codex>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Примеры от OpenAI](<https://github.com/openai/skills>)**
+  - Адрес: <https://github.com/openai/skills>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI skill-creator, исходный SKILL.md](<https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md>)**
+  - Адрес: <https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[openai/tiktoken — репозиторий](<https://github.com/openai/tiktoken>)**
+  - Адрес: <https://github.com/openai/tiktoken>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[github.com — saschawillems](<https://github.com/saschawillems?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/saschawillems?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[Learn Claude Code — учебный мини-harness с нуля](<https://github.com/shareAI-lab/learn-claude-code>)**
+  - Адрес: <https://github.com/shareAI-lab/learn-claude-code>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Sipeed Tang Nano 4K Examples](<https://github.com/sipeed/TangNano-4K-example?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/sipeed/TangNano-4K-example?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/Hardware/Verilog — заметки|Verilog — заметки]].
+- **[subinium/awesome-claude-code](<https://github.com/subinium/awesome-claude-code>)**
+  - Адрес: <https://github.com/subinium/awesome-claude-code>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[wolfpld/tracy: Frame profiler · GitHub](<https://github.com/wolfpld/tracy?utm_source=chatgpt.com>)**
+  - Адрес: <https://github.com/wolfpld/tracy?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/c2core/1|1]], [[05_Learning/Graphics_Engine_Master_Roadmap|Graphics_Engine_Master_Roadmap]], [[05_Learning/Roadmaps/Graphics_Programmer_Roadmap|Graphics_Programmer_Roadmap]].
+  - Варианты в заметках: <https://github.com/wolfpld/tracy>.
+- **[Google C++ Style Guide](<https://google.github.io/styleguide/cppguide.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://google.github.io/styleguide/cppguide.html?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Комментарии/1|1]].
+- **[OpenAI — Understanding and counting tokens](<https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens>)**
+  - Адрес: <https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Hugging Face Agents Course](<https://huggingface.co/learn/agents-course/unit0/introduction>)**
+  - Адрес: <https://huggingface.co/learn/agents-course/unit0/introduction>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Hugging Face — Agents Course, Unit 1](<https://huggingface.co/learn/agents-course/unit1/introduction>)**
+  - Адрес: <https://huggingface.co/learn/agents-course/unit1/introduction>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Hugging Face — LLM Course, глава 1](<https://huggingface.co/learn/llm-course/chapter1/1>)**
+  - Адрес: <https://huggingface.co/learn/llm-course/chapter1/1>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Hugging Face — Tokenizers](<https://huggingface.co/learn/llm-course/en/chapter2/4>)**
+  - Адрес: <https://huggingface.co/learn/llm-course/en/chapter2/4>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Hugging Face MCP Course](<https://huggingface.co/learn/mcp-course>)**
+  - Адрес: <https://huggingface.co/learn/mcp-course>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Jamie Wong — Ray Marching and Signed Distance Functions](<https://jamie-wong.com/2016/07/15/ray-marching-signed-distance-functions/?utm_source=chatgpt.com>)**
+  - Адрес: <https://jamie-wong.com/2016/07/15/ray-marching-signed-distance-functions/?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]].
+- **[Karpathy — Neural Networks: Zero to Hero](<https://karpathy.ai/>)**
+  - Адрес: <https://karpathy.ai/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI: Custom instructions with AGENTS.md](<https://learn.chatgpt.com/docs/agent-configuration/agents-md>)**
+  - Адрес: <https://learn.chatgpt.com/docs/agent-configuration/agents-md>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Codex: Subagents](<https://learn.chatgpt.com/docs/agent-configuration/subagents>)**
+  - Адрес: <https://learn.chatgpt.com/docs/agent-configuration/subagents>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI: Build skills for Codex](<https://learn.chatgpt.com/docs/build-skills>)**
+  - Адрес: <https://learn.chatgpt.com/docs/build-skills>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI: Advanced Configuration](<https://learn.chatgpt.com/docs/config-file/config-advanced>)**
+  - Адрес: <https://learn.chatgpt.com/docs/config-file/config-advanced>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI: Configuration basics](<https://learn.chatgpt.com/docs/config-file/config-basic>)**
+  - Адрес: <https://learn.chatgpt.com/docs/config-file/config-basic>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Codex: MCP](<https://learn.chatgpt.com/docs/extend/mcp>)**
+  - Адрес: <https://learn.chatgpt.com/docs/extend/mcp>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Codex: Lifecycle hooks](<https://learn.chatgpt.com/docs/hooks>)**
+  - Адрес: <https://learn.chatgpt.com/docs/hooks>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Microsoft Learn](<https://learn.microsoft.com/en-us/windows/win32/sysinfo/acquiring-high-resolution-time-stamps?utm_source=chatgpt.com>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/sysinfo/acquiring-high-resolution-time-stamps?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/c2core/1|1]].
+- **[Microsoft Learn](<https://learn.microsoft.com/en-us/windows/win32/winmsg/wm-entersizemove?utm_source=chatgpt.com>)**
+  - Адрес: <https://learn.microsoft.com/en-us/windows/win32/winmsg/wm-entersizemove?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Ошибки/ресайз окна|ресайз окна]].
+- **[livebook.manning.com](<https://livebook.manning.com/book/c-plus-plus-concurrency-in-action-second-edition/about-this-book?utm_source=chatgpt.com>)**
+  - Адрес: <https://livebook.manning.com/book/c-plus-plus-concurrency-in-action-second-edition/about-this-book?utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/C++/Concurrency/Разбор лабораторной по многопоточности|Разбор лабораторной по многопоточности]].
+- **[libFuzzer](<https://llvm.org/docs/LibFuzzer.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://llvm.org/docs/LibFuzzer.html?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Tests|Tests]].
+- **[LLVM Coding Standards](<https://www.llvm.org/docs/CodingStandards.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.llvm.org/docs/CodingStandards.html?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Sylvune/Комментарии/1|1]].
+  - Варианты в заметках: <https://llvm.org/docs/CodingStandards.html?utm_source=chatgpt.com>.
+- **[mini.gmshaders.com — utm_source=chatgpt.com](<https://mini.gmshaders.com/?utm_source=chatgpt.com>)**
+  - Адрес: <https://mini.gmshaders.com/?utm_source=chatgpt.com>.
+  - В заметках: [[03_Projects/Shaders/links|links]].
+- **[Официальный MCP: What is MCP?](<https://modelcontextprotocol.io/docs/getting-started/intro>)**
+  - Адрес: <https://modelcontextprotocol.io/docs/getting-started/intro>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[MIT OpenCourseWare](<https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/?utm_source=chatgpt.com>)**
+  - Адрес: <https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[OpenAI — A practical guide to building agents (2026)](<https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/>)**
+  - Адрес: <https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI: Harness engineering (11.02.2026)](<https://openai.com/index/harness-engineering/>)**
+  - Адрес: <https://openai.com/index/harness-engineering/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Описание и содержание](<https://www.oreilly.com/library/view/c-software-design/9781098113155/?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.oreilly.com/library/view/c-software-design/9781098113155/?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[Anthropic: Optimizing for cost and intelligence](<https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence>)**
+  - Адрес: <https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[OpenAI Tokenizer (интерактивный)](<https://platform.openai.com/tokenizer>)**
+  - Адрес: <https://platform.openai.com/tokenizer>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Transformer Explainer — интерактивная визуализация](<https://poloclub.github.io/transformer-explainer/>)**
+  - Адрес: <https://poloclub.github.io/transformer-explainer/>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Render Quest](<https://www.render-quest.com/?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.render-quest.com/?utm_source=chatgpt.com>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[Rigtorp](<https://rigtorp.se/ringbuffer/?utm_source=chatgpt.com>)**
+  - Адрес: <https://rigtorp.se/ringbuffer/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[sciencedirect.com](<https://www.sciencedirect.com/book/9781558607323/real-time-collision-detection?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.sciencedirect.com/book/9781558607323/real-time-collision-detection?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[scratchapixel.com](<https://www.scratchapixel.com/lessons/3d-basic-rendering/brdf-linear-exposure/intro-brdf?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/brdf-linear-exposure/intro-brdf?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[Global Illumination and Path Tracing](<https://www.scratchapixel.com/lessons/3d-basic-rendering/global-illumination-path-tracing/introduction-global-illumination-path-tracing.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/global-illumination-path-tracing/introduction-global-illumination-path-tracing.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[scratchapixel.com](<https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-acceleration-structure/introduction?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-acceleration-structure/introduction?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[Scratchapixel — Introduction to Lighting](<https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-lighting/introduction-to-lighting.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-lighting/introduction-to-lighting.html?utm_source=chatgpt.com>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Shaders/Источники по шейдерам|Источники по шейдерам]], [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[scratchapixel.com](<https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/parametric-and-implicit-surfaces?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/parametric-and-implicit-surfaces?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[scratchapixel.com](<https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-rendering-a-triangle/why-are-triangles-useful?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-rendering-a-triangle/why-are-triangles-useful?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[scratchapixel.com](<https://www.scratchapixel.com/lessons/3d-basic-rendering/volume-rendering-for-developers//intro-volume-rendering.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/3d-basic-rendering/volume-rendering-for-developers//intro-volume-rendering.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[scratchapixel.com](<https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-mathematical-foundations/quick-introduction-to-monte-carlo-methods?utm_source=chatgpt.com>)**
+  - Адрес: <https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-mathematical-foundations/quick-introduction-to-monte-carlo-methods?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/scratch pixel|scratch pixel]].
+- **[Lo-Res Shaders: The Game](<https://store.steampowered.com/app/3142820/LoRes_Shaders_The_Game/?utm_source=chatgpt.com>)**
+  - Адрес: <https://store.steampowered.com/app/3142820/LoRes_Shaders_The_Game/?utm_source=chatgpt.com>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[Shaderland](<https://store.steampowered.com/app/4487340/Shaderland/?utm_source=chatgpt.com>)**
+  - Адрес: <https://store.steampowered.com/app/4487340/Shaderland/?utm_source=chatgpt.com>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[Shadorial](<https://ubugeeei.github.io/shadorial/?utm_source=chatgpt.com>)**
+  - Адрес: <https://ubugeeei.github.io/shadorial/?utm_source=chatgpt.com>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[TU Wien Rendering videos](<https://users.cg.tuwien.ac.at/zsolnai/gfx/rendering-course/?utm_source=chatgpt.com>)**
+  - Адрес: <https://users.cg.tuwien.ac.at/zsolnai/gfx/rendering-course/?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/01_Источники|01_Источники]].
+- **[viewsourcecode.org](<https://viewsourcecode.org/snaptoken/kilo/index.html?utm_source=chatgpt.com>)**
+  - Адрес: <https://viewsourcecode.org/snaptoken/kilo/index.html?utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/Systems и graphics from scratch|Systems и graphics from scratch]].
+- **[Karpathy — Deep Dive into LLMs like ChatGPT](<https://www.youtube.com/watch?v=7xTGNNLPyMI>)**
+  - Адрес: <https://www.youtube.com/watch?v=7xTGNNLPyMI>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[What is an FPGA? Intro for Beginners](<https://www.youtube.com/watch?v=CfmlsDW3Z4c&utm_source=chatgpt.com>)**
+  - Адрес: <https://www.youtube.com/watch?v=CfmlsDW3Z4c&utm_source=chatgpt.com>.
+  - В заметках: [[04_Knowledge/Hardware/Verilog — заметки|Verilog — заметки]].
+- **[Karpathy — How I use LLMs](<https://www.youtube.com/watch?v=EWvNQjAaOHw>)**
+  - Адрес: <https://www.youtube.com/watch?v=EWvNQjAaOHw>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Intro to HIP Programming — AMD](<https://www.youtube.com/watch?v=hSwgh-BXx3E&utm_source=chatgpt.com>)**
+  - Адрес: <https://www.youtube.com/watch?v=hSwgh-BXx3E&utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **[The future of agentic coding with Claude Code — Anthropic/Boris Cherny](<https://www.youtube.com/watch?v=iF9iV4xponk>)**
+  - Адрес: <https://www.youtube.com/watch?v=iF9iV4xponk>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Let's build GPT from scratch](<https://www.youtube.com/watch?v=kCc8FmEb1nY>)**
+  - Адрес: <https://www.youtube.com/watch?v=kCc8FmEb1nY>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[AMD HIP Tutorial — Introduction to the Course](<https://www.youtube.com/watch?v=qw2XVp3vxJw&utm_source=chatgpt.com>)**
+  - Адрес: <https://www.youtube.com/watch?v=qw2XVp3vxJw&utm_source=chatgpt.com>.
+  - В заметках: [[05_Learning/Roadmaps/HIP — учебный маршрут|HIP — учебный маршрут]].
+- **[OpenAI Build Hour: API & Codex — Harness Engineering](<https://www.youtube.com/watch?v=rhsSqr0jdFw>)**
+  - Адрес: <https://www.youtube.com/watch?v=rhsSqr0jdFw>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+- **[Andrej Karpathy — Intro to Large Language Models (1 час)](<https://www.youtube.com/watch?v=zjkBMFhNj_g>)**
+  - Адрес: <https://www.youtube.com/watch?v=zjkBMFhNj_g>.
+  - В заметках: [[01_InBox/agentic-coding-roadmap-ru-v2|agentic-coding-roadmap-ru-v2]].
+
+### Английский язык
+
+- **[Авторитетный ресурс от Британской вещательной корпорации. Предлагает качественные материалы, включая серию Tenses with Georgie, с объяснениями от носителей языка.](<https://bbc.co.uk/learningenglish>)**
+  - Адрес: <https://bbc.co.uk/learningenglish>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://bbc.co.uk/learningenglish>.
+- **[Сайт от разработчиков известных экзаменов, где можно найти качественные справочные материалы по грамматике.](<https://cambridgeenglish.org>)**
+  - Адрес: <https://cambridgeenglish.org>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://cambridgeenglish.org>.
+- **[Kit Computer Graphics Group](<https://cg.ivd.kit.edu/english/publikationen.php>)**
+  - Адрес: <https://cg.ivd.kit.edu/english/publikationen.php>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[Сайт известной языковой школы с четкими и структурированными объяснениями всех временных форм.](<https://ef.com>)**
+  - Адрес: <https://ef.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://ef.com>.
+- **[Очень структурированный сайт. Теория времен представлена в виде наглядных таблиц с примерами и словами-маркерами. Отличный выбор для системного изучения.](<https://ego4u.com>)**
+  - Адрес: <https://ego4u.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://ego4u.com>.
+- **[Отличный ресурс на русском языке. Предлагает скачать две подробные таблицы: одну для образования времен, другую для их употребления. Подходит для тех, кому удобнее учиться по распечатанным материалам.](<https://engblog.ru>)**
+  - Адрес: <https://engblog.ru>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://engblog.ru>.
+- **[Главная "фишка" сайта — интерактивная временная линия (timeline). Она помогает визуально понять, как разные времена соотносятся друг с другом. Есть также подробные статьи и таблицы по каждому времени.](<https://english.lingolia.com>)**
+  - Адрес: <https://english.lingolia.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://english.lingolia.com>.
+- **[Сайт, который хорошо объясняет разницу между временем (tense) и временем как概念 (time). Предлагает четкое описание структуры 12 основных времен.](<https://englishclub.com>)**
+  - Адрес: <https://englishclub.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://englishclub.com>.
+- **[Классический ресурс для продвинутого уровня. Отличные детальные объяснения времен и много интерактивных упражнений на отработку.](<https://englishpage.com>)**
+  - Адрес: <https://englishpage.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://englishpage.com>.
+- **[Ресурс от Британского Совета с отличными материалами по грамматике, разбитыми по уровням (CEFR).](<https://learnenglish.britishcouncil.org>)**
+  - Адрес: <https://learnenglish.britishcouncil.org>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://learnenglish.britishcouncil.org>.
+- **[Сайт с предельно ясными объяснениями и множеством практических упражнений. Очень популярен среди изучающих язык.](<https://perfect-english-grammar.com>)**
+  - Адрес: <https://perfect-english-grammar.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://perfect-english-grammar.com>.
+- **[Очень современный, понятный и приятный по дизайну сайт. В нем грамматические правила объясняются с помощью наглядных таблиц, а к ним сразу даются упражнения.](<https://test-english.com>)**
+  - Адрес: <https://test-english.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/English/Времена|Времена]].
+  - Варианты в заметках: <https://test-english.com>.
+
+### Прочие ссылки, сервисы и личные материалы
+
+- **[alternativeto.net](<http://alternativeto.net/>)**
+  - Адрес: <http://alternativeto.net/>.
+  - В заметках: [[07_Personal/Сайты и сервисы|Сайты и сервисы]].
+- **[australian.museum/learn/animals](<https://australian.museum/learn/animals/>)**
+  - Адрес: <https://australian.museum/learn/animals/>.
+  - В заметках: [[07_Personal/Сайты и сервисы|Сайты и сервисы]].
+- **[docs.google.com — spreadsheets/d/1e46cecjsIb1LO3Ybb6urlVUZKUk8R7yrgG9yXZS8-Ho/edit](<https://docs.google.com/spreadsheets/d/1e46cecjsIb1LO3Ybb6urlVUZKUk8R7yrgG9yXZS8-Ho/edit?pli=1&gid=2100126761#gid=2100126761>)**
+  - Адрес: <https://docs.google.com/spreadsheets/d/1e46cecjsIb1LO3Ybb6urlVUZKUk8R7yrgG9yXZS8-Ho/edit?pli=1&gid=2100126761#gid=2100126761>.
+  - В заметках: [[07_Personal/Reverse1999/Google docs|Google docs]].
+- **[stopoverpaying.org](<https://go.betterbuck.net/1e8fcfcf-5c79-4f90-aa48-ae1373fbf5c2?oldsubid=game-changing-dt&offer=so-auto>)**
+  - Адрес: <https://go.betterbuck.net/1e8fcfcf-5c79-4f90-aa48-ae1373fbf5c2?oldsubid=game-changing-dt&offer=so-auto>.
+  - В заметках: [[07_Personal/Сайты и сервисы|Сайты и сервисы]].
+- **[goodRx.com](<http://goodrx.com/>)**
+  - Адрес: <http://goodrx.com/>.
+  - В заметках: [[07_Personal/Сайты и сервисы|Сайты и сервисы]].
+- **[IT стажировки](<https://www.google.com/amp/s/habr.com/ru/amp/publications/722486/>)**
+  - Адрес: <https://www.google.com/amp/s/habr.com/ru/amp/publications/722486/>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+- **[Здесь можно найти правильную корейскую терминологию для твоей федерации. Например, хлесткий удар вперед — это _Ap Cha Busigi_, а пробивающий боковой — _Yop Cha Jirugi_.](<https://itftaekwondo.com>)**
+  - Адрес: <https://itftaekwondo.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/Training/ITF|ITF]].
+  - Варианты в заметках: <https://itftaekwondo.com>.
+- **[percentagecalculator.net](<https://percentagecalculator.net/>)**
+  - Адрес: <https://percentagecalculator.net/>.
+  - В заметках: [[07_Personal/Сайты и сервисы|Сайты и сервисы]].
+- **[store.steampowered.com](<https://store.steampowered.com>)**
+  - Адрес: <https://store.steampowered.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+  - Варианты в заметках: <https://store.steampowered.com>.
+- **[Огромная база данных. Если зайти в раздел "Category:Kick", там собран алфавитный список абсолютно всех существующих ударов — от базового Front Kick до сложнейших Flying Side Kick и Scissors Kick.](<https://taekwondo.fandom.com>)**
+  - Адрес: <https://taekwondo.fandom.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/Training/ITF|ITF]].
+  - Варианты в заметках: <https://taekwondo.fandom.com>.
+- **[Отличный сайт с наглядными иллюстрациями и подробным разбором биомеханики основных ударов (Front, Side, Roundhouse, Back, Hook, Axe).](<https://taekwondopreschool.com>)**
+  - Адрес: <https://taekwondopreschool.com>.
+  - В заметке адрес записан без протокола.
+  - В заметках: [[07_Personal/Training/ITF|ITF]].
+  - Варианты в заметках: <https://taekwondopreschool.com>.
+- **[taro.buzz — order/74ffb3c0-5616-438f-9153-582d036bac6f](<https://taro.buzz/order/74ffb3c0-5616-438f-9153-582d036bac6f>)**
+  - Адрес: <https://taro.buzz/order/74ffb3c0-5616-438f-9153-582d036bac6f>.
+  - В заметках: [[07_Personal/Private/Сохранённая ссылка|Сохранённая ссылка]].
+- **[v13.vost.pw — tip/tv/3810-tsue-to-tsurugi-no-wistoria-season-2.html](<https://v13.vost.pw/tip/tv/3810-tsue-to-tsurugi-no-wistoria-season-2.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3810-tsue-to-tsurugi-no-wistoria-season-2.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[v13.vost.pw — tip/tv/3904-otome-game-sekai-wa-mob-ni-kibishii-sekai-desu-2.html](<https://v13.vost.pw/tip/tv/3904-otome-game-sekai-wa-mob-ni-kibishii-sekai-desu-2.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3904-otome-game-sekai-wa-mob-ni-kibishii-sekai-desu-2.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[v13.vost.pw — tip/tv/3908-gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-2.html](<https://v13.vost.pw/tip/tv/3908-gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-2.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3908-gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-2.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[v13.vost.pw — tip/tv/3932-black-torch.html](<https://v13.vost.pw/tip/tv/3932-black-torch.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3932-black-torch.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[v13.vost.pw — tip/tv/3934-tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru.html](<https://v13.vost.pw/tip/tv/3934-tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3934-tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[v13.vost.pw — tip/tv/3936-rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenroku.html](<https://v13.vost.pw/tip/tv/3936-rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenroku.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3936-rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenroku.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[v13.vost.pw — tip/tv/3956-toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita.html](<https://v13.vost.pw/tip/tv/3956-toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3956-toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[v13.vost.pw — tip/tv/3958-koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita.html](<https://v13.vost.pw/tip/tv/3958-koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3958-koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[v13.vost.pw — tip/tv/3960-lv999-no-murabito.html](<https://v13.vost.pw/tip/tv/3960-lv999-no-murabito.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3960-lv999-no-murabito.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[v13.vost.pw — tip/tv/3968-ryoumin-0-nin-start-no-henkyou-ryoushu-sama.html](<https://v13.vost.pw/tip/tv/3968-ryoumin-0-nin-start-no-henkyou-ryoushu-sama.html>)**
+  - Адрес: <https://v13.vost.pw/tip/tv/3968-ryoumin-0-nin-start-no-henkyou-ryoushu-sama.html>.
+  - В заметках: [[07_Personal/Media/AnimeList|AnimeList]].
+- **[wallhaven.cc — toplist](<https://wallhaven.cc/toplist?page=2>)**
+  - Адрес: <https://wallhaven.cc/toplist?page=2>.
+  - В заметках: [[99_System/wallhaven|wallhaven]].
+- **[youtube.com — v=YZOAiJmnNvc](<https://www.youtube.com/watch?v=YZOAiJmnNvc>)**
+  - Адрес: <https://www.youtube.com/watch?v=YZOAiJmnNvc>.
+  - В заметках: [[90_Archive/Resources/Общий список источников до разбора|Общий список источников до разбора]].
+
+### Изображения, иллюстрации и медиафайлы
+
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://bradleymatera.github.io&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://bradleymatera.github.io&sz=32>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://cmake.org&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://cmake.org&sz=32>.
+  - В заметках: [[04_Knowledge/WebGPU/Сборка Dawn и кэш CMake|Сборка Dawn и кэш CMake]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://codecrafters.io&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://codecrafters.io&sz=32>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://craftinginterpreters.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://craftinginterpreters.com&sz=32>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://dawn.googlesource.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://dawn.googlesource.com&sz=32>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://docs.vulkan.org&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://docs.vulkan.org&sz=32>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://en.cppreference.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://en.cppreference.com&sz=32>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://exercism.org&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://exercism.org&sz=32>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://github.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://github.com&sz=32>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]], [[04_Knowledge/WebGPU/Сборка Dawn и кэш CMake|Сборка Dawn и кэш CMake]], [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://pages.cs.wisc.edu&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://pages.cs.wisc.edu&sz=32>.
+  - В заметках: [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://shaderacademy.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://shaderacademy.com&sz=32>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://store.steampowered.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://store.steampowered.com&sz=32>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://www.oreilly.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://www.oreilly.com&sz=32>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://www.pearson.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://www.pearson.com&sz=32>.
+  - В заметках: [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://www.pragmatic.org&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://www.pragmatic.org&sz=32>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://www.realtimerendering.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://www.realtimerendering.com&sz=32>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://www.reddit.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://www.reddit.com&sz=32>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[google.com — s2/favicons](<https://www.google.com/s2/favicons?domain=https://www.render-quest.com&sz=32>)**
+  - Адрес: <https://www.google.com/s2/favicons?domain=https://www.render-quest.com&sz=32>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[images.openai.com — static-rsc-4/0oW4V1D3CdSz9HdVT7c1MYU81jiAJVM9MzAqf5LEvYJ5mlQRHF5iNX4vFinbXrccOqZlprogNnezvW6qsxWqJAHdFH2VCBw4d91Povsfumt1Gfy5LLl4OUG3U0X8hXWdSethEzDB9](<https://images.openai.com/static-rsc-4/0oW4V1D3CdSz9HdVT7c1MYU81jiAJVM9MzAqf5LEvYJ5mlQRHF5iNX4vFinbXrccOqZlprogNnezvW6qsxWqJAHdFH2VCBw4d91Povsfumt1Gfy5LLl4OUG3U0X8hXWdSethEzDB9lE_IVO9nnZAEkt5S6awgRQOrev3e9ag8VY?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/0oW4V1D3CdSz9HdVT7c1MYU81jiAJVM9MzAqf5LEvYJ5mlQRHF5iNX4vFinbXrccOqZlprogNnezvW6qsxWqJAHdFH2VCBw4d91Povsfumt1Gfy5LLl4OUG3U0X8hXWdSethEzDB9lE_IVO9nnZAEkt5S6awgRQOrev3e9ag8VY?purpose=inline>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[images.openai.com — static-rsc-4/119dJABpNjvJi5zM4CXW85mDV0rfCofYYbbnEp-db99wvLcqzgtxT10sH9A7lrD3pJ6uf39ICPWPDVerSF9LC18WXd9quRvwN_hrhXSdHm1nrjdUZ_mGC12kdBhOTvUipG6782yu5](<https://images.openai.com/static-rsc-4/119dJABpNjvJi5zM4CXW85mDV0rfCofYYbbnEp-db99wvLcqzgtxT10sH9A7lrD3pJ6uf39ICPWPDVerSF9LC18WXd9quRvwN_hrhXSdHm1nrjdUZ_mGC12kdBhOTvUipG6782yu5zjuGXQ6Qdxccssc0snCJ_5Pr5e40dR0LxE?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/119dJABpNjvJi5zM4CXW85mDV0rfCofYYbbnEp-db99wvLcqzgtxT10sH9A7lrD3pJ6uf39ICPWPDVerSF9LC18WXd9quRvwN_hrhXSdHm1nrjdUZ_mGC12kdBhOTvUipG6782yu5zjuGXQ6Qdxccssc0snCJ_5Pr5e40dR0LxE?purpose=inline>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[images.openai.com — static-rsc-4/2ZA6cZDtGY1aiimImrxZpczL6um_OtYt4m3yLplqjehLt1KSl120KUzS8YMKYzVYIWnWovOhKmQrvVu7K2KgpXMvrljUOVjr6UyomLJHn9ggQWRKoYTnX3Ee3ABSjSpkU8qMdEYTh](<https://images.openai.com/static-rsc-4/2ZA6cZDtGY1aiimImrxZpczL6um_OtYt4m3yLplqjehLt1KSl120KUzS8YMKYzVYIWnWovOhKmQrvVu7K2KgpXMvrljUOVjr6UyomLJHn9ggQWRKoYTnX3Ee3ABSjSpkU8qMdEYThIgtGhfouMZmZOHT_NPbhXMk5OQULCPj81k?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/2ZA6cZDtGY1aiimImrxZpczL6um_OtYt4m3yLplqjehLt1KSl120KUzS8YMKYzVYIWnWovOhKmQrvVu7K2KgpXMvrljUOVjr6UyomLJHn9ggQWRKoYTnX3Ee3ABSjSpkU8qMdEYThIgtGhfouMZmZOHT_NPbhXMk5OQULCPj81k?purpose=inline>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[images.openai.com — static-rsc-4/aFLza0gbQ_2pAivJXSiRkKJL0DoTam8mHFVOJYaE0SW2oGaZvauiDqLRYR8s5O03PlhXktx4r1k89SRgWKeaX2Hnf0fi_ldHoWmJqCBkcLFS_zMraMKke9rQ1c9H5uhvs33T35lFn](<https://images.openai.com/static-rsc-4/aFLza0gbQ_2pAivJXSiRkKJL0DoTam8mHFVOJYaE0SW2oGaZvauiDqLRYR8s5O03PlhXktx4r1k89SRgWKeaX2Hnf0fi_ldHoWmJqCBkcLFS_zMraMKke9rQ1c9H5uhvs33T35lFnTMjun9QoM_dJ-sNotRzEHuX9UwtK9XJhyA?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/aFLza0gbQ_2pAivJXSiRkKJL0DoTam8mHFVOJYaE0SW2oGaZvauiDqLRYR8s5O03PlhXktx4r1k89SRgWKeaX2Hnf0fi_ldHoWmJqCBkcLFS_zMraMKke9rQ1c9H5uhvs33T35lFnTMjun9QoM_dJ-sNotRzEHuX9UwtK9XJhyA?purpose=inline>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+- **[images.openai.com — static-rsc-4/aRGmmb1NOcrGutRUnCW2QpQngquVoVet9M8Ru5R8fd9Og-2nZ1-GdsNKCEWEoWl2pQxHmztY6qR5r0QWTKPagvYFR3wMMpFm21GGUxk-DS2K8tHDZPMT-NZRCe9nZZOQUEgJREOyZ](<https://images.openai.com/static-rsc-4/aRGmmb1NOcrGutRUnCW2QpQngquVoVet9M8Ru5R8fd9Og-2nZ1-GdsNKCEWEoWl2pQxHmztY6qR5r0QWTKPagvYFR3wMMpFm21GGUxk-DS2K8tHDZPMT-NZRCe9nZZOQUEgJREOyZN_ssUYFY-nNBYsTU_Exl7Tu2ZPZ7aeP_Fk?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/aRGmmb1NOcrGutRUnCW2QpQngquVoVet9M8Ru5R8fd9Og-2nZ1-GdsNKCEWEoWl2pQxHmztY6qR5r0QWTKPagvYFR3wMMpFm21GGUxk-DS2K8tHDZPMT-NZRCe9nZZOQUEgJREOyZN_ssUYFY-nNBYsTU_Exl7Tu2ZPZ7aeP_Fk?purpose=inline>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[images.openai.com — static-rsc-4/bj276dMmCTXv0vVjHxdWcYXyETxn9R3PJX0LSOzJ8Q4quzTrRqGokZiuuzYtmT-456HZqZ_GmmiLegM_EUzaXkvypTpg8th0IwUCMzGs2eAuZGruX2C5-CaszcGPbqEDFalSTZFCO](<https://images.openai.com/static-rsc-4/bj276dMmCTXv0vVjHxdWcYXyETxn9R3PJX0LSOzJ8Q4quzTrRqGokZiuuzYtmT-456HZqZ_GmmiLegM_EUzaXkvypTpg8th0IwUCMzGs2eAuZGruX2C5-CaszcGPbqEDFalSTZFCOwdkoJx_RpGuU15kdlveupCY9l0EZm017nI?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/bj276dMmCTXv0vVjHxdWcYXyETxn9R3PJX0LSOzJ8Q4quzTrRqGokZiuuzYtmT-456HZqZ_GmmiLegM_EUzaXkvypTpg8th0IwUCMzGs2eAuZGruX2C5-CaszcGPbqEDFalSTZFCOwdkoJx_RpGuU15kdlveupCY9l0EZm017nI?purpose=inline>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[images.openai.com — static-rsc-4/bwOpdHucT1chr2wH3zG7s_Dg_ZHFoe4szy7wTIWSvOAbv2pabqRgfsFKP80qNyu3T4Xb-gltr-T1sQtlW5HhdDZ_-VGL9AmxYJdg9qCZNyw5G4utEgnbQXjzpQuJEOR3t36B2TKs5](<https://images.openai.com/static-rsc-4/bwOpdHucT1chr2wH3zG7s_Dg_ZHFoe4szy7wTIWSvOAbv2pabqRgfsFKP80qNyu3T4Xb-gltr-T1sQtlW5HhdDZ_-VGL9AmxYJdg9qCZNyw5G4utEgnbQXjzpQuJEOR3t36B2TKs5dsVOHmGmfN-7Jm39DVnJJYyNnAkXPWwirI?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/bwOpdHucT1chr2wH3zG7s_Dg_ZHFoe4szy7wTIWSvOAbv2pabqRgfsFKP80qNyu3T4Xb-gltr-T1sQtlW5HhdDZ_-VGL9AmxYJdg9qCZNyw5G4utEgnbQXjzpQuJEOR3t36B2TKs5dsVOHmGmfN-7Jm39DVnJJYyNnAkXPWwirI?purpose=inline>.
+  - В заметках: [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]].
+- **[images.openai.com — static-rsc-4/d3IGQGhsOdujIFJv39oLgEOiKGZ2UaOsBxp9aXWRvdydGCerbmJJXRBnXEUdqoTfepbP6YBOAD2QZ_M3skZw_-MzZMLM_NmuQqu39lKlYMT_GZQGaf0Qcv12kiy5mIckVZHMI0Tft](<https://images.openai.com/static-rsc-4/d3IGQGhsOdujIFJv39oLgEOiKGZ2UaOsBxp9aXWRvdydGCerbmJJXRBnXEUdqoTfepbP6YBOAD2QZ_M3skZw_-MzZMLM_NmuQqu39lKlYMT_GZQGaf0Qcv12kiy5mIckVZHMI0Tft5CbEajP1Q1R_5Fkva1RpiyOLPB4aeCB4Qc?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/d3IGQGhsOdujIFJv39oLgEOiKGZ2UaOsBxp9aXWRvdydGCerbmJJXRBnXEUdqoTfepbP6YBOAD2QZ_M3skZw_-MzZMLM_NmuQqu39lKlYMT_GZQGaf0Qcv12kiy5mIckVZHMI0Tft5CbEajP1Q1R_5Fkva1RpiyOLPB4aeCB4Qc?purpose=inline>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[images.openai.com — static-rsc-4/eDlaJDIG7wctOBfjK4HWp8180cyNrIbd7atjpdvNlLkRkCHTJP7S8mq_YZlVVSWil4ez3FDHIO9gVnjvb6hqUzfxm1WbWWKuA0hGAy9Jvle-1742BJ7Ft-9RtT_rbSB5Xc4-Xf9mG](<https://images.openai.com/static-rsc-4/eDlaJDIG7wctOBfjK4HWp8180cyNrIbd7atjpdvNlLkRkCHTJP7S8mq_YZlVVSWil4ez3FDHIO9gVnjvb6hqUzfxm1WbWWKuA0hGAy9Jvle-1742BJ7Ft-9RtT_rbSB5Xc4-Xf9mGFtYtb1umImUuiaRSh3Wbpy3ff9Xj_6qS3g?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/eDlaJDIG7wctOBfjK4HWp8180cyNrIbd7atjpdvNlLkRkCHTJP7S8mq_YZlVVSWil4ez3FDHIO9gVnjvb6hqUzfxm1WbWWKuA0hGAy9Jvle-1742BJ7Ft-9RtT_rbSB5Xc4-Xf9mGFtYtb1umImUuiaRSh3Wbpy3ff9Xj_6qS3g?purpose=inline>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[images.openai.com — static-rsc-4/FQN-XNJUPpiXCTBPnRT0WDVEuZ9MyF3pfgAt3t8OHx5pYhkwcXED32CHIR4-yU0TqdyOGnlXKtRmnTbltRQz-rTH8ZrJQayPpKfcKGAj3h9ZameFtgSc7MERwYS0Q6lJyKw3sBxNz](<https://images.openai.com/static-rsc-4/FQN-XNJUPpiXCTBPnRT0WDVEuZ9MyF3pfgAt3t8OHx5pYhkwcXED32CHIR4-yU0TqdyOGnlXKtRmnTbltRQz-rTH8ZrJQayPpKfcKGAj3h9ZameFtgSc7MERwYS0Q6lJyKw3sBxNzrNyM8-5JchWuSomqs1tjdzJi-O68LAsvpY?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/FQN-XNJUPpiXCTBPnRT0WDVEuZ9MyF3pfgAt3t8OHx5pYhkwcXED32CHIR4-yU0TqdyOGnlXKtRmnTbltRQz-rTH8ZrJQayPpKfcKGAj3h9ZameFtgSc7MERwYS0Q6lJyKw3sBxNzrNyM8-5JchWuSomqs1tjdzJi-O68LAsvpY?purpose=inline>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[images.openai.com — static-rsc-4/gXaXy8BHsG-qk05wmdNhQ4YicjyUKpiAKtDfjo1cq1tX2WvVifWIaOWHKtkdsZi-WYGeS22afZ2xAK-pWObbrI1JpGonygCN1iFtlTjSaNJ8XPMvBd-wK7_gAD5OGXgi7vaJI7dfA](<https://images.openai.com/static-rsc-4/gXaXy8BHsG-qk05wmdNhQ4YicjyUKpiAKtDfjo1cq1tX2WvVifWIaOWHKtkdsZi-WYGeS22afZ2xAK-pWObbrI1JpGonygCN1iFtlTjSaNJ8XPMvBd-wK7_gAD5OGXgi7vaJI7dfA2bErjFf33t6X60B1RcKYGh4ZQyugBk8oJU?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/gXaXy8BHsG-qk05wmdNhQ4YicjyUKpiAKtDfjo1cq1tX2WvVifWIaOWHKtkdsZi-WYGeS22afZ2xAK-pWObbrI1JpGonygCN1iFtlTjSaNJ8XPMvBd-wK7_gAD5OGXgi7vaJI7dfA2bErjFf33t6X60B1RcKYGh4ZQyugBk8oJU?purpose=inline>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[images.openai.com — static-rsc-4/HDb_y6Y4Z5RGEpJ_iAsslfKfUHoxaLrNsTBixq74OANEkQE3Z4bXX_VNN-XjP39FvQGazx8qajg9GRH6rMv1iAf42gYD8jolhtTEEXC6SQM5ecwge2UR4abb9rlMfe7NgXc9vqvId](<https://images.openai.com/static-rsc-4/HDb_y6Y4Z5RGEpJ_iAsslfKfUHoxaLrNsTBixq74OANEkQE3Z4bXX_VNN-XjP39FvQGazx8qajg9GRH6rMv1iAf42gYD8jolhtTEEXC6SQM5ecwge2UR4abb9rlMfe7NgXc9vqvId9LvcJjLOdx6sazy6hnWk5ZpzjW2tgAtn6g?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/HDb_y6Y4Z5RGEpJ_iAsslfKfUHoxaLrNsTBixq74OANEkQE3Z4bXX_VNN-XjP39FvQGazx8qajg9GRH6rMv1iAf42gYD8jolhtTEEXC6SQM5ecwge2UR4abb9rlMfe7NgXc9vqvId9LvcJjLOdx6sazy6hnWk5ZpzjW2tgAtn6g?purpose=inline>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[images.openai.com — static-rsc-4/hrO88swi1tHpWv3ChAafA6u7Kh-2b433xOG0kh1-_lVrrWOLoYs5bjjhVALe5NrJDfm-aJ54GdOBHC8ohyOfDAAhues-a29x1RnotlE7doZ8hS4NN8-0SKbaIMhfLLu7fSy0W1XIp](<https://images.openai.com/static-rsc-4/hrO88swi1tHpWv3ChAafA6u7Kh-2b433xOG0kh1-_lVrrWOLoYs5bjjhVALe5NrJDfm-aJ54GdOBHC8ohyOfDAAhues-a29x1RnotlE7doZ8hS4NN8-0SKbaIMhfLLu7fSy0W1XIpXiCXKAnW_Hx_HXTKlkDpHPXzHHsi-XGnvU?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/hrO88swi1tHpWv3ChAafA6u7Kh-2b433xOG0kh1-_lVrrWOLoYs5bjjhVALe5NrJDfm-aJ54GdOBHC8ohyOfDAAhues-a29x1RnotlE7doZ8hS4NN8-0SKbaIMhfLLu7fSy0W1XIpXiCXKAnW_Hx_HXTKlkDpHPXzHHsi-XGnvU?purpose=inline>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[images.openai.com — static-rsc-4/iRB5J_vtyMZ0VzkYE_YLGiS9s3mKKYnsZOgC6btWdymlN6hmyp3hPajzeNDq7xYBSMLe9YUlJjpmHFFdWkw8xmV623G5cE0PDV50fnIQF02xkein9V302ur1zZKkrmUsi-7r-jNG-](<https://images.openai.com/static-rsc-4/iRB5J_vtyMZ0VzkYE_YLGiS9s3mKKYnsZOgC6btWdymlN6hmyp3hPajzeNDq7xYBSMLe9YUlJjpmHFFdWkw8xmV623G5cE0PDV50fnIQF02xkein9V302ur1zZKkrmUsi-7r-jNG-XI0NEApm2SWdbtcyEeoeVP_hYDvxLBuv6U?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/iRB5J_vtyMZ0VzkYE_YLGiS9s3mKKYnsZOgC6btWdymlN6hmyp3hPajzeNDq7xYBSMLe9YUlJjpmHFFdWkw8xmV623G5cE0PDV50fnIQF02xkein9V302ur1zZKkrmUsi-7r-jNG-XI0NEApm2SWdbtcyEeoeVP_hYDvxLBuv6U?purpose=inline>.
+  - В заметках: [[05_Learning/Guides/Практика проектирования на C++|Практика проектирования на C++]].
+- **[images.openai.com — static-rsc-4/J7O4F_PFQMfSTRtciETEZwk-drM9ZPGCPmj4eanBRtjaeAuUCwBsX3UYN8QutMsds3zwWeRwYXjxil-7Tny05H8o3SnYPsQeMl9NYPx69D0d2DbpOeRoLuM_P72Is8Is30it2HBMv](<https://images.openai.com/static-rsc-4/J7O4F_PFQMfSTRtciETEZwk-drM9ZPGCPmj4eanBRtjaeAuUCwBsX3UYN8QutMsds3zwWeRwYXjxil-7Tny05H8o3SnYPsQeMl9NYPx69D0d2DbpOeRoLuM_P72Is8Is30it2HBMv9d3pZwhxMZoCP9DgTuHsGpfi2WoHzIsgnc?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/J7O4F_PFQMfSTRtciETEZwk-drM9ZPGCPmj4eanBRtjaeAuUCwBsX3UYN8QutMsds3zwWeRwYXjxil-7Tny05H8o3SnYPsQeMl9NYPx69D0d2DbpOeRoLuM_P72Is8Is30it2HBMv9d3pZwhxMZoCP9DgTuHsGpfi2WoHzIsgnc?purpose=inline>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+- **[images.openai.com — static-rsc-4/KNSSmiZb0i3Uk7iVc44MCTRkeEvCaQ3HVta2EmjxD6SbaA54ven1hFFQKo5v9fabWTVnqQCr-SzmDH3hjxnVeqE_xurTItf2zCXv2TCdNCdgKaEQTH24V1g9V6XlE9xEVjey3AzGp](<https://images.openai.com/static-rsc-4/KNSSmiZb0i3Uk7iVc44MCTRkeEvCaQ3HVta2EmjxD6SbaA54ven1hFFQKo5v9fabWTVnqQCr-SzmDH3hjxnVeqE_xurTItf2zCXv2TCdNCdgKaEQTH24V1g9V6XlE9xEVjey3AzGprqaRQ4w6qtpe61teCVt6I97wLd1NYZATDg?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/KNSSmiZb0i3Uk7iVc44MCTRkeEvCaQ3HVta2EmjxD6SbaA54ven1hFFQKo5v9fabWTVnqQCr-SzmDH3hjxnVeqE_xurTItf2zCXv2TCdNCdgKaEQTH24V1g9V6XlE9xEVjey3AzGprqaRQ4w6qtpe61teCVt6I97wLd1NYZATDg?purpose=inline>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+- **[images.openai.com — static-rsc-4/ljWgBdhTAOUwfL1ADQGs3oQBLzZAv_oRadU7A84is2XEs_r7uwvKoiUviUB5EZMi39SjmXyal98G_i10mP6kT4cAhzcyysk1NjtM4JdR8-SSt1oWKLaO_97DWFx_soYkMazH3Tcsk](<https://images.openai.com/static-rsc-4/ljWgBdhTAOUwfL1ADQGs3oQBLzZAv_oRadU7A84is2XEs_r7uwvKoiUviUB5EZMi39SjmXyal98G_i10mP6kT4cAhzcyysk1NjtM4JdR8-SSt1oWKLaO_97DWFx_soYkMazH3Tcskz6GdHeNauf8-oLcLrXOWUONjL3BDbz3Aw0?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/ljWgBdhTAOUwfL1ADQGs3oQBLzZAv_oRadU7A84is2XEs_r7uwvKoiUviUB5EZMi39SjmXyal98G_i10mP6kT4cAhzcyysk1NjtM4JdR8-SSt1oWKLaO_97DWFx_soYkMazH3Tcskz6GdHeNauf8-oLcLrXOWUONjL3BDbz3Aw0?purpose=inline>.
+  - В заметках: [[05_Learning/Guides/CSAPP и OSTEP — план чтения|CSAPP и OSTEP — план чтения]].
+- **[images.openai.com — static-rsc-4/t6bZPhDhAN_eTw2VQIu_suQ121uT06ABRho9DIYhyI5lTnITKBm0YAdRXEjlgOP8rDiswWVcEUOlDhHpOEDua5zihOAuOgzScQQFqYcwggHW_vCD8DCNF-t90LGq6OkrPOLNo2Ea3](<https://images.openai.com/static-rsc-4/t6bZPhDhAN_eTw2VQIu_suQ121uT06ABRho9DIYhyI5lTnITKBm0YAdRXEjlgOP8rDiswWVcEUOlDhHpOEDua5zihOAuOgzScQQFqYcwggHW_vCD8DCNF-t90LGq6OkrPOLNo2Ea3j6GvxN4Hy6-Cm56BWzkgFemUcYksaWOUDE?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/t6bZPhDhAN_eTw2VQIu_suQ121uT06ABRho9DIYhyI5lTnITKBm0YAdRXEjlgOP8rDiswWVcEUOlDhHpOEDua5zihOAuOgzScQQFqYcwggHW_vCD8DCNF-t90LGq6OkrPOLNo2Ea3j6GvxN4Hy6-Cm56BWzkgFemUcYksaWOUDE?purpose=inline>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[images.openai.com — static-rsc-4/ug9-nyxpuf-1CZlmSByqYZoz2fzs5EsMIN9mTGEvrHVstRDYitJ54bCqR1o4L3yOEerCdWTYzXcPGGX6x_JWaTdJaBPLqYyEkg-jJxWMYxLh3ErKzBtFOIEUz__8b5MNCGUzstLZW](<https://images.openai.com/static-rsc-4/ug9-nyxpuf-1CZlmSByqYZoz2fzs5EsMIN9mTGEvrHVstRDYitJ54bCqR1o4L3yOEerCdWTYzXcPGGX6x_JWaTdJaBPLqYyEkg-jJxWMYxLh3ErKzBtFOIEUz__8b5MNCGUzstLZWn28DjKzckkOY3J15LU4jWTY-ha2F5pS_Ts?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/ug9-nyxpuf-1CZlmSByqYZoz2fzs5EsMIN9mTGEvrHVstRDYitJ54bCqR1o4L3yOEerCdWTYzXcPGGX6x_JWaTdJaBPLqYyEkg-jJxWMYxLh3ErKzBtFOIEUz__8b5MNCGUzstLZWn28DjKzckkOY3J15LU4jWTY-ha2F5pS_Ts?purpose=inline>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+- **[images.openai.com — static-rsc-4/wpom7QmGClYX32j3-B963ep49tzb1NqXExLV2ncWjBvzAvMllVDzvQ_X1Dm5ezeZfKXIVodndFHvqGWIuko12HXjFVOq69KPDKO7EWPv6Rq9RYTFxSWwetMgB2mqEXqRLRMm-gRhL](<https://images.openai.com/static-rsc-4/wpom7QmGClYX32j3-B963ep49tzb1NqXExLV2ncWjBvzAvMllVDzvQ_X1Dm5ezeZfKXIVodndFHvqGWIuko12HXjFVOq69KPDKO7EWPv6Rq9RYTFxSWwetMgB2mqEXqRLRMm-gRhLE0OZHbL-ERQJkFvykdIWlV-JpZglatwSMU?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/wpom7QmGClYX32j3-B963ep49tzb1NqXExLV2ncWjBvzAvMllVDzvQ_X1Dm5ezeZfKXIVodndFHvqGWIuko12HXjFVOq69KPDKO7EWPv6Rq9RYTFxSWwetMgB2mqEXqRLRMm-gRhLE0OZHbL-ERQJkFvykdIWlV-JpZglatwSMU?purpose=inline>.
+  - В заметках: [[02_Resources/C++/Книги среднего уровня|Книги среднего уровня]].
+- **[images.openai.com — static-rsc-4/WwBJFeRux0ypBXtMUe4sQJuZ7t82EUqUCjNE7FNPE90XsOYW_1EFEVNfyFRsF4nEocVVHPEScD0Tq4b0v05XGRYDsG7BLEsq79rmNOLdlMT-zXwm81C2VwfqlVsIJTvj6z7Mksn0V](<https://images.openai.com/static-rsc-4/WwBJFeRux0ypBXtMUe4sQJuZ7t82EUqUCjNE7FNPE90XsOYW_1EFEVNfyFRsF4nEocVVHPEScD0Tq4b0v05XGRYDsG7BLEsq79rmNOLdlMT-zXwm81C2VwfqlVsIJTvj6z7Mksn0V3vsNVtU1BfnBCj77GI3YxjHeXAUkr0BDNQ?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/WwBJFeRux0ypBXtMUe4sQJuZ7t82EUqUCjNE7FNPE90XsOYW_1EFEVNfyFRsF4nEocVVHPEScD0Tq4b0v05XGRYDsG7BLEsq79rmNOLdlMT-zXwm81C2VwfqlVsIJTvj6z7Mksn0V3vsNVtU1BfnBCj77GI3YxjHeXAUkr0BDNQ?purpose=inline>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+- **[images.openai.com — static-rsc-4/WXFVvzVKp_qnKrfFU0ECxQ9PVIyfpWIw_8iz4yxzR9UlDyVVncrIPMioY2YhSP_jaFunyz4-1jsj1mNI_mPV5T1GWUgZSXErVlq7m-xt1Y42e68jI6OKoABFi0VOreaEH_X--hrAd](<https://images.openai.com/static-rsc-4/WXFVvzVKp_qnKrfFU0ECxQ9PVIyfpWIw_8iz4yxzR9UlDyVVncrIPMioY2YhSP_jaFunyz4-1jsj1mNI_mPV5T1GWUgZSXErVlq7m-xt1Y42e68jI6OKoABFi0VOreaEH_X--hrAdVdImoMRoI0oCm1MzlgJIbRVCJwWz3QzZ_A?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/WXFVvzVKp_qnKrfFU0ECxQ9PVIyfpWIw_8iz4yxzR9UlDyVVncrIPMioY2YhSP_jaFunyz4-1jsj1mNI_mPV5T1GWUgZSXErVlq7m-xt1Y42e68jI6OKoABFi0VOreaEH_X--hrAdVdImoMRoI0oCm1MzlgJIbRVCJwWz3QzZ_A?purpose=inline>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+- **[images.openai.com — static-rsc-4/XQIAXe4kAeHXDk_ZJbAvT6676EOHKDxNYsEyIfjIlJ0HNpBzX7pO3ybDONLXVYhJxE5fqJ0IfSwA7S1C1YwsjzhMcMggrL75G8Y8AuXtM38aSHiDPlYf8Kf0kexzvoPlr8jV7mnCe](<https://images.openai.com/static-rsc-4/XQIAXe4kAeHXDk_ZJbAvT6676EOHKDxNYsEyIfjIlJ0HNpBzX7pO3ybDONLXVYhJxE5fqJ0IfSwA7S1C1YwsjzhMcMggrL75G8Y8AuXtM38aSHiDPlYf8Kf0kexzvoPlr8jV7mnCez1Mf_hzzi9yAZ7-pZoCbbtUWzLwPs5Yjrc?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/XQIAXe4kAeHXDk_ZJbAvT6676EOHKDxNYsEyIfjIlJ0HNpBzX7pO3ybDONLXVYhJxE5fqJ0IfSwA7S1C1YwsjzhMcMggrL75G8Y8AuXtM38aSHiDPlYf8Kf0kexzvoPlr8jV7mnCez1Mf_hzzi9yAZ7-pZoCbbtUWzLwPs5Yjrc?purpose=inline>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[images.openai.com — static-rsc-4/XyGzM2imjyzMEu6JwvI47EKVgRpZ0YabewCrFcM0G5AIIrSJiyt7C6rENdzkckwNglylJRXI2AoFlIaPOIsk68tzQH2iuqhUXD_0wdxNDqMUt4cTGPUGsuZxo4TLXxWCJQjMSyAz2](<https://images.openai.com/static-rsc-4/XyGzM2imjyzMEu6JwvI47EKVgRpZ0YabewCrFcM0G5AIIrSJiyt7C6rENdzkckwNglylJRXI2AoFlIaPOIsk68tzQH2iuqhUXD_0wdxNDqMUt4cTGPUGsuZxo4TLXxWCJQjMSyAz2tHjCg_D7V8ZwaLRKTr3rek1xaTfWym8Lf8?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/XyGzM2imjyzMEu6JwvI47EKVgRpZ0YabewCrFcM0G5AIIrSJiyt7C6rENdzkckwNglylJRXI2AoFlIaPOIsk68tzQH2iuqhUXD_0wdxNDqMUt4cTGPUGsuZxo4TLXxWCJQjMSyAz2tHjCg_D7V8ZwaLRKTr3rek1xaTfWym8Lf8?purpose=inline>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[images.openai.com — static-rsc-4/YDVv7Hly9bkCkhix6Wh0r7bvRxnsOfOJwhru8mm_vrsq89kvfBObRhYn38vgXyfAIcmqNzHMq5X5Eyz19IuUDTZuMEAEZHJZDn4m69_Cx8yeKpYqQoou_CEDYbwV4EjVBK7ymVYhX](<https://images.openai.com/static-rsc-4/YDVv7Hly9bkCkhix6Wh0r7bvRxnsOfOJwhru8mm_vrsq89kvfBObRhYn38vgXyfAIcmqNzHMq5X5Eyz19IuUDTZuMEAEZHJZDn4m69_Cx8yeKpYqQoou_CEDYbwV4EjVBK7ymVYhX6GkhfmBzBdzeY2w4A-lf617ImF8OL-HzYo?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/YDVv7Hly9bkCkhix6Wh0r7bvRxnsOfOJwhru8mm_vrsq89kvfBObRhYn38vgXyfAIcmqNzHMq5X5Eyz19IuUDTZuMEAEZHJZDn4m69_Cx8yeKpYqQoou_CEDYbwV4EjVBK7ymVYhX6GkhfmBzBdzeY2w4A-lf617ImF8OL-HzYo?purpose=inline>.
+  - В заметках: [[01_InBox/shader academy|shader academy]].
+- **[images.openai.com — static-rsc-4/ytl4dvnDCsjnb8yQTQ9skkRuxLczNNZAMJzHa0rIEI0nIkaV5I5-ymM4-wJm70HLRIK25iIp-9Q-71ayFfnL9r4LUWQRqsylcLQw0A8qX6bQGtN3jrGPjYMEIaaVWCv71sHh4UYLa](<https://images.openai.com/static-rsc-4/ytl4dvnDCsjnb8yQTQ9skkRuxLczNNZAMJzHa0rIEI0nIkaV5I5-ymM4-wJm70HLRIK25iIp-9Q-71ayFfnL9r4LUWQRqsylcLQw0A8qX6bQGtN3jrGPjYMEIaaVWCv71sHh4UYLaRI42RkKsy24sqrxh0CI32C61eHpR9xOu3c?purpose=inline>)**
+  - Адрес: <https://images.openai.com/static-rsc-4/ytl4dvnDCsjnb8yQTQ9skkRuxLczNNZAMJzHa0rIEI0nIkaV5I5-ymM4-wJm70HLRIK25iIp-9Q-71ayFfnL9r4LUWQRqsylcLQw0A8qX6bQGtN3jrGPjYMEIaaVWCv71sHh4UYLaRI42RkKsy24sqrxh0CI32C61eHpR9xOu3c?purpose=inline>.
+  - В заметках: [[03_Projects/LuxPrism/Algorithms|Algorithms]].
+- **[webgpufundamentals.org — webgpu/lessons/resources/webgpufundamentals-icon.png](<https://webgpufundamentals.org/webgpu/lessons/resources/webgpufundamentals-icon.png>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/resources/webgpufundamentals-icon.png>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[webgpufundamentals.org — webgpu/lessons/screenshots/webgpu-wgsl_en.jpg](<https://webgpufundamentals.org/webgpu/lessons/screenshots/webgpu-wgsl_en.jpg>)**
+  - Адрес: <https://webgpufundamentals.org/webgpu/lessons/screenshots/webgpu-wgsl_en.jpg>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+
+### Локальные адреса, служебные URI и примеры
+
+- **[127.0.0.1:20530 — BxlTJ91YmQJU6BuQsA](<http://127.0.0.1:20530/BxlTJ91YmQJU6BuQsA/>)**
+  - Адрес: <http://127.0.0.1:20530/BxlTJ91YmQJU6BuQsA/>.
+  - В заметках: [[01_InBox/amn|amn]].
+- **[127.0.0.1:20530 — BxlTJ91YmQJU6BuQsA/panel/clients](<http://127.0.0.1:20530/BxlTJ91YmQJU6BuQsA/panel/clients>)**
+  - Адрес: <http://127.0.0.1:20530/BxlTJ91YmQJU6BuQsA/panel/clients>.
+  - В заметках: [[01_InBox/amn|amn]].
+- **[192.168.1.10:8765](<http://192.168.1.10:8765/>)**
+  - Адрес: <http://192.168.1.10:8765/>.
+  - В заметках: [[03_Projects/Sylvune/Guides/ANDROID_RU|ANDROID_RU]].
+- **[C++ By Example](<https://cppbyexample.com/>)**
+  - Адрес: <https://cppbyexample.com/>.
+  - В заметках: [[02_Resources/GraphicsProgramming/Links from github|Links from github]].
+- **[example.com — example.tar.gz](<https://example.com/example.tar.gz>)**
+  - Адрес: <https://example.com/example.tar.gz>.
+  - В заметках: [[04_Knowledge/CMake/CMake|CMake]].
+- **[localhost](<https://localhost>)**
+  - Адрес: <https://localhost>.
+  - В заметках: [[05_Learning/University/Тетрис — HTML CSS JavaScript|Тетрис — HTML CSS JavaScript]].
+- **[localhost:8000 — App.html](<http://localhost:8000/App.html>)**
+  - Адрес: <http://localhost:8000/App.html>.
+  - В заметках: [[04_Knowledge/WebGPU/NeedToParse/WebGPU|WebGPU]].
+- **[schema.org](<https://schema.org>)**
+  - Адрес: <https://schema.org>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+- **[w3.org — 2000/svg](<http://www.w3.org/2000/svg>)**
+  - Адрес: <http://www.w3.org/2000/svg>.
+  - В заметках: [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU WGSL.html]].
+
+## Локальные учебные материалы
+
+- [[02_Resources/Articles/A trip through the Graphics Pipeline/README|A Trip Through the Graphics Pipeline 2011 — сохранённая серия Fabian Giesen]]; [[02_Resources/Articles/A trip through the Graphics Pipeline/SUMMARY|оглавление 13 глав]].
+- [[02_Resources/GraphicsProgramming/WebGPU/Offline/WebGPU WGSL.html|WebGPU / WGSL — сохранённая HTML-страница]].
+- [[06_Lectures/CS149/Pictures/03_multicore2-ispc.pdf|CS149: 03_multicore2-ispc — PDF-слайды]].
+- [[02_Resources/Documents/Dissolve.docx|Dissolve — документ DOCX]].
+
+- [[07_Personal/Training/Мужской начальный 3х дневный.xlsx|Программа тренировок — таблица XLSX]].
+
+## Охват хранилища
+
+Прочитан полный текст всех Markdown-файлов. В таблице указано число файлов в каждой папке и число заметок, содержащих хотя бы один веб-адрес из каталога. Отсутствие URL не исключало заметку из поиска названий книг и курсов.
+
+| Папка | Markdown-файлов просмотрено | Заметок с веб-адресами |
+| --- | ---: | ---: |
+| (корень) | 1 | 1 |
+| 00_Daily | 24 | 1 |
+| 01_InBox | 6 | 4 |
+| 02_Resources | 62 | 47 |
+| 03_Projects | 71 | 29 |
+| 04_Knowledge | 319 | 60 |
+| 05_Learning | 53 | 26 |
+| 06_Lectures | 11 | 0 |
+| 07_Personal | 32 | 6 |
+| 90_Archive | 14 | 1 |
+| 99_System | 14 | 1 |
+| Excalidraw | 8 | 7 |
+
+Всего: **615 Markdown-файлов**. Существующие заметки сохранены; этот каталог является отдельным общим списком.
